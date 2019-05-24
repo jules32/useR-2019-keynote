@@ -1,0 +1,106 @@
+---
+title: "R for science communication and culture"
+subtitle: "(tips from usethis, here, and more)"
+author: "[Julie Lowndes](https://jules32.github.io/), [RLadies Santa Barbara](https://twitter.com/rladiessb)"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      output:
+    css: ["default", "rladies", "rladies-fonts"] #https://alison.rbind.io/post/r-ladies-slides/
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = FALSE)
+
+library(xaringan)
+```
+
+
+---
+pic of me on boat
+
+???
+
+I am a marine ecologist, and open data science has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+
+---
+pic of me with squid, with tags
+
+???
+
+For my PhD I was interested in how climate change was affecting behavior and ecology of squid...food sources, etc. 
+I'd go out on boats, tag, etc. And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
+But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. I like to talk about it in terms of Star Wars analogies. 
+
+---
+Luke
+
+???
+
+demoralizing, lonely
+
+---
+Yoda
+
+???
+ODS, amazing
+
+---
+ODS logos
+
+???
+
+I feel so lucky to have stumbled upon this community and to be a part of it. 
+We found this on our own, had to seek it out. No one told us. Not a thing that is in the culture of science. 
+Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in
+
+---
+ODS headlines
+
+???
+
+We protect our own. Datacamp. This matters. Thank you for everyone involved directly and in supporting and enabling roles. We are all here to learn from, with, and for each other. 
+
+---
+env tweets
+
+???
+
+Environmental scientists are doing really critical and amazing work. Solving these problems. 
+
+---
+R4DS minus hadley
+
+???
+
+They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
+But there is a huge missing piece: 
+
+---
+R4DS
+
+
+???
+
+But we all know how powerful data science is. 
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+
+
+---
+The kind, welcoming nature of rstats
+
+???
+
+
+---
+What if science felt like #rstats?
+
+
+
+
+
