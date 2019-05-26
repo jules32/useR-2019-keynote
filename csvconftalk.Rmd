@@ -1,0 +1,245 @@
+---
+title: "Streamlined workflows in R"
+subtitle: "(tips from usethis, here, and more)"
+author: "[Julie Lowndes](https://jules32.github.io/), [RLadies Santa Barbara](https://twitter.com/rladiessb)"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      output:
+    css: ["default", "rladies", "rladies-fonts"] #https://alison.rbind.io/post/r-ladies-slides/
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = FALSE)
+
+library(xaringan)
+```
+
+
+![](images/rladies-welcome.png)
+ 
+<!---We have a Code of Conduct.
+
+We all take an active role in making RLadies a positive learning environment.
+--->
+
+---
+class: center, inverse, middle
+# Streamlined workflows in R
+## (tips from usethis, here, and more)
+
+**[@juliesquid](https://twitter.com/juliesquid)**  
+
+**[@RLadiesSB](https://twitter.com/rladiessb)**  
+
+**[jules32.github.io/streamlined-workflows](https://jules32.github.io/streamlined-workflows)**
+
+
+---
+# Today's goals
+
+Showcase good practices for beginning and seasoned R users alike.  
+
+Take some time to reflect on how we code or aspire to code: code for ourselves, our future selves, and others.
+
+--
+
+```{r ashamed, out.width = '70%', fig.align='center', echo = FALSE}
+knitr::include_graphics("images/dont-be-ashamed-tweet.png")
+```
+
+POP
+
+P: 
+- create more champions
+- create habits for talking about data (normalize)
+(- value and talk about open data science)
+
+O:
+- Impact has been the mindset shifts in individuals, culture shifts in labs, and increase in skills and practice 
+- More measurable:
+  - seaside chats
+  - lab github organizations
+  - coding clubs
+  - lab
+- slide of all the little things
+
+https://twitter.com/openscapes/status/1124080788809682946
+
+P:
+remote calls like Moz Open Leaders
+
+
+
+Biggest things I've learned
+- don't think of lab like a team
+- 
+
+
+What Champions are doing
+
+(Adrian)
+- talking about open data science in faculty meetings saying we’re doing our students a disservice
+- asking to fund lectuere positions
+- enabling their labs to have seaside chats
+- coming up with onboaring plans
+- supporting students with tidytuesday
+
+(Malin)
+Started taking lab notes in google docs, openscapes style!
+Michelle trying to teach a course at Rutgers
+It’s helping! Something I’ve worried about a lot and feeling better about it :)
+RLadies Highland Park! First NJ RLadies!!!
+
+
+Working on a paper with the Champions
+
+
+Things to do better
+
+- diversity
+- data
+- length? (5 months / semesters & quarters)
+
+
+
+
+
+https://www.buzzfeednews.com/article/daveyalba/datacamp-sexual-harassment-metoo-tech-startup
+“Sexual misconduct happens everywhere,” Ross said. “But DataCamp was dealing with a community with abnormally high standards and support for each other.”
+
+
+<!---https://twitter.com/allimoberger/status/1085268564821585921--->
+  
+- i'm marine ecol, which means enviro sci, best community
+- software, best, like you
+- open, moz best
+- bridging all. OHI. And now Openscapes:: because env. sci: luke, yoda. *more powerful than we ever imagined. opened our minds*
+
+but first about OHI, how we work
+but first describe team, because we seem bigger than we are, and we are more skilled than we were 6 years ago. actually diff responsibilities. more like a lab than a software company 
+  - think: how is this like your group, diff 
+  
+our team circa episode IV. 
+- yoda: bb
+- us: leia, luke, han. 
+- ben: r2d2. 
+  
+How R helped us get there. Not just the actual tools, but also enabled this mindset.   
+- went form forwareded excel sheets to Rmd data prep. share all. 
+- 
+
+
+So waht do we teach in openscapes
+
+- seaside chags
+-hackathons
+-study groups
+-cocs. deliberateness. planning together. google docs. 
+- also rmd, tidyverse. rOpensci
+
+Take homes from these 3 communities: 
+- work like a team, and a movement
+
+-ropensci good for bridging env sci with software
+
+-think of your lab like a team, 
+
+
+Also incorp:
+- reduce friction
+- squid? 
+
+
+Ask Allison: does she like it? illustrations vs. screenshots
+
+
+
+---
+pic of me on boat
+
+???
+
+I am a marine ecologist, and open data science has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+
+---
+pic of me with squid, with tags
+
+???
+
+For my PhD I was interested in how climate change was affecting behavior and ecology of squid...food sources, etc. 
+I'd go out on boats, tag, etc. And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
+But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. I like to talk about it in terms of Star Wars analogies. 
+
+---
+Luke
+
+???
+
+demoralizing, lonely
+
+---
+Yoda
+
+???
+ODS, amazing
+
+---
+ODS logos
+
+???
+
+I feel so lucky to have stumbled upon this community and to be a part of it. 
+We found this on our own, had to seek it out. No one told us. Not a thing that is in the culture of science. 
+Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in
+
+---
+ODS headlines
+
+???
+
+We protect our own. Datacamp. This matters. Thank you for everyone involved directly and in supporting and enabling roles. We are all here to learn from, with, and for each other. 
+
+---
+env tweets
+
+???
+
+Environmental scientists are doing really critical and amazing work. Solving these problems. 
+
+---
+R4DS minus hadley
+
+???
+
+They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
+But there is a huge missing piece: 
+
+---
+R4DS
+
+
+???
+
+But we all know how powerful data science is. 
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+
+
+---
+The kind, welcoming nature of rstats
+
+???
+
+
+---
+What if science felt like #rstats?
+
+
+
+
+
