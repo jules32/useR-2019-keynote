@@ -1,6 +1,6 @@
 ---
 title: "R for science communication and culture"
-subtitle: "(tips from usethis, here, and more)"
+# subtitle: "(tips from usethis, here, and more)"
 author: "[Julie Lowndes](https://jules32.github.io/), [RLadies Santa Barbara](https://twitter.com/rladiessb)"
 date: "`r Sys.Date()`"
 output:
@@ -19,23 +19,52 @@ options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = F
 
 library(xaringan)
 ```
-
-
----
-pic of me on boat
+I am a marine ecologist, and #rstats has been game-changing for my science and my life.
 
 ???
 
-I am a marine ecologist, and open data science has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
 
 ---
-pic of me with squid, with tags
+pic montage of me with squid, and with tags
 
 ???
 
 For my PhD I was interested in how climate change was affecting behavior and ecology of squid...food sources, etc. 
 I'd go out on boats, tag, etc. And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
-But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. I like to talk about it in terms of Star Wars analogies. 
+
+<!---
+But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. 
+--->
+
+
+---
+environmental tweets
+
+???
+
+Environmental scientists are doing really critical and amazing work. Solving these problems. 
+
+---
+R4DS fig minus hadley
+
+???
+
+And the training we get is really focused around the domain and communication. They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
+But there is a huge missing piece: 
+
+---
+R4DS complete
+
+
+???
+
+But there is this huge missing piece that is data science. And not only the tools, but the mindset and culture that comes with those tools. 
+
+I like to talk about this in terms of analogies with Star Wars. 
+<!---
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+--->
 
 ---
 Luke
@@ -48,57 +77,60 @@ demoralizing, lonely
 Yoda
 
 ???
-ODS, amazing
+ODS, Yoda's a mentor, and Luke can learn
 
 ---
-ODS logos
+Rey
+
+???
+In this analogy too people can quickly become mentors to others. 
+
+---
+Hands
+
+???
+But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. 
+
+---
+logos: RStudio, rOpenSci, RLadies, Carpentries
+
+(animate Stef value of welcome, buzzfeed datacamp)
 
 ???
 
-I feel so lucky to have stumbled upon this community and to be a part of it. 
+And that's what I feel #rstats has been doing. 
+These are some of the communities that have been for influential for me. Because of the tools and the people behind them and the examples they set. 
+
+And this community has been so welcoming and supportive, standing up for each other. 
+
+I am so lucky to be a part of this community. As a scientist, there are not a ton of pathways there, I am lucky to have been introduced to RStudio as they were developing dplyr and knitr. I'm lucky to have met Karthik and then Hadley and Jenny.
 We found this on our own, had to seek it out. No one told us. Not a thing that is in the culture of science. 
-Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in
 
----
-ODS headlines
-
-???
+<!---These #rstats communities have been so important for me as a scientist, and
+Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in 
 
 We protect our own. Datacamp. This matters. Thank you for everyone involved directly and in supporting and enabling roles. We are all here to learn from, with, and for each other. 
 
+--->
 ---
-env tweets
+open software -> open mindset & culture -> (looped) as a tiny image above R4DS complete fig
 
+<!---what if science felt more like rstats? text --->
 ???
 
-Environmental scientists are doing really critical and amazing work. Solving these problems. 
+So I've been thinking about what if science felt more like rstats? What is we could bring this welcoming, supportive culture to science?
+
+ and help individuals and help the culture as a whole? 
+
+I've been thinking a lot about having confidence with software leads to a more open and confident community. And how it's been this missing piece for scientists. What makes this happen is an investment in people and culture and community. 
+
+(as opposed to how not having confidence in software leads to homegrown methods -> guarded mindset, shame, --> difficult to share ideas and admit what we don't know --> to learn from each other
+
+transition:: what would it look like?
 
 ---
-R4DS minus hadley
-
-???
-
-They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
-But there is a huge missing piece: 
-
----
-R4DS
-
-
-???
-
-But we all know how powerful data science is. 
-But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
-
-
----
-The kind, welcoming nature of rstats
-
-???
-
-
----
-What if science felt like #rstats?
+class: center, inverse, middle
+# What does #rstats in science look like?
 
 
 
