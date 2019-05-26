@@ -1,7 +1,7 @@
 ---
 title: "R for science communication and culture"
 # subtitle: "(tips from usethis, here, and more)"
-author: "[Julie Lowndes](https://jules32.github.io/), [RLadies Santa Barbara](https://twitter.com/rladiessb)"
+author: "[Julie Lowndes](https://jules32.github.io/)"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:

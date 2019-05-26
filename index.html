@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>R for science communication and culture</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Julie Lowndes, RLadies Santa Barbara" />
+    <meta name="date" content="2019-05-26" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# R for science communication and culture
+### <a href="https://jules32.github.io/">Julie Lowndes</a>, <a href="https://twitter.com/rladiessb">RLadies Santa Barbara</a>
+### 2019-05-26
+
+---
+
+
+
+I am a marine ecologist, and #rstats has been game-changing for my science and my life.
+
+???
+
+I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+
+---
+pic montage of me with squid, and with tags
+
+???
+
+For my PhD I was interested in how climate change was affecting behavior and ecology of squid...food sources, etc. 
+I'd go out on boats, tag, etc. And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
+
+&lt;!---
+But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. 
+---&gt;
+
+
+---
+environmental tweets
+
+???
+
+Environmental scientists are doing really critical and amazing work. Solving these problems. 
+
+---
+R4DS fig minus hadley
+
+???
+
+And the training we get is really focused around the domain and communication. They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
+But there is a huge missing piece: 
+
+---
+R4DS complete
+
+
+???
+
+But there is this huge missing piece that is data science. And not only the tools, but the mindset and culture that comes with those tools. 
+
+I like to talk about this in terms of analogies with Star Wars. 
+&lt;!---
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+---&gt;
+
+---
+Luke
+
+???
+
+demoralizing, lonely
+
+---
+Yoda
+
+???
+ODS, Yoda's a mentor, and Luke can learn
+
+---
+Rey
+
+???
+In this analogy too people can quickly become mentors to others. 
+
+---
+Hands
+
+???
+But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. 
+
+---
+logos: RStudio, rOpenSci, RLadies, Carpentries
+
+(animate Stef value of welcome, buzzfeed datacamp)
+
+???
+
+And that's what I feel #rstats has been doing. 
+These are some of the communities that have been for influential for me. Because of the tools and the people behind them and the examples they set. 
+
+And this community has been so welcoming and supportive, standing up for each other. 
+
+I am so lucky to be a part of this community. As a scientist, there are not a ton of pathways there, I am lucky to have been introduced to RStudio as they were developing dplyr and knitr. I'm lucky to have met Karthik and then Hadley and Jenny.
+We found this on our own, had to seek it out. No one told us. Not a thing that is in the culture of science. 
+
+&lt;!---These #rstats communities have been so important for me as a scientist, and
+Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in 
+
+We protect our own. Datacamp. This matters. Thank you for everyone involved directly and in supporting and enabling roles. We are all here to learn from, with, and for each other. 
+
+---&gt;
+---
+open software -&gt; open mindset &amp; culture -&gt; (looped) as a tiny image above R4DS complete fig
+
+&lt;!---what if science felt more like rstats? text ---&gt;
+???
+
+So I've been thinking about what if science felt more like rstats? What is we could bring this welcoming, supportive culture to science?
+
+ and help individuals and help the culture as a whole? 
+
+I've been thinking a lot about having confidence with software leads to a more open and confident community. And how it's been this missing piece for scientists. What makes this happen is an investment in people and culture and community. 
+
+(as opposed to how not having confidence in software leads to homegrown methods -&gt; guarded mindset, shame, --&gt; difficult to share ideas and admit what we don't know --&gt; to learn from each other
+
+transition:: what would it look like?
+
+---
+class: center, inverse, middle
+# What does #rstats in science look like?
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"output": null
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
