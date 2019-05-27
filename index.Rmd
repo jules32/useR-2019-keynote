@@ -23,7 +23,7 @@ I am a marine ecologist, and #rstats has been game-changing for my science and m
 
 ???
 
-I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science << keep this super clean/polished as opening statement
 
 ---
 pic montage of me with squid, and with tags
@@ -35,17 +35,20 @@ The first 2 years of my PhD was taking classes, TAing a subtidal ecology course,
 I was putting together my dissertation question, finally going out to collect my data
 And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
 
+
 But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it
 
 And that's something I see across the board. They are doing awesome things
-
+<<This should be included to bridge gap to next section!!!! Your personal conflict is important! 
 
 ---
 environmental tweets
 
 ???
 
-Environmental scientists are doing really critical and amazing work. Solving these problems. 
+
+Environmental scientists are doing really critical and amazing work. Solving these problems.  << Remember to cut words always
+
 They are trained to do their science and get policy changed. 
 
 They are trained in domain and comms but there is this huge missing piece. 
@@ -71,7 +74,7 @@ Really emphasize & let sink in that we are never given computing and analysis tr
 
 [[could look at all env studies undergrad programs and what they're doing for data science -- could look up UCLA, Stanford, UCSB]]
 <!---
-But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place 
 --->
 
 ---
@@ -79,9 +82,11 @@ Luke
 
 ???
 
-demoralizing, lonely
+demoralizing, lonely <<Careful saying "scientists" generally w/o qualifier
 
 ---
+<<Question to transition here. What *can* this feel like instead? 
+
 Yoda
 
 ???
@@ -89,20 +94,11 @@ ODS, Yoda's a mentor, and Luke can learn
 and then you can become the mentor
 this doesn't come individually, this comes from supportive environments.
 
-<!---
----
-
-Rey
-
-???
-In this analogy too people can quickly become mentors to others. 
--->
-
 ---
 Hands
 
 ???
-But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. 
+But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. <<Work on transition! 
 
 and we're really lucky that community is happening in so many ways. 
 ---
