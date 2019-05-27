@@ -23,7 +23,7 @@ I am a marine ecologist, and #rstats has been game-changing for my science and m
 
 ???
 
-I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science
+I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science << keep this super clean/polished as opening statement
 
 ---
 pic montage of me with squid, and with tags
@@ -36,7 +36,7 @@ I was putting together my dissertation question, finally going out to collect my
 And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
 
 <!---
-But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. 
+But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. << This should be included to bridge gap to next section!!!! Your personal conflict is important! 
 --->
 
 
@@ -45,7 +45,7 @@ environmental tweets
 
 ???
 
-Environmental scientists are doing really critical and amazing work. Solving these problems. 
+Environmental scientists are doing really critical and amazing work. Solving these problems. << Remember to cut words always
 
 ---
 R4DS fig minus hadley
@@ -65,7 +65,7 @@ But there is this huge missing piece that is data science. And not only the tool
 
 I like to talk about this in terms of analogies with Star Wars. 
 <!---
-But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
+But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place 
 --->
 
 ---
@@ -73,9 +73,11 @@ Luke
 
 ???
 
-demoralizing, lonely
+demoralizing, lonely <<Careful saying "scientists" generally w/o qualifier
 
 ---
+<<Question to transition here. What *can* this feel like instead? 
+
 Yoda
 
 ???
@@ -85,13 +87,13 @@ ODS, Yoda's a mentor, and Luke can learn
 Rey
 
 ???
-In this analogy too people can quickly become mentors to others. 
+In this analogy too people can quickly become mentors to others. <<careful here, Luke was a shitty mentor
 
 ---
 Hands
 
 ???
-But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. 
+But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. <<Work on transition! 
 
 ---
 logos: RStudio, rOpenSci, RLadies, Carpentries
