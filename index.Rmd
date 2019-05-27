@@ -35,9 +35,9 @@ The first 2 years of my PhD was taking classes, TAing a subtidal ecology course,
 I was putting together my dissertation question, finally going out to collect my data
 And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
 
-<!---
-But I pretty quickly lost that enthusiasm: the data were big data to me: too big for excel. The only tool I knew. it was the worst. 
---->
+But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it
+
+And that's something I see across the board. They are doing awesome things
 
 
 ---
@@ -46,6 +46,9 @@ environmental tweets
 ???
 
 Environmental scientists are doing really critical and amazing work. Solving these problems. 
+They are trained to do their science and get policy changed. 
+
+They are trained in domain and comms but there is this huge missing piece. 
 
 ---
 R4DS fig minus hadley
@@ -58,12 +61,15 @@ But there is a huge missing piece:
 ---
 R4DS complete
 
-
 ???
 
 But there is this huge missing piece that is data science. And not only the tools, but the mindset and culture that comes with those tools. 
 
 I like to talk about this in terms of analogies with Star Wars. 
+
+Really emphasize & let sink in that we are never given computing and analysis training. 
+
+[[could look at all env studies undergrad programs and what they're doing for data science -- could look up UCLA, Stanford, UCSB]]
 <!---
 But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place
 --->
@@ -80,12 +86,17 @@ Yoda
 
 ???
 ODS, Yoda's a mentor, and Luke can learn
+and then you can become the mentor
+this doesn't come individually, this comes from supportive environments.
 
+<!---
 ---
+
 Rey
 
 ???
 In this analogy too people can quickly become mentors to others. 
+-->
 
 ---
 Hands
@@ -93,6 +104,7 @@ Hands
 ???
 But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. 
 
+and we're really lucky that community is happening in so many ways. 
 ---
 logos: RStudio, rOpenSci, RLadies, Carpentries
 
@@ -132,9 +144,16 @@ transition:: what would it look like?
 
 ---
 class: center, inverse, middle
-# What does #rstats in science look like?
+# What does #rstats in environmental science look like?
 
+Environmental science doing research. "How can we bring this to science" is way too big
+When I say science = = "bring #rstats to science" what does that mean
+"when I say bring to science the level I'm talking about is here" 
 
+how can we bring this welcoming nad supportive culture to researchers in environmental science who have such inmportant questions to answer but don't have the skillsets
 
+transition: (ask allison for help)
 
-
+---
+OHI conceptual
+also the tools
