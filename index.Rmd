@@ -19,12 +19,22 @@ options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = F
 
 library(xaringan)
 ```
+
+<!---KEEP IN MIND
+
+Environmental scientist doing research. "How can we bring this to science" is way too big
+When I say science = = "bring #rstats to science" what does that mean
+"when I say bring to science the level I'm talking about is here" 
+
+--->
+
 I am a marine ecologist, and #rstats has been game-changing for my science and my life.
 
 ???
 
 I am a marine ecologist, and #rstats has been game-changing for my science and my life. I'm going to tell you a bit about my story and my path and how we can all change science << keep this super clean/polished as opening statement
 
+transition:
 ---
 pic montage of me with squid, and with tags
 
@@ -36,10 +46,12 @@ I was putting together my dissertation question, finally going out to collect my
 And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
 
 
-But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it
+But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it. I did learn how to code but I think it was the wrong way: it was a struggle, by myself, alone, and just to get the job done. 
 
-And that's something I see across the board. They are doing awesome things
+Transition: But  that's something I see across the board. They are doing awesome things
 <<This should be included to bridge gap to next section!!!! Your personal conflict is important! 
+
+transition:
 
 ---
 environmental tweets
@@ -52,6 +64,7 @@ Environmental scientists are doing really critical and amazing work. Solving the
 They are trained to do their science and get policy changed. 
 
 They are trained in domain and comms but there is this huge missing piece. 
+transition:
 
 ---
 R4DS fig minus hadley
@@ -61,6 +74,7 @@ R4DS fig minus hadley
 And the training we get is really focused around the domain and communication. They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
 But there is a huge missing piece: 
 
+transition:
 ---
 R4DS complete
 
@@ -68,15 +82,9 @@ R4DS complete
 
 But there is this huge missing piece that is data science. And not only the tools, but the mindset and culture that comes with those tools. 
 
-I like to talk about this in terms of analogies with Star Wars. 
+Data science, coding, or any kind of computing is not usually a part of our education. Working with data is an integral part of science, and how well you do it can be an integral part of your scientific experience and success. But we largely have to learn on our own. There are few courses to teach data analysis within environmental science departments, so most of us learn inefficiently: by ourselves, in a panic, and alone.  [[[Really emphasize & let sink in that we are never given computing and analysis training. ]]]
 
-Really emphasize & let sink in that we are never given computing and analysis training. 
-
-[[could look at all env studies undergrad programs and what they're doing for data science -- could look up UCLA, Stanford, UCSB]]
-<!---
-But they are unsupported in the data science. They are never taught computing, never taught data science. We could be so much more effective if we knew that #rstats exists and that it is a welcoming place 
---->
-
+transition: I like to talk about this in terms of analogies with Star Wars. 
 ---
 Luke
 
@@ -84,72 +92,165 @@ Luke
 
 demoralizing, lonely <<Careful saying "scientists" generally w/o qualifier
 
+transition: But what *can* this feel like instead? 
 ---
-<<Question to transition here. What *can* this feel like instead? 
-
 Yoda
 
 ???
-ODS, Yoda's a mentor, and Luke can learn
+ODS, Yoda, and Luke can learn
 and then you can become the mentor
 this doesn't come individually, this comes from supportive environments.
 
+transition:
 ---
 Hands
 
 ???
-But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis). It's about the whole movement, and the many ways to contribute, and the bigger picture of what's going on. <<Work on transition! 
+But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).
 
-and we're really lucky that community is happening in so many ways. 
+It's about the whole movement. It's about working together with people from different backgrounds and skillsets and having many ways to contribute. 
+
+transition: And this is not just in Star Wars, this is us —
+
 ---
-logos: RStudio, rOpenSci, RLadies, Carpentries
+Hands w/ logos: RStudio, rOpenSci, RLadies, Carpentries, Mozilla
 
-(animate Stef value of welcome, buzzfeed datacamp)
 
 ???
 
-And that's what I feel #rstats has been doing. 
-These are some of the communities that have been for influential for me. Because of the tools and the people behind them and the examples they set. 
+Our #rstats community is this mix of people from diverse backgrounds and experiences, innovating and learning together, and really doing so much more together. 
 
-And this community has been so welcoming and supportive, standing up for each other. 
+What's different about our #rstats community is that we put people first. We've put a big emphasis on communication and culture
 
-I am so lucky to be a part of this community. As a scientist, there are not a ton of pathways there, I am lucky to have been introduced to RStudio as they were developing dplyr and knitr. I'm lucky to have met Karthik and then Hadley and Jenny.
+Transition: We are focused on a positive experience where we support each other. 
+
+---
+# #rstats culture
+Screenshots: Twitter re RStudio::conf culture, Stef value of welcome, Buzzfeed Datacamp, RLadies. 
+
+
+???
+
+Welcome each other and stand up for each other. This creates a positive space for us to teach each other, learn together, and innovate together. And because of it, we are stronger. We are better innovators. 
+
+This has been so impactful for me as a scientist, to feel so welcomed, included, and supported.
+Because of the people here in this room and the examples they have set, both in R and around R. It has totally changed the way I do science and the way I think about what is possible. 
+
+I am so lucky to be a part of this community. It has empowered me and helped me build confidence that translates well beyond code. It has made me feel part of a bigger movement.
+
+And I think for a lot of us, we are so lucky to have #rstats community but it is not necessarily the way our day-to-day communities that we work with operate. 
+
+
+transition: How do we extend the #rstats culture to our other communities? 
+
+---
+# How do we extend the #rstats culture?
+
+How can we become leaders in our own spaces/domains and help bring these values and collaborative, innovative spirit? I think about this a lot in env science, and I want to share some strategies that we can try in other science domains and outside of science too. 
+
+
+transition: for environmental scientists, there are still not a lot of pathways here. And the culture as a whole does not feel like this — we do not put our values forward, we do not think of people and community. 
+
+---
+R4DS total figure, reprise
+
+???
+
+For many environmental scientists, this is still not the reality, the data science bit is missing.
+
+How do we make this part of the norm? 
+
+From my own experience and having spent the last 6 years leading programs, one strategy is  about creating strong teams within science that can be examples for others, and champions for these practices. Once Luke saw what was possible for Yoda to do, he gained confidence that he could do  it and he was willing to put the time into learning. 
+
+If we can do that in science — if we can show what is possible and have people see themselves in that narrative, they will have confidence that this is a good way forward. If they value it and not only want to put in the time to learn on their own, but will help champion it for others and help this become part of the curriculum for what it means to be an environmental scientist. 
+
+it's not tools, it's mindset. It's about seeing what's possible and being welcomed in. And I've been thinking about it not only from the data analysis and data science side, which is huge. 
+
+transition: But in terms of welcoming environmental scientists, I've been thinking about it from the communication and culture side as well. 
+
+---
+R for science communication and culture
+
+R has not only changed my analytical life, it's changed what's possible with science communication as well. and I think it can also change scientific culture; we can replicate/bring/remix what we have here in the #rstats community to environmental science, so that we put people first and can tackle these environmental issues. 
+
+I'm going to tell you about an example of each: what's possible for env science and also for culture
+
+---
+nature paper screenshot
+
+???
+
+In a 2017 paper I led with my team, trying to be an example of what this can look like in science. 
+we described how ODS helped us do better science in less time, how over the course of 4 years we incrementally introduced #rstats and github into our workflows and how it impacted the work we do and who uses it. And we identified 2 barriers: exposure and confidence. 
+
+rstats is still not part of the culture of environmental science, so the 
+There is a lack of exposure to what is possible, and a lack of confidence 
+
+As a scientist, there are not a ton of pathways there, 
+
 We found this on our own, had to seek it out. No one told us. Not a thing that is in the culture of science. 
 
-<!---These #rstats communities have been so important for me as a scientist, and
-Turned the tide. It is because of people like Hadley and Karthik and Jenny who were real people, nice people, who welcomed us in 
+transition: but what if it could be? so I want to give a two examples: what could this look like in environmental science? and how can we help welcome more scientists in?
 
-We protect our own. Datacamp. This matters. Thank you for everyone involved directly and in supporting and enabling roles. We are all here to learn from, with, and for each other. 
-
---->
 ---
-open software -> open mindset & culture -> (looped) as a tiny image above R4DS complete fig
+# what does #rstats ethos look like in environmental science?
 
-<!---what if science felt more like rstats? text --->
+# how can we welcome others?  what if science prioritized community?
+
+#
+
+
+
+What's cool is that it opens up what communication can mean for science. It can make it more interactive, quicker. Science communication can mean publishing a peer-reviewed paper, it can mean talking with a journalist. It can mean tweeting, giving talks, etc. But now, with R, it can mean publishing books. It can mean 
+
+
+
+<!--- as a tiny image above R4DS complete fig--->
+
 ???
 
-So I've been thinking about what if science felt more like rstats? What is we could bring this welcoming, supportive culture to science?
 
- and help individuals and help the culture as a whole? 
+how can we bring this welcoming and supportive culture to researchers in environmental science specifically who have such inmportant questions to answer but don't have the skillsets
+
 
 I've been thinking a lot about having confidence with software leads to a more open and confident community. And how it's been this missing piece for scientists. What makes this happen is an investment in people and culture and community. 
 
-(as opposed to how not having confidence in software leads to homegrown methods -> guarded mindset, shame, --> difficult to share ideas and admit what we don't know --> to learn from each other
 
 transition:: what would it look like?
+---
+OHI
+
+???
+
+transition:
+---
+
 
 ---
-class: center, inverse, middle
-# What does #rstats in environmental science look like?
 
-Environmental science doing research. "How can we bring this to science" is way too big
-When I say science = = "bring #rstats to science" what does that mean
-"when I say bring to science the level I'm talking about is here" 
+How do we motivate others?
 
-how can we bring this welcoming nad supportive culture to researchers in environmental science who have such inmportant questions to answer but don't have the skillsets
+Talk about and show your colleagues how R makes you 
 
-transition: (ask allison for help)
+- a data scientist
+
+but also 
+
+- an author
+- a web designer
+- a designer
+- a community member
+- a leader
+
+
+???
+Say this to your colleagues: R makes me xyz
+
 
 ---
-OHI conceptual
-also the tools
+open software -> open mindset & culture -> (looped) or 
+
+rstats -> community & culture -> ) 
+
+???
+positive feedback loop
