@@ -28,6 +28,30 @@ When I say science = = "bring #rstats to science" what does that mean
 
 --->
 
+Sq: small to my size, eat a lot, expanding range, why? How? Holding data, don't know responsible. I made it through with the help of a few mentors who helped Matlab, and while I'm proud of my work, I'm not proud of my code. It was a painful time in my life. And like most environmental scientists. Un specied feel like this. 
+
+I like to talk about this with star wars. 
+
+Luke demoralized. If we imagine for a moment that he went ahead and took this on by himself, you could imigine it wouldn't be very pretty, it would take a long time, not reproducible. he wouldn't be very proud of ti. But he would eventually get his plane flying again, and he could be proud of that, but he wouldn't want to tell people how he'd done it. And he'd be limited by how much he could contribute by the time he got back to the game. 
+
+To bring this back to science, that is how it feels like — stranded with data. (would it be funny to have arrows that say environmental scientists, data" and "#rstats)
+
+Yoda: he has a skillset that can solve luke's problem never imagined. Luke can learn and will go on to solve this problem, but in less time and he's able to show up at the right time. And then, it will open his mind to what is possible and the challenges he can take on. 
+
+This is what rstats and more broadly open data science, feels like. It is so powerful for science and the skills and tools are so critical. 
+
+But also, something that is critical here is that it's not just about the tools and the people who know how to use them. It's not just about jedis and the force. it's about a whole diversity of people. 
+
+This is us. This is #rstats. 
+
+rstats culture
+
+[where does r4ds drwaing fit in? here?]
+
+I've been thinking a lot about how we can welcome more people to r and rstats community, but also how we can extend this culture to other communities. I work in marine science and environmental sci more broadly, but this applies much more broadly than that. We are all parts of different communities and we are all passionate about rstats, we can become leaders. 
+
+I'll share an example of what it can look like for a team to essentially start from scratch and become a visible example of impact. And I'll share about how to try to replicate this with other teams. Throughout I will emphasize how this is not unique to env science, or science. It's about leadership from all sides, teamwork, and about using r for communication and culture
+
 I am a marine ecologist, and #rstats has been game-changing for my science and my life.
 
 ???
@@ -92,14 +116,31 @@ Luke
 
 demoralizing, lonely <<Careful saying "scientists" generally w/o qualifier
 
+try to imagine how he'd feel. not reproducible, not proud of it. 
+But we're still professionals. Let's rewrite star wars for a little bit. It wouldn't want to share. But ultimately he'd have an xwing in the sky. He'd still go an defeat the the death star but he wouldn't ell anyone how he'd done it. 
+
+(say, don't break visually) So just going back to science. I'm not saying people don't do great science. But we don't get to see inside their cupboard. They are nervous to share how they got there. In terms of their code. They share their scientific methods. 
+<We're not alone. This is the whole cohort>
+
+Don't do it for BSILT. because it's a pretty thing. What if people took pride in their beautiful neat code and wanted to share it? You just do it bc it's impressive
+
+Messy code and neat code slide?
+
 transition: But what *can* this feel like instead? 
+
+
 ---
 Yoda
 
+My point is that yoda comes along and shows the force and it's more elegant and beautiful
+He wouldn't have had the guidance to turn off the auto-guidance system. 
 ???
 ODS, Yoda, and Luke can learn
 and then you can become the mentor
 this doesn't come individually, this comes from supportive environments.
+
+ODS is this celebratory thing. 
+But if he had had to use levers and pullies, he would have put that all in a cupboard. 
 
 transition:
 ---
@@ -109,6 +150,10 @@ Hands
 But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).
 
 It's about the whole movement. It's about working together with people from different backgrounds and skillsets and having many ways to contribute. 
+
+Going back to science = environmental science doesn't feel like this to me right now. We're not a team, we are fragmented. But this is us. This is #rstats, this is ODS
+
+This has motivated so much of my work. Because although there are tools like the Force, and althrough there are communities like our rebel alliance, this is not in the culture of env science. We are all still stranded at the swamp like luke; we are struggling alone without knowing there are better ways. 
 
 transition: And this is not just in Star Wars, this is us —
 
@@ -126,6 +171,8 @@ Transition: We are focused on a positive experience where we support each other.
 
 ---
 # #rstats culture
+
+## welcoming, inclusive, supportive, & innovative
 Screenshots: Twitter re RStudio::conf culture, Stef value of welcome, Buzzfeed Datacamp, RLadies. 
 
 
@@ -145,6 +192,8 @@ transition: How do we extend the #rstats culture to our other communities?
 
 ---
 # How do we extend the #rstats culture?
+
+???
 
 How can we become leaders in our own spaces/domains and help bring these values and collaborative, innovative spirit? I think about this a lot in env science, and I want to share some strategies that we can try in other science domains and outside of science too. 
 
