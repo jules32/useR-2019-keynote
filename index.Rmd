@@ -74,8 +74,7 @@ transition: But it doesn't have to feel like this. // what *can* this feel like 
 ---
 Yoda
 
-My point is that yoda comes along and shows the force and it's more elegant and beautiful
-He wouldn't have had the guidance to turn off the auto-guidance system. 
+
 
 ???
 
@@ -90,6 +89,7 @@ This is what rstats and more broadly open data science, feels like. It is so pow
 
 ODS is this celebratory thing. 
 But if he had had to use levers and pullies, he would have put that all in a cupboard. 
+turn off the auto-guidance system. 
 
 transition: But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).
 
@@ -136,9 +136,9 @@ transition: How do we extend the #rstats culture to our other communities?
 
 How can we become leaders in our own spaces/domains and help bring these values and collaborative, innovative spirit? I think about this a lot in env science, and I want to share some strategies that we can try in other science domains and outside of science too. 
 
-I've been thinking a lot about how we can welcome more people to r and rstats community, but also how we can extend this culture to other communities. I work in marine science and environmental sci more broadly, but this applies much more broadly than that. We are all parts of different communities and we are all passionate about rstats, we can become leaders. 
+I've been thinking a lot about how we can welcome more people to r and rstats community, but also how we can extend this culture to other communities.  We are all parts of different communities and we are all passionate about rstats, we can become leaders. 
 
-transition: what this looks like in environmental science is that —
+transition: In environmental science —
 
 ---
 R4DS fig minus hadley
@@ -160,10 +160,15 @@ How do we make this part of the norm?
 I think focusing on teamwork and culture is key. 
 If we can help people feel included and supportive within their existing teams, and show what is possible and have people see themselves in that narrative, they will have confidence that this is a good way forward. If they value it and not only want to put in the time to learn on their own, but will help champion it for others and help this become part of the curriculum for what it means to be an environmental scientist. 
 
+So this means showing them not only R for analysis, but R for communication and culture.
+
 For the rest of the talk I'll share an example of what it can look like for a team to essentially start from scratch and become a visible example of impact. And I'll share about how to try to replicate this with other teams. Throughout I will emphasize how this is not unique to env science, or science. It's about leadership from all sides, teamwork, and about using r for communication and culture
 
 
 transition: 
+
+---
+(slide here, maybe What #rstats can look )
 
 ---
 OHI measure illustration
