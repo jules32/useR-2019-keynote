@@ -28,29 +28,7 @@ When I say science = = "bring #rstats to science" what does that mean
 
 --->
 
-Sq: small to my size, eat a lot, expanding range, why? How? Holding data, don't know responsible. I made it through with the help of a few mentors who helped Matlab, and while I'm proud of my work, I'm not proud of my code. It was a painful time in my life. And like most environmental scientists. Un specied feel like this. 
 
-I like to talk about this with star wars. 
-
-Luke demoralized. If we imagine for a moment that he went ahead and took this on by himself, you could imigine it wouldn't be very pretty, it would take a long time, not reproducible. he wouldn't be very proud of ti. But he would eventually get his plane flying again, and he could be proud of that, but he wouldn't want to tell people how he'd done it. And he'd be limited by how much he could contribute by the time he got back to the game. 
-
-To bring this back to science, that is how it feels like — stranded with data. (would it be funny to have arrows that say environmental scientists, data" and "#rstats)
-
-Yoda: he has a skillset that can solve luke's problem never imagined. Luke can learn and will go on to solve this problem, but in less time and he's able to show up at the right time. And then, it will open his mind to what is possible and the challenges he can take on. 
-
-This is what rstats and more broadly open data science, feels like. It is so powerful for science and the skills and tools are so critical. 
-
-But also, something that is critical here is that it's not just about the tools and the people who know how to use them. It's not just about jedis and the force. it's about a whole diversity of people. 
-
-This is us. This is #rstats. 
-
-rstats culture
-
-[where does r4ds drwaing fit in? here?]
-
-I've been thinking a lot about how we can welcome more people to r and rstats community, but also how we can extend this culture to other communities. I work in marine science and environmental sci more broadly, but this applies much more broadly than that. We are all parts of different communities and we are all passionate about rstats, we can become leaders. 
-
-I'll share an example of what it can look like for a team to essentially start from scratch and become a visible example of impact. And I'll share about how to try to replicate this with other teams. Throughout I will emphasize how this is not unique to env science, or science. It's about leadership from all sides, teamwork, and about using r for communication and culture
 
 I am a marine ecologist, and #rstats has been game-changing for my science and my life.
 
@@ -64,100 +42,70 @@ pic montage of me with squid, and with tags
 
 ???
 
-For my PhD I was interested in climate change effects on marine ecosystems and particularly on species that have effects on humans through fisheries. I studied the behavior and ecology of squid super awesome squid. 
-The first 2 years of my PhD was taking classes, TAing a subtidal ecology course, scuba diving, learning all I could about oceanography, squid behavior and ecology, fisheries, invasive species. Meeting other scientists, trying to figure out what it meant to be a scientist. 
-I was putting together my dissertation question, finally going out to collect my data
-And there, in my hand, I'm hold data. Amazing. where it went, habitat conditions, etc. 
+I studied Humboldt squid expanding range, why? How? To answer these questions, I learned a lot about oceanography, how temperature, oxygen availablilty, nutrients, and currents work in the Pacific. I learned about squid, how they move, etc. I studied the ecology, the fisheries. Collaborated with a lot of scientists 
+
+The data I collected was from this tag: little oceanographer! Sampling at every second: you can see them breath, since they move by jet propulsion and their breathing is coupled with swimming. 
+
+But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it. 
+
+In all of our formal education whether you're a marine biologist like me, or you study freshwater and drought, or disesase transmission in ecosystems, we are rarely taught how to code. So we are all responsible for doing the best we can, and we spend a lot of time creating our own bespoke approaches to analyzing data. 
+
+I did learn how to code in Matlab but I think it was the wrong way: it was a struggle, by myself, alone, and just to get the job done. Coding let me complete my thesis, and my work in impactful. And while I"m proud of my work, I'm not proud of my code. It was a painful time in my life. And like most environmental scientists. It's something that I see across the board, it's something we all struggle with. 
 
 
-But I pretty quickly realized how that I was literally holding this data in my hand but not trained to responsibly use it. I did learn how to code but I think it was the wrong way: it was a struggle, by myself, alone, and just to get the job done. 
-
-Transition: But  that's something I see across the board. They are doing awesome things
-<<This should be included to bridge gap to next section!!!! Your personal conflict is important! 
-
-transition:
-
----
-environmental tweets
-
-???
+transition: I like to talk about this with star wars. 
 
 
-Environmental scientists are doing really critical and amazing work. Solving these problems.  << Remember to cut words always
-
-They are trained to do their science and get policy changed. 
-
-They are trained in domain and comms but there is this huge missing piece. 
-transition:
-
----
-R4DS fig minus hadley
-
-???
-
-And the training we get is really focused around the domain and communication. They are really comfortable in the science and in the communication parts. They are literally coming back from fieldwork aroudn the world to testify before congress etc. 
-But there is a huge missing piece: 
-
-transition:
----
-R4DS complete
-
-???
-
-But there is this huge missing piece that is data science. And not only the tools, but the mindset and culture that comes with those tools. 
-
-Data science, coding, or any kind of computing is not usually a part of our education. Working with data is an integral part of science, and how well you do it can be an integral part of your scientific experience and success. But we largely have to learn on our own. There are few courses to teach data analysis within environmental science departments, so most of us learn inefficiently: by ourselves, in a panic, and alone.  [[[Really emphasize & let sink in that we are never given computing and analysis training. ]]]
-
-transition: I like to talk about this in terms of analogies with Star Wars. 
 ---
 Luke
 
 ???
 
-demoralizing, lonely <<Careful saying "scientists" generally w/o qualifier
+<<Careful saying "scientists" generally w/o qualifier
 
-try to imagine how he'd feel. not reproducible, not proud of it. 
-But we're still professionals. Let's rewrite star wars for a little bit. It wouldn't want to share. But ultimately he'd have an xwing in the sky. He'd still go an defeat the the death star but he wouldn't ell anyone how he'd done it. 
+Luke demoralized. If we imagine for a moment that he went ahead and took this on by himself, you could imigine it wouldn't be very pretty, it would take a long time, not reproducible. he wouldn't be very proud of it But he would eventually get his plane flying again, and he could be proud of that, but he wouldn't want to tell people how he'd done it. He would leave all of his pullees and levers in cupboard somewhere.  And he'd be limited by how much he could contribute by the time he got back to the game. 
 
-(say, don't break visually) So just going back to science. I'm not saying people don't do great science. But we don't get to see inside their cupboard. They are nervous to share how they got there. In terms of their code. They share their scientific methods. 
-<We're not alone. This is the whole cohort>
+To bring this back to environmental science, that is how it feels like — stranded with data. I'm not saying people don't do great science. But we don't get to see inside their cupboard. They are nervous to share how they got there. In terms of their code. They share their scientific methods.  
 
-Don't do it for BSILT. because it's a pretty thing. What if people took pride in their beautiful neat code and wanted to share it? You just do it bc it's impressive
+(QUESTION: would it be funny to have arrows that say "environmental scientists, data" and "#rstats")
 
-Messy code and neat code slide?
-
-transition: But what *can* this feel like instead? 
-
+transition: But it doesn't have to feel like this. // what *can* this feel like instead? 
 
 ---
 Yoda
 
 My point is that yoda comes along and shows the force and it's more elegant and beautiful
 He wouldn't have had the guidance to turn off the auto-guidance system. 
+
 ???
+
 ODS, Yoda, and Luke can learn
 and then you can become the mentor
 this doesn't come individually, this comes from supportive environments.
 
+Yoda has a skillset that can solve luke's problem never imagined. Luke can learn and will go on to solve this problem, but in less time and he's able to show up at the right time. And then, it will open his mind to what is possible and the challenges he can take on. 
+
+This is what rstats and more broadly open data science, feels like. It is so powerful for science and the skills and tools are so critical. 
+
+
 ODS is this celebratory thing. 
 But if he had had to use levers and pullies, he would have put that all in a cupboard. 
 
-transition:
+transition: But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).
+
 ---
 Hands
 
 ???
-But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).
 
 It's about the whole movement. It's about working together with people from different backgrounds and skillsets and having many ways to contribute. 
 
-Going back to science = environmental science doesn't feel like this to me right now. We're not a team, we are fragmented. But this is us. This is #rstats, this is ODS
+<!---Going back to science — environmental science doesn't feel like this to me right now. We're not a team, we are fragmented. --->
 
-This has motivated so much of my work. Because although there are tools like the Force, and althrough there are communities like our rebel alliance, this is not in the culture of env science. We are all still stranded at the swamp like luke; we are struggling alone without knowing there are better ways. 
-
-transition: And this is not just in Star Wars, this is us —
+transition: But this is us, the people in this room. This is #rstats, this is for me the broader open data community.
 
 ---
+# /#rstats
 Hands w/ logos: RStudio, rOpenSci, RLadies, Carpentries, Mozilla
 
 
@@ -168,15 +116,6 @@ Our #rstats community is this mix of people from diverse backgrounds and experie
 What's different about our #rstats community is that we put people first. We've put a big emphasis on communication and culture
 
 Transition: We are focused on a positive experience where we support each other. 
-
----
-# #rstats culture
-
-## welcoming, inclusive, supportive, & innovative
-Screenshots: Twitter re RStudio::conf culture, Stef value of welcome, Buzzfeed Datacamp, RLadies. 
-
-
-???
 
 Welcome each other and stand up for each other. This creates a positive space for us to teach each other, learn together, and innovate together. And because of it, we are stronger. We are better innovators. 
 
@@ -197,21 +136,59 @@ transition: How do we extend the #rstats culture to our other communities?
 
 How can we become leaders in our own spaces/domains and help bring these values and collaborative, innovative spirit? I think about this a lot in env science, and I want to share some strategies that we can try in other science domains and outside of science too. 
 
+I've been thinking a lot about how we can welcome more people to r and rstats community, but also how we can extend this culture to other communities. I work in marine science and environmental sci more broadly, but this applies much more broadly than that. We are all parts of different communities and we are all passionate about rstats, we can become leaders. 
 
-transition: for environmental scientists, there are still not a lot of pathways here. And the culture as a whole does not feel like this — we do not put our values forward, we do not think of people and community. 
+transition: what this looks like in environmental science is that —
 
 ---
-R4DS total figure, reprise
+R4DS fig minus hadley
 
 ???
 
-For many environmental scientists, this is still not the reality, the data science bit is missing.
+We focus around our domain and communication. And we do this really well. 
 
+transition: But we are missing —
+
+---
+R4DS complete
+
+???
+
+We are missing data science. And not only the tools, but the mindset and culture that comes with those tools. there are still not a lot of pathways here. And the culture as a whole does not feel like this — we do not put our values forward, we do not think of people and community. 
 How do we make this part of the norm? 
 
-From my own experience and having spent the last 6 years leading programs, one strategy is  about creating strong teams within science that can be examples for others, and champions for these practices. Once Luke saw what was possible for Yoda to do, he gained confidence that he could do  it and he was willing to put the time into learning. 
+I think focusing on teamwork and culture is key. 
+If we can help people feel included and supportive within their existing teams, and show what is possible and have people see themselves in that narrative, they will have confidence that this is a good way forward. If they value it and not only want to put in the time to learn on their own, but will help champion it for others and help this become part of the curriculum for what it means to be an environmental scientist. 
 
-If we can do that in science — if we can show what is possible and have people see themselves in that narrative, they will have confidence that this is a good way forward. If they value it and not only want to put in the time to learn on their own, but will help champion it for others and help this become part of the curriculum for what it means to be an environmental scientist. 
+For the rest of the talk I'll share an example of what it can look like for a team to essentially start from scratch and become a visible example of impact. And I'll share about how to try to replicate this with other teams. Throughout I will emphasize how this is not unique to env science, or science. It's about leadership from all sides, teamwork, and about using r for communication and culture
+
+
+transition: 
+
+---
+OHI measure illustration
+
+???
+The ocean health index measures what matters. 
+
+This is an ambitious project. We set out to be the best approach because to bring data to marine policy. We didn't set out to be the best approach for what open data science could look like in environmental science, but we did as well. 
+
+OHI is essentially a blueprint. We've been leading assessments at the global scale, UN. 
+We also have enabled 20+ countries and gvts around the world. 
+
+transition: 
+
+---
+nature paper
+
+???
+
+---
+
+
+
+<!---
+If we can do that in science — 
 
 it's not tools, it's mindset. It's about seeing what's possible and being welcomed in. And I've been thinking about it not only from the data analysis and data science side, which is huge. 
 
@@ -254,8 +231,6 @@ What's cool is that it opens up what communication can mean for science. It can 
 
 
 
-<!--- as a tiny image above R4DS complete fig--->
-
 ???
 
 
@@ -266,6 +241,9 @@ I've been thinking a lot about having confidence with software leads to a more o
 
 
 transition:: what would it look like?
+
+
+--->
 ---
 OHI
 
@@ -274,8 +252,20 @@ OHI
 transition:
 ---
 
-
 ---
+environmental tweets
+
+???
+
+
+Environmental scientists are doing really critical and amazing work. Solving these problems.  << Remember to cut words always
+
+They are trained to do their science and get policy changed. 
+
+They are trained in domain and comms but there is this huge missing piece. 
+transition:
+
+
 
 How do we motivate others?
 
