@@ -26,9 +26,32 @@ Environmental scientist doing research. "How can we bring this to science" is wa
 When I say science = = "bring #rstats to science" what does that mean
 "when I say bring to science the level I'm talking about is here" 
 
+
+TOO MANY WORDS> the most important things get lost if each is a full paragraph
+
+each slide is 2-3 sentences. percision of speech. every word should be throughful and precise. to create emphasis of tihngs
+
+the feeling we can see luke having when he crashed the plan in the swamp. He has no idea how to even begin this process. 
+**this is the feeling when you don't have the toolset. but you can learn when you have a community ** Don't overexplain the metaphore.
+
+but what happens next is that he meets yoda and he has this toolset is for 
+in a better and more efficient way. 
+
+broaden my experience to env sci before scientists
+while i was feeling so lonely and isolated. the irony of that is that most env scientists feel that same way. And what that looks like is star wars. 
+
+and that toolset is the Force. that is a set of tools that are available that luke didn't know existed. 
+
+instead of saying "i've been thinking a lot about" "the question I ask: how can we bring this ethos to env sci". That's been guiding my efforts
+
+add one sentence: environmental problems are critical. what a bummer what they don't 
+
+storyline is good in the intro. Stop changing it. This is good. Get the words nailed down so that they're great and precise. 
+
+Then, we can talk about whether we don't talk about env science enough.
+
+in next few days say intro bare bones. 
 --->
-
-
 
 I am a marine ecologist, and #rstats has been game-changing for my science and my life.
 
@@ -52,6 +75,8 @@ In all of our formal education whether you're a marine biologist like me, or you
 
 I did learn how to code in Matlab but I think it was the wrong way: it was a struggle, by myself, alone, and just to get the job done. Coding let me complete my thesis, and my work in impactful. And while I"m proud of my work, I'm not proud of my code. It was a painful time in my life. And like most environmental scientists. It's something that I see across the board, it's something we all struggle with. 
 
+
+SO you can imagine how cool is it owuld be to hold that data in my hand. And that was really exciting. But what happened then was that I quickly and sadly realized that even though i hold that data, I didn't have the tools to work with them on my own. 
 
 transition: I like to talk about this with star wars. 
 
@@ -143,6 +168,9 @@ transition: In environmental science —
 ---
 R4DS fig minus hadley
 
+this is our plane crash: there is this gap that is our (try something funny)
+in env there's this gap
+
 ???
 
 We focus around our domain and communication. And we do this really well. 
@@ -151,6 +179,8 @@ transition: But we are missing —
 
 ---
 R4DS complete
+
+here's what I want to do about it. 
 
 ???
 
@@ -164,6 +194,8 @@ So this means showing them not only R for analysis, but R for communication and 
 
 For the rest of the talk I'll share an example of what it can look like for a team to essentially start from scratch and become a visible example of impact. And I'll share about how to try to replicate this with other teams. Throughout I will emphasize how this is not unique to env science, or science. It's about leadership from all sides, teamwork, and about using r for communication and culture
 
+
+the most pressing crises we face right now are environmental problems and it's a bummer that the scientists who are doing their best that n
 
 transition: 
 
@@ -189,6 +221,10 @@ nature paper
 ???
 
 ---
+Explicit statement:::::::
+there's this aspect of open tools and the aspect of community. and we want this to be both. transition in the analogy: but once luke learned to use the force, he didn't go out adn defeat the empire on his his own. he needed his community. 
+
+We need to focus on the tools and also on the community. 
 
 
 
@@ -298,3 +334,7 @@ rstats -> community & culture -> )
 
 ???
 positive feedback loop
+
+ggest challenges are env, enabling scientists are the best. 
+
+conclusions: in a time where some of the big
