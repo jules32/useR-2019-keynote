@@ -49,9 +49,9 @@ I am a marine ecologist, and #rstats has been life-changing for me.
 
 I am a marine ecologist, and #rstats has been life-changing for me. 
 
-It has been so impactful for me as a scientist that I have been moving away from doing my own research so I can enable other scientists to do their science better in less time. 
+It has been so impactful for me as a scientist that I have been moving away from doing my own research so I can enable other scientists to do better science in less time. 
 
-I'll tell you a bit about me and my work using R for science communication and culture through two projects I have been leading: Ocean Health Index, which I've been a part of at NCEAS for 6 years, and Openscapes, which I've just developed over the past year as a Fellow with Mozilla. 
+Today I'll tell you a bit about me and how #rstats has revolutionized our work with the Ocean Health Index. And I'll end with Openscapes, which is a program I've developed over the past year as a Fellow with Mozilla. 
 
 << keep this super clean/polished as opening statement
 
@@ -219,7 +219,7 @@ If environmental scientists who already doing such important work, could be usin
 
 Right now one of the biggest obstacles to getting here is that it that coding and data analysis is not valued in the environmental science. I said before that we don't have a culture of teaching it but we do not have a culture of talking about it.  
 
-A way forward is to increase the visibility of #rstats and its value. And not just R for analysis, but R for communication and culture.
+So increase its value within environmental science, we need to increase its visibility. We need this to be something that people talk about and get excited about. We need more people like me, who get a reputation for never shutting up about it. 
 
 And because we know how important community is, we can start with existing communities in science - the laboratory. 
 
@@ -238,21 +238,198 @@ transition:
 OHI measure illustration
 
 ???
-The ocean health index measures what matters. 
+The ocean health index is a project to measure how healthy oceans are using the best available data and science. 
 
-This is an ambitious project. We set out to be the best approach because to bring data to marine policy. We didn't set out to be the best approach for what open data science could look like in environmental science, but we did as well. 
+It is a really ambitious project. It set out to be the best approach that governments and policy makers around the world could use and build from, and indeed now it is used by the United Nations and twenty government and university groups around the world are using it as well. 
 
-OHI is essentially a blueprint. We've been leading assessments at the global scale, UN. 
-We also have enabled 20+ countries and gvts around the world. 
+<!---And there is no way that we could have so much reach and impact without #rstats and the ODS community.---> 
 
-transition: 
+transition: we didn't set out to be the best approach for what open data science could look like in environmental science —
 
 ---
 nature paper
 
 ???
 
+But when we stepped back and realized it was an important story to tell, it resonated with a lot of people. 
+
+Our path to better science in less time using open data science tools is a retrospective of how we incrementally introduced #rstats and GitHub into our workflow over a period of four years. 
+
+I won't go through all of this here but I want to give some highlights, particularly focusing on communication and collaboration. 
+
 ---
+image of a house blueprint.
+
+The Ocean Health Index is essentially a blueprint for measuring ocean health. 
+
+A blueprint for a house would include walls, floors, and a roof, but houses around the world look different because of the materials available and local conditions. For example, houses look different in places with different amounts of snow, rain, or sun. 
+
+The Ocean Health Index blueprint includes things that provides benefits to people, and that people can manage. So it includes the seafood we eat, jobs, tourism, the habitats that mitigate storm damage, and includes pressures affecting these benefits like climate change, as well as management policies that can counteract those pressures.
+
+transition: 
+
+---
+
+???
+
+It took almost 4 years to develop this blueprint and use it to calculate ocean health scores for global oceans, which means all countries and territories with a coastline. 
+
+This included almost 100 publicly data sets from the United Nations, World Bank, as well as global studies and satellite data. 
+
+The plan from the beginning was to repeat this global study each year, because the value of the OHI is not in doing it once, but in tracking change through time and acting upon the most pressing needs. 
+
+transition: but did these analyses using the tools we knew, like Luke Skywalker would have back on Dagobah. 
+
+---
+data_analysis_v2.xls
+re:fwd:final data updated
+
+???
+
+Data processing was done in excel and a bit in R, with decisions documented in accompanying Word documents and emails. 
+
+The programmer on the team would write models in whatever language best suited the data. 
+
+So the next year when we went to repeat the analysis, there was a lot of forensics and detective work to uncover what we had done the first time, and why. 
+
+That's the year I started. 
+
+Needless to say, we needed a better system. So here is what we do now. And again, this was over a four-year period, and we continue to iterate and improve. 
+
+---
+(maybe bullet this, and animate?)
+
+- create a GitHub organization, everyone makes an account
+- data prep and models in R
+- use RStudio & GitHub (version control & communication)
+- coding norms: `tidyverse` & friends
+- separate core "blueprint" models into R package `ohicore`
+- separate "tailorable" models into separate repos 
+- data prep narratives in R Markdown
+
+???
+
+---
+ohi-science.org
+
+???
+
+we also created a website with R and friends for our Ocean Health Index community so that we could get beyond forwarding PDFs and writing individual emails. 
+
+The home page is with Jekyll
+
+transition: we also generate simple RMarkdown websites for each as well: ohi-global 
+---
+ohi-global website
+
+???
+
+---
+OHI Cornwall
+
+???
+
+---
+github for communication
+
+- private repo for all issues
+  - methods discussion in one place
+  - good for onboarding new team members
+  - our boss gets these as emails and can review & contribute from email
+- everyone on our team has admin priveleges e
+  - very few branches & pull requests
+- push & pull for IT/troubleshooting
+
+???
+
+We use GitHub in a few perhaps unconventional ways. 
+
+---
+toolbox-training
+
+???
+to teach people how to use our software, we've been working on a book
+
+---
+data-science-training
+
+???
+
+and we also realized we needed to teach groups how to work with #rstats and Github like we do.
+
+---
+ohi-northeast dashboard
+
+???
+We are also using shiny in a few ways, but I think this is one of the coolest. 
+
+We are leading OHI Northeast, and it is actually included in part of President Obama's ocean plan. 
+
+The code is based from XXX's, who we saw present at RStudio::conf 2018. 
+
+---
+
+OHI team qualities (circa 2014)
+
+- someone really jazzed about #rstats (Ben Best)
+- a boss/project lead who valued it & gave us space to learn (Ben Halpern)
+- welcoming people from the #rstats community (Karthik Ram, Hadley Wickham, Joe Cheng)
+- trust & willingness to learn together
+
+???
+
+Finally, I have to talk about our team. 
+
+We were able to do all of this not only because of the tools, but because of the people involved. 
+
+---
+map? 
+
+???
+
+At this point, like I said, OHI is used by 20 groups around the world, and will be included in the UN's ocean indicators for the Sustainable Development Goals. 
+
+This would not have been possible without #rstats. 
+
+We are a streamlined team, able to onboard and offboard teammembers, we work well together, and we are able to iterate from past work and enable others. 
+
+By 2018, I had been working for 5 years, not only to help with the global assessments, but to co-develop and lead the program for the independent groups. 
+
+We had published the Nature paper, and could see it being well-received in some circles. 
+
+But I wanted to actually help other teams do this themselves. 
+
+transition: that's when I got the Mozilla Fellowship and started Openscapes. 
+
+---
+
+Openscapes is a program to welcome environmental scientists to become champions for ODS. 
+
+---
+Openscapes
+
+
+---
+Selection requirements: 
+
+early career scientific leads (col 1)
+- faculty
+- lecturers
+- program managers
+- etc
+
+- rising star, influential scientists that can also become ambassadors for ODS
+- not yet engaged in open data science
+- trust that I will not waste their time
+
+I decided to focus on early career scientific leaders for a few reasons
+But I was also having a lot of one-on-one conversations with colleagues of mine, friends from grad school who were now running their own labs. 
+
+Early career PIs might not yet know about the Force. They may have struggled through like Luke in their PhDs, worked their butts off to secure faculty jobs, and are now leading their own teams. How about focusing on them?
+
+
+---
+
 Explicit statement:::::::
 there's this aspect of open tools and the aspect of community. and we want this to be both. transition in the analogy: but once luke learned to use the force, he didn't go out adn defeat the empire on his his own. he needed his community. 
 
@@ -317,27 +494,14 @@ transition:: what would it look like?
 
 
 --->
+
 ---
-OHI
+2 hex stickers
 
 ???
+So that is my work to this point, I'm fundraising to be able to lead Openscapes full-time, and am co-leading our OHI internship program. 
 
-transition:
----
-
----
-environmental tweets
-
-???
-
-
-Environmental scientists are doing really critical and amazing work. Solving these problems.  << Remember to cut words always
-
-They are trained to do their science and get policy changed. 
-
-They are trained in domain and comms but there is this huge missing piece. 
-transition:
-
+But I wanted to end with what we can all do to become leaders in our communities.
 
 
 How do we motivate others?
@@ -358,11 +522,6 @@ but also
 ???
 Say this to your colleagues: R makes me xyz
 
-
----
-Openscapes
-
-early career PIs might not yet know about the Force. They may have struggled through like Luke in their PhDs, worked their butts off to secure faculty jobs, and are now leading their own teams. How about focusing on them?
 
 ---
 open software -> open mindset & culture -> (looped) or 
