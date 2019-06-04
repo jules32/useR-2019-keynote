@@ -1,7 +1,7 @@
 ---
 title: "R for science communication and culture"
-subtitle: "(TODO: prettier and different theme)"
-author: "[Julie Lowndes](https://jules32.github.io/)"
+subtitle: 
+author: "[Julie Lowndes](https://jules32.github.io/) @juliesquid, @RLadiesSB"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -47,11 +47,13 @@ I am a marine ecologist, and #rstats has been life-changing for me.
 
 ???
 
-I am a marine ecologist, and #rstats has been life-changing for me. 
+Thank you so much. I'm so thrilled to be here today.
 
-It has been so impactful for me as a scientist that I have been moving away from doing my own research so I can enable other scientists to do better science in less time. 
+I am excited to share my work with this community, which has had such a huge impact on my work and on my life. 
 
-Today I'll tell you a bit about me and how #rstats has revolutionized our work with the Ocean Health Index. And I'll end with Openscapes, which is a program I've developed over the past year as a Fellow with Mozilla. 
+R has been so game-changing for me that I have been moving away from doing my own research so I can enable other scientists with R and open data science more broadly. 
+
+Today I'll share a bit about me and focus on two environmental science programs I've been leading with my teams at NCEAS and Mozilla. Both depend on R for analysis, but also on R for communication and culture. 
 
 << keep this super clean/polished as opening statement
 
@@ -62,17 +64,21 @@ pic montage of me at sea, mbari squid?
 
 ???
 
-For my PhD, I studied a species of squid that can be as big as I am. 
+First off, here is a peek into the life of a marine ecologist. For my PhD, I studied an awesome squid that can be as big as I am. 
 
-It lives in the Pacific Ocean, traditionally from Chile to Mexico, and is one of the biggest fisheries in the world, which means that there are a lot of them, and we remove a lot of them from the ecosystem so that we can eat them and use them for agriculture and aquaculture. 
+It is one of the biggest fisheries in the world, which means that there are a lot of them, and they play an important role in the ecosystem and in our global food economy. 
 
-For about 15 years, they had extended their habitat range northward, into California where I was based, northern US, Canada, Alaska. 
+They live only in the Pacific Ocean, traditionally between Chile in the south to Mexico in the north. 
 
-My PhD research was to understand what they were doing and the impact they were having on our local ecosystems, and how climate change was involved.
+But for about 15 years, they extended their habitat range northward, into the US, Canada, and even Alaska. It was a big deal. 
 
-To prepare for my field work, I learned about oceanography and how temperature, oxygen availablilty, nutrients, and currents work in the Pacific. 
+We wanted to understand their behavior and impact they were having on California ecosystems, and if climate change was involved.
 
-I learned about squid, how they move, etc. I studied the ecology, the fisheries. 
+So how do you study something like this? You can either fish for them and bring them to you, or you can use a remotely operated submarine and go to them. We did both. 
+
+To prepare for my field work at sea, I needed to learn about oceanography, specifically how temperature, oxygen availablilty, nutrients, and currents work in the Pacific. 
+
+I also needed to learn about squid in general, as well as California ecology and fisheries. 
 
 transition: I got to collaborate with a lot of scientists and learn from them.
 
@@ -81,7 +87,7 @@ pic: tagging squid
 
 ???
 
-My fieldwork involved going out to sea, catching squid, and releasing them back in the ocean with a data logger on them. They would become little oceanographers themselves, with the tags recording temp and depth as they swam. 
+Finally I got to go out to sea and catch squid! I released some of them back in the ocean with a data logger on them. That would make them become little oceanographers themselves, with data stored on the logger and then uploaded via satellite. 
 
 It was super cool. We collected data every second, which meant you'd be able to see them breath, since they move by jet propulsion and their breathing is coupled with swimming. 
 
@@ -92,17 +98,19 @@ pic: holding tag
 
 So after all this work you can imagine how cool it was to get this data logger back and actually hold the data in my hand. 
 
-But what happened then was that I quickly and sadly realized that even though i hold that data, I didn't have the tools or skillsets to to work responsibly with my data on my own. 
+But what happened then was that I quickly and sadly realized that I didn't have the tools or skillsets to work responsibly with my data. 
 
-I felt so lonely and isolated. 
+It was really demoralizing. And it was lonely and isolating. 
 
-And the irony of that is that most environmental scientists feel that same way. 
+And the irony of feeling so alone is that most environmental scientists are also feeling lonely and isolated because of data. 
 
-We are studying some of the biggest challenges our planets face, and while we are experts on our study systems and theory, we are on our own for data analysis. 
+We are studying some of the biggest challenges our planets face, but we are largely on our own for data analysis. 
 
-We are rarely taught how to code or work responsibly with data. 
+We are rarely formally taught how to code or work responsibly with data. Most of us do learn how to code on our own, but it is a painful, lonely process that we do just to get the job done. 
 
-So we are all responsible for doing the best we can, and we spend a lot of time creating our own bespoke approaches to analyzing data. 
+So that means we spend a lot of time reinventing the wheel and aren't proud of our code and aren't really eager for other people to see it. 
+
+And we can feel like we are the only ones who feel this way so we don't really want to talk about it. 
 
 transition: To drive home what this feels like, I like to talk about this with star wars analogies. 
 
@@ -113,21 +121,24 @@ Luke
 
 <<Careful saying "scientists" generally w/o qualifier
 
-This is the feeling we can see Luke having when he crashed his plane in the swamp. 
+This is Luke after he crashed his plane in the swamp on Degobah. 
 
-He is demoralized and alone, staring at a challenge that he cannot solve with the skillsets he has. 
+He is there staring at a challenge that he cannot solve with the skillsets he has. 
 
-He has no idea how to even begin this process. 
+It is super demoralizing, and he has no idea how to even begin this process. 
+
+Imagine for a moment if he had tried to rig up some pullees and levers. 
+
+It would not have been pretty. Or reproducible.
 
 transition: but what happens next is that he meets Yoda 
 
 <!---
-**this is the feeling when you don't have the toolset. but you can learn when you have a community ** Don't overexplain the metaphore.
+**this is the feeling when you don't have the toolset. but you can learn when you have a community ** Don't overexplain the metaphor.
 --->
 
 ---
 Yoda
-
 
 ???
 
@@ -140,7 +151,7 @@ And Luke can learn from Yoda, and he will develop skills to not only solve this 
 
 <!---Luke's ability and successes don't come individually, this comes from supportive environments.--->
 
-transition: But it is not just the tools that make Luke successful, it is the community that he is a part of. 
+transition: But the Force alone didn't make Luke successful, it is the community that he is a part of. 
 
 <!---But also a super important part is that it's not just about the tools (Force) and the people that know them (Jedis).--->
 
@@ -149,9 +160,11 @@ Hands
 
 ???
 
-Luke's community is not made up of only Jedis with the same skillsets he has. This is a movement made up of diverse people (and droids, wookies, and whatever yoda is) from different backgrounds, and all of them contribute in really important ways. 
+Luke's community is not only Jedis with the same skillsets he has. This is a movement made up of diverse people (and droids, wookies, and whatever yoda is) from different backgrounds, and all of them contribute in really important ways. 
 
-transition: So the Force is #rstats, or more broadly, it's open data science. And the community is us, the people in this room. 
+So the Force is R or more broadly, it's open data science. And the community is us, the people in this room. 
+
+transition: And we can help welcome more environmental scientists into this community because
 
 ---
 # /#rstats
@@ -167,11 +180,11 @@ It is welcoming, it is inclusive, it is supportive, it is empowering.
 
 There is such a mix of people from diverse backgrounds and experiences, from all over the world, online and in person, innovating and learning together. 
 
-What's different about our #rstats community is that we put people first. We've put a big emphasis on communication and culture
+What's different about our community is that we put people first and are really here to share ideas and learn together. It's what science should feel like. . 
 
-This has been so impactful for me as a scientist. Instead of feeling stranded in a swamp like I did when I was a PhD student, I am more powerful than I ever imagined. 
+This has been so impactful for me as a scientist. Instead of feeling stranded in a swamp like I did when I was a PhD student, I feel more powerful than I ever imagined. 
 
-The people here in this room have helped me change the way I do science and the way I think about what is possible. They have empowered me and helped me build confidence that translates well beyond code. 
+You here in this room have helped me change the way I do science and the way I think about what is possible. You have empowered me and helped me build confidence that translates well beyond code. 
 
 We are all here because we have been empowered by R as a tool and a community, but we can all probably think of others that are still feeling stranded and alone. We might work with them day-to-day. 
 
@@ -182,9 +195,11 @@ transition: So my question is —
 
 ???
 
-How do we extend the #rstats culture and welcome more people?
+How do we extend the #rstats culture?
 
-There are so many communities that could be enriched not only by #rstats tools, but but #rstat culture. What the #rstats culture became the ethos for their communities as well? 
+How do we not only welcome more people to our community, but also export our ethos to other communities?
+
+There are so many communities that could be enriched not only by R tools, but also R culture. 
 
 <!---
 I think we can welcome them not only with the tools but with the culture. 
@@ -198,46 +213,50 @@ transition: I think about the way things work in environmental science —
 ---
 R4DS fig minus hadley
 
-We are really passionate experts in our domain science, and we are effective communicators, helping solve environmental challenges based on our science. 
-
-But we still act a lot like individuals because we don't have a common culture or toolset. We are working on really complex, emotionally draining challenges, but we don't have a culture like we do with #rstats  
-
 ???
 
-transition: But we could: 
+
+We are experts on our study systems and theory, and our work has real impact. We emphasize communication, and by working with governments and stakeholders our efforts lead to on-the-ground changes in environmental policy. 
+
+But in my mind there is this huge missing piece. There is a lot of individual struggle and reintenting the wheel because we don't have a common toolset or shared culture. 
+
+transition: But this is what it could be like: 
 
 ---
 R4DS complete
 
-here's what I want to do about it. 
 
 ???
 
-But this is what it could look like. 
+R tools and culture can really augment the important work environmental scientists are doing. 
 
-If environmental scientists who already doing such important work, could be using the Force adn #rstats, and feeling great about it with the community and culture, it is really hopeful what we will be able to do. 
+Right now one of the biggest obstacles to getting here is that it that coding and data analysis is not valued in the environmental science. I said this before: we don't have a culture of teaching it and we do not even have a culture of talking about it.  
 
-Right now one of the biggest obstacles to getting here is that it that coding and data analysis is not valued in the environmental science. I said before that we don't have a culture of teaching it but we do not have a culture of talking about it.  
-
-So increase its value within environmental science, we need to increase its visibility. We need this to be something that people talk about and get excited about. We need more people like me, who get a reputation for never shutting up about it. 
+So to increase its value within environmental science, we need to increase its visibility. We need this to be something that people talk about and get excited about. 
 
 And because we know how important community is, we can start with existing communities in science - the laboratory. 
 
-If we can help labs operate like our #rstats community, they will also become champions within their broader communities and this will have a ripple effect throughout environmental science. 
+If we can help labs operate like our #rstats community, they can become visible examples of how impactful it can be. They can influence their broader communities and it will have a ripple effect throughout environmental science. 
 
 For the rest of the talk I'll share what this can look like in environmental science labs, and how we can replicate this with other teams. 
 
-And I also want to emphasize that although I am focusing on environmental science, these examples have relevance well beyond. We can all be leaders in our communities to welcome more people and teams to the welcoming power of #rstats.
+And I also want to underscore that although I am talking specifically about environmental science, these examples have relevance well beyond. We can all be leaders in our communities to welcome more people and teams to the welcoming power of R.
 
 transition: 
 
 ---
-# How the Ocean Health Index became an example of ODS
+OHI hex and urls, twitter
+
+
+???
+
+The first example is the Ocean Health Index.
 
 ---
 OHI measure illustration
 
 ???
+
 The ocean health index is a project to measure how healthy oceans are using the best available data and science. 
 
 It is a really ambitious project. It set out to be the best approach that governments and policy makers around the world could use and build from, and indeed now it is used by the United Nations and twenty government and university groups around the world are using it as well. 
@@ -260,6 +279,8 @@ I won't go through all of this here but I want to give some highlights, particul
 ---
 image of a house blueprint.
 
+???
+
 The Ocean Health Index is essentially a blueprint for measuring ocean health. 
 
 A blueprint for a house would include walls, floors, and a roof, but houses around the world look different because of the materials available and local conditions. For example, houses look different in places with different amounts of snow, rain, or sun. 
@@ -269,14 +290,19 @@ The Ocean Health Index blueprint includes things that provides benefits to peopl
 transition: 
 
 ---
+screenshot Halpern et al. 2012
 
 ???
 
-It took almost 4 years to develop this blueprint and use it to calculate ocean health scores for global oceans, which means all countries and territories with a coastline. 
+It took almost 4 years to develop this blueprint. 
 
-This included almost 100 publicly data sets from the United Nations, World Bank, as well as global studies and satellite data. 
+At the same time we used it to calculate ocean health scores for all 220 coastal countries globally. 
+
+This included almost 100 publicly data sets from the United Nations, World Bank, as well as synthesis studies and satellite data. 
 
 The plan from the beginning was to repeat this global study each year, because the value of the OHI is not in doing it once, but in tracking change through time and acting upon the most pressing needs. 
+
+So we had a plan for reproducibility, with attention to documentation. 
 
 transition: but did these analyses using the tools we knew, like Luke Skywalker would have back on Dagobah. 
 
@@ -286,28 +312,52 @@ re:fwd:final data updated
 
 ???
 
-Data processing was done in excel and a bit in R, with decisions documented in accompanying Word documents and emails. 
+Data processing was done with whatever tools different people knew. Most was in excel and a bit in R, with decisions documented in accompanying Word documents and emails. 
 
-The programmer on the team would write models in whatever language best suited the data. 
+The programmer on the team would write models in whatever language best suited the data, and develop the models around whatever structure that data set was in. 
 
 So the next year when we went to repeat the analysis, there was a lot of forensics and detective work to uncover what we had done the first time, and why. 
 
-That's the year I started. 
+For that second year there was also turnover in the team: that was the year I joined and others moved on.  
 
 Needless to say, we needed a better system. So here is what we do now. And again, this was over a four-year period, and we continue to iterate and improve. 
 
 ---
 (maybe bullet this, and animate?)
 
+GitHub norms
+
 - create a GitHub organization, everyone makes an account
-- data prep and models in R
-- use RStudio & GitHub (version control & communication)
+  - including our team lead (not hands-on data)
+- private "issues" repo for discussing methods
+  - institutional memory, onboarding & offboarding
+- use RStudio & GitHub (version control)
+
+R norms
+
+- all data prep, models, viz in R
 - coding norms: `tidyverse` & friends
 - separate core "blueprint" models into R package `ohicore`
-- separate "tailorable" models into separate repos 
+- separate local "tailorable" models into separate repos 
 - data prep narratives in R Markdown
 
 ???
+
+---
+
+GitHub
+
+- distribution
+- troubleshooting/IT
+- publishing
+
+R norms
+
+- single webpages (e.g. supplemental materials)
+- ohi-science.org website (Jekyll) 
+- assessment websites (simple RMarkdown)
+- books (bookdown)
+- shiny apps
 
 ---
 ohi-science.org
@@ -368,6 +418,13 @@ We are leading OHI Northeast, and it is actually included in part of President O
 The code is based from XXX's, who we saw present at RStudio::conf 2018. 
 
 ---
+table 1 & 2
+
+???
+
+How we did this was NSSD, etc. 
+
+---
 
 OHI team qualities (circa 2014)
 
@@ -375,6 +432,7 @@ OHI team qualities (circa 2014)
 - a boss/project lead who valued it & gave us space to learn (Ben Halpern)
 - welcoming people from the #rstats community (Karthik Ram, Hadley Wickham, Joe Cheng)
 - trust & willingness to learn together
+- complementary/overlapping skillsets (not everyone codes)
 
 ???
 
