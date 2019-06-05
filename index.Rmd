@@ -43,6 +43,76 @@ Then, we can talk about whether we don't talk about env science enough. WEDS
 in next few days say intro bare bones. 
 --->
 
+???
+
+Thank you so much, it is so amazing to be here with all of you and I want to thank the organizers for this invitation. 
+
+R has changed my life, and so much that now I'm actively working to have it to change the lives of more scientists like me.
+
+R, data science and the open web how incredible power accelerate scientific research and generate solutions to our most pressing problems, which in the environmental space include fresh water and food security, disease transmission, and land use. 
+
+But many environmental scientists like me are being excluded from this power because we lack opportunities to learn and a supportive culture within science.
+
+Right now, our community does not value data science and open practices. And I say that because we do not teach them, and we do not reward them. *[There are not a lot of paths to participate; you have to seek them out on your own and make the time. computing and data science are additional disciplines but we are expecting the same amount of people to tackle them]*
+
+And I think that is because we do not see them or understand them. *[they can be seen as additional checkboxes/equirements, not a whole ethos for how to work]*
+We do not know their power, and we do not feel confident, and we are already overwhelmed.  
+
+---
+r4ds minus hadley
+
+???
+
+I am not trying to belittle environemtnatl scientists. Env scientists are so awesome. They are similar to the open source community because they are working in the public good, passionate about their work. We are working to keep species alive, water clean, food systems sustainable, and to reduce infectious disease vectors.  They are experts in domains like freshwater ecology and hydrology, in ecological and political systems like the Sierra Nevada mountains, and are often actively working on xxx. My friend is a geneticist studying fish populations who literally goes from field work on a boat to work with state legistlatures on fishing laws. 
+
+And most of us do end up coding. But it is an intimidating, isolating struggle. It's something we are never taught and we likely resist before slogging through it on our own. And it creates a culture of not talking about it. 
+
+But the way I see the most impact is by including the tools and the culture
+
+---
+r4ds complete 
+
+???
+
+But R can really bring it together. 
+
+R streamlines how we work with data, and also streamlines how we work with each other. 
+
+And not only because of R as a tool but bc of R as a community.
+
+The R community has created a positive space for people like me to be welcomed as human beings and encouraged as coders. And it is so powerful for innovation and collaboration, and we've seen this community grow so much; I'm thinking in particular about RLadies, rOpenSci, RStudio, and Carpentries communities. 
+
+We talk a lot about the R community and welcoming more people into it, which I wholy support and actively do. I want to simultaneously welcome new community memebers and also extend our values and our ethos to other communities as well. 
+
+And R has created this whole community here, with roots in shared passions. Env scientists also have shared passion already, focused on the planet. They can broaden that passion to R [uggh]
+
+---
+(something)
+
+???
+
+So I want to focus on culture shift that needs to happen so that we value data science and open practices in the environmental science community. 
+
+[place here for Star Wars?]
+
+I've developed a program called Openscapes, particularly focused on ECRs. *[I do that because Without formal academic training, self-taught early career researchers are especially being left behind – and now in leadership positions as faculty, lecturers, and program managers, they are passing homegrown approaches to their labs. There is great opportunity to empower early career scientific leaders with our existing open science tools and communities so their labs can help uncover data-driven solutions faster.]*
+
+It is based off of the last 6 years working with the Ocean Health Index, and what we have learned. So I'll start there and then tell you about Openscapes, which is the best.
+
+Takehomes are that we can all create real change in our own ways. And it just takes one person's passion to really ignite change in communities, it is quick to cascade. I'll give examples of the different ways I've seen leadership in this space, from being infectiously jazzed about R, to not having personal interest in learning but seeing its value. 
+
+<!---
+And these days especially, coding is only a piece of our computing responsibilities, even if it is a big piece. But it goes along with organizing, storing, and sharing files, keeping track of versions, and remembering what the heck everything is. And this is true whether we are talking about grant proposals, photos from field work, but also data and code.  
+--->
+
+
+There are shared coding norms for working with data, and also shared social norms for working together. Both of these are deliberate, and they make it all work. 
+
+
+And this community has grown by so much because it's been so welcoming to people like me, who can otherwise be outsiders. 
+
+
+---
 I am a marine ecologist, and #rstats has been life-changing for me. 
 
 ???
