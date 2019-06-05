@@ -44,7 +44,14 @@ in next few days say intro bare bones.
 
 R has changed my life, and so much that now I'm actively working to have it to change the lives of more scientists like me.
 
+DON"T SAY IT ALL THEY CAN ASK QUESTIONS> DON"T ADLIB
+
+Next time: stand up and present!
+SUMMARIZE AS A HEADER
+
 --->
+
+people love feeling they're smart and they love feeling they're making progress (so get off the title slides)
 
 ???
 
@@ -60,11 +67,12 @@ Right now, there are many scientific disciplines that do not value data science 
 
 But I know we can change this culture following the example of the R community. 
 
-I know that because I have lived through it myself and I have spent the last six years igniting pockets of cultural change with colleagues around the world. 
+I know that because I have lived through this mindset change myself, and I have spent the last six years igniting cultural change in environmental science by working with colleagues around the world. 
 
 ---
 r4ds minus hadley
 
+(how interdisc and public good)
 ???
 
 Right now, this is what env science looks like.
@@ -75,14 +83,18 @@ And we are similar to the open source community because we are working in the pu
 
 And we collect and work with a lot of data. And our resulting findings are really impactful for policy. This means that communication and collaboration are really valued.  
 
+---
 And most of us do end up coding to be able analyze our data. But it is an intimidating, isolating struggle. We are never taught to work responsibly with data. And coding is often an intimidating thing that we resist before having to learn just enough to get the job done, and in a total panic. This means we're not really proud, which means we are less inclined to talk about it and share it. And this perpetuates the culture of not talking about it and therefore not valuing it. 
 
 I want to be really clear that I am not trying to belittle environmental scientists. We do amazing work on complex, ever-changing systems. And many of us are on the front lines studying the effects of climate change, and it is emotionally draining. Additionally, there are many examples of great environmental scientists who do value R, data science, and open practices. 
 
 But I think we need to be honest about the culture as a whole, which does not value data science and open practices in a time when we do not have time to waste. JD Long just mentioned this quote on an RStudio community call: "A problem well defined is half solved" and I think it we can identify barriers situation and the barriers to progress are both technical and mindset. 
 
+(could do a transition and reminder with the gap slide)
+
 ---
 r4ds complete [idea: for culture have hearts and logos: rOpenSci, RStudio, RLadies, Carpentries, Mozilla, Twitter: a spin-off of Rey]
+SKETCH THIS FOR ALLISON
 
 ???
 
@@ -109,7 +121,7 @@ And R has created this whole community here, with roots in shared passions. Env 
 
 So I want to focus on culture shift that needs to happen so that we value data science and open practices in the environmental science community. 
 
-[place here for Star Wars?]
+[place here for Star Wars?] Put this for Openscapes> THIS IS MINE. When I'm talking about this, this is how I describe it, give a nod to having used it before.
 
 I've developed a program called Openscapes, particularly focused on ECRs. *[I do that because Without formal academic training, self-taught early career researchers are especially being left behind – and now in leadership positions as faculty, lecturers, and program managers, they are passing homegrown approaches to their labs. There is great opportunity to empower early career scientific leaders with our existing open science tools and communities so their labs can help uncover data-driven solutions faster.]*
 
@@ -126,6 +138,15 @@ There are shared coding norms for working with data, and also shared social norm
 
 
 And this community has grown by so much because it's been so welcoming to people like me, who can otherwise be outsiders. 
+
+Outline slides
+- lessons learned from OHI
+- how these lessons have helped me create Openscapes
+
+Can I predict from the intro what the rest of the talk will be?
+Can I say the problem is X, so I'll learn about solutions
+
+AH loved: "I'm igniting cultural change in environmental science"
 
 
 ---
