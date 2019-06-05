@@ -41,40 +41,54 @@ storyline is good in the intro. Stop changing it. This is good. Get the words na
 Then, we can talk about whether we don't talk about env science enough. WEDS
 
 in next few days say intro bare bones. 
+
+R has changed my life, and so much that now I'm actively working to have it to change the lives of more scientists like me.
+
 --->
 
 ???
 
 Thank you so much, it is so amazing to be here with all of you and I want to thank the organizers for this invitation. 
 
-R has changed my life, and so much that now I'm actively working to have it to change the lives of more scientists like me.
+R, data science, and the open web have incredible power accelerate scientific research. They can help uncover solutions to our most pressing problems, which in the environmental space include fresh water availability, food security, reduced disease transmission, and sustainable land use.  
 
-R, data science and the open web how incredible power accelerate scientific research and generate solutions to our most pressing problems, which in the environmental space include fresh water and food security, disease transmission, and land use. 
+But many environmental scientists like me are being excluded from this power. 
 
-But many environmental scientists like me are being excluded from this power because we lack opportunities to learn and a supportive culture within science.
+We are excluded because we lack opportunities to learn and a supportive culture within science. *[because we lack skillsets but also mindsets and culture.]*
 
-Right now, our community does not value data science and open practices. And I say that because we do not teach them, and we do not reward them. *[There are not a lot of paths to participate; you have to seek them out on your own and make the time. computing and data science are additional disciplines but we are expecting the same amount of people to tackle them]*
+Right now, there are many scientific disciplines that do not value data science and open practices. And I say that because on the whole we do not teach them in environmental science, and we do not reward them. It is not even a part of our current culture to talk about data practices, and so we do not even have the vocabulary to do so. *[There are not a lot of paths to participate; you have to seek them out on your own and make the time. computing and data science are additional disciplines but we are expecting the same amount of people to tackle them]*
 
-And I think that is because we do not see them or understand them. *[they can be seen as additional checkboxes/equirements, not a whole ethos for how to work]*
-We do not know their power, and we do not feel confident, and we are already overwhelmed.  
+But I know we can change this culture following the example of the R community. 
+
+I know that because I have lived through it myself and I have spent the last six years igniting pockets of cultural change with colleagues around the world. 
 
 ---
 r4ds minus hadley
 
 ???
 
-I am not trying to belittle environemtnatl scientists. Env scientists are so awesome. They are similar to the open source community because they are working in the public good, passionate about their work. We are working to keep species alive, water clean, food systems sustainable, and to reduce infectious disease vectors.  They are experts in domains like freshwater ecology and hydrology, in ecological and political systems like the Sierra Nevada mountains, and are often actively working on xxx. My friend is a geneticist studying fish populations who literally goes from field work on a boat to work with state legistlatures on fishing laws. 
+Right now, this is what env science looks like.
 
-And most of us do end up coding. But it is an intimidating, isolating struggle. It's something we are never taught and we likely resist before slogging through it on our own. And it creates a culture of not talking about it. 
+We are deeply interdisciplinary, and are experts in the different domains we work in. For example, scientists studying fresh water availability need to be experts in domains like hydrology, freshwater ecology, and in political systems. 
 
-But the way I see the most impact is by including the tools and the culture
+And we are similar to the open source community because we are working in the public good, passionate about our work. We are working to keep species alive, water clean, food systems sustainable, and to reduce infectious disease vectors. 
+
+And we collect and work with a lot of data. And our resulting findings are really impactful for policy. This means that communication and collaboration are really valued.  
+
+And most of us do end up coding to be able analyze our data. But it is an intimidating, isolating struggle. We are never taught to work responsibly with data. And coding is often an intimidating thing that we resist before having to learn just enough to get the job done, and in a total panic. This means we're not really proud, which means we are less inclined to talk about it and share it. And this perpetuates the culture of not talking about it and therefore not valuing it. 
+
+I want to be really clear that I am not trying to belittle environmental scientists. We do amazing work on complex, ever-changing systems. And many of us are on the front lines studying the effects of climate change, and it is emotionally draining. Additionally, there are many examples of great environmental scientists who do value R, data science, and open practices. 
+
+But I think we need to be honest about the culture as a whole, which does not value data science and open practices in a time when we do not have time to waste. JD Long just mentioned this quote on an RStudio community call: "A problem well defined is half solved" and I think it we can identify barriers situation and the barriers to progress are both technical and mindset. 
 
 ---
-r4ds complete 
+r4ds complete [idea: for culture have hearts and logos: rOpenSci, RStudio, RLadies, Carpentries, Mozilla, Twitter: a spin-off of Rey]
 
 ???
 
-But R can really bring it together. 
+We need data science to be part of our skillsets, but we also need a positive, collaborative, open culture. 
+
+And R provides both.
 
 R streamlines how we work with data, and also streamlines how we work with each other. 
 
@@ -84,7 +98,9 @@ The R community has created a positive space for people like me to be welcomed a
 
 We talk a lot about the R community and welcoming more people into it, which I wholy support and actively do. I want to simultaneously welcome new community memebers and also extend our values and our ethos to other communities as well. 
 
+<!---
 And R has created this whole community here, with roots in shared passions. Env scientists also have shared passion already, focused on the planet. They can broaden that passion to R [uggh]
+--->
 
 ---
 (something)
