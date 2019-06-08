@@ -1,8 +1,8 @@
 ---
 title: "R for science communication and culture"
 subtitle: 
-author: 'Julia Stewart Lowndes, PhD <br> Marine Data Scientist & Mozilla Fellow <br><br> <a href="https://github.com/jules32"><i class="fa fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
-date: "useR! 2019 Keynote"
+author: 'Julia Stewart Lowndes, PhD <br>Marine Data Scientist & Mozilla Fellow <br>National Center for Ecological Analysis & Synthesis, USA<br><br> <a href="https://github.com/jules32"><i class="fa fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
+date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,6 +13,8 @@ output:
       ratio: "16:10" # https://github.com/apreshill/talks/blob/master/sdss-blogdown/index.Rmd#L16, http://user2019.r-project.org/information_for_presenters/
       output:
     css: ["default", "css/my-fonts.css", "css/my-theme.css"] #https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7
+    includes:
+      in_header: header.html      
 ---
 
 ```{r setup, include=FALSE}
