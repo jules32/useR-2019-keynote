@@ -81,6 +81,8 @@ And I say this because on the whole we do not teach data science and open practi
 
 It is not even a part of our current culture to talk about data practices, and so as individuals we do not even have the mindset or even the vocabulary to do so. *[There are not a lot of paths to participate; you have to seek them out on your own and make the time.]*
 
+This means we do not see examples of its benefits in our own context, and we do not see welcoming entry points to engage. 
+
 ---
 # But #rstats can help
 
@@ -103,7 +105,7 @@ Environmental scientists have a lot in common with the open source community bec
 
 We are are also deeply interdisciplinary, and are experts in the many different domains we work in. For example, scientists studying freshwater availability need to work across domains like hydrology and ecology, agriculture and politics. 
 
-For my PhD work I worked across domains like oceanography, fisheries, and behavioral ecology. 
+For my PhD work I needed to learn about oceanography and fisheries in addition to the behavior and physiology of the squid I studied, and the local ecosystem dynamics in the Pacific Ocean off California. 
 
 ---
 r4ds minus hadley — environmental + communications
@@ -157,62 +159,32 @@ Also, I know there are many examples of environmental scientists who do value da
 
 ???
 
-But, we need to be honest that we are not learning the skills we need to work responsibly with data. Our culture as a whole does not value data science and open practices when we do not have any time to waste. 
+But, we need to be honest that we are not being formally taught the fundamental skills we need to work responsibly with data. Our culture as a whole does not value data science and open practices when we do not have any time to waste. 
 
 transition: And I am convinced that R can help here. 
-
----
-# #rstats can help increase visibility & value
-<!---Not valued <-> not visible
-Right now it's this feedback loop where it is not valued, so it is not visible, and because it is not visible, it is not valued. 
-
-And I think this also offers our best opportunity for change. 
-
-If we can increase its visibility
---->
-
-???
-
-. 
-
-I think the problem is that data science is not valued, which as I said means it is not taught or supported. 
-
-It is not visible. 
-
-This means we do not see examples of its benefits in our own context, and we do not see welcoming entry points to engage. 
-
-
-transition: but luckily R can help with individual skillsets and mindsets, and the collective culture as a whole. 
-(could do a transition and reminder with the gap slide)
 
 ---
 r4ds complete 
 
 ???
 
-R has such visible 
+R has such visible ....
 
 R streamlines how we work with data, and also streamlines how we work with each other. 
 
-It does this because there are norms for functions and styles, and norms for the community. 
+And the R community has really focused on creating a positive space for people like me to be welcomed as human beings and encouraged as coders.
 
-The R community has created a positive space for people like me to be welcomed as human beings and encouraged as coders. And it is so powerful for innovation and collaboration, and we've seen this community grow so much; I'm thinking in particular about RLadies, rOpenSci, RStudio, and Carpentries communities. 
+And it is so powerful for innovation and collaboration, which is the heart of science. 
 
-We talk a lot about the R community and welcoming more people into it, which I wholey support and actively do. I want to simultaneously welcome new community memebers and also extend our values and our ethos to other communities as well. 
+So with I want to do is not only welcome more environmental scientists to the R community, I want to simultaneously extend our values and our ethos to environmental science.
 
-transition: So I want to focus on culture shift that needs to happen so that we value data science and open practices in the environmental science community. 
-
-<!---
-And R has created this whole community here, with roots in shared passions. Env scientists also have shared passion already, focused on the planet. They can broaden that passion to R [uggh]
---->
+transition: So over the past year with my Mozilla Fellowship, I've developed a program called Openscapes.
 
 ---
 Openscapes hex - right 
 (outline slide)
 
 ???
-
-So over the past year with my Mozilla Fellowship, I've developed a program called Openscapes.
 
 With Openscapes I'm focusing on building this culture at the core community unit of science, the research group or laboratory. 
 
@@ -223,9 +195,15 @@ We've just completed the pilot cohort of this mentoring program with 7 research 
 --
 add OHI hex - left
 
+???
+
 But to tell the Openscapes story I need to first tell the Ocean Health Index story. It's because I designed the Openscapes program based on the struggles and wins our own team experienced.
 
-Takehomes are that it's all about teams and community, and we as individuals can play leadership roles of all kinds. 
+
+So this is what I will focus on for the rest of the talk.
+
+Probably the biggest takehome message is about how we can all be leaders in welcoming others into R and extending the R community.
+
 
 ---
 OHI hex, centered
@@ -233,6 +211,8 @@ OHI hex, centered
 ???
 
 The first example is the Ocean Health Index.
+
+There is a lot to say about OHI but I want to focus on how R enabled a culture change. It was not only easier to do analyses better, we can communicate better with each other and more broadly with collaborators, partners, stakeholders — something that has been limiting in science when you're forwarding PDFs to each other. 
 
 ---
 OHI measure illustration
@@ -448,7 +428,7 @@ Openscapes is a program to welcome environmental scientists to become champions 
 ---
 Openscapes
 
-
+with early career faculty and lecturers. The reason I focus on early career lab groups is bc this is my generation of scientist, which means they have struggled with data as individuals and and it's s perfect opportunity to intervene and set a deliberate, r-inspired culture in their lab . 
 
 particularly focused on ECRs. *[I do that because Without formal academic training, self-taught early career researchers are especially being left behind – and now in leadership positions as faculty, lecturers, and program managers, they are passing homegrown approaches to their labs. There is great opportunity to empower early career scientific leaders with our existing open science tools and communities so their labs can help uncover data-driven solutions faster.]*
 
