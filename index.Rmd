@@ -10,8 +10,9 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:10" # https://github.com/apreshill/talks/blob/master/sdss-blogdown/index.Rmd#L16, http://user2019.r-project.org/information_for_presenters/
       output:
-    css: ["default", "rladies", "rladies-fonts"] #https://alison.rbind.io/post/r-ladies-slides/
+    css: ["default", "css/my-fonts.css", "css/my-theme.css"] #https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7
 ---
 
 ```{r setup, include=FALSE}
@@ -53,7 +54,7 @@ SUMMARIZE AS A HEADER
 people love feeling they're smart and they love feeling they're making progress (so get off the title slides)
 --->
 
-# R and data science have incredible potential accelerate scientific research.
+## R and data science have incredible potential accelerate scientific research.
 
 ???
 
@@ -62,14 +63,14 @@ Thank you so much, it is so amazing to be here with all of you and I want to tha
 R and data science have incredible potential accelerate scientific research. They can help uncover solutions to our most pressing problems, which in the environmental space include food security and sustainable resource use on land and in the oceans.  
 
 --
-# But many environmental scientists are being excluded from this potential.  
+## But many environmental scientists are being excluded from this potential.  
 
 ???
 
 But many environmental scientists like me are being excluded from this potential. 
 
 --
-# We lack opportunities to learn and we lack a supportive scientific culture.
+## We lack opportunities to learn and we lack a supportive scientific culture.
 
 ???
 
