@@ -4,7 +4,7 @@
     <title>R for science communication and culture</title>
     <meta charset="utf-8" />
     <meta name="author" content="Julie Lowndes @juliesquid, @RLadiesSB" />
-    <meta name="date" content="2019-06-07" />
+    <meta name="date" content="2019-06-08" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 
 # R for science communication and culture
 ### <a href="https://jules32.github.io/">Julie Lowndes</a> <span class="citation">@juliesquid</span>, <span class="citation">@RLadiesSB</span>
-### 2019-06-07
+### 2019-06-08
 
 ---
 
@@ -105,9 +105,15 @@ r4ds minus hadley — environmental side.
 
 Environmental scientists have a lot in common with the open source community because we are working for the public good, and passionate about our work. 
 
+This is actually not a distinct discipline, but a collection of scientists working at the interface of environment, ecology, and people. 
+
+We are biologists, ecologists, physiologists, and many other -ists.
+
 We are are also deeply interdisciplinary, and are experts in the many different domains we work in. For example, scientists studying freshwater availability need to work across domains like hydrology and ecology, agriculture and politics. 
 
 For my PhD work I needed to learn about oceanography and fisheries in addition to the behavior and physiology of the squid I studied, and the local ecosystem dynamics in the Pacific Ocean off California. 
+
+As a marine ecologist, my world was filled with learning about oceanography, fisheries, physiology, and local ecology to also design my questions around squid behavior.
 
 ---
 r4ds minus hadley — environmental + communications
@@ -128,6 +134,8 @@ r4ds minus hadley — environmental + communications with big sad face in the mi
 But learning to code is an individual, isolating struggle. 
 
 Throughout our education we are rarely formally taught to code or work responsibly with data. 
+
+Somehow we assume that we are the only one who doesn't get it so we don't talk about it. [There's this sense that figuring out how to responsibly analyze data is part of the scientific discovery process, meaning you do it alone and the first to ever want to convert date formats from Excel.]
 
 And this makes coding a really intimidating thing to learn on our own. We resist it as long as we can before scrambling to learn just enough to get the job done at the last moment, usually in a total panic. 
 
@@ -166,11 +174,9 @@ But, we need to be honest that we are not being formally taught the fundamental 
 transition: And I am convinced that R can help here. 
 
 ---
-r4ds complete 
+# r4ds complete 
 
 ???
-
-R has such visible ....
 
 R streamlines how we work with data, and also streamlines how we work with each other. 
 
@@ -183,8 +189,8 @@ So with I want to do is not only welcome more environmental scientists to the R 
 transition: So over the past year with my Mozilla Fellowship, I've developed a program called Openscapes.
 
 ---
+# (outline slide)
 Openscapes hex - right 
-(outline slide)
 
 ???
 
@@ -208,7 +214,7 @@ Probably the biggest takehome message is about how we can all be leaders in welc
 
 
 ---
-OHI hex, centered
+OHI hex, bigger centered
 
 ???
 
@@ -216,32 +222,53 @@ The first example is the Ocean Health Index.
 
 There is a lot to say about OHI but I want to focus on how R enabled a culture change. It was not only easier to do analyses better, we can communicate better with each other and more broadly with collaborators, partners, stakeholders — something that has been limiting in science when you're forwarding PDFs to each other. 
 
+And there is no way that we could have so much reach and impact without #rstats and the ODS community.
+
 ---
 OHI measure illustration
+Q for Allison:: I would love to show the team early instead of at the end, not sure it works early though.
 
 ???
 
-The ocean health index is a project to measure how healthy oceans are using the best available data and science. 
+The ocean health index is a project to measure what we value about our oceans using the best available data and science. 
 
-It is a really ambitious project. It set out to be the best approach that governments and policy makers around the world could use and build from, and indeed now it is used by the United Nations and twenty government and university groups around the world are using it as well. 
+It is a really ambitious project. 
 
-&lt;!---And there is no way that we could have so much reach and impact without #rstats and the ODS community.---&gt; 
+It set out to be the best approach for data-driven marine policy around the world, and indeed now it is used by the United Nations and also by twenty government and university groups. 
 
-transition: we didn't set out to be the best approach for what open data science could look like in environmental science —
+transition: We didn't set out to be the best approach for what open data science could look like in environmental science —
 
 ---
-nature paper
+nature paper (authors only no abstract)
+
+&gt; We are among the many environmental scientists who were never formally trained to work deliberately with data. Thus, we were unaware of how significantly open data science tools could directly benefit our research11,73, and upon learning about them we were hesitant, or even resistant, to engage. However, we were able to develop confidence in large part because of the open, inclusive and encouraging online developer community that builds tools and creates tutorials that meet scientists where they are
 
 ???
 
-But when we stepped back and realized it was an important story to tell, it resonated with a lot of people. 
+But when we shared our path to better science in less time in 2017, it really resonated with a lot of people. 
 
-Our path to better science in less time using open data science tools is a retrospective of how we incrementally introduced #rstats and GitHub into our workflow over a period of four years. 
+It is a retrospective of how we incrementally introduced R and GitHub into our workflow over a period of four years.
 
-I won't go through all of this here but I want to give some highlights, particularly focusing on communication and collaboration. 
+It lays out how tools like R and GitHub helped change the culture of our science, by focusing on reproducibility, collaboration, adn communication. 
+
+I won't go through all of this here but I want to give some highlights, and particularly focus on how R and GitHub really redefined what communication means for us in science. 
+
+Being able to efficiently share and communicate our work while it is ongoing rather than only post-publication has been really critical for us bridging science and policy. 
 
 ---
+Figure 1
+
+???
+
+This is an illustration from the paper conveying how much less time it took... 
+
+I joined the team in 2013 when we were supposed to update the data, 
+
+transition: So back in 2013. this is where we were starting from 
+
+&lt;!---
 image of a house blueprint.
+Q for Allison: maybe skip this blueprint completely?
 
 ???
 
@@ -253,7 +280,7 @@ The Ocean Health Index blueprint includes things that provides benefits to peopl
 
 transition: 
 
----
+
 screenshot Halpern et al. 2012
 
 ???
@@ -268,17 +295,23 @@ The plan from the beginning was to repeat this global study each year, because t
 
 So we had a plan for reproducibility, with attention to documentation. 
 
-transition: but did these analyses using the tools we knew, like Luke Skywalker would have back on Dagobah. 
+transition: 
+
+---&gt;
 
 ---
+# We thought we were being reproducible 
+
 data_analysis_v2.xls
 re:fwd:final data updated
 
 ???
 
+This is where we started from. 
+
 Data processing was done with whatever tools different people knew. Most was in excel and a bit in R, with decisions documented in accompanying Word documents and emails. 
 
-The programmer on the team would write models in whatever language best suited the data, and develop the models around whatever structure that data set was in. 
+A single teammember would write models in whatever language best suited the data, and develop the models around whatever structure that data set was in. 
 
 So the next year when we went to repeat the analysis, there was a lot of forensics and detective work to uncover what we had done the first time, and why. 
 
@@ -287,6 +320,10 @@ For that second year there was also turnover in the team: that was the year I jo
 Needless to say, we needed a better system. So here is what we do now. And again, this was over a four-year period, and we continue to iterate and improve. 
 
 ---
+# Actually being reproducible 
+
+Maybe just include part of [Table 1](https://www.nature.com/articles/s41559-017-0160/tables/1)? 
+
 (maybe bullet this, and animate?)
 
 GitHub norms
@@ -333,15 +370,20 @@ we also created a website with R and friends for our Ocean Health Index communit
 The home page is with Jekyll
 
 transition: we also generate simple RMarkdown websites for each as well: ohi-global 
+
 ---
 ohi-global website
 
 ???
 
+These simple RMarkdown websites have been SO valuable for us. We can auto-generate them for any country, we probably have 30 of them that we've made.
+
 ---
 OHI Cornwall
 
 ???
+
+Here's another example
 
 ---
 github for communication
@@ -382,27 +424,11 @@ We are leading OHI Northeast, and it is actually included in part of President O
 The code is based from XXX's, who we saw present at RStudio::conf 2018. 
 
 ---
-table 1 &amp; 2
+Box 1 &amp; 2
 
 ???
 
 How we did this was NSSD, etc. 
-
----
-
-OHI team qualities (circa 2014)
-
-- someone really jazzed about #rstats (Ben Best)
-- a boss/project lead who valued it &amp; gave us space to learn (Ben Halpern)
-- welcoming people from the #rstats community (Karthik Ram, Hadley Wickham, Joe Cheng)
-- trust &amp; willingness to learn together
-- complementary/overlapping skillsets (not everyone codes)
-
-???
-
-Finally, I have to talk about our team. 
-
-We were able to do all of this not only because of the tools, but because of the people involved. 
 
 ---
 map? 
@@ -424,6 +450,65 @@ But I wanted to actually help other teams do this themselves.
 transition: that's when I got the Mozilla Fellowship and started Openscapes. 
 
 ---
+# OHI team qualities (circa 2014)
+
+- someone really jazzed about #rstats (Ben Best)
+- a boss/project lead who valued it &amp; gave us space to learn (Ben Halpern)
+- welcoming people from the #rstats community (Karthik Ram, Hadley Wickham, Joe Cheng)
+- trust &amp; willingness to learn together
+- complementary/overlapping skillsets (not everyone codes)
+
+???
+
+Finally, I have to talk about our team. 
+
+We were able to do all of this not only because of the tools, but because of the people involved. 
+
+---
+(maybe just the center/hadley culture part of R4DS illustration?)
+
+???
+
+And I need to talk about our communities
+
+rOpenSci, RStudio, Carpentries, Twitter. 
+
+- Carpentries instructor 
+- Eco-Data-Science
+- RLadiesSB
+
+---
+# software &lt;-&gt; teamwork 
+(spiral? porridge?)
+
+???
+
+All of this has had me thinking about how software enables teamwork and teamwork enables software. I'm going to try talking about this here; I have trouble articulating it but think it is really critical for moving forward. 
+
+So thinking about it from the software side, there is software that is designed to streamline teamwork. So for example, Google Docs lets you co-edit and therefore co-think together in real time. GitHub helps you collaborate with others. And there are also things like the tidyverse that help create shared social norms that make it easier to work as a team. 
+
+On the other side, if you are on a team or community you might have more courage to engage in new software; RLadies chapters, meetup groups, #tidytuesday
+
+So for a lot of us in this room, this turns into a feedback loop and get almost difficult to differentiate and tease apart. so it might be less of a loop but more like a porridge...
+
+And OHI is an example where one person with knowledge of the software enabled the team to engage, which meant more of us were using the software, which then strengthened the team norms and culture. 
+
+And eco-data-science starts at the other side maybe, where it was a group of friends asking one person with knowledge of R how to learn, so it went from the team to the software and then 
+
+But the reason I'm thinking about this is because of entry points. What if you are outside of this loop. You might use software, but not really with any collaboration or teamwork in mind. Maybe you don't even feel like you're part of a team. 
+
+How do you engage and welcome people in those cases? 
+
+transition: thinking about this was a big part of how I designed Openscapes. Really wanted to focus on how software can streamline teamwork and teams can learn how to use software.
+
+&lt;!---
+# Nature paper reprise
+
+???
+But although we wanted to encourage others with our story, we've heard that people think it's just for established projects. This paper wasn't including people who didn't feel like they were part of a team. They 
+---&gt;
+---
+# Openscapes hex, center
 
 Openscapes is a program to welcome environmental scientists to become champions for ODS. 
 
