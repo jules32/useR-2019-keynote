@@ -1,8 +1,8 @@
 ---
 title: "R for science communication and culture"
 subtitle: 
-author: "[Julie Lowndes](https://jules32.github.io/) @juliesquid, @RLadiesSB"
-date: "`r Sys.Date()`"
+author: 'Julia Stewart Lowndes, PhD <br> Marine Data Scientist & Mozilla Fellow <br><br> <a href="https://github.com/jules32"><i class="fa fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-paper-plane fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
+date: "useR! 2019 Keynote"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -19,7 +19,12 @@ output:
 options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = FALSE)
 
 library(xaringan)
+library(fontawesome)
 ```
+
+.footnote[
+<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
+]
 
 <!---
 KEEP IN MIND
