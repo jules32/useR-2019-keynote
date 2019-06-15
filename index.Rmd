@@ -508,12 +508,26 @@ But it does not fully hit the mark for inspiring people to engage. I've gotten f
 ???
 
 A main takeaway that I've learned through OHI is that data science and teamwork exist together in a feedback loop. 
-
 Learning similar software promotes teammwork. And also working as a team better equips you to learn data science. 
 
 This is a loop that feeds back on itself (porridge?) <!---So for a lot of us in this room, this turns into a feedback loop and get almost difficult to differentiate and tease apart. so it might be less of a loop but more like a porridge...--->
 
-But what if you are currently standing outside of this loop? 
+
+transition: so it's what we're talking about here
+
+---
+# Star Wars hands
+
+???
+
+transition: and here
+
+---
+# horst R4DS and communities
+
+??? 
+
+But what if you are currently outside of this loop? 
 
 transition: What are the entryways to get into it?
 
@@ -528,158 +542,265 @@ If this cool feedback loop that we've found successful doesn't exist, how do you
 
 And if someone is outside of it, how do you welcome them?
 
+transition: So with Openscapes, I'm really trying to figure out how to engage and welcome scientists scientists to data science, and do so in a lasting way through teamwork.  
+
+<!---
+
 And additionally:
 
 How do you help people become confident championing this in their communities, even if they are not experts?
 
 Increase the visibility of open practices? 
 
-<!---Openscapes is a program to welcome environmental scientists to become champions for ODS. --->
+Openscapes is a program to welcome environmental scientists to become champions for ODS. --->
 
 ---
-# Labs
+# horst welcome to #rstats illustration
 
-??? 
-I've focused on working with community groups that already exist in science: the research group or what we would call laboratories in the US
+???
 
-Labs do not have culture of talking about data, and don't think of themselves as a team. They are often outside of this loop. 
+So I've created a mentorship program that I call the Champions program, to welcome scientists to data science and create more champions for data science, open practices, and team work. 
 
-One of the first things I learned as I was developing openscapes is that these laboratories do not always have the mindset that they are a team. In science we've focused on what makes us distinct, not what unites us. 
+I'm mentoring the community groups that already exist in science: the research group or what we would call laboratories in the US
 
+And specifically, I'm focusing on early career faculty, lecturers, program managers. 
 
----
-# Allison welcome to #rstats illustration
-
-So with Openscapes, I'm really trying to figure out how to engage and welcome scientists in. And returning to the idea of visibility, 
-
-focusing on early career faculty, lecturers, program managers. 
-with early career faculty and lecturers. The reason I focus on early career lab groups is bc this is my generation of scientist, which means they have struggled with data as individuals and and it's s perfect opportunity to intervene and set a deliberate, r-inspired culture in their lab . 
-
-particularly focused on ECRs. *[I do that because Without formal academic training, self-taught early career researchers are especially being left behind – and now in leadership positions as faculty, lecturers, and program managers, they are passing homegrown approaches to their labs. There is great opportunity to empower early career scientific leaders with our existing open science tools and communities so their labs can help uncover data-driven solutions faster.]*
-
-<!---[place here for Star Wars?] Put this for Openscapes> THIS IS MINE. When I'm talking about this, this is how I describe it, give a nod to having used it before.--->
+The reason I focus on early career lab groups is bc this is my generation of scientist, which means they have struggled with data as individuals and it's s perfect opportunity to introduce this culture in their lab. 
 
 ---
 # engage, empower, amplify
+
 ???
 I've focused on engage, empower, amplify
 
-goal is to complement existing efforts and help welcome more scientists to them. 
+<!---
+goal is to complement existing efforts like the Carpentries, RStudio, rOpenSci and help welcome more scientists to them.
 
 -5 months, i've also started doing them as workshops
+--->
 
 ---
-# Engage
+class: center, middle, inverse
+# Engage 
 
 ???
-Nature paper, 
 
-and Art. All Openscapes art is done by the amazing Allison Horst
-I also like to talk about this with star wars analogies
+I've created 5 month online mentorship program, and we've just completed the inaugural cohort of 7 labs. 
 
-Cohort Calls and Seaside Chats
-Summit
+I work with the leads and lab members together, and am in a way trying to recreate what we have with our OHI team, where the team lead values it and enables it, and the team is really jazzed about what is possible and has agency and paths forward. 
+
+transition: here is the first cohort that just ended in June: 
 
 ---
+# Zoom cohort tiled 
+
+???
+{r out.width = '50%'}
+knitr::include_graphics("img/zoom-cohort.png")
+
+Each month I meet one-on-one with the lab lead, 
+
+And also each month we meet twice with all lab leads togethere, plus their lab members. 
+
+The purpose for these cohort calls is so everyone learns and sees the value and power of what's possible, and that the leads feel comfortable letting their labs develop these skillsets, and the lab members have agency and paths forward for what to do 
+
+These calls are 1.5 hour and in them I try to teach only 30 minutes, so that the maximum time can be discussion of how this could work within each lab context.
+
+We have discussions as a group and also use a feature in this video conferencing software that lets us do breakout rooms so that we can discuss in smaller groups and mix up the labs. 
+
+And each one ends with some hands-on "efficiency tips" 
+
+transition: and so what do we talk about over these 5 months?
+
+<!---
+# (Summit?)
+
+???
+
+--->
+
+---
+class: center, middle, inverse
 # Empower
+
 ???
-lesson series: 2 halves
+
 For the most part, *not* teaching hands on. More of a "meet and greet", 
+
 intro to communities like rOpenSci, RLadies, Carpentries, RStudio. 
-intro to tools like GitHub issues, markdown. This is the only thing we do hands on: to smooth communicationand culture
-identifying packages like the tidyverse, rOpenSci, etc. Not teaching them, meet and greet.
+
+intro to tools like the tidyverse and friends, GitHub issues, markdown. This is the only thing we do hands on: to smooth communicationand culture
+
+And each 
+
+transition: and going back to this idea of the feedback loop —
 
 ---
-# Amplify
-(tweet screenshots for these)
-
-Don't just say I get to amplify them. I'm teaching them what amplification means for good mentors
-
-We need to amplify people in our lab. Adrian is going to comment about Sam. 
+# data science <-> teamwork doodle
 
 ???
-And then I get to amplify them. I am so proud of their accomplishments. So I'm going to take a few minutes to brag about their awesome science.
 
-Really focused on not only change inside the lab but outside. 
+I knew that this was this loop and interconnected, but I had expected to start more with more of a focus of introducing data science to these teams. 
 
----
+But what I realized before even starting the 5 month program was that there was work to be done on the teamwork side first. 
 
-This is Malin Pinsky and his lab
+Labs were not necessarily thinking of themselves as a team so much as a collection of individuals doing their own thing. It's like everyone is operating like Luke Skywalker did, even when they are sitting next to each other in a lab and working on similar things.
 
-They study
-
-Michelle Stuart is actually here at this conference, because of Openscapes. She is leading change in the Pinksy lab and has just started the first RLadies chapter in New Jersey
+transition: So I designed the lesson series in 2 halves
 
 ---
+# lesson series, part 1
 
-Allison Horst
+???
+
+The first half is really focused on team culture: we talk about Codes of Conduct, on developing a mindset for sharing and shared practices within the lab, in a data science context. So we talked about what onboarding looks like from a data science perspective. And offboarding. 
+
+We did interweave data science here too, to facilitate team work: we set up lab GitHub organizations as and talked about using GitHub issues and Slack as a way to 
+
+Their homework each month is to continue talking about what we learned in their own labs, and to include others in the lab more broadly. We call these meetings Seaside Chats. 
 
 ---
-Chelsea Wood
+# lesson series bookdown
 
+???
+
+I've been developing a bookdown for this that will become the textbook; currently most of the effort has been on accompanying slides that we go through during the calls. 
+
+And while I'm focused within my domain of environmental science, everything I've developed is discipline agnostic, ready to be used for other groups too. But this kind of community work is real work, and we need this valued and supported more too. 
+
+transition: the second half...
+
+---
+# lesson series, part 2
+
+???
+
+And in the second half we focused more on data science tools and how to learn them with communities. 
+
+This is where we learned about some of the packages in the tidyverse and rOpenSci suites. We talked about how RLadies, #tidytuesday, and Mozilla study groups are really imporant ways to learn
+
+But throughout, the point was to have time and space each month to exposed to and empowered by what was possible, and to have some accountability in trying to integrate it into workflows, no matter where everyone and individuals as well as labs, were starting from. 
+
+So through this process, everyone is really starting to value it as individuals and as labs. But making this more visible to broader networks is critical as well, 
+
+transition: and that's where amplifying comes in. 
+
+---
+class: center, middle, inverse
+# Amplify
+
+???
+
+This isn't just about me amplifying the awesome accomplishments they have made, but I certainly do that. 
+
+But it is also a chance to show how they can amplify each other, and how that is particularly important as team leads and mentors. 
+
+transition: so for example: 
+
+---
+# Adrian tweet about Sam
+
+???
+We need to amplify people in our lab. 
+
+transition: and across labs
+---
+# Halley and Chelsea tweet
+
+???
+
+---
+# Halley rnoaa tweet
+
+???
+And also amplify data science within their networks.
+
+transition: ok so now I am going to brag a bit about some of their accomplishments. 
+---
+# Pinsky lab
+global change ecology and evolution in the sea
+
+???
+This is the Pinsky Lab, they study global change ecology and evolution in the sea. 
+
+Michelle Stuart is actually here at this conference, because of Openscapes. She is leading change in the Pinksy lab, leading their Seaside Chats and creating a Lab Cookbook after creating a GitHub account for the first time. 
+
+And she and has just started the first RLadies chapter in New Jersey
+
+---
+# Horst Lab
+stats & data analysis for environmental science grad students
+
+???
+This is the Horst Lab, they teach stats & data analysis for environmental science grad students
+
+---
+# Wood Lab
+ecology of parasites in marine and freshwater ecosystems
+
+???
+
+This is the Wood lab, they study ecology of parasites in marine and freshwater ecosystems
 quote
 
 ---
-Across labs 
+# Across labs 
 
-- rnoaa
 - speaking up at faculty meetings
 - aquaculture
 - teaching a course
 - coauthoring a paper
 
 ---
-# Struggles this is limitations, a bummer. 
+# data science <-> teamwork
 
-Moving forward, this is what we need to happen to make env scientists able to get the training they need. 
+???
 
-Current limitation, how to fix it. 
+So we've made a lot of progress towards having this become part of the culture in these labs, and seeding beyond. 
+
+There's this aspect of open tools and the aspect of community. and we want this to be both. 
+
+transition: but there is still a long ways to go until —
+
+---
+# horst complete fig
+
+???
+until we really operate like this. 
+
+And I do think that Openscapes is an important way to help ignite this change, and I am so proud of what we accomplished. And I will be continuing to lead these online cohorts, and also lead short-form workshops with teams on the ground. So I'm really excited about it.
+
+But truly, Openscapes is not the solution. What we really need to make this picture complete is to value this enough in environmental science that it becomes part of formal education, that we hire and compensate excellent environmental data scientists to teach these at the university, and that these practices become part of the evaluation process for what it means to be a scientist. We need to value all of these things in environmental science more. 
+
+transtion: And beyond, in other scientific fields, and beyond. 
+
+---
+# So what can we all do — Rey
+
+???
+So what can we all do as individuals? 
+
+I do think that it's all about the power of Welcome, as Stef Butland puts it. 
+
+I think we all can do our part to become leaders and champions for these practices in our own worlds, and welcoming more people to have this mindset. 
+
+We need to extend the ethos of this community to our faculty meetings, advocating for courses and dedicated lecturers to teach them. 
+
+Talk about and show your colleagues how R makes you 
+
+- a data scientist, but also
+- an author
+- a web designer
+- a designer
+- an inspired and supported community member
+- and a community leader
+
+<!---
 Have question marks in a table! I don't know how to fix this
 
 - don't have time or support. I really see Openscapes treating the symptom not the problem: we need this taught more. Allison Horst has one of the few positions that I know, and it was on her own initiative that she turned this course from a largely theoretical stats course for environmental scientists to a hands-on data science course where she now teaches the tidyverse and GitHub.
 
-- we've tested this in this pilot cohort, how to do in other struggles. 
-
----
-
-# 2 hex stickers
-
-???
-(revisit if this makes sense)
-
-So that is my work to this point, I'm fundraising to be able to lead Openscapes full-time, and am co-leading our OHI internship program. 
-
-But I wanted to end with what we can all do to become leaders in our communities.
-
-
-How do we motivate others?
-
-Talk about and show your colleagues how R makes you 
-
-- a data scientist
-
-but also 
-
-- an author
-- a web designer
-- a designer
-- a community member
-- a leader
-
-
-???
-Say this to your colleagues: R makes me xyz
-
----
-# Value
-
-comes back to the value. 
-lasting change in these labs, and will build out from there. 
-
-I think Openscapes is a big part of the path forward and to not only welcoming more people to Rstats, but also extending rstats culture to other communities. And while I'm focused within my domain of environmental science, everything I've developed is discipline agnostic, ready to be used for other groups too. But this kind of community work is real work, and we need this valued and supported more too. 
-
-
-BRING IT BACK TO R FOR SCIENCE COMMUNICATION AND CULTURE
+--->
 
 ---
 # Thank you for this inclusive culture
@@ -687,6 +808,7 @@ BRING IT BACK TO R FOR SCIENCE COMMUNICATION AND CULTURE
 (screenshot <https://twitter.com/nceas/status/1137388818989047814>?)
 
 ???
+
 I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
@@ -696,36 +818,6 @@ Thank you.
 
 link to slides
 twitter handles
-
-
----
-Selection requirements: 
-
-early career scientific leads (col 1)
-- faculty
-- lecturers
-- program managers
-- etc
-
-- rising star, influential scientists that can also become ambassadors for ODS
-- not yet engaged in open data science
-- trust that I will not waste their time
-
-I decided to focus on early career scientific leaders for a few reasons
-But I was also having a lot of one-on-one conversations with colleagues of mine, friends from grad school who were now running their own labs. 
-
-Early career PIs might not yet know about the Force. They may have struggled through like Luke in their PhDs, worked their butts off to secure faculty jobs, and are now leading their own teams. How about focusing on them?
-
-
----
-
-Explicit statement:::::::
-there's this aspect of open tools and the aspect of community. and we want this to be both. transition in the analogy: but once luke learned to use the force, he didn't go out adn defeat the empire on his his own. he needed his community. 
-
-We need to focus on the tools and also on the community. 
-
-
-
 
 
 
