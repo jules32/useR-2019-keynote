@@ -28,6 +28,11 @@ library(fontawesome)
 <img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
 ]
 
+??? 
+
+Well thank you so much, it is so amazing to be here with all of you and I want to thank the organizers for this invitation. 
+
+
 <!---
 KEEP IN MIND
 
@@ -72,41 +77,217 @@ Q's for Allison:
 - Also: can you send me an invoice. 2K
 
 this is my work, I'm neck-deep if I am asking the question if this is ncessarry? The answer is no every time.
+
+Need to anchor beginning
+
+"let me tell you a story about"
+first part was too abstract for too long
+Keep the flow. it's good. But start with a specific story. 
+
+Quick drop into environmental science
+
+"a lot of we" in the intro. Tell a person's story. Christie?
+
+The community that R is a part of. We are from finance and science and developers!!! Community of Jedis Put faces
+
+Ignore this: not many jedis, elite. Not eeveryone? But in the world of R everyone can be a jedi? Have a resonse
+
+Use statistics: 3Mill to 250K. 20 team to 2 intersns. Def include these stats.
+
+I say "the paper" does this paper resonate as strongly
+
+What I liked is that our story has been received well. Maybe to start with it. This is not a unique story, it resonates throughout communities. 
+
+"our story, which we have told" we've told our story and it has resonated resoundedly. Say "our story" rather than "our publication"
+
+OHI context: people were trying to understand how to measure ocane health
+indicators are poweful way
+ways to explain the niche it was filling
+pretty pictures of the ocean. it spices up a talk. TED style. Beautiful. Use our human connection to the environment. Slowly pics pass go by . Try to understand how benifitting and impacting oceans in a quatnfifiable way. 
+
+I mentioned data layers but didn't say data needs
+Show our maps: maps are important for showing spatial things for communication
+Cornwall website things: tell a story about Cornwell. Why are they doing this? In Cornwall they are having issues with overfishing
+
+The fact that I'm goinving a talk aobout an R conf and never talked abou tthis at an ocean conf speaks to the imporatnce. 
+
+5 10 years ago I never would have been here giving this. How powerful this community has
+
+I instead of we
+
+Putting names and faces. Jamie introduced me to R
+
+Show Michelle Stuart.
+
+My personal story 
+
+My whole thing is a bout team. A big part of this is about my personal transoforamation but it's really about the team. So my  story is the team story. 
+
+I can't completely let go of me because they didn't invite our team up here. But coopt it. My story is a 
+
+Why I am here an
+
+Ending::: need a super summary to bring back to my main message: teams and openness. End with the profound single statement. 
+Now that you've heard all of this you can see how teams are so important. But need to end with core message
+
+You can do open science without being part of a team so this is something I am trying to work at. Core message. Visual
+
+In the last section, don't assume have a team. Build up a story or message about how to find your team. Openscapes is one way I'm trying to help people find teams when they don't exist. Not everyone has Opesncapse or a lab. Maybe they don't realize they have them and need to engage but also they might now. Maybe need to realize what you have. What if you don't. We all have a team but don't realize it. How to buildt
+RLadies. 
+
+Managers employees/senior developers
+
+Feedback loop Jamie quote: "there might be people on the outside of this loop but you're here so you're already part of it". 
+How do we get people on the outside in — 
+
+Talk about how science has already operated, how they look like typically. Describe that a bit Science often looks like
+
+It's not about fixing problems it's about making something good even bnetter
+
+Right now we're doing good science but it's talking longer, more people, this is a way to make more accessible. 
+
+Nature 2012 had a huge impact. But now accelerated impact. But the fact that we do it better now doesn't mean it wasn't good science the first time, it's just better and faster now. 
+
+Data challenges have gotten bigger. And tools are here to ameiliarte. In the past the tools weren't even necessary. Didn't have asatellites. NOw we are seeing . Everything is happening faster. Need tools to meet these challenges. Until fairly recently haven't been available for the normal humans to use. Everything has changed, we need to get with the program. 
+
+I never really emphaize that we repeat our science. It's often not repeated by the people who did it. Will resonate with finance that 
+
+I talk about those 3 labs in the end. Start with them and weave through to give stories throughotes. WOrk the story around those labs. That will connect the audience. 
+
+R for better science in less time
+then part of the intro is about deconstructing
+it's not that the science we do now is bad, it's better because it's faster, more open, streamlined, inclusive. 
+
+
+Big impact of comm for OHI . Funding Beau Wrigley website. R lets us translates 
+
+
 --->
 
-## R and data science have incredible potential accelerate scientific research.
+NO UM START What's my starting word? WELL or SO <3 mins>
+
+I'm a marine ecologist and 5 years ago I never would have imagined I would be here, at useR!, much less giving a keynote talk. So since this is a foreign concept to me, it must be for you as well, and I wanteed to 
+
+---
+# pic: swimming with dolpins
 
 ???
 
-NO UM START What's my starting word? WELL or SO
-
-Well thank you so much, it is so amazing to be here with all of you and I want to thank the organizers for this invitation. 
-
-Data science and teamwork have incredible potential accelerate scientific research. They can help uncover solutions to our most pressing problems, which in the environmental space where I work include food security and sustainable resource use on land and in the oceans.
+Let me just take a minute to both reinforce and demistify what you think a marine ecologist does
 
 ---
-## R and data science have incredible potential accelerate scientific research.
+# intertidal pic
 
-## But many environmental scientists are being excluded from this potential.  
+???
+
+My undergraduate education was about understanding the complexity of marine ecosystems. 
+
+I learned about marine plants and animals that live at the boundary of land and sea, and how they have evolved to survive underwater and in in crashing waves as well in air and sun. 
+
+---
+# tides, currents, island pic?
+
+???
+
+and global processes like tides, currents, geology, and how that affects the species that live there
+
+---
+# SLR CC
+
+???
+as sea level rise, and climate change. <!---speciation <darwin finches>,--->
+
+---
+# Scuba pic
+
+And since you're wondering, yes, my education also included scuba diving and doing research in beautiful places. 
+
+???
+
+---
+# deep sea pic
+
+???
+
+When I was a PhD student my education was more targeted around my research questions. I learned about how species live in the deep sea, surviving within pressure and darkness of kilometers of water above them. 
+
+---
+# Squid fisheries
+
+???
+
+I also learned more about where calamari comes from, in terms of squid ecology, fisheries, and policy 
+
+I was in a research group that we call a laboratory or a lab where we all studied squids, interested to understand how they interact ecosystems and drive economies through fisheries. But with vastly different questions —
+---
+# JField map
+
+???
+
+I was interested in behavior and migration, fisheries, and conservation 
+
+---
+# hannah pic
+
+???
+
+others studied physiology, neuroscience, vision, and camouflage, 
+
+---
+# danna pic
+
+and also about development of early hatchlings that are only 1 mm long. 
+
+---
+# boat pic
+
+???
+
+We helped each other with our science: with field work, keeping animals alive in seawater tanks in the lab, and outreach <S4K>. 
+
+---
+# screenshot JSL matrix for loops 
+
+But data analysis was something that we had to figure out on our own, and it wasn't pretty. I learned MatLab in a complete panic when 2 years into my PhD when I finally had my own data, I couldn't even open it in Excel, the only analytical tool I knew.
+
+It was a demoralizing experience, to say the least. 
+
+Figuring it out alone created stress and shame and imposture syndrome because I thought I was the only one who wasn't prepared. It wasted time and slowed down my research — I literally spent 3 months trying to convert date format, with zero expectation that this was a problem somebody had encountered before. With my mindset at the time I could not separate this data problem from my scientific research, which truly no one had ever done before.
+
+And this has all been to set the stage that:
+
+---
+class: center, middle
+# R and data science have incredible potential accelerate scientific research
+
+<!--- no text on slides till now ---> 
+???
+
+Data science and teamwork have incredible potential accelerate scientific research. <!---FAST ---> They can help uncover solutions to our most pressing problems, which in the environmental space where I work include food security and sustainable resource use on land and in the oceans.
+
+
+--
+# But many environmental scientists are being excluded from this potential  
 
 ???
 
 But many environmental scientists are being excluded from this potential. 
 
----
-## R and data science have incredible potential accelerate scientific research.
 
-## But many environmental scientists are being excluded from this potential.  
-
-## We lack opportunities to learn and we lack a supportive scientific culture.
+we are wrapped into our science. 
+--
+# We lack a supportive scientific culture and opportunities to learn
 
 ???
 
 We lack opportunities to learn data science and we lack a scientific culture that supports us to incorporate it into our research. 
 
+My experience, and the experience of my other lab members, is typical. And not just for marine biologists, but for ecologists, evolutionary biologists, and all sister domains that can fit into environmental science. 
+
 It is not even a part of our culture to talk about data practices, which makes teamwork and collaboration more difficult since we do not have the mindset or really even the vocabulary to do so.
 
-transition:: But I know that we can change this culture in environmental science, and in other scientific fields as well.
+transition:: But I know that we can change this —
+
 ---
 # But R can help
 
@@ -114,7 +295,7 @@ transition:: But I know that we can change this culture in environmental science
 
 And we can do it following the example of this R community here. 
 
-And the R community has really focused on creating a positive space for people like me to be welcomed as human beings, and encouraged and supported as coders. 
+We are here from academia, finance, software development, pharma, non profits, and our community has really focused on creating a positive space for people to be welcomed as human beings first, and encouraged and supported as coders. 
 
 This makes the R community such a powerful team for innovation and collaboration, and I think this is exactly what environmental science needs.
 
@@ -129,16 +310,26 @@ And I know this is possible because I have lived through this mindset change mys
 
 It can be really intimidating to engage in data science and learn to code, especially when we also do not see examples of its benefits in our own context, and we are not aware of welcoming entry points to engage. 
 
+<!---
 We are scientists that are passionate about our work, and well-trained in our scientific domains. But we pretty immediately realize that we don't have the tools or skillsets to work responsibly with my data. 
 
 Most of us do end up coding to some degree. But it is something we resist as long as we can before learning just enough to get the job done at the last moment, usually in a total panic. 
+--->
 
-I actually like talking about this with analogies from Star Wars.
+transition: we all love analogies here and the one I like to use here is from Star Wars
 
 ---
 # Luke 
 
+
+It is the most demoralizing thing to be stranded with a challenge ahead of you that you can't solve with the skillsets you have — especially when you've heard there is something powerful but you don't know where to start 
 ???
+
+<!---
+Does it sound better like this: 
+We have all felt like Luke does here, when we are/feel stranded, looking at a challenge that we cannot solve with the skillsets we have. It is demoralizing and leads to desperate attempts 
+
+--->
 
 This is Luke after he crashed his plane in the swamp on Degobah. 
 
@@ -180,6 +371,8 @@ You here in this room have helped me change the way I do science and the way I t
 
 transition: So we'll come back to star Wars, but now let's come back to this planet and talk about what it's like to be an environmental scientist.
 
+If I think about what it's like to be a marine ecologist or an environmental scientist more broadly, this is the state of things. 
+
 ---
 # Horst environment
 
@@ -187,11 +380,18 @@ transition: So we'll come back to star Wars, but now let's come back to this pla
 
 Environmental scientists have a lot in common with the open source community because we are working for the public good, and passionate about our work. 
 
+<!---
 Environmental science is actually not a distinct discipline, but a collective term used to describe science interface of ecology and people/society.
+
+--->
+
+ADD THIS::: Data challenges have gotten bigger. And tools are here to ameiliarte. In the past the tools weren't even necessary. Didn't have asatellites. NOw we are seeing . Everything is happening faster. Need tools to meet these challenges. Until fairly recently haven't been available for the normal humans to use. Everything has changed, we need to get with the program. 
 
 We are deeply interdisciplinary, because our research questions require us to become experts in the many different domains we work in. 
 
-For example, a ecologist studying how pollinators affect agriculture crops might also need to understand the biology, behavior, and genomics of different bee populations, as well as local and regional patterns of water availabity through rain, snowmelt, and drought. 
+To have a "terrestrial" example as marine biologists would say — 
+
+A ecologist studying how pollinators affect agriculture crops might also need to understand the biology, behavior, and genomics of different bee populations, as well as local and regional patterns of water availabity through rain, snowmelt, and drought. 
 
 transition: And our resulting findings are really impactful for society.
 
@@ -200,8 +400,7 @@ transition: And our resulting findings are really impactful for society.
 
 ???
 
-Our findings help understand food systems, disease transmission, and climate change. And this means that communicating and collaborating with many different people is critical. We are often working with government bodies at local and international scales to help inform change on the ground.
-
+Our findings help understand food systems, disease transmission, and climate change. And this means that communicating and collaborating with many different people is critical. We are often working with governments at local and international scales to help inform change on the ground.
 
 As you can see, environmental scientists are doing critical work addressing problems, but there is this gap here in their skillsets that can cause delays when we have no time to waste.
 
@@ -211,6 +410,8 @@ So we work in different domains but something that unifies us is that we collect
 transition: But since we often rig up our analyses the way Luke would have, and this means we're not really proud of our code, which means we are less inclined to talk about it, and resistant to sharing it. And this perpetuates the culture of not talking about data and coding, and therefore not valuing it. 
 
 --->
+
+transition: we are doing really good work but we need to be better. 
 
 ---
 # Horst complete
@@ -238,7 +439,9 @@ transition: So over the past year with my Mozilla Fellowship, I've been trying t
 
 With Openscapes I'm focusing on building this culture at the core community unit of science, the research group or laboratory. 
 
-Openscapes is a mentorship program for research groups, helping them engage with open data science and become visible examples and vocal champions for open data science within their broader communities. 
+In environmental science, labs often have a common theme, which can be a species like my PhD lab and had with squid, or it can be a technique like population genetics, or a location like the Galapagos.
+
+Openscapes is a mentorship program for these labs, helping them engage with open data science and become visible examples and vocal champions for open data science within their broader communities. 
 
 We've just completed the pilot cohort of this mentoring program with 7 research groups, and I'm excited to tell you all about it bc I am so proud of what they accomplished.
 
@@ -255,48 +458,90 @@ But to tell the Openscapes story I need to first tell the Ocean Health Index sto
 
 And that's because I designed Openscapes based on what we experienced with the Ocean Health Index, because it is an example of how powerful data science and teamwork can be for environmental science. 
 
-R not only made it easier do analyses better, but also has been game-changing for communication and culture and what we think is possible. 
-
-Being able to efficiently share and communicate our work while it is ongoing rather than only post-publication has been really critical for us bridging science and policy. 
+R not only made it easier do analyses better, but also has been game-changing for us as a team to broaden our minds to what is possible in science and its impact. 
 
 It really has been like the Force, broadening our minds to what is possible for science. 
+
+And that has particularly been evident for efficiently collaborating, sharing and communicating our work while it is ongoing rather than only post-publication has been really critical for us bridging science and policy. 
 
 transition: so let's talk about the Ocean Health Index
 
 ---
 # OHI hex, bigger centered
 
+???
+
+The motivation behind OHI is that governments, non-profit groups, and scientists wanted a way to quantify ocean health and measure changes in ocean health through time so that policy could respond in a more holistic way to the things we care about. 
+
+Indicators are a powerful way to do this, although traditionally, oceans have been managed for single things, like a single fishery or a single pollution type. 
+
+OHI set out in 2008 to be a comprehensive indicator with best available science and data. Its focus was on the benefits humans get from oceans but also include impacts on oceans like pollution and climate change. 
 
 ---
-# OHI measure illustration
-Halpern 2012
+# pic fisheries and aquaculture
+
+???
+food
+
+---
+# pic tourism, jobs, and economies
+
+---
+# pic habitats and storm protection
+
+---
+# tourism
+
+---
+# SLR CC pollution
+
+<!---
+OHI context: people were trying to understand how to measure ocane health
+indicators are poweful way
+ways to explain the niche it was filling
+pretty pictures of the ocean. it spices up a talk. TED style. Beautiful. Use our human connection to the environment. Slowly pics pass go by . Try to understand how benifitting and impacting oceans in a quatnfifiable way. 
+--->
+
+transition: 
+
+---
+# Nature 2012 screenshot? 
+
+Halpern et al. 2012
 
 ???
 
-The Ocean Health Index is a program to measure what we value about our oceans using the best available data and science. 
+We first released it in 2012 and it was really well received. 
 
-One of the big things we do is we score how healthy oceans are for every coastal country around the world using nearly 100 publically available data sets, and we repeat this every year to track change through time. 
+Along with developing the method for combining these elements together, we also used the method to assess oceans globally. 
 
-It is a really ambitious project. 
+That means we scored how healthy oceans are for every coastal country around the world using nearly 100 publically available data sets. 
 
-We set out to be the best approach for data-driven marine policy around the world, and indeed now it is used by the United Nations and also by twenty government and university groups. 
+<!---, and we repeat this every year to track change through time. --->
+
+---
+
+So it is a really ambitious project. 
+
+We set out to be the best approach for data-driven marine policy around the world, and to repeat this global analysis every year. And indeed now it is used by the United Nations and also by twenty government and university groups. 
 
 transition: We did NOT set out to be the best approach for what open data science could look like in environmental science —
+
 
 ---
 # Nature E&E paper (authors only no abstract)
 
 ???
 
-But when we realized we had a story to tell with how these tools let us do better science in less time.
+But we realized we had a story to tell about our how these open data science enabled us do better science in less time.
 
-This publication is a retrospective of how we incrementally improved our workflow since that first publication 5 years earlier. 
+This story is a retrospective of how we incrementally improved our workflow over four years. 
 
-It tells and how R & and GitHub helped change the culture of our science, because it made our work faster and better, and also turned our science open source so that others could use and build from it. 
+It tells and how R & and GitHub helped change the culture of our science, because it made our work faster and better, and also helped us turn our methods open source so that others could use and build from them. 
 
-But it also talks about how hard this transition was for us. 
+And what was unique about this story was that we also shared about hard this transition was for us. 
 
-transition: We had to completely change the way we had always worked and seen other people work. 
+transition: In those 4 years we had had a reckoning with the way we worked with data, and we had to completely change the way we had always worked and seen other people work. 
 
 ---
 # Data Analysis_v2.xls
@@ -310,36 +555,46 @@ circa 2012
 
 ???
 
-This is how we had been working to do this study with 100 data sets. 
+This is just a sampling of how we had been working to do this study with 100 data sets. 
 
-We truly thought that this would be reproducible, and knew that we ourselves would be redoing this whole effort the next year, and for every year after that. 
+This was back in 2012, when we had 30 scientists and analysts collaborating this way, and we truly thought that this would be reproducible. 
 
-So it was also really deflating and embarassing that it was not. 
+We knew that we ourselves would be redoing this whole effort the next year, and we had gone out of our way to write down what we had done in word documents to accompany excel files and R scripts.
 
-And we had deadlines and pressures to keep, and it just seemed really unattainable, like getting that plane out of the swamp.  
+So it was also really deflating and embarassing that it was not easy for even us to reproduce.
 
-transition: but let me tell you up front how we did it
+And we had deadlines and pressures to keep, so doing anything different seemed really unattainable, like getting that plane out of the swamp.  
+
+transition: but we obviously did improve, so let me tell you up front how we did it
 
 ---
-# 1. We were a team
-2. someone jazzed about R
-3. team lead valued & supported us
+# 1. We were a team (pic of us?)
+2. team lead valued & supported us (pic of halpern)
+3. someone jazzed about R (pic of best?)
 
 ???
+
 There are a couple of key things about this transition for us. 
 
 The first is that we thought of ourselves as a team. This seems simple but it was a big deal. We trusted each other and were willing to learn from each other, and teach each other. We were willing to talk about the tools we were using and move towards all working with a common set of tools. 
 
-A second thing is that we had someone on our team that was really jazzed about R and willing to patiently teach us
+The second and really importantly we had a team lead who saw value in us investing time and resources
 
-And the third and really importantly we had a team lead who saw value in us investing time and resources
+A third thing is that we had someone on our team that was really jazzed about R. And he was willing to patiently teach us R and GitHub together as a team.
 
-So this gave us time and space to learn R and GitHub together as a team.
+---
+# summary: 
+# 1. We were a team (pic of us?)
+2. team lead valued & supported us (pic of halpern)
+3. someone jazzed about R (pic of best?)
+
+???
 
 So for this first year we were focused on easing into these tools. For me I was still only using R and GitHub in a pretty narrow sense, for coding and sharing code. 
 
-It was definitely making my analytical life better but it hadn't completely changed my life.
+It was definitely making my analytical life better but it hadn't completely changed my my life yet.
 
+transition: But then 2 important things happened:
 
 <!---
 All of us had GH accounts, even BH
@@ -349,37 +604,44 @@ Our collegue Ben, the one who was jazzed about R, was using Shiny and devtools a
 --->
 
 ---
-# rOpenSci, Twitter
+# Twitter
 
 ???
 
-But then 2 important things happened: we joined Twitter and went to an rOpenSci unconf. 
+First, we joined Twitter. My colleague Jamie
 
-I had never used Twitter before, so I was definitely skeptical. I thought it was a megaphone, I didn't realize it was a place to have thoughtful conversations with people, and most of all is is a way to connect with others and to listen and learn. 
+I had never used Twitter before, so I was definitely skeptical. I thought it was a megaphone, I didn't realize it was a place to have thoughtful conversations with people, and most of all is is a way to listen and learn and connect with others. 
 
-On Twitter I was amazed that I could learn from and interact with coders and developers. I was really blown away that developers were real people, and real people that were super nice and that we could talk with. My experience with software before that had not really had a person behind it — 
+On Twitter I was amazed that I could learn from and interact with coders and developers. 
 
-transition: unless you can count Clippy. 
+I was really blown away that developers were real people, and real people that were super nice and that we could talk with. 
+
+Prior to this I had never imagined that there were real people behind software. 
+
+transition: this is the closest I'd come.
 
 ---
-# Clippy, question mark
+class:middle, inverse, center
 
+![](https://media.giphy.com/media/13V60VgE2ED7oc/giphy.gif)
+
+<!---![](https://media.giphy.com/media/Law8cmreIvpMQ/giphy.gif) --->
 ???
+
+But it turns out, R developers are way more awesome than Clippy. 
 
 ---
 # pic of us with Hadley & Joe
 
 ???
 
-But it turns out, R developers are way more awesome than Clippy. 
+The second thing is we went to the rOpenSci unconf and met Karthik and Joe and Hadley and Winston and other folks in person.
 
-At the rOpenSci conf, we met Karthik and Joe and Hadley and other folks in person.
-
-It was a big deal to be feel so welcomed here, and it really broadened my thinking of of what community is and what teamwork is. 
+It was a big deal to be feel so welcomed here, and it really broadened my thinking of what community is and what teamwork is. 
 
 I really started feeling that this was more than code, it was a better way to work and a better way to do science. 
 
-transition: this was really the defining point where I became that person that would not stop talking about how life-changing R and open science and the R community is 
+this was really the defining point in my life. This is when I really became the person I am today — that person who never stops talking about R and data science and open science and community. 
 
 transition: so much so that even my 3 year old niece knew about dplyr and ggplot. 
 
@@ -389,6 +651,17 @@ transition: so much so that even my 3 year old niece knew about dplyr and ggplot
 knitr::include_graphics("img/tweet-juliequid-wizard.png")
 # https://twitter.com/juliesquid/status/726521325821431808
 ```
+
+---
+# Fig 1
+
+???
+
+All of this really revolutionized OHI. We were able to do better science in less time, and feel good about it. 
+
+We repeat our global study each year, ... Use statistics: 3Mill to 250K. 20 team to 2 intersns. Def include these stats.
+
+It didn't happen all at once; like all scientists we had a lot going on and time spent learning to code took away from other tasks. But soon we started getting that time back, and could invest it in other things. 
 
 ---
 # ohicore package (screenshots)
