@@ -97,13 +97,7 @@ Now that you've heard all of this you can see how teams are so important. But ne
 
 You can do open science without being part of a team so this is something I am trying to work at. Core message. Visual
 
-In the last section, don't assume have a team. Build up a story or message about how to find your team. Openscapes is one way I'm trying to help people find teams when they don't exist. Not everyone has Opesncapse or a lab. Maybe they don't realize they have them and need to engage but also they might now. Maybe need to realize what you have. What if you don't. We all have a team but don't realize it. How to buildt
-RLadies. 
 
-Managers employees/senior developers
-
-Feedback loop Jamie quote: "there might be people on the outside of this loop but you're here so you're already part of it". 
-How do we get people on the outside in — 
 
 It's not about fixing problems it's about making something good even bnetter
 
@@ -121,9 +115,9 @@ R for better science in less time
 then part of the intro is about deconstructing
 it's not that the science we do now is bad, it's better because it's faster, more open, streamlined, inclusive. 
 
-Big impact of comm for OHI . Funding Beau Wrigley website. R lets us translates 
-
 --->
+
+???
 
 NO UM START What's my starting word? WELL or SO <3 mins>
 
@@ -136,7 +130,7 @@ I'm a marine ecologist and 5 years ago I never would have imagined I would be he
 
 ???
 
-Let me just take a minute to both reinforce and demistify what you think a marine ecologist does
+I thought I would start off both reinforce and demistify what you think a marine ecologist does
 
 ---
 # intertidal pic
@@ -182,6 +176,7 @@ When I was a PhD student my education was more targeted around my research quest
 I also learned more about where calamari comes from, in terms of squid ecology, fisheries, and policy 
 
 I was in a research group that we call a laboratory or a lab where we all studied squids, interested to understand how they interact ecosystems and drive economies through fisheries. But with vastly different questions —
+
 ---
 # JField map
 
@@ -814,24 +809,6 @@ What are the entryways to get into it?
 <!---transition: I think back to how intimidated I was to coding and the idea of open science, and how life-changing it has been for me. And the most important part was being welcomed and supported. 
 --->
 
-<!---
-horst welcome to #rstats illustration
-
-???
-
-I think the power of welcome, as Stef Butland would call it, is the way to go. 
-
-I think back to how intimidated I was to coding and the idea of open science, and how life-changing it has been for me. And the most important part was being welcomed and supported. 
-
-How we welcome them into this world of data science and teamwork, no matter matter where they are starting from. 
-
-Over the last 6 years I've been informally mentoring friends and colleagues — if that's what you can call being relentless in talking about R and open science all the time. 
-
-But listening to scientists and understanding how they work and what challenges they have about data has really paved the way for Openscapes. 
-
-transition: With Openscapes I've created more formal mentorship program, but it essentially does this — welcomes more scientists into our community and extends it into other communities as well. 
-
---->
 
 ---
 # Openscapes hex, center
@@ -1147,21 +1124,45 @@ transtion: And beyond, in other scientific fields, and beyond.
 ---
 # So what can we all do — Rey
 
-<!---
-In the last section, don't assume have a team. Build up a story or message about how to find your team. Openscapes is one way I'm trying to help people find teams when they don't exist. Not everyone has Opesncapse or a lab. Maybe they don't realize they have them and need to engage but also they might now. Maybe need to realize what you have. What if you don't. We all have a team but don't realize it. How to buildt
-RLadies. 
---->
+Openscapes is one way I'm trying to help people find teams when they don't exist. 
 
+Not everyone has a defined team around them, or maybe they don't realize they have them and need to engage but also they might now. 
+
+Maybe need to realize what you have. What if you don't. We all have a team but don't realize it. How to buildt
+RLadies. 
+
+---
+# At first it was like, but now it's like 
+horst illustration?
+
+???
+
+but also it can be intimidating, and that people's entry ways can be different from yours, or you might have forgotten what it was like when you learned.
+
+---
+# Power of Welcome
+horst welcome to #rstats illustration
+
+<!---
+In the last section, don't assume have a team. Build up a story or message about how to find your team.
+--->
 
 ???
 So what can we all do as individuals? 
 
 I do think that it's all about the power of Welcome, as Stef Butland puts it. 
 
+I think back to how intimidated I was to coding and the idea of open science, and how life-changing it has been for me. And the most important part was being welcomed and supported. 
+
 I think we all can do our part to become leaders and champions for these practices in our own worlds, and welcoming more people to have this mindset. 
 
-We need to extend the ethos of this community to our faculty meetings, advocating for courses and dedicated lecturers to teach them. 
+We need to extend the ethos of this R community to our faculty meetings, our board meetings, or project updates, etc. Managers employees/senior developers
 
+We can advocating for opportunities to learn, which in academia means courses and dedicated lecturers to teach them. 
+
+And if you yourself feel like you're on the outside of the feedback loop or on the threshold of this Welcome know that since you're here you're here so you're already part of it. 
+
+<!---
 Talk about and show your colleagues how R makes you 
 
 - a data scientist, but also
@@ -1170,6 +1171,8 @@ Talk about and show your colleagues how R makes you
 - a designer
 - an inspired and supported community member
 - and a community leader
+
+--->
 
 <!---
 Have question marks in a table! I don't know how to fix this
