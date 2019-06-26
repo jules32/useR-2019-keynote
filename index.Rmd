@@ -19,6 +19,7 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
 
 library(xaringan)
 library(fontawesome)
@@ -133,16 +134,17 @@ I'm a marine ecologist and 5 years ago I never would have imagined I would be he
 I thought I would start off both reinforce and demistify what you think a marine ecologist does
 
 OR:
-we think of science as being this pretty streamlined thing
-but it really operates in pockets, labs. 
+I'm a scientist
+we think of science as being this pretty streamlined thing (new studies come out...) (pic of a wave?)
+but it really operates in pockets, labs. (ripples)
 labs are often around a theme or topic. My PhD lab was like this.
 We were a squid lab, broadly inteeresteed in xyz. Some things we focused on were xyz. 
 This meant we did field work, we traveled, we had to go out on boats to catch squid and then track down tags. 
 Really incredible opportunities to learn about these animals and make a difference for fisheries, for ecology, for people. 
 But it's not so smooth going. Because in all my education I had learned about processes etc. I had never learned how to work responsibly with my data. 
 And even though we are part of a lab, part of a group that is unified around science, it can be really lonely and isolating when it comes to data bc we don't have the skills, mindset, or support. 
-Star Wars 
-so for me the force is open data science, and the community is us in this room. There can be as many jedis as we want. 
+Star Wars.  
+so for me the force is open data science, and the community is us in this room. There can be as many jedis as we want. I learned this after my phd. 
 R is awesome
 This is how this can revolutionise science: R4DS. 
 But we need to welcome. (maybe don't use the "has the power" and "are excluded" bits)
@@ -664,9 +666,12 @@ This helped us think in the same way together.
 transition: and this is when R really changed the game for science communication. 
 
 ---
-# reproducibility, collaboration, communication. 
+# OHI path — summary
 
-???
+```{r out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/lowndes-nature-table1.png")
+# https://www.nature.com/articles/s41559-017-0160/tables/1
+```
 
 ---
 # ohi-science.org
@@ -756,6 +761,14 @@ Screenshots from Openscapes slides =  aweomsone OHI stuff,
 tweets
 
 --->
+
+---
+# Table 1 
+
+took us a long time to nail down. --- And also have Openscapes do this 
+
+ALso: seems to rain a lot around here. How I use Twitter. 
+
 
 ---
 # Box 1 & 2 excerpts
