@@ -132,6 +132,21 @@ I'm a marine ecologist and 5 years ago I never would have imagined I would be he
 
 I thought I would start off both reinforce and demistify what you think a marine ecologist does
 
+OR:
+we think of science as being this pretty streamlined thing
+but it really operates in pockets, labs. 
+labs are often around a theme or topic. My PhD lab was like this.
+We were a squid lab, broadly inteeresteed in xyz. Some things we focused on were xyz. 
+This meant we did field work, we traveled, we had to go out on boats to catch squid and then track down tags. 
+Really incredible opportunities to learn about these animals and make a difference for fisheries, for ecology, for people. 
+But it's not so smooth going. Because in all my education I had learned about processes etc. I had never learned how to work responsibly with my data. 
+And even though we are part of a lab, part of a group that is unified around science, it can be really lonely and isolating when it comes to data bc we don't have the skills, mindset, or support. 
+Star Wars 
+so for me the force is open data science, and the community is us in this room. There can be as many jedis as we want. 
+R is awesome
+This is how this can revolutionise science: R4DS. 
+But we need to welcome. (maybe don't use the "has the power" and "are excluded" bits)
+
 ---
 # intertidal pic
 
@@ -157,9 +172,9 @@ as sea level rise, and climate change. <!---speciation <darwin finches>,--->
 ---
 # Scuba pic
 
-And since you're wondering, yes, my education also included scuba diving and doing research in beautiful places. 
-
 ???
+
+And since you're wondering, yes, my education also included scuba diving and doing research in beautiful places. 
 
 ---
 # deep sea pic
@@ -194,6 +209,8 @@ others studied physiology, neuroscience, vision, and camouflage,
 ---
 # danna pic
 
+???
+
 and also about development of early hatchlings that are only 1 mm long. 
 
 ---
@@ -205,6 +222,8 @@ We helped each other with our science: with field work, keeping animals alive in
 
 ---
 # screenshot JSL matrix for loops 
+
+???
 
 But data analysis was something that we had to figure out on our own, and it wasn't pretty. I learned MatLab in a complete panic when 2 years into my PhD when I finally had my own data, I couldn't even open it in Excel, the only analytical tool I knew.
 
@@ -479,6 +498,8 @@ That means we scored how healthy oceans are for every coastal country around the
 
 ---
 
+???
+
 So it is a really ambitious project. 
 
 We set out to be the best approach for data-driven marine policy around the world, and to repeat this global analysis every year. And indeed now it is used by the United Nations and also by twenty government and university groups. 
@@ -526,12 +547,14 @@ And we had deadlines and pressures to keep, so doing anything different seemed r
 transition: but we obviously did improve, so let me tell you up front how we did it
 
 ---
-# 1. We were a team (pic of us?)
-2. team lead valued & supported us (pic of halpern)
-3. someone jazzed about R (pic of best?)
+# Pics here.
+1. team lead valued & supported us. BH
+2. We were a team
+3. someone jazzed about R
 
 ???
 
+Our research group was unique/strong in several ways. 
 There are a couple of key things about this transition for us. 
 
 The first is that we thought of ourselves as a team. This seems simple but it was a big deal. We trusted each other and were willing to learn from each other, and teach each other. We were willing to talk about the tools we were using and move towards all working with a common set of tools. 
@@ -641,6 +664,11 @@ This helped us think in the same way together.
 transition: and this is when R really changed the game for science communication. 
 
 ---
+# reproducibility, collaboration, communication. 
+
+???
+
+---
 # ohi-science.org
 
 ???
@@ -686,7 +714,7 @@ They have turned us into web developers. We can auto-generate them for any count
 transition: RMarkdown has really changed the game for us for communicating with our partners and groups. These simple websites help us organize and present data, but also —
 
 ---
-# ohi-northeast dashboard
+# ohi-northeast dashboard, Casey dashboard. 
 
 ???
 We are also using shiny in a few ways, and this is one of the coolest examples. 
@@ -842,7 +870,7 @@ I designed Openscapes to recreate what was so critical to us with OHI. It needs 
 2. We were a team
 3. someone jazzed about R
 
-??
+???
 
 And to have the most targeted impact, I'm focusing on team leads who are already doing impactful science and are leaders in their disciplines. 
 
@@ -856,7 +884,7 @@ The idea is that if these scientists who already have influence can also be role
 2. We were a team > laboratories, research groups
 3. someone jazzed about R
 
-??
+???
 
 And with Openscapes I'm not just focused on mentoring individuals but whole teams. I mentor the teams that already exist in science: the laboratory, just like my PhD lab that focused around squid.
 
@@ -935,6 +963,7 @@ Twitter is a part of this: teach how to engage but also how to amplify
 ---
 # Structure
 
+???
 5-month remote course, also piloting on-demand workshops for teams. 
 
 Each month I meet one-on-one with the lab lead, 
@@ -957,7 +986,7 @@ ALSO SCREENSHOTS OF GOOGLE DOCS
 3. someone jazzed about R > Openscapes lesson series > have pathways forward
 
 ???
-The purpose for these cohort calls is so everyone learns and sees the value and power of what's possible, and that the leads feel comfortable letting their labs develop these skillsets, and the lab members have agency and paths forward for what to do 
+The purpose for working with lab members and leads is so everyone learns and sees the value and power of what's possible, and that the leads feel comfortable letting their labs develop these skillsets, and the lab members have agency and paths forward for what to do 
 
 So through this process, everyone is really starting to value it as individuals and as labs. But making this more visible to broader networks is critical as well, 
 
@@ -1049,12 +1078,15 @@ transition: This includes mentors giving space and promoting mentees
 ???
 But it is also a chance to show how they can amplify each other, and how that is particularly important as team leads and mentors. 
 
-
+---
+# Tweet about Seaside Chats (JSL)
 
 ---
 # Lesson 2. Cohort building is important
 
 ???
+
+Not just about alliances in the lab, but across labs. 
 
 Mozilla Open Leaders knows this
 
@@ -1093,13 +1125,12 @@ Some good questions that have arisen are
 
 - how do you set up good practices for the lab when you do not know those practices yourself? And if you don't have time to learn, and they're always changing? 
 
-
 <!---
 This isn't just about me amplifying the awesome accomplishments they have made, but I certainly do that. 
 --->
 
 ---
-# data science <-> teamwork
+# open data science <-> teamwork
 
 ???
 
@@ -1111,7 +1142,7 @@ transition: but there is still a long ways to go until —
 # horst complete fig
 
 ???
-until we really operate like this. 
+until science as a whole really operate like this. 
 
 And I do think that Openscapes is an important way to help ignite this change, and I am so proud of what we accomplished. And I will be continuing to lead these online cohorts, and also lead short-form workshops with teams on the ground. So I'm really excited about it.
 
@@ -1119,12 +1150,18 @@ But truly, Openscapes is not the long-term solution. Scientists should not be le
 
 What we really need to make this picture complete is to value this enough in environmental science that it becomes part of formal education, that we hire and compensate excellent environmental data scientists to teach these at the university, and that these practices become part of the evaluation process for what it means to be a scientist. We need to value all of these things in environmental science more. 
 
+We need labs to operate like this, and have common skillsets and mindsets that make collaborations between labs and individual people's transitions between labs more smooth. 
+
 transtion: And beyond, in other scientific fields, and beyond. 
 
 ---
 # So what can we all do — Rey
 
-Openscapes is one way I'm trying to help people find teams when they don't exist. 
+???
+
+Openscapes is one way I'm trying to help people find teams when the team already is defined. 
+
+But what if they don't exist. 
 
 Not everyone has a defined team around them, or maybe they don't realize they have them and need to engage but also they might now. 
 
