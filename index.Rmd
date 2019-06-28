@@ -78,6 +78,79 @@ Data challenges have gotten bigger. And tools are here to ameiliarte. In the pas
 
 it's not that the science we do now is bad, it's better because it's faster, more open, streamlined, inclusive. 
 
+Reorg Allison notes Jun 27
+Nail down pacing and no ums
+R is the force analogy. That has to be the most bombproof impact statemetn. Works perfectly. For us, R is the force. and what that means is this. Doesn't have to be a long explanation. Everyone tweets the line
+"R is the force that enables us to do this thing"
+Say it at the end. you preface it enough. Get to the analogy and say it quickly and do all 
+Luke feels defeated without tools
+Yoda opens up the world
+But he didn't defeat the empire himself, he had a whole community.
+And then also this. And what does that look like in Data science? In env science, using the force is what we do for open data science. END WITH AWESEOME STATEMENT
+R is the force and 
+This is an awesome quotable. Let things sit up there and have impact. More powerful
+
+horst envir+comms: remind them of a tangible example for this. So I previously talked about my challenge working with squid data because I had this gap bc not working with data. But this is really a broader problem in environmental science. A goodie for their brain. It's a bigger issue. Places where you can remind people of what they've already lerned is awesome. And a great way to transition.
+
+OHI intro and explanation is too long. Indicators are good ways doesn't mean much if you don't know waht they are. TOO long on what it is. 
+Only thing: we're trying to on a global scale trying to better understand and quatnify the health of our oceans. that's a massive
+"this is a really massive novel sicnetific undertaking but for us, it also meant to do sound and reproducible data science". And in order to do the big questions with the science, we had to get our ducks in a row for data science. 
+"OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
+
+Do I want to sell the pub of this story of our pub: we were not the only people struggling with this. No let's keep it here. We had a pub.
+
+What are our secrets section: like it but didn't work
+those secrets seem vague. People want concrete things. 
+It's OK if I say those things later on. Have a preview 
+Move those. 
+Before we did this data science updates stuff this is what people like. But those secrets put this at the end. Now I've told you about the tech advances. but what actually was some of thee intangible things that made these madssive change spossible
+What these were were community and leadership. 
+YEs we were able to measure efficneinces in data scienc ework
+supportive leader who empowered us to focus on ds
+learing to work as a team and collab
+and have people we were working with who were really excited. 
+Twitter and broader community at the end here too. 
+This empowered us to do eco-data
+This is all what enabled openscapes, Bommer awesome streamline intro to how do we breakdown those barriers and entryways. 
+So for OHI: short intro. big undertaking, but if you're oging to do something that big and important in science you need to have your data science. 
+this is what we did. technical aspects. all figures from paper. 
+But that's really easy to say: "change these thigns" but what are the intangible and really ciritacl things: 
+it came down to 5 things: 
+leader 
+working as a team
+jazzed about R
+twitter
+joining and participating in broader communities
+this will shorten OHI part and set up Openscapes
+And then I say is this is a feedback loop intertwined and working together. Positive feedback loop. So it took us 4 years to realize this. How do we make it so that it isn't so terrible and long process for other labs. 
+
+transitiongremind why you talked about OHI
+so we spent 4 years learning how to work as a team using ODS tools. In Openscapes I wanted to decrease that effort. That's waht drives Openscapes. get you from that big circle to the smaller circle in less time. 
+
+Openscapes recipe connect this to the lessons learned from OHI> 
+aspects of leadership and community
+Cut the cohort summary. 
+Cut the wods in the openscapes labs. 
+*****They want to know the lessons learned. **** more imp than details. 
+My personal story then OHI's story then Openscapes story and here's what I've learned throught his process so that
+weekly meetings with calls, the point is doing this. 
+CUT WORDS. a few high-impact sentences on each lessons learned.
+
+Call to action part
+return to loop
+Yes we can learn the data science tool and when it comes to team building
+Mindset shift to get into it. 
+Empathy
+Keep in minds soemthing i think is surprising: people we look at who are doing really amazing env science might be really intimidated by data science and they might need to be welcomed. 
+Just bc someone is a brillant env scientce, they might still need help welcoming bc they are doing some of the toughest stuff in the world right now. 
+< big pic recap: people answering raelly imporant qs in en sci don't always have the tool and teams they neeed but there are ways to welcome and empoer them to do bettere science in less time. 
+
+comfortable not broadening past env sicent
+env science should be a thing that intersts everyone
+Qs: do you think this is true in othere fieelds? 
+A: yes absolutely
+
+Make big high-impact statement. OHI is a big deal. don't worry about overstating. make it a keynote. 
 --->
 
 ???
