@@ -80,17 +80,8 @@ it's not that the science we do now is bad, it's better because it's faster, mor
 
 Reorg Allison notes Jun 27
 Nail down pacing and no ums
-R is the force analogy. That has to be the most bombproof impact statemetn. Works perfectly. For us, R is the force. and what that means is this. Doesn't have to be a long explanation. Everyone tweets the line
-"R is the force that enables us to do this thing"
-Say it at the end. you preface it enough. Get to the analogy and say it quickly and do all 
-Luke feels defeated without tools
-Yoda opens up the world
-But he didn't defeat the empire himself, he had a whole community.
-And then also this. And what does that look like in Data science? In env science, using the force is what we do for open data science. END WITH AWESEOME STATEMENT
-R is the force and 
-This is an awesome quotable. Let things sit up there and have impact. More powerful
 
-horst envir+comms: remind them of a tangible example for this. So I previously talked about my challenge working with squid data because I had this gap bc not working with data. But this is really a broader problem in environmental science. A goodie for their brain. It's a bigger issue. Places where you can remind people of what they've already lerned is awesome. And a great way to transition.
+A goodie for their brain. Places where you can remind people of what they've already lerned is awesome. And a great way to transition.
 
 OHI intro and explanation is too long. Indicators are good ways doesn't mean much if you don't know waht they are. TOO long on what it is. 
 Only thing: we're trying to on a global scale trying to better understand and quatnify the health of our oceans. that's a massive
@@ -151,38 +142,75 @@ Qs: do you think this is true in othere fieelds?
 A: yes absolutely
 
 Make big high-impact statement. OHI is a big deal. don't worry about overstating. make it a keynote. 
+
+
+
+////
+
 --->
 
 ???
 
-NO UM START What's my starting word? WELL or SO <3 mins>
+NO UM START >> WELL
 
 Well thank you so much, it is so amazing to be here with all of you and I want to thank the organizers for this invitation. 
 
-<!---My story quickly becomes a team story--->
+I am going to talk today about how we can welcome more people to use R for better science in less time.  
 
-In this talk I am going to talk about how we can welcome more people to use R for better science in less time.  
-
-<!---and extend this culture that we have here to other communities. --->
-
-transition: I also want to give you a sense of what marine and environmental scientsts do, because I know some of you might have ideas
+transition: I am going to focus on welcoming marine and environmental scientists, so I wanted to start by giving a sense of what we do, because I know some of you might have your own ideas
 
 ---
-# Funny pic
-kissing dolphins? 
+name: dolphin option 1
+background-image: url(img/pixabay-dolphin-sarahrichterart.jpg)  
+background-size: contain
+
+---
+template: dolphin option 1
+
+# Not marine science
+
+.footnote[
+<br>
+<br>
+source: [XXXXX](https://pixabay.com/photos/woman-dolphin-ride-swim-2444053/)
+]
+
+
+<!---
+name: dolphin option 2
+class: center, middle
+background-image: url(img/may-manzur-9TpDPannURM-unsplash.jpg)  
+background-size: contain
+
+
+.footnote[
+<br>
+<br>
+source: [May Manzur](https://unsplash.com/photos/9TpDPannURM)
+]
+--->
 
 ???
 
-But seriously, it can be hard to wrap your head around what we actually do, even as we are seeing more and more environmental headlines these days
+But seriously, you might not know what we actually do, even as we are seeing more and more environmental headlines these days
 
 ---
-# UN biodiversity headline. 
+name: species
+class: center, middle
+background-image: url(img/wapo-species-extinction.png)  
+background-size: contain
+
+.footnote[
+source: [Washington Post](https://www.washingtonpost.com/climate-environment/2019/05/06/one-million-species-face-extinction-un-panel-says-humans-will-suffer-result/?noredirect=on&utm_term=.3ab8917c9e50)
+]
 
 ???
 
-Studies like these make it seem that science as a streamlined or uniformed effort but science really operates in pockets, with individuals working within, and increasingly, across as research groups or laboratories.
+Studies like these make it seem that science is a uniformed effort that streamlines data into results.
 
-transition: labs are often around a theme or topic, like a species, place, or method. My PhD lab was like this.
+But science really operates in pockets, with individuals working within research groups and laboratories, as well as across them.
+
+transition: research laborties are often around a theme or topic, like a species, place, or method. My PhD lab was like this.
 
 ---
 # Squid lab pic
@@ -192,32 +220,32 @@ We were a squid lab, broadly interested to understand how squid interact with ec
 transition: Although we had the same anchor, all of us in the lab focused on different pieces of this broader interest. 
 
 ---
-# pic maps
+# pic john field maps
 
 ???
 
-I focused on behavior and migration, fisheries, conservation, and climate change
+I focused on adult behavior and migration, and how this is relevant to fisheries, conservation, and impacted by climate change
 
 ---
 # pic chromatophores
 
 ???
 
-others studied physiology, neuroscience, vision, and camouflage, 
+others studied physiology, neuroscience, vision, and camouflage, which is really important since we have learned a lot about human neurons through studying squid neurons
 
 ---
 # pic baby squid
 
 ???
 
-also about development of early hatchlings that are only 1 mm long. 
+also about development of squid babies, that are only 1 mm long when they hatch but can grow to be nearly my size in less than a year, meaning they eat a lot. 
 
 ---
 # pic fieldwork
 
 ???
 
-This meant we did field work, we traveled, we had to go out on boats to catch squid and then track down tags. 
+This meant we did a lot of work at sea and in the lab. We would go fishing and catch and release squid that we tagged with electronic tags so they would turn into little oceanographers as they swam. 
 
 ---
 # pic policy/presenting our work
@@ -239,14 +267,13 @@ boat pic
 field work, keeping animals alive in seawater tanks in the lab, and outreach <S4K>. 
 --->
 
-transition: I like to use analogy from Star Wars
+transition: I like to talk about this with analogies from Star Wars.
 
 ---
-# Luke 
-
-<!---
-It is the most demoralizing thing to be stranded with a challenge ahead of you that you can't solve with the skillsets you have — especially when you've heard there is something powerful but you don't know where to start 
---->
+name: luke
+class: center, middle
+background-image: url(img/horst-starwars-luke2.png)
+background-size: contain
 
 .footnote[
 art: [@allison_horst](https://twitter.com/allison_horst)
@@ -254,103 +281,21 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
+And then also this. And what does that look like in Data science? In env science, using the force is what we do for open data science. END WITH AWESEOME STATEMENT
+R is the force and 
 
-<!---
-Does it sound better like this: 
-We have all felt like Luke does here, when we are/feel stranded, looking at a challenge that we cannot solve with the skillsets we have. It is demoralizing and leads to desperate attempts 
-
---->
 
 This is Luke after he crashed his plane in the swamp on Degobah. 
 
-He is there staring at a challenge that he cannot solve with the skillsets he has. 
+He is demoralized because he cannot solve the problem before him with the skillsets and tools he has. 
 
-It is super demoralizing, and he has no idea how to even begin this process. 
-
-<!---
-Imagine for a moment if he had tried to rig up some pullees and levers. 
-
-It would not have been pretty. Or reproducible. It wouldn't be something he was proud of and he wouldn't have wanted anyone to know about. And, he wouldn't have learned much to prepare for any upcoming challenges.
-
---->
-
-transition: but what happens next is that he meets Yoda 
+transition: but what happens next is that he meets Yoda
 
 ---
-# Yoda
-
-.footnote[
-art: [@allison_horst](https://twitter.com/allison_horst)
-]
-
-???
-
-And Yoda has a skillset to solve  Luke's problem in a way he never imagined: he uses the Force. 
-
-And Luke can learn from Yoda, and he will develop skills to not only solve this problem, but it will open his mind to what is possible and the challenges he can take on. 
-
-transition: But the Force alone didn't make Luke successful, it is the community that he is a part of. 
-
----
-# Hands
-
-.footnote[
-art: [@allison_horst](https://twitter.com/allison_horst)
-]
-
-???
-
-Luke works with a team that is not only Jedis that have the same skillsets he does. This community/movement made up of diverse people that have different backgrounds and expertise, and all of them contribute in really important ways. 
-
-So the Force is R or what I talk about as open data science, which includes open practices and teamwork. And the community is us, the people in this room. 
-
----
-# Rey 
-
-???
-
-Having this R community has been so impactful for me as a scientist. Instead of feeling stranded in a swamp like I have several times in my scientific career, I feel more powerful than I ever imagined. 
-
-You here in this room have helped me change the way I do science and the way I think about what is possible. You have empowered me and helped me build confidence that translates well beyond code. 
-
-transition: So we'll come back to star Wars, but now let's come back to this planet and talk about how we can help welcome more environmental scientists into this community because this is what environmental science should feel like.
-
-<!---
-So for me the force is open data science, and the community is us in this room. There can be as many jedis as we want. I learned this after my phd. 
-
-This takes a shift in mindset. And I know this is possible because I have lived through this mindset change myself, and I have spent the last 6 years igniting cultural change in environmental science by working with colleagues around the world. 
-
-But I think it can change with the R community 
-
-This is how this can revolutionise science: R4DS. 
-
-But we need to welcome. (maybe don't use the "has the power" and "are excluded" bits)
-
-
-
--# But R can help
-
-???
-
-And we can do it following the example of this R community here. 
-
-We are here from academia, finance, software development, pharma, non profits, and our community has really focused on creating a positive space for people to be welcomed as human beings first, and encouraged and supported as coders. 
-
-This makes the R community such a powerful team for innovation and collaboration, and I think this is exactly what environmental science needs.
-
-Changes in mindset and culture
-
-???
-
-
-<!---
-We are scientists that are passionate about our work, and well-trained in our scientific domains. But we pretty immediately realize that we don't have the tools or skillsets to work responsibly with my data. 
-
-Most of us do end up coding to some degree. But it is something we resist as long as we can before learning just enough to get the job done at the last moment, usually in a total panic. 
---->
-
----
-# Horst environment
+name: yoda
+class: center, middle
+background-image: url(img/horst-starwars-yoda.png) 
+background-size: contain
 
 
 .footnote[
@@ -359,23 +304,17 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-Environmental scientists have a lot in common with the open source community because we are working for the public good, and passionate about our work. 
+And Yoda uses the Force to solve Luke's problem in a way he never imagined. 
 
-<!---
-Environmental science is actually not a distinct discipline, but a collective term used to describe science interface of ecology and people/society.
+This is going to open up Luke's whole world because he can learn from Yoda and not only solve his current but it will broaden his mind to what is possible in the future. 
 
---->
-
-We are deeply interdisciplinary, because our research questions require us to become experts in the many different domains we work in. 
-
-To have a "terrestrial" example as marine biologists would say — 
-
-A ecologist studying how pollinators affect agriculture crops might also need to understand the biology, behavior, and genomics of different bee populations, as well as local and regional patterns of water availabity through rain, snowmelt, and drought. 
-
-transition: And our resulting findings are really impactful for society.
+transition: But Luke didn't go on to defeat the Empire himself, he had a whole community.
 
 ---
-# Horst environment & comms
+name: alliance
+class: center, middle
+background-image: url(img/horst-starwars-hands.png)  
+background-size: contain
 
 
 .footnote[
@@ -384,23 +323,13 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-Our findings help understand food systems, disease transmission, and climate change. And this means that communicating and collaborating with many different people is critical. We are often working with governments at local and international scales to help inform change on the ground.
-
-As you can see, environmental scientists are doing critical work addressing problems, but there is this gap here in their skillsets that can cause delays when we have no time to waste.
-
-ADD THIS::: Data challenges have gotten bigger. And tools are here to ameiliarte. In the past the tools weren't even necessary. Didn't have asatellites. NOw we are seeing . Everything is happening faster. Need tools to meet these challenges. Until fairly recently haven't been available for the normal humans to use. Everything has changed, we need to get with the program. 
-
-<!---
-So we work in different domains but something that unifies us is that we collect and work with a lot of data. 
-
-transition: But since we often rig up our analyses the way Luke would have, and this means we're not really proud of our code, which means we are less inclined to talk about it, and resistant to sharing it. And this perpetuates the culture of not talking about data and coding, and therefore not valuing it. 
-
---->
-
-transition: we are doing really good work but we need to be better. 
+The rebel alliance is powerful because of the diversity of backgrounds and expertise, and although not everyone is a Jedi, everyone contributes in really critical ways. 
 
 ---
-# Horst complete
+name: environment
+class: center, middle
+background-image: url(img/horst-starwars-rey.png) 
+background-size: contain
 
 
 .footnote[
@@ -409,57 +338,120 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-But that's why I think data science and teamwork can really complete this picture here. 
+So open data science is the Force that enables us to do better science in less time. 
 
-R streamlines how we work with data, and also streamlines how we work with each other. 
+And the alliance is our community, everyone in this room. 
 
-So with I want to do is not only welcome more environmental scientists to the R community, I want to simultaneously extend our values and our ethos to environmental science so that scientists can work more streamlined as a team.
+Having this our community has been so game-changing for me as a scientist. 
 
-transition: So over the past year with my Mozilla Fellowship, I've been trying to do this through a program I've developed called Openscapes.
+Instead of feeling stranded in a swamp like I have several times in my scientific career, I feel more powerful and supported than I ever imagined. 
+
+And I want all environmental scientists to feel this powerful and supported. 
+
+transition: This is critical because I just told you about my data challenges for my squid research, but this is really a broader problem in marine and environmental science. 
 
 ---
-# (outline slide)
-.pull-right[Openscapes hex
+name: environment
+class: center, middle
+background-image: url(img/horst-eco-r4ds-env-only.png) 
+background-size: contain
 
-- mentorship program for research groups
-- create more visible examples & champions for open data science
-- just completed pilot cohort!
+.footnote[
+<br>
+<br> 
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
+
+???
+
+For example, an ecologist might be studying how bees pollinate crops that are important for agriculture. 
+
+To do this they might collect data on the biology, behavior, and genomics of different bee populations, and combine that with data on water availability from rain and snow. 
+
+Their data would be a combination of observations, genetic sequencing, and sensor data on the ground and from satellites. 
+
+transition: And their findings are impactful and important to communicate to different audiences.
+
+---
+name: environment-communication
+class: center, middle
+background-image: url(img/horst-eco-r4ds-env-comm-only.png) 
+background-size: contain
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
+
+???
+
+Their results help inform policy and management decisions around food systems, disease transmission, sustainability, and climate change. 
+
+As environmental scientists, we are often working with governments at local and international scales to help inform change on the ground.
+
+And we hhave a lot in common with the open source community because we are working for the public good, and passionate about our work. 
+
+But data challenges have gotten bigger and faster; we are not trained to collect and manage and combine and analyze the types of data that we require to do our work.
+
+transition: But I know that open data science and teamwork can really complete this picture here. 
+
+---
+name: environment-communication
+class: center, middle
+background-image: url(img/horst-eco-r4ds.png) 
+background-size: contain
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
+
+???
+
+The interplay of open data science and community can have resounding impacts on environmental science — because R streamlines how we work with data, and also streamlines how we work with each other. 
+
+To make this a reality we need to not only welcome more environmental scientists to the R community, but also simultaneously extend our values and our ethos to the environmental science community.
+
+It requires changes in mindset for individuals to make change in the culture as a whole, but I know it is possible because I have lived through this mindset change myself, and I have spent the last 6 years igniting cultural change in environmental science. 
+
+transition: But over the last year with a fellowship from Mozilla, I've been focused on doing this more formally through program I've developed called Openscapes.
+
+---
+<br>
+
+.pull-right[
+![](img/openscapes-hex.png)
 ]
 
 ???
 
 With Openscapes I'm focusing on building this culture at the core community unit of science, the research group or laboratory. 
 
-In environmental science, labs often have a common theme, which can be a species like my PhD lab and had with squid, or it can be a technique like population genetics, or a location like the Galapagos.
-
 Openscapes is a mentorship program for these labs, helping them engage with open data science and become visible examples and vocal champions for open data science within their broader communities. 
 
 We've just completed the pilot cohort of this mentoring program with 7 research groups, and I'm excited to tell you all about it bc I am so proud of what they accomplished.
 
---
-.pull-left[OHI hex
 
-- example of data science & teamwork
-- R is game-changing for communication & culture
+---
+<br>
+
+.pull-left[
+![](img/OHI-hex.png)
+]
+
+.pull-right[
+![](img/openscapes-hex.png)
 ]
 
 ???
 
 But to tell the Openscapes story I need to first tell the Ocean Health Index story. 
 
-And that's because I designed Openscapes based on what we experienced with the Ocean Health Index, because it is an example of how powerful data science and teamwork can be for environmental science. 
-
-R not only made it easier do analyses better, but also has been game-changing for us as a team to broaden our minds to what is possible in science and its impact. 
-
-It really has been like the Force, broadening our minds to what is possible for science. 
-
-And that has particularly been evident for efficiently collaborating, sharing and communicating our work while it is ongoing rather than only post-publication has been really critical for us bridging science and policy. 
+And that's because I designed Openscapes based on what our team experienced with the Ocean Health Index, and it is now probably the most visible example of how powerful open data science can be for environmental science. 
 
 transition: so let's talk about the Ocean Health Index
 
 ---
 
-```{r out.width = '90%', fig.align='center'}
+```{r OHI hex, out.width = '55%', fig.align='center'}
 knitr::include_graphics("img/OHI-hex.png")
 ```
 
@@ -1193,14 +1185,41 @@ And she and has just started the first RLadies chapter in New Jersey
 # Horst Lab
 stats & data analysis for environmental science grad students
 
+pic of Allison
+
 ???
-This is the Horst Lab, they teach stats & data analysis for environmental science grad students
+This is Allison Horst and she and her teaching assistants teach stats & data analysis for environmental science grad students. 
 
-Allison has upgraded her stats course to now teach the tidyverse and GitHub. She has also shared all her courses online and created a website — and something that is awesome is that Michelle who I just mentioned is going to be leading a new course at Rutgers using these lessons herself.
 
-They have also started a weekly in-person coding club for #tidytuesday
+---
+name: ggplot2_masterpiece
+```{r out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/horst-ggplot2_masterpiece.png")
+```
 
-And she has won department and campus-wide teaching awards two years running!
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)
+]
+
+
+???
+
+You might recognize her name from all the amazing artwork in this presentation, and from her rstats illustrations like this one. 
+
+transition: Through conversations that preceded Openscapes and through Openscapes itself —
+
+---
+# screenshot allisonhorst.github.io
+
+???
+
+Allison has upgraded her stats course and now not only teaches the tidyverse but also GitHub. She also got all of her course materials online and created this website for her students to be able to access everything more easily. 
+
+This means that every year, when nearly 100 students complete their masters degree they join the workforce in government, conservation and other aspects of environmental science and management, and they take these skills with them. 
+
+<!---
+She has also shared all her courses online and created a website — and something that is awesome is that Michelle who I just mentioned is going to be leading a new course at Rutgers using these lessons herself.
+--->
 
 transition: that has been something really exciting to see more broadly: 
 
@@ -1251,7 +1270,8 @@ Not just about alliances in the lab, but across labs.
 
 Mozilla Open Leaders knows this
 
-Summit
+Summit 
+summit-cohort1.jpg
 
 ---
 # Halley and Chelsea tweet
