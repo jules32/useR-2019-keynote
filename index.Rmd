@@ -27,7 +27,11 @@ knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
 library(xaringan)
 library(fontawesome)
 library(tidyverse)
-table1 <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/betterscienceinlesstime/gh-pages/manuscript/table1.csv")
+table1 <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/betterscienceinlesstime/gh-pages/manuscript/table1.csv") %>%
+  dplyr::select(-X1) %>%
+  dplyr::mutate(Now = str_remove_all(Now, "`"), 
+                `Primary open data science tools` = 
+                  str_remove_all(`Primary open data science tools`, "`"))
 
 ```
 
@@ -83,35 +87,12 @@ Nail down pacing and no ums
 
 A goodie for their brain. Places where you can remind people of what they've already lerned is awesome. And a great way to transition.
 
-OHI intro and explanation is too long. Indicators are good ways doesn't mean much if you don't know waht they are. TOO long on what it is. 
-Only thing: we're trying to on a global scale trying to better understand and quatnify the health of our oceans. that's a massive
-"this is a really massive novel sicnetific undertaking but for us, it also meant to do sound and reproducible data science". And in order to do the big questions with the science, we had to get our ducks in a row for data science. 
-"OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
-
-Do I want to sell the pub of this story of our pub: we were not the only people struggling with this. No let's keep it here. We had a pub.
-
 What are our secrets section: like it but didn't work
 those secrets seem vague. People want concrete things. 
 It's OK if I say those things later on. Have a preview 
 Move those. 
-Before we did this data science updates stuff this is what people like. But those secrets put this at the end. Now I've told you about the tech advances. but what actually was some of thee intangible things that made these madssive change spossible
-What these were were community and leadership. 
-YEs we were able to measure efficneinces in data scienc ework
-supportive leader who empowered us to focus on ds
-learing to work as a team and collab
-and have people we were working with who were really excited. 
-Twitter and broader community at the end here too. 
-This empowered us to do eco-data
-This is all what enabled openscapes, Bommer awesome streamline intro to how do we breakdown those barriers and entryways. 
-So for OHI: short intro. big undertaking, but if you're oging to do something that big and important in science you need to have your data science. 
-this is what we did. technical aspects. all figures from paper. 
-But that's really easy to say: "change these thigns" but what are the intangible and really ciritacl things: 
-it came down to 5 things: 
-leader 
-working as a team
-jazzed about R
-twitter
-joining and participating in broader communities
+Before we did this data science updates stuff this is what people like. But those secrets put this at the end. 
+
 this will shorten OHI part and set up Openscapes
 And then I say is this is a feedback loop intertwined and working together. Positive feedback loop. So it took us 4 years to realize this. How do we make it so that it isn't so terrible and long process for other labs. 
 
@@ -146,6 +127,9 @@ Make big high-impact statement. OHI is a big deal. don't worry about overstating
 
 
 ////
+Q for Allison:
+
+- Nature figure 1, use original? Or simplified?
 
 --->
 
@@ -457,36 +441,45 @@ knitr::include_graphics("img/OHI-hex.png")
 
 ???
 
-The motivation behind OHI is that governments, non-profit groups, and scientists around the world wanted a way to understand what is benefitting and impacting oceans in a quatifiable way.
+With the OHI we are trying on a to better understand and quantify the health of our oceans on a global scale. 
 
-Indicators are a powerful way to do this, and what is different about the OHI is that it combines many things that are usually analysed and managed in isolation. These include  benefits people get from oceans like 
+To make this useful and actionable for policy, the OHI focuses on how the ocean provides benefits to people, and models it with the best publically available data and science. 
 
----
+
+<!---
+
+"OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
+
+And in order to do the big questions with the science, we had to get our ducks in a row for data science. 
+
+--->
+
+<!---
 # pic fisheries and aquaculture
 
 ???
 food
 
----
+
 # pic jobs, and economies
 
 ???
 
 jobs
 
----
+
 # pic habitats and storm protection
 
 ???
 storm protection
 
----
+
 # tourism
 
 ???
 tourism
 
----
+
 # SLR CC pollution
 
 ???
@@ -494,53 +487,32 @@ And also includes pressures that act on these benefits like pollution and climat
 
 transition: 
 
+--->
+
 ---
 # Global map
 
 .footnote[
-Halpern *et al.* 2012, *Nature*
+
+<br>
+<br>
+
+source: [Halpern *et al.* 2012, *Nature*]
 ]
 
 ???
-This was a big effort that took 4 years to develop, and was first released in 2012. 
 
-It was really well received. 
-
-Along with developing the method for combining these elements together, we also used the method to assess oceans globally. 
-
-That means we scored how healthy oceans are for every coastal country around the world using nearly 100 publically available data sets and modeling. 
+From all of this, we create maps like these, with scores reflecting how healthy oceans are for every coastal country around the world. 
 
 And ever since, we have repeated this work every year so that we could understand how ocean health changes through time. 
 
----
-# OHI+ map
+This is a really massive novel scientific undertaking, and for us, it also meant to do sound and reproducible data science
 
-???
+But we did not know how. 
 
-So it is a really ambitious project. 
+transition: when we first developed the OHI in 2012, we had files like these. 
 
-We set out to be the best approach for data-driven marine policy around the world, and to repeat this global analysis every year. And indeed now it is used by the United Nations and also by twenty government and university groups around the world. 
-
-transition: We did NOT set out to be the best approach for what open data science could look like in environmental science —
-
----
-# Nature E&E paper (authors only no abstract)
-
-.footnote[
-Lowndes *et al.* 2017, *Nature Ecology & Evolution*
-]
-
-???
-
-But open data science tools revolutionized the way we worked and enabled us do better science in less time, and we realized we needed to share this story. 
-
-This story is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
-
-We are not the first to publish about how important open science and data science is for reproducibility in science. 
-
-But what is unique about this paper and why it has really resonated with people is that we shared how hard this transition was for us. 
-
-transition: In those 4 years we had had a reckoning with the way we worked with data, and we had to completely change the way we had always worked and seen other people work.
+but we fixed it, with ODS. nature paper. then fig.
 
 ---
 ### Data Analysis_v2.xls
@@ -552,7 +524,6 @@ transition: In those 4 years we had had a reckoning with the way we worked with 
 
 Add Luke as small image on right
 
-
 .footnote[
 circa 2012 <br>
 art: [@allison_horst](https://twitter.com/allison_horst)
@@ -561,13 +532,11 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-This reckoning came because of files like these. 
+We were marine scientists using the tools and approaches we had learned along the way. 
 
-Back in 2012, our team was gathering, organizing, wrangling, modeling, and reporting on 100 data sets, and we truly thought that this would be reproducible. 
+Our team was wrangling and modeling nearly 100 datasets and planned to repeat this every year in the future. 
 
-We knew that we ourselves would be redoing this whole effort the next year, and we had gone out of our way to write down what we had done in word documents to accompany excel files and R scripts.
-
-But in 2013 it took so much detective work to understand where and what we had done, and it took a long time to redo. It was also really deflating and embarassing that it was not easy for even us to reproduce.
+And we truly thought that this approach would be reproducible, and were pretty deflated when it was not
 
 ---
 # Yoda
@@ -579,47 +548,340 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-transition: but we did improve or I wouldn't be standing here, so let me tell you up front how we did it
+but we did figure it out, and open data science tools have let us do better science in less time. 
+
+transition: These tools revolutionized the way we worked and we realized we could help others do the same
 
 ---
-name: Pics here.
-Night Lizard
-Shiny laughing
+# Nature E&E paper (authors only no abstract)
 
-???
-
-There are some really key things about our team that make this possible. 
-
-We had a team lead who saw value in us investing time and resources. This is BH. 
-
-And he helped set the tone so that we is that we thought of ourselves and acted like a team. 
-
-This seems simple but it was a big deal. We trusted each other and were willing to learn from each other, and teach each other. We were willing to talk about the tools we were using and move towards all working with a common set of tools. 
-
-And, we had someone on our team that was really jazzed about R. And he was willing to patiently teach us R and GitHub together as a team.
-
----
-# OHI open data science secret
-
-.pull-left[
-1. Our team lead/supervisor supported us
-1. We worked a team
-1. Champion for R
-]
-
-.pull-right[
-TODO: change pic to Star Wars hands!
-![Image of Poptocat2](https://octodex.github.com/images/poptocat_v2.png)
+.footnote[
+source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
 ]
 
 ???
 
-So this was our secret. There was a lot to do to transition away from our hand-versioned excel files to but these things gave us support, community, and guidance for what to do. 
-Back in 2013 and 2014 we we were focused on easing into these tools. For me I was still only using R and GitHub in a pretty narrow sense, for coding and sharing code. 
+We published our story about our path to better science in less time using open data science tools. 
 
-It was definitely making my analytical life better but it hadn't completely changed my my life yet.
+It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
 
-transition: But then 2 important things happened:
+---
+
+TODO: Allison Q: only to 2017. Use original?
+
+```{r fig 1, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/lowndes-nature-figure1-slides2.png")
+# https://docs.google.com/drawings/d/1d25T1fD9irluhQhPvNHZSt3uUBXebxqV9hFabOLZUz4/edit
+```
+
+.footnote[
+
+<br>
+<br>
+source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160), updated
+]
+
+???
+
+This is a figure from the paper showing how it took us less time each year to redo our work, and that it got easier to be reproducible and collaborate with others.
+
+In 2012 it took us 3M, 4 years, and 20 team members. Now in 2019 it takes 250K, eight months, and 2 or 3 graduate student interns.
+
+This change took time and and I think why it has really resonated with people is that we shared how hard this transition was for us. 
+
+transition: Because we really face a reckoning with the way we worked with data, and we had to completely change the way we had always worked and seen other people work.
+
+---
+class: center, middle, inverse
+# Reproducibility
+# Collaboration
+# Communication
+
+???
+
+We share how we upgraded the way we work in terms of repro, collab, comm. 
+
+It took us a long time to categorize our work like this because it required abstracting data science steps from our ocean health index steps. 
+
+We had never thought about what were data challenges universally held by everyone and what were science challenges we faced with ocean health. So teasing these apart and articulating them was a big part of this story. 
+
+---
+# Reproducibility
+
+```{r repro, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% 
+                  c("data preparation", "modeling", "version control", "organisation")) %>%
+  dplyr::mutate(
+    Then = "",
+    Now = "",
+    `Primary open data science tools` = "") %>%
+  knitr::kable(format = "html")
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+We broke reprocibility into data prep, modeling, version control, and organization, thought about what we did before, now, and the tools we used. 
+
+---
+# Reproducibility
+
+```{r repro-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% 
+                  c("data preparation", "modeling", "version control", "organisation")) %>%
+  knitr::kable(format = "html")
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+We had really been doing things by hand and with our own homegrown systems, so the biggest changes were using R and GitHub for everything, and having shared practices and conventions with the tidyverse and file storage. 
+
+---
+# Collaboration
+
+```{r collab, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% c("coding", "workflow and project management", "internal collaboration")) %>%
+   dplyr::mutate(
+    Then = "",
+    Now = "",
+    `Primary open data science tools` = "") %>%
+  knitr::kable(format = "html")
+
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+We thought the same way about collaboration, thinking about our coding, workflows, and internal correspondance.
+
+---
+# Collaboration
+
+```{r collab-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% c("coding", "workflow and project management", "internal collaboration")) %>%
+  knitr::kable(format = "html")
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+Not only did shared convensions with R help our coding, but shared convensions with GitHub helped our project management and our documentation. 
+
+Using GitHub for all of this was really helpful for onboarding new teammembers.
+
+---
+# Communication
+
+```{r comm, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% c("sharing data", "sharing methods")) %>%
+  dplyr::mutate(
+    Then = "",
+    Now = "",
+    `Primary open data science tools` = "") %>%
+  knitr::kable(format = "html")
+
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+And finally for communication, we thought about this in terms of how we shared our data and methods. 
+
+For scientists using traditional tools, communication is really limited to the end of a project when everything can be wrapped into a PDF and data put on a remote server somewhere.
+
+---
+# Communication
+
+```{r comm-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
+table1 %>%
+  dplyr::filter(Task %in% c("sharing data", "sharing methods")) %>%
+  knitr::kable(format = "html")
+
+```
+
+.footnote[
+[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+But communication changed for us because we could put everything online. All our code and data are online throughout the process, and we were able to create websites and share things along the way, not only at the end. 
+
+This is a huge deal for environmental science, since there are so many different audiences involve and being able to communicate as data decisions are being made rather than only at the end is huge.
+
+transition: so what this all looks like is
+
+---
+# Screenshots as separate slides: 
+github.com/ohi-science/ohi-global, ohiprep
+
+Or show ohi-science.org; 
+
+ohi-science.org/ohicore
+
+ohi-science.org/ohi-global
+
+
+ohi-science.org/toolbox-training
+
+---
+class:middle, inverse, center
+# Open source science
+
+<!--- Others can more build off of our science because they can build directly off our code. --->
+
+???
+ 
+But what this also means is that it's easier for other people to build off of our science because they can build directly off our code. 
+
+---
+# OHI+ map 
+
+???
+
+And we have had over 20 groups using our science and our code to do OHI assessments in the places they care about. 
+
+We created a training program to help them understand the science and the code, and create template GitHub repos for them to organize their data and use the ohicore package.
+
+transition:
+
+---
+# New Caledonia tweet
+
+???
+
+NC completed a pilot assessment in 2016 
+is preparing to use OHI for monitoring, assessment, and active management of its 1.3 million square kilometer marine park
+
+---
+# OHI Cornwall
+
+???
+
+Here in europe, the UK
+
+ part of this also involved generating simple RMarkdown websites for them so that they can communicate about their work with their own stakeholders. 
+
+indonesia just led the world of the oceans, 
+and cornwall is expecting this to be a bit part of the EU.
+
+---
+# ohi-northeast dashboard
+
+???
+
+The OHI is included in President Obama's ocean plan policy for the US Northeast.
+
+Here Shiny dashboards have been a way to communicate with partners on the decision making process throughout the analyses.
+
+Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
+
+
+<!---
+
+What these were were community and leadership. 
+YEs we were able to measure efficneinces in data scienc ework
+supportive leader who empowered us to focus on ds
+learing to work as a team and collab
+and have people we were working with who were really excited. 
+Twitter and broader community at the end here too. 
+This empowered us to do eco-data
+This is all what enabled openscapes, Bommer awesome streamline intro to how do we breakdown those barriers and entryways. 
+
+So for OHI: short intro. big undertaking, but if you're oging to do something that big and important in science you need to have your data science. 
+this is what we did. technical aspects. all figures from paper. 
+But that's really easy to say: "change these thigns" but what are the intangible and really ciritacl things: 
+it came down to 5 things: 
+leader 
+working as a team
+jazzed about R
+twitter
+joining and participating in broader communities
+
+--->
+
+---
+# Fig 1 reprise?
+
+???
+
+So I've told you about the tech advances and how we were able to reduce time and help enable others. 
+
+But there were some critital intangible things that made these massive change possible
+
+---
+class: center, middle, inverse
+# Community and Leadership
+
+???
+Community and leadership were an enormous part of our success. And I can break it down into 5 things: 
+
+---
+# pic ben 
+
+???
+
+we had supportive leader who empowered us to focus on ds
+
+---
+# pic ohi team
+
+???
+
+we learned to work as a team, which meant trusting and learning from each other
+
+---
+# pic shiny laughing
+
+
+we had people we were working with who were really excited about R
+
+---
+# pic twitter
+
+???
+
+Twitter and broader community at the end here too. 
+
+---
+# pic EDS, RLADIES logos
+
+???
+
+And we joined communities online and created commuities locally. 
+This empowered us to do eco-data
+
+---
+I want to talk about these last 2 points a bit more deeply for a moment
+
+---
+class: center, middle, inverse
+# Community and Leadership
+(summary list)
+
+# leader 
+### working as a team
+jazzed about R
+twitter
+joining and participating in broader communities
+
 
 ---
 # pic of Jamie Twitter profile
@@ -688,25 +950,6 @@ knitr::include_graphics("img/tweet-juliequid-wizard.png")
 # https://twitter.com/juliesquid/status/726521325821431808
 ```
 
----
-
-```{r out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/lowndes-nature-figure1-slides2.png")
-# https://docs.google.com/drawings/d/1d25T1fD9irluhQhPvNHZSt3uUBXebxqV9hFabOLZUz4/edit
-```
-
-.footnote[
-<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
-]
-
-???
-
-All of this really revolutionized OHI. We were able to do better science in less time, and feel good about it. With that extra time we were able to focus on streamlining our workflows and improving our science. And on training, teaching. 
-
-It took us 3M, 4 years, and 20 team members to do the first assessment in 2012. Now it takes 250K and 2 or 3 graduate student interns.
-
-It didn't happen all at once; like all scientists we had a lot going on and time spent learning to code took away from other tasks. But soon we started getting that time back, and could invest it in other things. 
-
 <!---
 # ohicore package (screenshots)
 R projects & GitHub repos
@@ -725,146 +968,6 @@ transition: and this is when R really changed the game for science communication
 
 --->
 
----
-class: center, middle, inverse
-# Reproducibility
-# Collaboration
-# Communication
-
-???
-We thought about this in terms of repro, collab, comm
-
----
-# OHI path — reproducibility FIX table
-
-```{r, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("data preparation", "modeling", "version control", "organisation")) %>%
-  dplyr::select(-X1) %>%
-  # dplyr::mutate(Now = str_remove_all(
-  knitr::kable(format = "html")
-```
-
-.footnote[
-[Lowndes *et al.* 2017 *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
-]
-
----
-# OHI path — collaboration
-
-```{r, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("coding", "workflow and project management", "internal collaboration")) %>%
-  dplyr::select(-X1) %>%
-  # dplyr::mutate(Now = str_remove_all(
-  knitr::kable(format = "html")
-
-```
-
-.footnote[
-[Lowndes *et al.* 2017 *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
-]
-
----
-# OHI path — communication
-
-```{r, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("sharing data", "sharing methods")) %>%
-  dplyr::select(-X1) %>%
-  # dplyr::mutate(Now = str_remove_all(
-  knitr::kable(format = "html")
-
-```
-
-.footnote[
-[Lowndes *et al.* 2017 *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
-]
-
----
-# Screenshots as separate slides: 
-github.com/ohi-science/ohi-global, ohiprep
-
-Or show ohi-science.org; 
-
-ohi-science.org/ohicore
-
-ohi-science.org/ohi-global
-
-ohi-science.org/toolbox-training
-
-???
- 
-<!--
-knitr::include_graphics("img/lowndes-nature-table1.png")
-
-
-???
-
-ohi-science.org
-
-This is the website that we launched in 2016 that we made with Jekyll, and it now seems crazy that we didn't always have it a central place to share all our methods with this project. 
-
-It started off as a simple one pager, where we could put pdfs for partners to download. Now it has so much more, it's a central hub for anyone wanting to learn more information about how we do those OHI for all countries globally — 
-
-transition: and also it's a place where folks can learn how to do their own. 
-
---->
-
----
-# Box 1 & 2 excerpts
-
-???
-
-And in the paper we also share resources for what helped us learn. This includes R4DS and Stat 545, but also NSSD 
-Also, recommendataions for how to get started. 
-
-This has also helped with onboarding new team members onto our team.
-
-
-
----
-# OHI+ map again?
-
-???
-
-By this point we were teaching the broader OHI community how to use our R package, and R and GitHub. 
-
-
-<!---
-I mentioned that over 20 groups are using the OHI to assess ocean health in their own waters around the world. 
-
-We were able to help them learn how to do this with resources on the website, but also by creating GitHub repos for them that contained all of our code and data as a starting point for them. 
-
-GitHub lets us distribute and share with collaborators in a way that was never possible before, and I teach and help troubleshoot through github. It's been so streamlined. 
-
-transition: part of this also involved generating simple RMarkdown websites for them so that they can communicate about their work with their own stakeholders. 
-
---->
-
----
-# OHI Cornwall
-
-???
-ohirepos::deploy_website(repo_registry, push = TRUE) 
-
-We just started making websites so they can communicate too. 
-For example, OHI Cornwall is 
-
-indonesia just led the world of the oceans, 
-and cornwall is expecting this to be a bit part of the EU.
-
-???
-
----
-# ohi-northeast dashboard, Casey dashboard. 
-
-???
-We are also using shiny in a few ways, and this is one of the coolest examples. 
-
-We are leading OHI Northeast, and it is actually included in part of President Obama's ocean plan, and this has been a way to communicate with partners on the decision making process throughout the analyses.
-
-Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
 
 
 ---
@@ -1071,6 +1174,9 @@ class: center, middle, inverse
 # break into several slides, tweets. 
 
 ???
+
+
+PATHWAY
 
 What we teach in the series
 
