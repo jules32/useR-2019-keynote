@@ -127,6 +127,35 @@ Q for Allison:
 - Nature figure 1, use original? Or simplified?
 - Twitter stuff: how to include the hadley wizard quote? clippy? rOpenSci?
 
+
+June 30 Notes from Allison
+Good until Openscapes. 
+If I put a picture of me and a squid you will need a sentence of what I'm doing. THis is me with a swud
+Great transitions for intro!
+ON the R4DS drawing: added credit updated from Wickham & Gr
+super cleaned polished streamlined cutting words. But don't lose my enthusiam bc it's succinct
+If I feel like I'm monotoned don't worry, i'll be more excited
+OHI: worried about absolute stateents. OHI is '''one of the most visible'''. be careful not to make anyone defensive. 
+need transiton bt describing OHI and and then to the paper intro. Maybe just wording, "so we wrote a paper about it" sounds aweful. We realized we wereon't the only team strugglin with data. so much that we published our story so other groups can learn from that. 
+BSILT table and figures. When I show table: i'm not going through all of this and you don't need to read it. But our main shifts are these. 
+Open source science >> good, keep. A strong
+ANother ool thing we were trying to improve our own data science efforts but by createing packages and documentation and workflows but these empowered other researchers to do their own assessments on their own coastlines. 
+Openscapes nail down transitions
+Talk about seaside chats. These are separte meetings specifically about data. In our other lab meetings. We had to create a space to focus on the data. 
+Make sure this still sounds like a story. Intro and OHI sounds like a story. Openscapes doesn't sound like a story. "we do this, also this", not intesting. 
+Focus on what is the story of openscapes and whay is it so valuable and what comes out of it that proves that it's working. What is the big picture keynote worthy
+Openscapes: other resarchar labs shouldn't have to figure this out on their own. they should customize a basic wheel so they have to create it from scratch. They shouldn't have to figure it out all on their own like we did with OHI
+
+SEtup from OHI: Openscapes will be less painful and long for other groups. SEt this up by saying: if i had to generalize, the 2 main things we had to overcome in order to make this progr: we were unawarre of and benefit from open tools, and we weren't prioritizing teamowkr and culture in labs. These are the 2 problems that ware really common across env science reaseerch labs. 
+What we realized is that both of these end points arentbeing addressed in reaserch labs and how they are connecteed wasn't discussed. So the dev and interconnectedness of both of these. And how it realtes to openscapes. OPENSCAPES IS MAKING THIS WHEEL
+
+that's the big picutre problem. 
+Also liked the concrete lessons learned so if I could say these. From case studies: it's a big up front time investment but worth it. 
+
+story idea: Build / structure: keep returning to this loop. The first side we want to focus on is culture and support. until we deal with this ds will be deflating. So for the frist 5 weeks we focused on the culture side of things. Now we transition from open and trusta nd honesty. Then, what are the tools we can use within that to do bsilt. These tools and these communities. We realized this awesome loop exists that adccelerates our science and our quality of life. If that's what Openscapes is based on, keep returning to it. How do these interact with each other. Explain the loop that this creates for labs. How openscapse closes this into a cohesive loop
+THose things can't exist separately if you want to succesfful lab, it makes everyone more happy labs operate as teams, makes it more reproducble happier
+
+
 --->
 
 ???
@@ -262,10 +291,6 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 ]
 
 ???
-
-And then also this. And what does that look like in Data science? In env science, using the force is what we do for open data science. END WITH AWESEOME STATEMENT
-R is the force and 
-
 
 This is Luke after he crashed his plane in the swamp on Degobah. 
 
