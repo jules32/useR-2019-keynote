@@ -848,9 +848,10 @@ But there were some critital intangible things that made these massive change po
 
 ---
 class: center, middle, inverse
-# Community and Leadership
+# Teamwork
 
 ???
+I'm going to call this teamwork but it could be collaboration, community. 
 Community and leadership were an enormous part of our success. And I can break it down into 5 things: 
 
 ---
@@ -1390,71 +1391,112 @@ Adrian tweet about Sam
 But it is also a chance to show how they can amplify each other, and how that is particularly important as team leads and mentors. 
 
 
-
 ---
-# ODS <-> teamwork loop
+# ODS <-> teamwork loop, with grassland?
 
 ???
 
-Yes we can learn the data science tool and when it comes to team building
-Mindset shift to get into it. 
+Developing and piloting the Openscapes program has been really rewarding.
 
-Empathy
-Keep in minds soemthing i think is surprising: people we look at who are doing really amazing env science might be really intimidated by data science and they might need to be welcomed. 
+And for me it shows that we can learn open data science and strengthen teamwork and this is really powerful for science. 
+
+And I do think that Openscapes is an important way to help ignite this change, and I am so proud of what we accomplished. I am going to continue this work and plan to lead annual online cohorts, and also short-form workshops with teams in person. 
+
+So I'm really excited about that and would love to talk to anyone who is interested.
 
 ---
 # horst complete fig
 
-
 ???
 
-but we have a long way to go 
-until science as a whole really operate like this. 
+But we have a long way to go until science as a whole really operate like this. 
 
-people we look at who are doing really amazing env science might be really intimidated by data science and they might need to be welcomed. 
-
-Just bc someone is a brillant env scientce, they might still need help welcoming bc they are doing some of the toughest stuff in the world right now. 
-< big pic recap: people answering raelly imporant qs in en sci don't always have the tool and teams they neeed but there are ways to welcome and empoer them to do bettere science in less time.
-
-and there are opps but challenges as teams. how do you lead well when you dont know?
-
-people answering raelly imporant qs in en sci don't always have the tool and teams they neeed but there are ways to welcome and empoer them to do bettere science in less time.
-
-And I do think that Openscapes is an important way to help ignite this change, and I am so proud of what we accomplished. And I will be continuing to lead these online cohorts, and also lead short-form workshops with teams on the ground. So I'm really excited about it.
+Scientists answering really important questions in environmental science don't always have the skills and teams they need.  
 
 But truly, Openscapes is not the long-term solution. Scientists should not be learning this on their own time through pockets of opportunity. 
 
-What we really need to make this picture complete is to value this enough in environmental science that it becomes part of formal education, that we hire and compensate excellent environmental data scientists to teach these at the university, and that these practices become part of the evaluation process for what it means to be a scientist. We need to value all of these things in environmental science more. 
+
+<!---but there are ways to welcome and empower them to do bettere science in less time.
 
 We need labs to operate like this, and have common skillsets and mindsets that make collaborations between labs and individual people's transitions between labs more smooth. 
 
-transtion: And beyond, in other scientific fields, and beyond. 
+
+--->
 
 
----
-# Lesson : Power of Welcome
-horst welcome to #rstats illustration
-
+--- 
+class: inverse
+# 3 overall lessons learned (separate as different slides with subbullets? or maybe just build out on the same slide.
+<br>
 
 ???
-I think we all have our part to play in welcoming others.
 
-Biggest lesson ive learned throughout my work with squid, ohi, and openscapes is that anyone can step up and be a leader. the easiest/fastest way is to welcome and encourage others.
+So I have 3 overall lessons learned. They are from my experience with environmental scientists and as  an environmental scientist, butI'm fairly sure these are more applicable way beyond
 
-I do think that it's all about the power of Welcome, as Stef Butland puts it. 
+We need to value all of these things in environmental science more. 
 
-This is the same if you yourself are looking for your team. empathy.
+--
+# need for open data science OR open data science is a mindset
 
-And if you yourself feel like you're on the outside of the feedback loop or on the threshold of this Welcome know that since you're here you're here so you're already part of it. 
+???
+
+Yes, open data science means powerful tools for data analyis and reproducibility. But also for communiication and collaboration, and it's a whole ethos. 
+
+/// ALSO
+
+Open data science needs to be part of our formal education. 
+
+And working responsibly and collaboratively with data needs to become part of what it means to be a scientist. 
+
+Honestly this need is so great. Working with data isn't yet a true part of our conversations. When I bring it up there is often confusion about what I'm talking about and then it turns into a confessional about their data practices and filenames. So we need to value this more and support scientists. 
+
+--
+# need for teamwork OR make your team a team
+
+???
+
+This is similar to make your partner a partner, but I think it's critical. 
+
+I This is something I realized early on: that didn't think of themselves like teams
+
+Labs were not necessarily thinking of themselves as a team so much as a collection of individuals doing their own thing. Luke
+
+Team, redefined. Within your official team, or research group, but also across cohorts, with collaborators, with this rstats community. 
+
+We need to value teamwork and 
+
+In addition to focusing on really emotionally challenging topics like species extinction and climate change, there are so many pressures on scientists time, from research, grant writing, mentoring, teaching, and that adds to why it can be so overwhelming to also be tasked with open data science. 
+
+But if we can have science value teamwork and collaboration more, where skillsets overlap and are valued rather than everyone feeling like they have to do it all, we will be better off.
+
+So this means trust and time
+
+--
+# power of welcome OR Weave welcome throughout everything you do OR make welcome a part of everything
+
+???
+
+The power of welcome is real. I learned this early from the folks at rOpenSci and RStudio with their commitment to creating a diverse and inclusive space. 
+
+Having empathy and accepting/internalizing that people who are doing amazing env science might be really intimidated by data science and they might need to be welcomed. 
+transition: so these are the main lessons learned: the need for open data science, the need for teamwork, and the power of welcome.
 
 ---
-# thoughts end
--team
-- community
--amplify?>
--welcome.
--can learn but shouldnt be leearning like this on their own time in pockrts of opp.
-_ talk about it. people hungry. confession
+# horst welcome to #rstats illustration
+
+???
+
+And the awesome thing is that we all have our part. 
+
+Throughout all my experiences with squid, ohi, and openscapes, a critical thing is that anyone can step up and be a leader. 
+
+And the easiest/fastest way is to welcome and encourage others with open data science and teamwork.
+
+And if you yourself are unsure you have a team or feel like you're on the outside of the feedback loop or on the threshold, know that since you're here so you're already part of it. 
+
+
+<!---
+challenges ops?
 
 biggest challenges:
 - labs dont think like teams
@@ -1469,75 +1511,34 @@ how do you set up good practices for the lab when you do not know those practice
 - I feel it. Need help with databases. 
 
 
----
-# Lesson 1: Team building is important
+Obstacles
+And there are obstacles, the primary being time, especially when this investmentis not evaluated or rewarded broadly in the academic structure in regards to promotion and job security. 
 
-???
-This is something I realized early on: that didn't think of themselves like teams
-
-Labs were not necessarily thinking of themselves as a team so much as a collection of individuals doing their own thing. 
-
-It's like everyone is operating like Luke Skywalker did, even when they are sitting next to each other in a lab and working on similar themes.
-
-That was certainly the case for me in my PhD laboratory, but I hadn't really realized that that was being carried forward into young labs led by my generation of scientists. But they have never seen anything different or seen how data science tools could enable and strengthen teamwork.
-
-Seaside chats for homework.
-
-transition: This includes mentors giving space and promoting mentees
-
+And there are opps but challenges as teams. how do you lead well when you dont know?
+--->
 
 ---
-# Lesson 2. Cohort building is important
-
-???
-
-Not just about alliances in the lab, but across labs. 
-
-Mozilla Open Leaders knows this
-
-Summit 
-summit-cohort1.jpg
-
-
----
-# Lesson 3: Amplifying to networks is important
-
-???
-on Twitter and IRL
-
----
-# Lesson 4: Imposter Syndrome is real. 
-
-???
-
-- 
-
-
----
-# open data science <-> teamwork
-
-???
-
-
-
----
-# Thank you for this inclusive culture
+# Thank you
 
 (screenshot <https://twitter.com/nceas/status/1137388818989047814>?)
+
+.pull-left[
+link to slides
+twitter handles
+]
+
+.pull-right[
+Teamwork in action:
+OHI team, Mozilla team  
+artwork: [@allison_horst]  
+blogdown theme: [@apreshill]
+]
 
 ???
 
 I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
-
----
-# Thank you
-
-link to slides
-twitter handles
-
-
 
 <!---
 
