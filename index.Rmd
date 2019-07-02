@@ -270,16 +270,23 @@ And this one is about how disease is transmitted through ecological vectors
 
 
 ---
-# wind farms and ecology
+# coastal storm mitigation: Sid
 
 ???
 And just one example on a positive note
 
-Studies like these are done by environmental scientists. They are critical. 
+---
+# other pic?
 
-And make it seem that science is a uniformed effort that streamlines data into results.
+???
 
-But science really operates in pockets, with individuals working within research groups and laboratories, as well as across them.
+Studies like these are done by environmental scientists, which is an umbrella term for scientists studying aspects of the environment and sustainabilty. 
+
+We actually have a lot in common with the open source community because we are working for the public good, and passionate about our work. 
+
+And although those headlines might make it seem that science is a uniformed effort,
+
+science really operates in pockets, with individuals working primarily within research groups, which we also call laboratories in the United States.
 
 transition: research laborties are often around a theme or topic, like a species, place, or method. My PhD lab was like this.
 
@@ -318,32 +325,34 @@ also about development of squid babies, that are only 1 mm long when they hatch 
 
 This meant we did a lot of work at sea and in the lab. We would go fishing and catch and release squid that we tagged with electronic tags so they would turn into little oceanographers as they swam. 
 
----
-# pic policy/presenting our work
-
-Really incredible opportunities to learn about these animals and make a difference for fisheries, for ecology, for people. 
+And we helped each other with our scientific work, we did field work with each other, helped keep squid alive in aquaria.
 
 ---
 # funny pic?
 
 ???
 
-But it's not so smooth going. Because in all my education I had learned about processes etc. I had never learned how to work responsibly with my data. 
+But it's not so smooth going. Because in all my education I had learned about physiology and ecology and oceanography. But I had never learned how to work responsibly with my data. 
 
-And even though we are part of a lab, part of a group that is unified around science, it can be really lonely and isolating when it comes to data bc we don't have the skills, mindset, or support. It can be really intimidating to engage in data science and learn to code, especially when we also do not see examples of its benefits in our own context, and we are not aware of welcoming entry points to engage. 
+And even though our research group would collaborate with each other with designing hypotheses and collecting data, we were eeach on our own to actually analyze our data. This means we start with the skills we have, which is usually Excel. If we learn how to code, it is often in a panic, and we learn and do just enough to get the job done.
 
 <!---
-JField map
-boat pic
-field work, keeping animals alive in seawater tanks in the lab, and outreach <S4K>. 
+So even though we are coding it is often does not result in reproducible science because first off, the author of the code isn't proud of it and doesn't want to share, and even if she does it often is riddled with hard-coded local filepaths that only work on the author's computer.
+--->
+
+This whole data analysis experience can be super lonely and isolating. And we don't even know what is possible, so we don't have the vocabulary or even the concepts to articulate our struggles and ask for help. 
+
+<!---
+But more than that, it can be really intimidating to talk about because you don't see any examples of other people talking about it. So you feel like an imposter, and that somehow everyone else learned to code as part of their marine science education but you missed it. 
 --->
 
 transition: I like to talk about this with analogies from Star Wars.
 
 ---
-name: luke
+```{r luke}
+```
 class: center, middle
-background-image: url(img/horst-starwars-luke2.png)
+background-image: url(img/horst-starwars-luke.png)
 background-size: contain
 
 .footnote[
@@ -359,7 +368,8 @@ He is demoralized because he cannot solve the problem before him with the skills
 transition: but what happens next is that he meets Yoda
 
 ---
-name: yoda
+```{r yoda}
+```
 class: center, middle
 background-image: url(img/horst-starwars-yoda.png) 
 background-size: contain
@@ -378,7 +388,8 @@ This is going to open up Luke's whole world because he can learn from Yoda and n
 transition: But Luke didn't go on to defeat the Empire himself, he had a whole community.
 
 ---
-name: alliance
+```{r hands} 
+```
 class: center, middle
 background-image: url(img/horst-starwars-hands.png)  
 background-size: contain
@@ -392,12 +403,14 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 The rebel alliance is powerful because of the diversity of backgrounds and expertise, and although not everyone is a Jedi, everyone contributes in really critical ways. 
 
+transition: So just to recap, 
+
 ---
-name: rey
+```{r rey}
+```
 class: center, middle
 background-image: url(img/horst-starwars-rey.png) 
 background-size: contain
-
 
 .footnote[
 art: [@allison_horst](https://twitter.com/allison_horst)
@@ -405,20 +418,21 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-So open data science is the Force that enables us to do better science in less time. 
+Open data science is the Force that enables us to do better science in less time. 
 
-And the alliance is our community, everyone in this room. 
+And the rebel alliance is our community, everyone in this room. 
 
-Having this our community has been so game-changing for me as a scientist. 
+Having this community has been absolutely game-changing for me as a scientist. 
 
-Instead of feeling stranded in a swamp like I have several times in my scientific career, I feel more powerful and supported than I ever imagined. 
+Instead of feeling stranded and deflated in a data swamp, I have a much broader and more optimistic mindset of what is possible with data, and that revolutionizes what I think is possible with science and how science can help tackle our biggest environmental challenges. 
 
-And I want all environmental scientists to feel this powerful and supported. 
+And it is really critical that all environmental scientists feel this powerful and this supported, because for the most part they are not. 
 
-transition: This is critical because I just told you about my data challenges for my squid research, but this is really a broader problem in marine and environmental science. 
+transition: But let's talk about what it can look like, and we can use a non-squid example
 
 ---
-name: env-only
+```{r env-only}
+```
 class: center, middle
 background-image: url(img/horst-eco-r4ds-env-only.png) 
 background-size: contain
@@ -431,16 +445,15 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-For example, an ecologist might be studying how bees pollinate crops that are important for agriculture. 
+So let's think about agriculture. There might be an ecologist who is studying the role that bees play in pollinating crops, and how drought impacts this interaction. 
 
-To do this they might collect data on the biology, behavior, and genomics of different bee populations, and combine that with data on water availability from rain and snow. 
+To do this she might collect data on the biology, behavior, and genomics of different bee populations, and combine that with data on water availability from snowmelt and groundwater. 
 
-Their data would be a combination of observations, genetic sequencing, and sensor data on the ground and from satellites. 
+So she would have a lot of different data types to make sense of, from visual observations, genetic sequences, and from sensors on the ground and from satellites. 
 
-transition: And their findings are impactful and important to communicate to different audiences.
+transition: Her findings are impactful and important to communicate to different audiences.
 
 ---
-name: environ-comm
 class: center, middle
 background-image: url(img/horst-eco-r4ds-env-comm-only.png) 
 background-size: contain
@@ -451,15 +464,17 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-Their results help inform policy and management decisions around food systems, disease transmission, sustainability, and climate change. 
+Her results help inform policy and management decisions around food systems, disease transmission, sustainability, and climate change. 
 
-As environmental scientists, we are often working with governments at local and international scales to help inform change on the ground.
+She is likely working with governments at local and international scales to help inform change on the ground.
 
-And we hhave a lot in common with the open source community because we are working for the public good, and passionate about our work. 
+This picture here is the way science works right now. We are really good at theory, developing hypotheses, and experimental design. And we are getting better and better at communication and helping our findings get to the right audiences.
 
-But data challenges have gotten bigger and faster; we are not trained to collect and manage and combine and analyze the types of data that we require to do our work.
+But there is this huge missing part here in the middle.
 
-transition: But I know that open data science and teamwork can really complete this picture here. 
+We were able to get by in the past but data challenges have gotten bigger and faster and we are not prepared. 
+
+transition: But as we know from Star Wars, open data science and teamwork can really complete this picture here. 
 
 ---
 name: environ-comm-r4ds
@@ -468,21 +483,24 @@ background-image: url(img/horst-eco-r4ds.png)
 background-size: contain
 
 .footnote[
-art: [@allison_horst](https://twitter.com/allison_horst), updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
+.left[
+<br>
+art: [@allison_horst](https://twitter.com/allison_horst) <br>
+updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
+]
 ]
 
 ???
 
-TODO:::::R4DS: valuable to point out that one diff is that all those components of r4ds exist around a band of community and support. SAY THIS. Notice that there is this thing you're used to seeing but around it are the communities that are so important. 
+I know this graphic looks familiar, but notice that all of the open data science components here are ringed by communities and support. R really streamlines how we work with data, and also streamlines how we work with each other. 
 
-
-The interplay of open data science and community can have resounding impacts on environmental science — because R streamlines how we work with data, and also streamlines how we work with each other. 
+And streamlining this process from data to communication is critical for environmental science so that we can uncover solutions for our greatest challenges. 
 
 Making this a reality in environmental science requires changes in mindset for individual researchers and cultural change in research groups, which is a big task. 
 
-But I know it is possible because I have lived through this mindset change myself, and for the past few years have been focusing on igniting this cultural change more broadly. 
+But I am optimistic because I have lived through this mindset change myself, and ever since I have focused on igniting this cultural change more broadly. 
 
-transition: But over the last year with a fellowship from Mozilla, I've been focused on doing this more formally through program I've developed called Openscapes.
+transition: So I want to talk about a few examples and strategies for making this a reality.  
 
 ---
 <br>
@@ -490,19 +508,19 @@ transition: But over the last year with a fellowship from Mozilla, I've been foc
 .pull-right[
 ![](img/openscapes-hex.png)
 ]
+.footnote[
+twitter: [@openscapes](https://twitter.com/openscapes)
+]
 
 ???
 
-With Openscapes I'm focusing on igniting this cultural change at the core community unit of science, the research group or laboratory. 
+This past year as a Fellow with Mozilla, I've created a mentorship program called Openscapes.
 
-I've developed it as a Fellow with Mozilla, and it is operated by NCEAS and the University of California Santa Barbara.
+Openscapes is a mentorship program, welcoming research groups to engage with open data science and become visible examples and vocal ambassadors for its awesomeness within their broader communities. 
 
-Openscapes is a mentorship program, helping research groups engage with open data science and become visible examples and vocal ambassadors for its awesomeness within their broader communities. 
-
-We've just completed the pilot cohort of this mentoring program with 7 research groups, and I'm excited to tell you all about it bc I am so proud of what they accomplished.
+We've just completed the pilot cohort with 7 research groups, and I'm excited to tell you all about it bc we all learned a lot and I am so proud of what they accomplished.
 
 ---
-TODO: Add twitter handles
 <br>
 
 .pull-left[
@@ -512,19 +530,21 @@ TODO: Add twitter handles
 .pull-right[
 ![](img/openscapes-hex.png)
 ]
+.footnote[
+twitter: [@openscapes](https://twitter.com/openscapes), [@OHIscience](https://twitter.com/OHIscience)
+]
 
 ???
 
-But to tell the Openscapes story I need to first tell the Ocean Health Index story. 
+But to tell the Openscapes story I need to first tell the Ocean Health Index story, which is the research group I've worked with for the past six years. 
 
-And that's because I designed Openscapes based on our experiences with The Ocean Health Index, which is the research group I work with now. 
+And that's because I designed Openscapes based on our experiences with The Ocean Health Index. 
 
-It is now one of the most visible examples of how powerful open data science can be for environmental science. 
+Today, OHI is one of the most visible examples of how powerful open data science and teamwork can be for environmental science. 
 
 transition: But it didn't start out that way. 
 
 ---
-
 ```{r OHI hex, out.width = '55%', fig.align='center'}
 knitr::include_graphics("img/OHI-hex.png")
 ```
