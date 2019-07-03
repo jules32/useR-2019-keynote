@@ -293,6 +293,7 @@ transition: research laborties are often around a theme or topic, like a species
 ---
 # Squid lab pic
 
+???
 We were a squid lab, broadly interested to understand how squid interact with ecosystems and drive economies through fisheries, and how climate change is affecting all this. 
 
 transition: Although we had the same anchor, all of us in the lab focused on different pieces of this broader interest. 
