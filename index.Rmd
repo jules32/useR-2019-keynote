@@ -962,29 +962,22 @@ i'll stop there but also shared resources that helped us learn and strategies. n
 
 So I've told you about the tech advances and how we were able to reduce time and help enable others. 
 
-But there were some critital intangible things that made these massive change possible
+transition: But there were some critital intangible things that made these massive change possible
 
 ---
 class: inverse
 # Teamwork
 <br>
-# Working openly as a team
+# Working openly
 # Leadership
-# Community (redefined)
+# Community
 
 ???
-I'm going to call this teamwork its a work in progress
 
-working openly as a team. trust. willingness.
-positive/supported leadership. gave us space to learn, in a way its hir. let us become leaders too. horizontally w eo and lead from within. And lead outside, which is the next point
+And I'm going to call it teamwork. It's several things that helped us be effective. 
 
-comm redefined, beyond ocean health or marine science
+I'm going to try to categorize things here but you'll see that there is a lot of overlap and blurred lines.
 
-
-
-Community and leadership were an enormous part of our success. I think about it in terms of 3 things:
-
-Expecting that you'll want to come back to something, anticipating how you might interoperate with your team. If you think about this in term of football, you would be thinking about where you would need to be to anticipate where your teammate might need you. 
 
 <!---
 Steph::
@@ -1003,31 +996,96 @@ And encouraging others is important. encouraging others to be vulnerable. Not ju
 Creating a space where others can be vulnerable too. 
 
 leadership: vertical but also horizontal leadership and leadership from within. 
-
 --->
 
 ---
-# Supportive leadership
+# Working openly
 
-.pull-left[
-pic Ben Halpern
-]
+```{r out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/ohi-team-2018b-crop.jpeg") 
+```
 
 ???
 
-we had supportive leader who empowered us to focus on ds. 
+---
+# Working openly
 
-something critical here was that he trusted us to learn and implement data science architecture for our reasearch team.
+### 
 
-Early career faculty, had no timee to learn it himself. But he not only gave us time, hee trusted us to develop and implement standard operating procedures for our team. 
+???
 
-He trusted us, and he did not need to learn it first, because that would have slowed us down, and he didn't have the time. 
+We work really openly with each other. We co-develop things, we share early drafts, and we are constantly giving feedback and iterating with each other. 
 
---
+And that is because we feel safe with each other. 
 
-.pull-right[
+We have established a safe space where we trust each other. 
 
-```{r out.width = '100%'}
+We assume best intentions with everything we do. So critique and improvement come from the intent of making it better. 
+
+and we are not afraid to fail, we actually share our failures and learn from them.
+
+
+---
+# v
+
+???
+
+So for individuals, this requires being comfortable with vulnerability and being willing to share things that aren't perfect. 
+
+It also means not being afraid of change, and being willing to change and learn. 
+
+Being open helps immensely with tearing down imposter syndrome. Internalizing that no one can do it all is increcibly liberating and one of the most productive things you can do. Everyone thinks they are imposters in different context. But you aren't; you just have different skillsets. But being honest about this helps
+
+Setting the tone
+
+And then for the team, it means being inclusive and welcoming 
+
+creating not just a safe space for yourself but a space where others can be vulnerable. This is a place you can share imperfect things because sharing it It will prabbly get better. Put it out there before it's done. It's better together. No one has all the answers. 
+
+We also greatly respect each others' time. We start and end meetings on time. 
+
+---
+# estab
+<pic of us at nceas? at the seaside>
+
+???
+
+So the way we established this was by having regular meetings with our team to talk about data. We call these seaside chats
+
+They are not actually by the sea, but they are informal chats that we have weekly to discuss shared workflows and teach each other what we know and what we're doing. 
+In seaside chats we'll watch RStudio webinars, we'll discuss our Google Drive folder structure, we'll discuss filenaming conventions. 
+
+We also have hackthons, where we will all drop our own projects and come together for a day or an afternoon to do something that will benefit the whole group. So in hand
+
+In seaside chats and hackathons we've also developed written protocols for onboarding new teammembers so that they can get upskilled and in our workflow as soon as possible.
+
+And we also often have lunch and happy hours, which is evident because all of our team pictures are selfies at HH
+
+transition: So this is all critical to how we work. And it was ignited by really supportive leadership.
+
+---
+# Leadership — vertical
+
+pic Ben Halpern
+
+
+???
+
+This is Ben Halpern, he's the lead of OHI and also the director of NCEAS, the ecology center where we are based. 
+
+He set this tone for our team, and also critically, modeled a healthy work-life balance and boundaries 
+He has played a huge role in our data science story because he supported us to pursue it. 
+
+And this is really critical. He is not a coder himself but saw that we were excited about it and gave us space and trusted us to learn data science and implement standard operating procedures for our team.
+
+He actually doesn't participate in seaside chats because he does not need additional meetings in his life but he really encouraged us to do that on our own. 
+
+But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
+
+
+---
+# Leadership — horizontal
+```{r out.width = '80%', fig.align='center'}
 knitr::include_graphics("img/shiny-conf-2016-crop.jpeg")
 # knitr::include_graphics("img/tweet-juliesquid-shinydevcon2016.png")
 ```
@@ -1036,31 +1094,28 @@ knitr::include_graphics("img/shiny-conf-2016-crop.jpeg")
 tweet: [@juliesquid](https://twitter.com/juliesquid/status/693324555704610816)
 ]
 
-]
-
 ???
 
-This also gave us the opportunity to become leaders ourselves. We had space and agency to spend time learning and teaching each other. 
+And this kind of leadership really cultivated us becoming leaders ourselves. 
+
+This is Ben Best, Jamie Afflerbach and I preparing for the Shiny Developers' conference in 2016.
+
+We gained confidence teaching each other within our team, and started teaching others outside our team too. 
 
 ---
-# Working openly like a team
+# EDS
 
-```{r out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/ohi-team-2018b-crop.jpeg") 
-```
+???
+ and we started EDS. And this was seen as a benefit to everyone, because the more collaborators with these skills the better for everyone. 
+
+---
+# Fellows
 
 ???
 
-trust
-hackathons
-seaside chats
-we learned to work as a team, which meant trusting and learning from each other. We also thought a lot about what happens when people join and leave our group and how to onboard and offboard them. 
+And we also started the fellows program
 
-In addition to our lab meetings where we discuss science, we started having separate meetings to talk specifically about data, learn together, and build shared practices
-
-Really critical to our becoming a team was that we created a space to focus on the data. 
-
-transition: so these were the elements of our local research team but the third point is critical as well, which is community. I'm actually going to have to take a few slides to talk about this. 
+transiton: this brings us to community. And to be honest, the boundaries between team, collaborators, and community are so blurred, and I think that's a great thing. Redefining what a team is and what a community is has been one of best things about this whole process. 
 
 ---
 name: runconf-shinydevcon
@@ -1068,18 +1123,18 @@ name: runconf-shinydevcon
 
 
 .pull-left[
-```{r out.width = '80%', fig.align='center'}
+```{r out.width = '70%', fig.align='center'}
 knitr::include_graphics("img/tweet-jafflerbach-runconf15.png") 
 ```
 
 .footnote[
-tweet: [@jafflerbach](https://twitter.com/jafflerbach/status/581578558977368064)
+tweet: [@jafflerbach](https://twitter.com/jafflerbach/status/581578558977368064) 
 ]
 
 ]
 
 .pull-right[
-```{r out.width = '90%', fig.align='center'}
+```{r out.width = '82%', fig.align='center'}
 knitr::include_graphics("img/tweet-juliesquid-shinydevcon-2016.png") 
 ```
 
@@ -1089,12 +1144,13 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/694237930991161344)
 
 ]
 
-
 ???
 
-Early on, we were welcomed by the rOpenSci and RStudio communities and were able to meet and work with our heroes at a few conferences nad unconfs. 
+Early on, we were welcomed by the rOpenSci and RStudio communities and were able to meet and work with our heroes at a few conferences and unconfs. 
 
 It was a big deal to be feel so welcomed here, it made such a difference with our skillsets and confidence. 
+
+Being so welcomed also helped reduce imposter syndrome for me, but everyone treated me a like an important contributor that was not just based on coding abilities.
 
 I personally was amazed that developers were real people. And not only that, they were super nice people that made me feel welcome and valued even as I was feeling insecure about my coding skills. 
 
@@ -1113,7 +1169,7 @@ class:middle, inverse, center
 transition: Seriously, I'm not kidding.
 
 ---
-# pics runconf-shinydevcon
+# pics twitter TODO
 
 <!---TODO maybe diff pics --->
 
@@ -1137,15 +1193,32 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/726521325821431808)
 ]
 
 ---
-# pic runconf-shinydevcon
+# pic carpentries twitter TODO
+
+???
+
+Becoming a carpentries instructor has been such a valuable thing for me. In all my education and teaching science, I have never been taught how to teach or think about how people learn. 
+
+I've now taught 7 Carpentries workshops and we teach the workflow that we use as an OHI team
+
+.footnote[
+TODO ds-training
+]
+
+---
+# pic TODO
 
 ???
 
 Twitter also played a big role, which is why I'm showing you all of these as tweets. 
 
-I joined Twitter to learn R, because of my colleague Jamie. 
+I joined Twitter to learn R. 
 
-I had never used Twitter before, so I was definitely skeptical. I thought it was a megaphone for angry people, I didn't realize it was a place to have thoughtful conversations with lovely people, and most of all is is a way to listen and learn with others. 
+And it's because my colleague Jamie encouraged me to. 
+
+I had never used Twitter before, so I was definitely skeptical. I thought it was a megaphone for angry people. 
+
+I didn't realize it was a place to have thoughtful conversations with lovely people, and most of all is is a way to listen and learn with others. 
 
 And it's been a really imporant way to connect with so many people, especially RLadies. 
 
@@ -1160,35 +1233,42 @@ https://twitter.com/juliesquid/status/581637460343406593
 --->
 
 ---
-#rladies
+#rladies pic rstudioconf 2019
+
+.footnote[
+
+]
 
 ???
 
-such a positive thing 
-really opened my eyes that i could extend this ethos and be a more supportive in science.
+And my goodness, RLadies. This is such an amazing community and such a positive thing for all of us. 
+
+It has also helped me reflect that I can be a stronger and more supportive ally for women in science and it's really influenced me to be bolder with how I operate in science. 
 
 ---
-# pic EDS, RLADIES logos
+# pics RLADIES TODO
+
+.pull-left[
+hex
+]
+
+
+.pull-right[
+pic us all
+]
+
 
 ???
 
-All of these communities empowered us to create local in-person communities to teach and learn with others. 
-
-And we joined the RLadies community and created a local chapter in Santa Barbara
-
-<!---TODO REWORK THIS--->
-
-And this community also empowered us to lead eco-data-science 
+And we also have created an RLadies chapter in Santa Barbara
 
 ---
 class: inverse
-#Teamwork
-
+# Teamwork
 <br>
-
-### supportive leadership 
-### research group that works like a team
-### online and local communities
+# Working openly
+# Leadership
+# Community
 
 ???
 
@@ -1206,18 +1286,16 @@ name: ods-teamwork-loop
 
 ???
 
-And throughout all of this a main thing I've realized is that data science and teamwork exist together in a feedback loop. 
+The more I reflect on this the more I realized is that data science and teamwork exist together in a feedback loop that streamlined how we work and innovate. 
 
-Learning and using similar software promotes and streamlines teammwork. And also working as a team better equips you to learn data science.
-
-It becomes both team culture and data science tools that streamline how we work and innovate. 
+Learning and using similar software promotes and streamlines teammwork. And also working as a team better equips you to learn open practices data science.
 
 You really need both. Trying to engage solely with open data science without teamwork can be lonely and deflating. And only as a team but without the best collaborative software can be inefficient.
 
 transition: This is a loop that feeds back on itself. For me, and likely for a lot of us in this room, this becomes difficult to differentiate and tease apart. 
 
 ---
-# hex stickers
+# hex stickers pic TODO
 
 ???
 
@@ -1229,9 +1307,9 @@ template: ods-teamwork-loop
 
 ???
 
-As th ohi team, It took us 4 years to learn how to work as a team and use open data science tools. 
+So it took our Ocean Health Index team 4 years to learn how to work as a team and use open data science tools. 
 
-Other research labs shouldn't have to figure this out on their own like we did with OHI, and to be honest, we don't have time to waste. 
+That's too long. That's too long for anyone but it's especially too long when it comes to our environment and climate change.
 
 So how do we accelerate this and make it so that it isn't such a painful and long process for other labs?
 
@@ -1244,12 +1322,16 @@ knitr::include_graphics("img/openscapes-hex.png")
 
 ???
 
-Openscapes is a mentorship program for research groups. 
+With Openscapes I am trying to help other research groups adopt these practices that we have found so successful. 
 
-I help scientists work like teams and engage in open data science so they can do better science in less time. 
+Openscapes is a mentorship program for research groups to help them do better science in less time. 
 
+I introduce these aspects of open data science and teamwork, and I do so through a program structure that Mozilla has developed and found to be really successful. 
+
+<!---
 What we realized is that both of these end points arentbeing addressed in reaserch labs and how they are connecteed wasn't discussed. So the dev and interconnectedness of both of these. And how it realtes to openscapes. Openscapes will be less painful and long for other groups.
  OPENSCAPES IS MAKING THIS WHEEL
+--->
 
 ---
 # Zoom
@@ -1722,6 +1804,8 @@ knitr::include_graphics("img/horst-starwars-hands.png")
 
 ???
 
+It takes strength to be vulnerable. 
+
 Teamwork starts with future you and future us. 
 
 This is about thinking ahead for what will make your analytical life better, but also the analytical life of your team. 
@@ -1831,10 +1915,13 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 
 ---
 # Thank you
+TODO repeat title slide with more info?  
+Oooo or do a hack title slide adn screenshot full contain here boom.
 
 (screenshot <https://twitter.com/nceas/status/1137388818989047814>?)
 
 .pull-left[
+title
 link to slides
 twitter handles
 ]
@@ -1842,7 +1929,7 @@ twitter handles
 .pull-right[
 Teamwork in action:
 OHI team, Mozilla team  
-artwork: [@allison_horst]  
+all artwork: [@allison_horst]  
 blogdown theme: [@apreshill]
 ]
 
