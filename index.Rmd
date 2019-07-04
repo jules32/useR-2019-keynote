@@ -1,10 +1,13 @@
 ---
 title: "R for better science in less time"
 subtitle: 
-author: 'Julia Stewart Lowndes, PhD <br>Marine Data Scientist & Mozilla Fellow <br>National Center for Ecological Analysis & Synthesis, USA<br><br> <a href="https://github.com/jules32"><i class="fas fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fas fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-desktop fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
+author: 'Julia Stewart Lowndes, PhD'
+role: 'Marine Data Scientist & Mozilla Fellow'
+institute: 'National Center for Ecological Analysis & Synthesis, USA'
 date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -35,12 +38,27 @@ table1 <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/betters
 
 ```
 
-<!---TODO: change to Moz + NCEAS logos--->
-.footnote[
-<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
-]
 
-???
+class: title-slide, right, bottom
+background-image: url(img/horst-starwars-rey.png)
+background-size: contain
+background-position: bottom left 
+
+
+# `r rmarkdown::metadata$title`
+
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$role`
+### `r rmarkdown::metadata$institute`
+
+[`r icon::fa("github")` jules32](http://github.com/jules32)  
+[`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
+[`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
+[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
+
+
+<!---TODO: change to Moz + NCEAS logos--->
+
 
 NO UM START >> WELL
 
@@ -172,6 +190,7 @@ The very first thing we talk about is that open data science is a mindset. so le
 
 ---
 exclude: TRUE
+
 
 ???
 
@@ -1712,6 +1731,7 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 
 ---
 # Thank you
+
 TODO repeat title slide with more info?  
 Oooo or do a hack title slide adn screenshot full contain here boom.
 
@@ -1727,7 +1747,7 @@ twitter handles
 Teamwork in action:
 OHI team, Mozilla team  
 all artwork: [@allison_horst]  
-blogdown theme: [@apreshill]
+xaringan theme: [@apreshill]
 ]
 
 ???
@@ -1735,3 +1755,4 @@ blogdown theme: [@apreshill]
 I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
+
