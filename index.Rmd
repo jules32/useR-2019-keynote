@@ -1,10 +1,13 @@
 ---
 title: "R for better science in less time"
 subtitle: 
-author: 'Julia Stewart Lowndes, PhD <br>Marine Data Scientist & Mozilla Fellow <br>National Center for Ecological Analysis & Synthesis, USA<br><br> <a href="https://github.com/jules32"><i class="fas fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fas fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-desktop fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
+author: 'Julia Stewart Lowndes, PhD'
+role: 'Marine Data Scientist & Mozilla Fellow'
+institute: 'National Center for Ecological Analysis & Synthesis, USA'
 date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -35,12 +38,47 @@ table1 <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/betters
 
 ```
 
-<!---TODO: change to Moz + NCEAS logos--->
-.footnote[
-<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
-]
 
-<!---
+class: title-slide, right, bottom
+background-image: url(img/horst-starwars-rey.png)
+background-size: contain
+background-position: bottom left 
+
+
+# `r rmarkdown::metadata$title`
+
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$role`
+### `r rmarkdown::metadata$institute`
+
+[`r icon::fa("github")` jules32](http://github.com/jules32)  
+[`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
+[`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
+[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
+
+
+<!---TODO: change to Moz + NCEAS logos--->
+
+<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:right;width:100px;"/>
+
+
+???
+
+NO UM START >> WELL
+
+Well thank you so much, I am so excited with all of you and I want to thank the organizers for this invitation. 
+
+I am going to talk today about how R enables better science in less time, and how we can welcome more people to participate in our community.
+
+I am a marine scientist, and I work with other marine scientists and more broadly with environmental scientists. 
+
+transition: So I wanted to start by giving a sense of what we do and don't do, just to start us all of on the same page. 
+
+---
+name: notes-to-self
+exclude: true
+
+
 KEEP IN MIND
 
 Environmental scientist doing research. "How can we bring this to science" is way too big
@@ -213,24 +251,17 @@ From right now, cut all ums and ahs as I practice.
 
 emotional reappraial. I am excited::: increases accuracy of speech. 
 
---->
-
-???
-
-NO UM START >> WELL
-
-Well thank you so much, I am so excited with all of you and I want to thank the organizers for this invitation. 
-
-I am going to talk today about how R enables better science in less time, and how we can welcome more people to participate in our community.
-
-I am a marine scientist, and I work with other marine scientists and more broadly with environmental scientists. 
-
-transition: So I wanted to start by giving a sense of what we do and don't do, just to start us all of on the same page. 
 
 ---
+class: inverse, middle, center
+
+# What is marine science?
+
+---
+class: inverse
 name: dolphin option 1
 background-image: url(img/pixabay-dolphin-sarahrichterart.jpg)  
-background-size: contain
+background-size: cover
 
 # NOT MARINE SCIENCE
 
@@ -1750,6 +1781,7 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 
 ---
 # Thank you
+
 TODO repeat title slide with more info?  
 Oooo or do a hack title slide adn screenshot full contain here boom.
 
@@ -1765,7 +1797,7 @@ twitter handles
 Teamwork in action:
 OHI team, Mozilla team  
 all artwork: [@allison_horst]  
-blogdown theme: [@apreshill]
+xaringan theme: [@apreshill]
 ]
 
 ???
@@ -1773,3 +1805,4 @@ blogdown theme: [@apreshill]
 I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
+
