@@ -1,10 +1,13 @@
 ---
 title: "R for better science in less time"
 subtitle: 
-author: 'Julia Stewart Lowndes, PhD <br>Marine Data Scientist & Mozilla Fellow <br>National Center for Ecological Analysis & Synthesis, USA<br><br> <a href="https://github.com/jules32"><i class="fas fa-github fa-fw"></i>&nbsp; jules32</a><br> <a href="https://twitter.com/juliesquid"> <i class="fa fa-twitter fa-fw"></i>&nbsp; @juliesquid</a><br> <a href="lowndes@nceas.ucsb.edu"><i class="fas fa-paper-plane fa-fw"></i>&nbsp; lowndes@nceas.ucsb.edu</a><br> <a href="http://jules32.github.io/user-2019-keynote"><i class="fa fa-desktop fa-fw"></i>&nbsp; jules32.github.io/user-2019-keynote</a><br><br>'
+author: 'Julia Stewart Lowndes, PhD'
+role: 'Marine Data Scientist & Mozilla Fellow'
+institute: 'National Center for Ecological Analysis & Synthesis, USA'
 date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
+    seal: false
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -35,12 +38,47 @@ table1 <- readr::read_csv("https://raw.githubusercontent.com/OHI-Science/betters
 
 ```
 
-<!---TODO: change to Moz + NCEAS logos--->
-.footnote[
-<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:left;width:150px;"/>
-]
 
-<!---
+class: title-slide, right, bottom
+background-image: url(img/horst-starwars-rey.png)
+background-size: contain
+background-position: bottom left 
+
+
+# `r rmarkdown::metadata$title`
+
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$role`
+### `r rmarkdown::metadata$institute`
+
+[`r icon::fa("github")` jules32](http://github.com/jules32)  
+[`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
+[`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
+[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
+
+
+<!---TODO: change to Moz + NCEAS logos--->
+
+<img src="css/RStudio-Logo-White.png" alt="rstudio" style="float:right;width:100px;"/>
+
+
+???
+
+NO UM START >> WELL
+
+Well thank you so much, I am so excited with all of you and I want to thank the organizers for this invitation. 
+
+I am going to talk today about how R enables better science in less time, and how we can welcome more people to participate in our community.
+
+I am a marine scientist, and I work with other marine scientists and more broadly with environmental scientists. 
+
+transition: So I wanted to start by giving a sense of what we do and don't do, just to start us all of on the same page. 
+
+---
+name: notes-to-self
+exclude: true
+
+
 KEEP IN MIND
 
 Environmental scientist doing research. "How can we bring this to science" is way too big
@@ -213,24 +251,17 @@ From right now, cut all ums and ahs as I practice.
 
 emotional reappraial. I am excited::: increases accuracy of speech. 
 
---->
-
-???
-
-NO UM START >> WELL
-
-Well thank you so much, I am so excited with all of you and I want to thank the organizers for this invitation. 
-
-I am going to talk today about how R enables better science in less time, and how we can welcome more people to participate in our community.
-
-I am a marine scientist, and I work with other marine scientists and more broadly with environmental scientists. 
-
-transition: So I wanted to start by giving a sense of what we do and don't do, just to start us all of on the same page. 
 
 ---
+class: inverse, middle, center
+
+# What is marine science?
+
+---
+class: inverse
 name: dolphin option 1
 background-image: url(img/pixabay-dolphin-sarahrichterart.jpg)  
-background-size: contain
+background-size: cover
 
 # NOT MARINE SCIENCE
 
@@ -1691,6 +1722,7 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 
 ---
 # Thank you
+
 TODO repeat title slide with more info?  
 Oooo or do a hack title slide adn screenshot full contain here boom.
 
@@ -1706,7 +1738,7 @@ twitter handles
 Teamwork in action:
 OHI team, Mozilla team  
 all artwork: [@allison_horst]  
-blogdown theme: [@apreshill]
+xaringan theme: [@apreshill]
 ]
 
 ???
@@ -1715,7 +1747,8 @@ I want to end by saying thank you to this community for so many things, but part
 
 Thank you.
 
-<!---
+---
+exclude: true
 
 
 # /#rstats
@@ -1735,9 +1768,10 @@ What's different about our community is that we put people first and are really 
 We are all here because we have been empowered by R as a tool and a community, but we can all probably think of others that are still feeling stranded and alone. We might work with them day-to-day. 
 
 transition: So my question is 
---->
 
-<!---
+---
+exclude: true
+
 # data_analysis_v2.xls
 data_12_11_12.R
 re:fwd:final data updated
@@ -1755,6 +1789,8 @@ So then the year I started when we went to repeat the analysis, there was a lot 
 Needless to say, we needed a better system. So here is what we do now. And again, this was over a four-year period, and we continue to iterate and improve. 
 
 ---
+exclude: true
+
 # Actually being reproducible 
 
 TOO much GitHub (esp with IT.)
@@ -1778,9 +1814,9 @@ Maybe just include part of [Table 1](https://www.nature.com/articles/s41559-017-
 (maybe bullet this, and animate?)
 
 
---->
-
 ---
+exclude: true
+
 # original porrige ramble
 
 All of this has had me thinking about how software enables teamwork and teamwork enables software. I'm going to try talking about this here; I have trouble articulating it but think it is really critical for moving forward. 
@@ -1802,10 +1838,11 @@ How do you engage and welcome people in those cases?
 transition: thinking about this was a big part of how I designed Openscapes. Really wanted to focus on how software can streamline teamwork and teams can learn how to use software.
 
 ---
+exclude: true
+class: center, middle
+
 # incredible potential
 
-<!---
-class: center, middle
 # R and data science have incredible potential accelerate scientific research
 
 ???
@@ -1814,6 +1851,8 @@ Data science and teamwork have incredible potential accelerate scientific resear
 
 
 --
+exclude: true
+
 # But many environmental scientists are being excluded from this potential  
 
 ???
@@ -1834,5 +1873,3 @@ My experience, and the experience of my other lab members, is typical. And not j
 It is not even a part of our culture to talk about data practices, which makes teamwork and collaboration more difficult since we do not have the mindset or really even the vocabulary to do so.
 
 transition:: But I know that we can change this —
-
---->
