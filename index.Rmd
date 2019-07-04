@@ -57,8 +57,12 @@ background-position: bottom left
 [`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
 
 
+<img src="img/mozilla.png" alt="rstudio" style="float:left;width:150px;"/>
+<img src="img/nceas.png" alt="rstudio" style="float:left;width:150px;"/>
+
 <!---TODO: change to Moz + NCEAS logos--->
 
+???
 
 NO UM START >> WELL
 
