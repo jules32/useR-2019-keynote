@@ -3,7 +3,7 @@ title: "R for better science in less time"
 subtitle: 
 author: 'Julia Stewart Lowndes, PhD'
 role: 'Marine Data Scientist & Mozilla Fellow'
-institute: 'National Center for Ecological Analysis & Synthesis'
+institute: 'National Center for Ecological Analysis & Synthesis<br>University of California at Santa Barbara, USA'
 date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
@@ -52,7 +52,6 @@ background-position: bottom left
 ### `r rmarkdown::metadata$role`
 ### `r rmarkdown::metadata$institute`
 
-[`r icon::fa("github")` jules32](http://github.com/jules32)  
 [`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
 [`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
 [`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  

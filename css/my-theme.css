@@ -12,7 +12,7 @@ font-family: 'Lato', sans-serif;
 font-weight: bold;
 }
 
-.whisper { color: #84d6d3; 
+.whisper { color: #428f8c;  /*#84d6d3; */
 font-family: 'Cormorant Garamond', serif;
 font-style: italic;
 font-weight: bold;
@@ -23,22 +23,22 @@ font-size: larger;
 
 /* link color */
 a, a > code {
-  color: #84d6d3;
+  color: #428f8c;  /*#84d6d3; */
 }
 
 /* unvisited link */
 a:link {
-    color: #84d6d3;
+    color: #428f8c;  /*#84d6d3; */
 }
 
 /* visited link */
 a:visited {
-    color: #84d6d3;
+    color: #428f8c;  /*#84d6d3; */
 }
 
 /* mouse over link */
 a:hover {
-    color: #ee5863;
+    color: #ee5863; 
 }
 
 /* selected link */
@@ -55,7 +55,7 @@ a:active {
 }
 
 .remark-code-line-highlighted { 
-  background-color: #84d6d3; 
+  background-color: #428f8c;  /*#84d6d3; */
 }
 
 .inverse {
