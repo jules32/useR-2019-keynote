@@ -76,14 +76,21 @@ The challenge I'm dedicated to is helping scientists do better science in less t
 
 I've been mentoring and training scientist how to code and get started coding for 6 years now since finishing my PhD, and I'm going to share what I learned upfront:
 
+///
+
+These come through my experiences as a PhD student studying squid, through six years with the Ocean Health Index team and this R community, and with my most recent year with Mozilla and Openscapes. 
+
+They are guiding principles for me, and what I advise for environmental scientists. But they are relevant much more broadly so I hope they will be useful for everyone here as as well. 
+
+
 ---
 class: inverse
-# Lessons learned
+# Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
 <br>
 
 ### Open data science is a mindset
-### Teamwork starts with openness / Open science starts with an open team
-### Harness the power of welcome / Change requires harnessing the power of welcome 
+### Teamwork starts with openness 
+### Harness the power of welcome 
 
 ???
 
@@ -301,7 +308,17 @@ This is a group that skill-shares....
 and I have now led 7 workshops. 
 
 ---
-# Nature paper
+# Nature E&E paper (authors only no abstract)
+
+.footnote[
+source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+We published our story about our path to better science in less time using open data science tools. 
+
+It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
 
 ---
 # RLadies with hex
@@ -313,7 +330,7 @@ and I have now led 7 workshops.
 
 ???
 
-And my goodness, RLadies. This is such an amazing community and such a positive thing for all of us. 
+R-Ladies is a global organization with local meetup chapters around the world, for gender minorities who do/want to do programming in R.
 
 It has also helped me reflect that I can be a stronger and more supportive ally for women in science and it's really influenced me to be bolder with how I operate in science. 
 
@@ -330,29 +347,31 @@ pic samoa, fellows.
 
 and I've led 2 training programs for the OHI;
 
----
-# zoom with openscapes hex
-
-???
-
-I've just completed the first cohort of environmental scientists from 7 research groups, working with the supervisor and lab members together. 
-
-The very first thing we talk about is that open data science is a mindset. so let's talk about that. 
-
-
-
-???
 
 ---
-# hadley wizard
-
-
----
-# openscapes grassland
+# openscapes grassland w hex
 
 ???
 
 and through all of this I've been thinking about what the problem is in environmental science and trying to identify identify where I can be most effective. And for me, I think that's what I'm doing with Openscapes. 
+
+///
+
+We want everyone to see and value what is possible and for them to engage and champion it in ways that align with their roles and responsibilities. 
+
+So faculty can be most effective by supporting their teams, advocating for Carpentries workshops, and speaking up in faculty meetings about making it become official parts of the curriculum. 
+
+Lab managers can become leaders within the lab, helping everyone become onboarded to the lab's github organization when they join the lab
+
+And graduate students and postdocs who work with data every day can find common ground and vocabulary with data wrangling. 
+
+And we do all research groups together because it's important to build alliances not only within labs but across them. Not only do we all learn more and it's more fun, but one of the main goals of Openscapes is to amplify our efforts nad each other so that these practices become more visible and more valued in environmental communities more broadly. 
+
+///
+
+I've just completed the first cohort of environmental scientists from 7 research groups, working with the supervisor and lab members together. 
+
+The very first thing we talk about is that open data science is a mindset. so let's talk about that. 
 
 
 
@@ -475,7 +494,21 @@ class: inverse
 class: inverse, center, middle
 # Open data science is a mindset
 
+### data science • open science • open data science 
+
 ???
+
+The first is that open data science is a mindset. 
+
+Yes, it is also tools and practices for data analysis and reproducibility. 
+
+But it is also an expectation that there is a better way to work, 
+
+and it is confidence and willingness to figure it out and innovate. 
+
+It's how the Force was not only a skillset but it broadened Luke's mind of what was possible and the scope of challenges he could tackle. 
+
+///
 
 A big part of Openscapes is creating welcoming entryways for scientists, and we start off by demystifying concepts.
 
@@ -553,6 +586,16 @@ It means people stealing my data or misstruling my science. There are softer int
 In interpreations like these, there is no benefit to the individual practicing open science. There is only cost in terms of time and risk.
 
 So it's a lot easier to just avoid it. 
+
+///
+Open science as a way to be more efficient and streamlined
+Not an added ask at publication to share your data 
+External memory (personal and collective)
+Easier on/offboarding
+Find solutions faster – learn to talk about your data
+Build confidence – skills are transferable beyond your science
+Be empathic and inclusive – grow a network of allies
+
 
 ---
 hampton quote
@@ -683,6 +726,8 @@ source: [Halpern *et al.* 2012, *Nature*]
 
 ???
 
+And from all that modeling we create maps like these, with scores reflecting how healthy oceans are for every coastal country around the world. 
+
 We repeat this every year and it's being used by the United Nation to track progress towards environmental targets. 
 
 ---
@@ -711,12 +756,9 @@ In 2012 it took us 3M, and now in 2019 it takes 250K.
 transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. So when I work with Openscapes teams I try to talk about it like this. 
 
 ---
-class: inverse
+class: inverse, center, middle
 # Teamwork
-<br>
-### Working openly
-### Leadership
-### Community
+### working openly • leadership • community
 
 <!---TODO WHAT DID WE OVERCOME TEAMWISE? TELL STORIES--->
 
@@ -788,7 +830,7 @@ transition: in terms of creating a team around open data science, seaside chats 
 ???
 I mentioned seaside chats before, which is really critical for establishing shared workflows. But is is also critical for teambuilding. They are fun. It's a time for us to discuss things we've learned etc.  . 
 
-here's an example from Horst or WOod.
+here's an example from Nina: Pathway
 
 ---
 #hackathons pic bhi
@@ -802,6 +844,18 @@ So this is where we will actually overhaul our filepath conventions or refactor 
 In both seaside chats and hackathons we've also developed written protocols for onboarding new teammembers so that they can get upskilled and in our workflow as soon as possible.
 
 With Openscapes, we've discussed doing hackathons to put data in one place and write data dictionaries and metadata.
+
+---
+# Onboarding
+
+Not a concept that I had ever heard of until rOpenSci 2018. In science, despite there being a constant stream of students and post docs and research scientists passing through the lab, no systems for onboarding. 
+
+This means that when someone started their first year would be past emails forwarded to them on-demand with attachments to try to parse out what to do. 
+
+But what these shared practices, seaside chats, etc, do is create shared customs to make it easier for new peopel to get up to speed. And, when they leave the lab, you're not hoping they'll respond to your email and send some documentation to their code; it's already on GitHub.  
+
+
+## `re:fwd:final data updated`
 
 ---
 # pic happy hour / hike?
@@ -839,6 +893,14 @@ And this is really critical. He is not a coder himself but saw its value and gav
 ---
 # Summit woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
 
+name: summit
+background-image: url(img/openscapes-summit.jpg)  
+background-size: contain
+
+.footnote[
+link to blog
+]
+
 ???
 
 So when I work with the research leads in Openscapes, I we discuss this specifically. How their role does not have to be to learn R, but they can still champion it. They can enable it in their labs, they can support their lab members to go to conferences, they can advocate for it to be taught. 
@@ -848,6 +910,24 @@ And Michelle Stuart!
 But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
 
 transition: so back to our OHI team. Ben's leadership style has also fueled us to become leaders ourselves
+
+////
+
+Also able to strengthen community across labs. 
+
+We were able to bring the faculty and lecturers together in person and I was surprised what an effect that had on the second half of the program. 
+
+Up to them they had understood that all of this was powerful and they knew I was really excited about it, but they left the summit actually feeling it for themselves. 
+
+---
+exclude: TRUE
+# Malin quote
+
+### This isn’t just about coding and GitHub, this is about changing how we do science — Malin Pinsky (Pinsky Lab)
+
+
+???
+
 
 ---
 class: center, middle
@@ -1041,6 +1121,10 @@ name: ods-teamwork-loop
 
 ???
 
+the communities we're in here have grown out of the interest in the tools. but that's not the entryway for everyone. I've been focused on the reverse process, trying to create solid teams that are stronger because of ods. 
+
+////
+
 The more I reflect on this the more I realized is that data science and teamwork exist together in a feedback loop that streamlined how we work and innovate. 
 
 Learning and using similar software promotes and streamlines teammwork. And also working as a team better equips you to learn open practices data science.
@@ -1073,17 +1157,118 @@ When I started Openscapes, I expected to work with science teams and help them g
 ---
 class:inverse, center, middle
 # Harness the power of welcome
+### create a safe space
+### prioritize communication
+### connect through the internet
+???
+
+So what I'm trying to do with openscapes help create spaces where scientists feel safe talking about their data and workflow challenges, listen to them, and provide direction and paths forward for what to do. 
+
+This means being a friendly face and encouragement for others, and thinking about where they are coming from.
+
+I have realized that researchers who are doing amazing env science might be really intimidated by data science and they might need to be welcomed. 
+
+I learned this early from the folks at rOpenSci and RStudio with their commitment to creating a diverse and inclusive space. 
+
+And it has been a big part of my experience and education with Mozilla, and a foundational part of Openscapes.
+
 
 ---
-# team stuffffff
+# OLX
 
-Open science as a way to be more efficient and streamlined
-Not an added ask at publication to share your data 
-External memory (personal and collective)
-Easier on/offboarding
-Find solutions faster – learn to talk about your data
-Build confidence – skills are transferable beyond your science
-Be empathic and inclusive – grow a network of allies
+I've modeled what I teach in openscapes after our experience with OHI,
+
+And I modeled program architecture after Mozilla's Open Leaders program. This architecture includes deliberate focus on welcoming people and creating safe spaces. 
+
+
+
+---
+# create a place to share cool things
+https://ropensci.org/blog/2017/07/18/value-of-welcome/
+
+CoC
+
+efficiency tips
+
+---
+# communication
+
+redefined. 
+in terms of websites. For us in OHI, this is now blogdown, bookdown, simple rmd websites, jekyll websites. 
+for openscapes, something we did on the call was create GH accounts, and write readmes from the browser. that's some people's first website. the thrill of having something you've done on the internet is amazing
+
+I learn things all the time too. You can publish google docs and they then look like websites and are self-refreshing. Amazing.
+
+
+///
+But using R and GitHub completely changed how we think about communication and what's possible for science. 
+
+We can do everything online. Not just all our code and data are online throughout the process, 
+
+but RMarkdown made us become web developers and can and share things along the way, not only at the end. 
+
+And it also enabled us to create a whole international online training program and provide tech support. 
+
+This is a huge deal for environmental science, since there are so many different audiences involve and being able to communicate as data decisions are being made rather than only at the end is huge.
+
+---
+# 3 the internet!
+
+---
+class: inverse
+# Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+<br>
+
+### Open data science is a mindset
+> data science • open science • open data science 
+
+### Teamwork starts with openness
+> working openly • leadership • community
+
+### Harness the power of welcome 
+> upcoming
+
+???
+
+These things fuel what it means to work responsibly and collaboratively 
+
+and should also fuel what it means to be a scientist. 
+
+
+---
+class:middle, inverse, center
+# Open source science
+
+<!--- Others can more build off of our science because they can build directly off our code. --->
+
+???
+ 
+What all of this does is create open source science. 
+
+It is easier for anyone to build off of our science because they can build directly off our code. 
+
+
+transition: working this way has made our initial intention and dream to become a reality, which is to have independent groups be able to lead their own OHI assessments. 
+
+---
+# OHI+ map
+
+And we have had over 20 groups using our science and our code to do OHI assessments in the places they care about. 
+
+---
+# Horst.github.io
+For Openscapes, it means that the amazing data science course materials that Allison Horst creates for environmental scientists in California can be used by Michelle Stuart in New Jersey to create and teach a new course. 
+
+It means that Chelsea Wood in Washington can create an intro to ecology course and share ppts. 
+
+And what this all means is that we do open source science. 
+
+---
+# squid closure
+
+going back to squid, open data science would have helped me immensely, not only to have had more confidence and been effective sooner, but also for reproducibility. My code only easily runs on my laptop from 2012 with its filepaths. But I don't have licenses anymore. 
+
+But still, here I am. And now I’m doing this presentation at an R conference, in R. What I was able to overcome and what I could do. 
 
 
 ---
@@ -1103,439 +1288,38 @@ My code was reproducible back when I wrote it, and when I got another squid tag 
 
 I know this is probably the case for a lot of people with their PhD code but it hits you hard when you learn that someone is scraping data from you published figures because they couldn't run your code on their computer. That's just not the way we want science to work.
 
----
-# DOODLE
 
-the communities we're in here have grown out of the interest in the tools. but that's not the entryway for everyone. I've been focused on the reverse process, trying to create solid teams that are stronger because of ods. 
 
-
-
----
-<br>
-
-.pull-right[
-![](img/openscapes-hex.png)
-]
-.footnote[
-twitter: [@openscapes](https://twitter.com/openscapes)
-]
-
-???
-
-This past year as a Fellow with Mozilla, I've created a mentorship program called Openscapes.
-
-Openscapes is a mentorship program, welcoming research groups to engage with open data science and become visible examples and vocal ambassadors for its awesomeness within their broader communities. 
-
-We've just completed the pilot cohort with 7 research groups, and I'm excited to tell you all about it bc we all learned a lot and I am so proud of what they accomplished.
-
----
-<br>
-
-.pull-left[
-![](img/OHI-hex.png)
-]
-
-.pull-right[
-![](img/openscapes-hex.png)
-]
-.footnote[
-twitter: [@openscapes](https://twitter.com/openscapes), [@OHIscience](https://twitter.com/OHIscience)
-]
-
-???
-
-But to tell the Openscapes story I need to first tell the Ocean Health Index story.
-
-And that's because I designed Openscapes based on my experiences with The Ocean Health Index. 
-
-Today, OHI is one of the most visible examples of how powerful open data science and teamwork can be for environmental science. 
-
-transition: But it didn't start out that way. 
-
----
-
-
-???
-
-<!---From all of this, --->
-
-And from all that modeling we create maps like these, with scores reflecting how healthy oceans are for every coastal country around the world. 
-
-And ever since, we have repeated this work every year so that we could understand how ocean health changes through time, and these ocean health index scores are now being used by the United Nations to help understand environmental trends.
-
-<Jamie do we have a GIF of this?>
-
-So the OHI and these global assessments are a really massive novel scientific and communication undertaking. And it also meant to do sound and reproducible data science.
-
-But we did not know how. 
-
-transition: when we first developed the OHI in 2012, we had files like these. 
-
----
-## `Data Analysis_v2b.xls`
-## `Data Analysis Explanation_v2.doc`
-## `script_12_11_10.R`
-
-.footnote[
-circa 2012
-]
-
-???
-
-We were marine scientists using the tools and approaches we had learned along the way. 
-
-Our team was wrangling and modeling nearly 100 datasets and planned to repeat this every year in the future. 
-
-And we truly thought that this approach would be reproducible, and were pretty deflated when it was not
-
----
-
-## `re:fwd:final data updated`
-
-.footnote[
-circa 2012
-]
-
-???
-
-TALK MORE: TODO: but this meant that MAYBE BREAK UP THE fwd
-The second year we had a few new team members, and a few that had moved on. I was one of those that came on board and it meant that other team members had to forward me 
-
-
----
-# Nature E&E paper (authors only no abstract)
-
-.footnote[
-source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-
-We published our story about our path to better science in less time using open data science tools. 
-
-It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
-
----
-
-
-
----
-class:inverse
-# Open data science
-
-<br>
-
-# Reproducibility
-# Collaboration
-# Communication
-???
-
-We share how we upgraded the way we work in terms of repro, collab, comm. 
-
-It took us a long time to categorize our work like this because it required abstracting data science steps from our ocean health index steps. 
-
-We had never thought about what were data challenges universally held by everyone and what were science challenges we faced with ocean health. So teasing these apart and articulating them was a big part of this story. 
-
-
-TODO:: I'm not going to get into all the details but those issues I mentioned above were solved like this: 
-
-repro: .xls --> .R
-collab: fwd --> GitHub issues (simplified)
-comm: static pdf --> RMarkdown-based websites
-
----
-# Reproducibility
-
-```{r repro, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% 
-                  c("data preparation", "modeling", "version control", "organisation")) %>%
-  dplyr::mutate(
-    Then = "",
-    Now = "",
-    `Primary open data science tools` = "") %>%
-  knitr::kable(format = "html")
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-
-We thought about our path to reprocibility as data prep, modeling, version control, and organization, thought about what we did before, now, and the tools we used. 
-
-
-IT TOOK US SO LONG TO SEPARATE OUT DATA WRANGLING FROM MODELING 
-
----
-# fig: R4DS ORIG
-
-???
-
-And I've got to inteject here and say 
-
-SO I CANNOT SAY ENOUGH HOW TRANSFORMATIVE THIS FIGURE WAS
-I could honesttly spend the whole talk about how much this figure has CHANGED MY LIFE
-
----
-# Reproducibility
-
-```{r repro-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% 
-                  c("data preparation", "modeling", "version control", "organisation")) %>%
-  knitr::kable(format = "html")
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-
-You don't have to read through all of this, but the summary is that 
-
-We had really been doing things by hand and with our own homegrown systems, so the biggest changes were using R and GitHub for everything, and having shared practices and conventions with the tidyverse and file storage. 
-
----
-# Collaboration
-
-```{r collab, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("coding", "workflow and project management", "internal collaboration")) %>%
-   dplyr::mutate(
-    Then = "",
-    Now = "",
-    `Primary open data science tools` = "") %>%
-  knitr::kable(format = "html")
-
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-We thought the same way about collaboration, thinking about our coding, workflows, and internal correspondance.
-
----
-# Collaboration
-
-```{r collab-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("coding", "workflow and project management", "internal collaboration")) %>%
-  knitr::kable(format = "html")
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-Not only did shared convensions with R help our coding, but shared convensions with GitHub helped our project management and our documentation. 
-
-Using GitHub for all of this was really helpful for onboarding new teammembers.
-
----
-# Communication
-
-```{r comm, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("sharing data", "sharing methods")) %>%
-  dplyr::mutate(
-    Then = "",
-    Now = "",
-    `Primary open data science tools` = "") %>%
-  knitr::kable(format = "html")
-
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-And finally for communication, we thought about this in terms of how we shared our data and methods. 
-
-For scientists using traditional tools, communication is really limited to the end of a project when everything can be wrapped into a PDF and data put on a remote server somewhere.
-
----
-# Communication
-
-```{r comm-complete, eval=require('DT'), echo=FALSE, message=FALSE, warning=FALSE}
-table1 %>%
-  dplyr::filter(Task %in% c("sharing data", "sharing methods")) %>%
-  knitr::kable(format = "html")
-
-```
-
-.footnote[
-[Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-???
-
-But using R and GitHub completely changed how we think about communication and what's possible for science. 
-
-We can do everything online. Not just all our code and data are online throughout the process, 
-
-but RMarkdown made us become web developers and can and share things along the way, not only at the end. 
-
-And it also enabled us to create a whole international online training program and provide tech support. 
-
-This is a huge deal for environmental science, since there are so many different audiences involve and being able to communicate as data decisions are being made rather than only at the end is huge.
-
-transition: so what this all looks like is
-
----
-# Screenshots of github.com.com/ohi-science & ohi-science.org
-
-
-???
-
-I'm not going to show you everything but everything we do, from code to documentation to training books are available from these two places
-
----
-class:middle, inverse, center
-# Open source science
-
-<!--- Others can more build off of our science because they can build directly off our code. --->
-
-???
- 
-And what this all means is that we do open source science. 
-
-It is easier for anyone to build off of our science because they can build directly off our code. 
-
-And this is true even before it's published, while it is ongoing. 
-
-And GitHub lets us share and distribute our code which has no comparison if you're used to forwarding pdfs to collaborators.
-
-transition: working this way has made our initial intention and dream to become a reality, which is to have independent groups be able to lead their own OHI assessments. 
-
----
-# OHI+ map 
-
-???
-
-And we have had over 20 groups using our science and our code to do OHI assessments in the places they care about. 
-
-There is obviously much more that goes into ocean managemtent than just code, but data and code have been huge roadblocks in the past, and difficulties in sharing and distributing has led to many efforts constantly reinventing the wheel. 
-
-We created a training program to help them understand the science and the code, and create template GitHub repos for them to organize their data and use the ohicore package.
-
-transition:
-
----
-# New Caledonia tweet
-
-???
-
-NC completed a pilot assessment in 2016 
-is preparing to use OHI for monitoring, assessment, and active management of its 1.3 million square kilometer marine park
-
----
-# Baltic
-
-???
-
-Here in europe, scientists in Stockholm are wrapping up its first assessment to be used for the Baltic Sea
-
-And they, like our global work, will be repeating these assessments so that this will be a transparent and continued resource for EU's MSFD. 
-
----
-# ohi-northeast dashboard
-
-.footnote[
-dashboard: [link!]  
-original code: [Imagine Boston, who we met at RStudio::conf18]
-]
-
-???
-
-As a final example, the OHI is part of President Obama's ocean policy for the Northeastern US.
-
-Here Shiny dashboards have been a way to communicate with partners on the decision making process throughout the analyses.
-
-Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
-
----
-# Fig 1 reprise
-
-???
-
-So I've told you about the tech advances and how we were able to reduce time and help enable others. 
-
-transition: But there were some critital intangible things that made these massive change possible
-
----
-class: inverse
-
-
-
-
----
-# recap lessons learned
 
 ---
 ```{r openscapes-hex, out.width = '50%', fig.align='center'}
 knitr::include_graphics("img/openscapes-hex.png")
 ```
-
-???
-
-With Openscapes I am trying to help other research groups adopt these practices that we have found so successful. 
-
-Openscapes is a mentorship program for research groups to help them do better science in less time. 
-
-I introduce these aspects of open data science and teamwork, and I do so through a program structure that Mozilla has developed and found to be really successful. 
-
 <!---
 What we realized is that both of these end points arentbeing addressed in reaserch labs and how they are connecteed wasn't discussed. So the dev and interconnectedness of both of these. And how it realtes to openscapes. Openscapes will be less painful and long for other groups.
  OPENSCAPES IS MAKING THIS WHEEL
 --->
 
 ---
-# Zoom
-(break into a few slides)
+# Openscapes operations
 
-???
 
-It is an online mentorship program, with scientists from 7 research groups participating for 5 months.
+- inaugural cohort was 7 research groups (22 scientists)
+- Faculty/lecturers/program managers and members from each research group participate 
+- online mentorship program, 5 months, using Zoom and Google Doc
+- 2x per month we get all participants from all labs together on the same call. 
 
-Leaders and members from each research group participate, so we have a mix of faculty, lecturers, and program managers, along with graduate students, postdocs, techniciants, and lab managers. 
 
-And 2x per month we get all participants from all labs together on the same call. 
-
-This can be challenging, but it is deliberate. 
-
-We want everyone to see and value what is possible and for them to engage and champion it in ways that align with their roles and responsibilities. 
-
-So faculty can be most effective by supporting their teams, advocating for Carpentries workshops, and speaking up in faculty meetings about making it become official parts of the curriculum. 
-
-Lab managers can become leaders within the lab, helping everyone become onboarded to the lab's github organization when they join the lab
-
-And graduate students and postdocs who work with data every day can find common ground and vocabulary with data wrangling. 
-
-And we do all research groups together because it's important to build alliances not only within labs but across them. Not only do we all learn more and it's more fun, but one of the main goals of Openscapes is to amplify our efforts nad each other so that these practices become more visible and more valued in environmental communities more broadly. 
-
-<!---
-
-SEtup from OHI: 
-
-story idea: Build / structure: keep returning to this loop. The first side we want to focus on is culture and support. until we deal with this ds will be deflating. So for the frist 5 weeks we focused on the culture side of things. Now we transition from open and trusta nd honesty. Then, what are the tools we can use within that to do bsilt. These tools and these communities. We realized this awesome loop exists that adccelerates our science and our quality of life. If that's what Openscapes is based on, keep returning to it. How do these interact with each other. Explain the loop that this creates for labs. How openscapse closes this into a cohesive loop
-THose things can't exist separately if you want to succesfful lab, it makes everyone more happy labs operate as teams, makes it more reproducble happier
-
---->
 
 <!---
 *****They want to know the lessons learned. **** more imp than details. 
 CUT WORDS. a few high-impact sentences on each lessons learned.
 --->
 
+
+
 ---
-# todo pic: ods-teamwork-loop
+# super vague but good words
 
 ???
 
@@ -1547,94 +1331,6 @@ The first half of the program we focus on teamwork and culture within the resear
 So for teamwork, we focus on creating supportive leadership in a data science and digital context, helping research groups become teams, and helping them discover and engage with online communities and participate in and start local communnities. 
 
 ---
-# Michelle quote from seaside chats/twitter
-
-???
-It was really exciting to see this culture change start to happen within research groups
-
----
-name: summit
-background-image: url(img/openscapes-summit.jpg)  
-background-size: contain
-
-.footnote[
-link to blog
-]
-
-???
-Also able to strengthen community across labs. 
-
-We were able to bring the faculty and lecturers together in person and I was surprised what an effect that had on the second half of the program. 
-
-Up to them they had understood that all of this was powerful and they knew I was really excited about it, but they left the summit actually feeling it for themselves. 
-
----
-# Malin quote
-
-### This isn’t just about coding and GitHub, this is about changing how we do science — Malin Pinsky (Pinsky Lab)
-
-???
-
-
----
-# open science <-> teamwork doodle
-
-???
-
-And in the second half we focused more on data science tools and how to learn them with communities. 
-
-This is where we learned about some of the packages in the tidyverse and rOpenSci suites. We talked about how RLadies, #tidytuesday, and Mozilla study groups are really imporant ways to learn
-
-The point is to see what is possible and discuss how it fits in with their ongoing work and really help create these mindset and culture shifts
-
----
-# PATHWAY
-(knitr table like above, or screenshot of google slide?)
-
-???
-
-One of the centering features goes back to the pathway idea from the tables I showed, and had teams think about the tools and approaches they were using now, and what they might want to do differently. 
-
-We revised these throughout the program, and helped set priorities for which things to focus on first.
-
----
-# Outcomes
-
-
-???
-I'm cutting this for the practice talk to check on timing and how much I should get into this 
-
-
----
-class: inverse, middle, center
-# Lessons learned 
-
-<!---
-Steph notes Jul 2:
-
-How imporatnt env science is to other things. Ag and health. And that's where you need to be open and inclusive and welcoming. Beause everyone thinks of themselves as imposters in different context. But they aren't they just have different skillsets. 
-Maybe fits into the mindset: willing to be need to become  comfortable with putting yourself out there and your work out there before it's perfect. It will prabbly get better. Put it out there before it's done. It's better together. No one has all the answers. 
-
-Assume best intentions. Critique and improvement come from the intent of making it better. Not because you're an imposter.
-
-Walk the walk. This isn't the most perfect talk but i've made these decisions. People connect with me when I do that.
-
-willing to put things out there even when they're not perfect. 
-
---->
-
-
-<br>
-
-???
-
-So throughout all of this, I have three lessons learned. 
-
-These come through my experiences as a PhD student studying squid, through six years with the Ocean Health Index team and this R community, and with my most recent year with Mozilla and Openscapes. 
-
-They are guiding principles for me, and what I advise for environmental scientists. But they are relevant much more broadly so I hope they will be useful for everyone here as as well. 
-
----
 # Open data science is a mindset 
 <!---
 ```{r yoda, out.width = '75%', fig.align='center'}
@@ -1642,15 +1338,6 @@ knitr::include_graphics("img/horst-starwars-yoda.png")
 ```
 --->
 ???
-The first is that open data science is a mindset. 
-
-Yes, it is also tools and practices for data analysis and reproducibility. 
-
-But it is also an expectation that there is a better way to work, 
-
-and it is confidence and willingness to figure it out and innovate. 
-
-It's how the Force was not only a skillset but it broadened Luke's mind of what was possible and the scope of challenges he could tackle. 
 
 <!---
 How imporatnt env science is to other things. Ag and health. 
@@ -1678,75 +1365,9 @@ How to get rid of cruft: write a POP for my presentation. Make sure that everyth
 
 --->
 
----
-# Teamwork starts with/needs openness
-<!---
-```{r hands, out.width = '60%', fig.align='center'}
-knitr::include_graphics("img/horst-starwars-hands.png")
-```
---->
-
-
-.pull-left[
-## requirements
-### vulnerability & trust
-### open mind & willingness
-### leadership 
-]
-
-???
-
---
-
-.pull-right[
-## strategies
-### seaside chats
-### hackathons
-### code of conduct
-]
-
-???
-
-It takes strength to be vulnerable. 
-
-<!---
-
-Teamwork starts with future you and future us. 
-
-This is about thinking ahead for what will make your analytical life better, but also the analytical life of your team. 
-
-This means creating work environments where everyone feels comfortable and are supported to do their best work. Codes of Conduct can play a big role in this.  
-
-This means having good leadership and room to grow as leaders 
-
-This means creating trust and shared norms, and it takes time. But particularly 
-
-
-Teamwork is really important for science and discovery. But it's also powerful for people. Mental health, leaky pipeline, burnout. and maybe include this too. This is really powerful for science and individuals and teams. 
---->
 
 ---
-# Harness the power of welcome 
-
-
-???
-
-And lastly, leverage the power of welcome. 
-
-This means being a friendly face and encouragement for others, and thinking about where they are coming from.
-
-be open and inclusive and welcoming. Beause everyone thinks of themselves as imposters in different context. But they aren't they just have different skillsets. 
-
-<!---
-I have realized that researchers who are doing amazing env science might be really intimidated by data science and they might need to be welcomed. 
---->
-
-I learned this early from the folks at rOpenSci and RStudio with their commitment to creating a diverse and inclusive space. 
-
-And it has been a big part of my experience and education with Mozilla, and a foundational part of Openscapes.
-
----
-# openscapes
+# wrap up 
 
 so openscapes hasn't solved all of these issues yet 
 
@@ -1756,31 +1377,9 @@ If i’m talking about future challenges: how you find funding to support this k
 It is hard to find funding to support thes initiaitves
 
 
----
-# wrap up 
-
 What’s been challenging and what we’re still working on as a more collaborative community.
 
----
-#squid closure
-Now I’m doing this presentation at an R conference, in R. What I was able to overcome and what I could do. 
-Need closure to “this was really hard and I didn’t know anything”. 
 
-
----
-class: inverse
-# Lessons learned & strategies
-<br>
-
-# Open data science is a mindset
-# Teamwork starts with/needs openness
-# Harnass the power of welcome 
-
-???
-
-These things fuel what it means to work responsibly and collaboratively 
-
-and should also fuel what it means to be a scientist. 
 
 ---
 ```{r welcome-rstats, out.width = '75%', fig.align='center'}
@@ -1842,10 +1441,33 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 --->
 
 ---
+# Thank you
+
+Teamwork in action:
+OHI team  
+Mozilla team  
+Openscapes Champion Labs
+
+<br>
+
+all artwork: [@allison_horst]  
+xaringan theme: [@apreshill]
+
+
+???
+
+These teams that have given me such support and feedback
+
+I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
+
+Thank you.
+---
+```{r fin}
+```
 class: title-slide, right, bottom
 background-image: url(img/horst-starwars-rey.png)
 background-size: contain
-background-position: bottom left 
+background-position: bottom left   
 
 
 # `r rmarkdown::metadata$title`
@@ -1865,29 +1487,52 @@ background-position: bottom left
 
 
 ---
+# orphan
+
+---
+exclude: TRUE
+class:inverse
+# Open data science
+
+<br>
+
+# Reproducibility
+# Collaboration
+# Communication
+???
 
 
-TODO repeat title slide with more info?  
-Oooo or do a hack title slide adn screenshot full contain here boom.
+TODO:: I'm not going to get into all the details but those issues I mentioned above were solved like this: 
 
-(screenshot <https://twitter.com/nceas/status/1137388818989047814>?)
+repro: .xls --> .R
+collab: fwd --> GitHub issues (simplified)
+comm: static pdf --> RMarkdown-based websites
 
-.pull-left[
-title
-link to slides
-twitter handles
-]
 
-.pull-right[
-Teamwork in action:
-OHI team, Mozilla team  
-all artwork: [@allison_horst]  
-xaringan theme: [@apreshill]
+???
+And finally for communication, we thought about this in terms of how we shared our data and methods. 
+
+For scientists using traditional tools, communication is really limited to the end of a project when everything can be wrapped into a PDF and data put on a remote server somewhere.
+
+---
+# ohi-northeast dashboard
+
+.footnote[
+dashboard: [link!]  
+original code: [Imagine Boston, who we met at RStudio::conf18]
 ]
 
 ???
 
-I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
+As a final example, the OHI is part of President Obama's ocean policy for the Northeastern US.
 
-Thank you.
+Here Shiny dashboards have been a way to communicate with partners on the decision making process throughout the analyses.
 
+Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
+
+---
+exclude: TRUE
+# Tweet stash
+
+
+https://twitter.com/nceas/status/1137388818989047814 ocean day rladies
