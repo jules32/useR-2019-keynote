@@ -10,7 +10,7 @@ output:
     seal: false
     lib_dir: libs 
     nature:
-      slideNumberFormat: "" # if you want to disable
+     # slideNumberFormat: "" # if you want to disable
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -758,6 +758,9 @@ Working openly takes internal investment from individuals and external investmen
 
 It's about thinking what Future You might need but also what Future Us might need. 
 
+So for example, we have a shared Google Drive and any presentations we create go there. Over the years we've shifted to use Google Slides more, and now it's easy to use figures or whole slides that others have created.
+BUILD THIS OUT MORE
+
 Thnk about this in terms of individuals and tone they set as a team
 
 
@@ -785,6 +788,8 @@ transition: in terms of creating a team around open data science, seaside chats 
 ???
 I mentioned seaside chats before, which is really critical for establishing shared workflows. But is is also critical for teambuilding. They are fun. It's a time for us to discuss things we've learned etc.  . 
 
+here's an example from Horst or WOod.
+
 ---
 #hackathons pic bhi
 
@@ -796,6 +801,8 @@ So this is where we will actually overhaul our filepath conventions or refactor 
 
 In both seaside chats and hackathons we've also developed written protocols for onboarding new teammembers so that they can get upskilled and in our workflow as soon as possible.
 
+With Openscapes, we've discussed doing hackathons to put data in one place and write data dictionaries and metadata.
+
 ---
 # pic happy hour / hike?
 
@@ -803,8 +810,10 @@ In both seaside chats and hackathons we've also developed written protocols for 
 
 And we also prioritize social time, which is evident because all of our team pictures are selfies at HH. So a shared practice of enjoying wineries and beer gardens might be part of team building for us. 
 
+This includes other shared nerdy interests as well
+ 
 ---
-# other shared nerdy interests as well
+# other 
 https://twitter.com/juliesquid/status/793515652719882240
 
 transition: So this is all critical to operating like a team and being effective with how we work. And it was ignited by really supportive leadership.
@@ -897,13 +906,33 @@ transition: Before R, this is the closest I'd ever come:
 
 ---
 class:middle, inverse, center
+```{r clippy}
+```
 
 ![](https://media.giphy.com/media/13V60VgE2ED7oc/giphy.gif)
 
 <!---![](https://media.giphy.com/media/Law8cmreIvpMQ/giphy.gif) --->
 ???
 
-transition: Seriously, I'm not kidding.
+transition: Seriously, I'm not kidding. 
+
+Realizing this really was defining point in my life. 
+
+This is was that turning point when I really became the person I am today — that person who never stops talking about the wonders of R and data science and open science and community. 
+
+transition: so much so that even my 3 year old niece knew that Hadley was wizard who lived on the internet
+
+---
+class: center, middle
+```{r out.width = '100%'}
+knitr::include_graphics("img/tweet-juliesquid-wizard.png")
+# https://twitter.com/juliesquid/status/726521325821431808
+```
+
+.footnote[
+tweet: [@juliesquid](https://twitter.com/juliesquid/status/726521325821431808)
+]
+
 
 ---
 # ropensci
@@ -943,6 +972,14 @@ TWitter connected us to rOpenSci and RStudio communities and were able to meet a
 
 It was a big deal to be feel so welcomed here, it made such a difference with our skillsets and confidence. 
 
+---
+# RLadies. 
+
+This has made me be a better advocate for women in science. And this is something that we discuss in Openscapes too. 
+
+
+---
+Sam from Stier Lab
 
 ---
 # pics TODO
@@ -953,23 +990,6 @@ It was a big deal to be feel so welcomed here, it made such a difference with ou
  
 These communities really broadened my thinking of what collaboration and teamwork meant, and I really started feeling that open data science was more than code, it was a better way to work and a better way to do science. 
 
-This was really the defining point in my life. This is was that turning point when I really became the person I am today — that person who never stops talking about the wonders of R and data science and open science and community. 
-
-transition: so much so that even my 3 year old niece knew about dplyr and ggplot. 
-
----
-class: center, middle
-```{r out.width = '100%'}
-knitr::include_graphics("img/tweet-juliesquid-wizard.png")
-# https://twitter.com/juliesquid/status/726521325821431808
-```
-
-.footnote[
-tweet: [@juliesquid](https://twitter.com/juliesquid/status/726521325821431808)
-]
-
-???
-transition: I had all this enthusiasm and I realized I wanted to start helping others/teach it
 
 ---
 # pic eds/rladies
@@ -1667,8 +1687,8 @@ knitr::include_graphics("img/horst-starwars-hands.png")
 
 
 .pull-left[
-## description
-### trust & vulnerability
+## requirements
+### vulnerability & trust
 ### open mind & willingness
 ### leadership 
 ]
@@ -1821,7 +1841,30 @@ And there are opps but challenges as teams. how do you lead well when you dont k
 --->
 
 ---
-# Thank you
+class: title-slide, right, bottom
+background-image: url(img/horst-starwars-rey.png)
+background-size: contain
+background-position: bottom left 
+
+
+# `r rmarkdown::metadata$title`
+
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$role`
+### `r rmarkdown::metadata$institute`
+
+[`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
+[`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
+[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
+
+
+<img src="img/mozilla.png" alt="mozilla" style="float:right;width:154px;"/>
+<img src="img/nceas.png" alt="nceas" style="float:right;width:150px;"/>
+
+
+
+---
+
 
 TODO repeat title slide with more info?  
 Oooo or do a hack title slide adn screenshot full contain here boom.
