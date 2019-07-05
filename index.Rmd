@@ -10,6 +10,7 @@ output:
     seal: false
     lib_dir: libs 
     nature:
+      slideNumberFormat: "" # if you want to disable
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -57,8 +58,8 @@ background-position: bottom left
 [`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
 
 
-<img src="img/mozilla.png" alt="rstudio" style="float:right;width:150px;"/>
-<img src="img/nceas.png" alt="rstudio" style="float:right;width:150px;"/>
+<img src="img/mozilla.png" alt="mozilla" style="float:right;width:154px;"/>
+<img src="img/nceas.png" alt="nceas" style="float:right;width:150px;"/>
 
 <!---TODO: change to Moz + NCEAS logos--->
 
