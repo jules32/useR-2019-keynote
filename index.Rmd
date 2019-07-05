@@ -803,6 +803,12 @@ create a GH org for your lab. have private repos while you get comfortable using
 Using github, even in a private repository until you're ready to share, is part of open science because you're working with the intension of sharing.
 
 ---
+# efficiency tips TODO
+
+we pepper this with little wins that can have huge impact. I show keyboard shortcuts
+
+
+---
 .whisper[open data science is data science that enables open science]
 
 .footnote[
@@ -823,15 +829,6 @@ Because it doesn't say anything about teamwork.
 
 So to transition into that let me tell you about our OHI Team. 
 
----
-# orphan teamwork
-Teamwork is critical in science because no one it can do it all. 
-
-Teams can be the colleagues in your office with the same deliverables, they can be 
-
-A big part of openscapes is helping scientists identify teams and create positive culature within them.
-
-So we start with core team unit of science, the research laboratory. So just like my PhD lab centered around squid, the Openscapes labs center around paraistate....
 
 ---
 # Ocean Health Index <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:120px;"/>
@@ -866,14 +863,13 @@ The OHI focuses on the benefits that the ocean provides people, and we use the b
 --->
 
 ---
-# Global map
+class: center, middle
+```{r flowerplot, out.width = '100%'}
+knitr::include_graphics("img/global_map_Index_2018_mol.png")
+```
 
 .footnote[
-
-<br>
-<br>
-
-source: [Halpern *et al.* 2012]
+source: [ohi-science.org/ohi-global](http://ohi-science.org/ohi-global/)
 ]
 
 ???
@@ -904,7 +900,7 @@ Reduced time is important for repeated environmental aassesmments that are are r
 
 In 2012 it took us 3M, and now in 2019 it takes 250K.
 
-transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. So when I work with Openscapes teams I try to talk about it like this. 
+transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. 
 
 ---
 class: inverse, center, middle
@@ -915,7 +911,13 @@ class: inverse, center, middle
 
 ???
 
-Our team works well because we work openly, we have supportive leadership, and we joined and created external communities outside our team. 
+So this brings us to the second lesson learned, teamwork. 
+
+Teamwork is critical in science because no one it can do it all. 
+
+Teams can be the colleagues in your office with the same deliverables, they can be people across the world working on a project with you. 
+
+Our OHI team works well because we work openly, we have supportive leadership, and we joined and created external communities outside our team. 
 
 This has helped us stay a strong and positive team, even as the people on the team have changed, either by joining or moving on to other opportunities. 
 
@@ -941,8 +943,18 @@ and we are not afraid to fail, we actually share our failures and learn from the
 
 So for example, .... 
 
+
 ---
-# Working openly
+# openscapes TEMP
+
+A big part of openscapes is helping scientists identify teams and create positive culature within them.
+
+So we start with core team unit of science, the research laboratory. So just like my PhD lab centered around squid, the Openscapes labs center around paraistate....
+
+More detail TODO
+
+---
+# Working openly TODO this means
 write these out in columns
 
 ???
@@ -1012,10 +1024,11 @@ Not a concept that I had ever heard of until rOpenSci 2018. In science, despite 
 
 This means that when someone started their first year would be past emails forwarded to them on-demand with attachments to try to parse out what to do. 
 
-But what these shared practices, seaside chats, etc, do is create shared customs to make it easier for new peopel to get up to speed. And, when they leave the lab, you're not hoping they'll respond to your email and send some documentation to their code; it's already on GitHub.  
-
-
 ## `re:fwd:final data updated`
+
+And that's ineffective and also pretty dangerous for reproducibility. Because attachements get lost, and it means that everyone is having to take time doing the collaborative bookkeeping that github does, and the cumulative time that people spend downloading and organizing could make some real headway on env. 
+
+But what these shared practices, seaside chats, etc, do is create shared customs to make it easier for new peopel to get up to speed. And, when they leave the lab, you're not hoping they'll respond to your email and send some documentation to their code; it's already on GitHub.  
 
 ---
 # pic happy hour / hike?
@@ -1024,16 +1037,11 @@ But what these shared practices, seaside chats, etc, do is create shared customs
 
 And we also prioritize social time, which is evident because all of our team pictures are selfies at HH. So a shared practice of enjoying wineries and beer gardens might be part of team building for us. 
 
-This includes other shared nerdy interests as well
-All been 
- 
----
-# other 
-https://twitter.com/juliesquid/status/793515652719882240
-
 transition: So this is all critical to operating like a team and being able to engage effectively and collaboratlively with ODS
 
 And this team culture was ignited and nurtured by really supportive leadership.
+
+<!---https://twitter.com/juliesquid/status/793515652719882240 felted octocats --->
 
 ---
 # Leadership
@@ -1054,44 +1062,22 @@ because he  to pursue it, he has funded us to go to conferences, .
 And this is really critical. He is not a coder himself but saw its value and gave us space and trusted us to learn data science and implement shared practices for our team.
 
 ---
-# Summit woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
-
-name: summit
-background-image: url(img/openscapes-summit.jpg)  
-background-size: contain
-
-.footnote[
-link to blog
-]
+# Zoom woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
 
 ???
-
-ADD THIS TODOand see notes below
-
-
-I've just completed the first cohort of environmental scientists from 7 research groups, working with the supervisor and lab members together. 
-
-So faculty can be most effective by supporting their teams, advocating for Carpentries workshops, and speaking up in faculty meetings about making it become official parts of the curriculum. 
-
-Lab managers can become leaders within the lab, helping everyone become onboarded to the lab's github organization when they join the lab
-
-And graduate students and postdocs who work with data every day can find common ground and vocabulary with data wrangling. 
-
-And we do all research groups together because it's important to build alliances not only within labs but across them. Not only do we all learn more and it's more fun, but one of the main goals of Openscapes is to amplify our efforts nad each other so that these practices become more visible and more valued in environmental communities more broadly. 
-
-///
 
 
 So when I work with the research leads in Openscapes, I we discuss this specifically. How their role does not have to be to learn R, but they can still champion it. They can enable it in their labs, they can support their lab members to go to conferences, they can advocate for it to be taught. 
 
 but how they can still be an oversized influence on its uptake. 
 
-And Michelle Stuart!
 
 But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
 
 transition: this is vertical leadership. But leadership does not have to only come from the top. horizonta;/within 
 so back to our OHI team. Ben's leadership style has also fueled us to become leaders ourselves
+
+Example: Nishad couldn't come but his students. 
 
 ////
 
@@ -1126,7 +1112,13 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/693324555704610816)
 
 We have all stepped up to become leaders within our lab group, and beyond. 
 
-This is Ben Best, Jamie Afflerbach and I, and we co-founded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
+This is Ben Best, Jamie Afflerbach and me. They have been so leaders for me and partners in crime as well. 
+
+and we co-founded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
+ 
+---
+# Michelle Stuart!
+ 
  
 So for Openscapes, blogs about how to start study groups on your own.
 
@@ -1255,7 +1247,34 @@ TWitter connected us to rOpenSci and RStudio communities and were able to meet a
 
 It was a big deal to not only connect online, but also in person. It really solidified that we were part of this. 
 
-ADD SUMMIT slide
+---
+# Summit woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+
+name: summit
+background-image: url(img/openscapes-summit.jpg)  
+background-size: contain
+
+.footnote[
+link to blog
+]
+
+???
+
+ADD THIS TODOand see notes below
+
+
+I've just completed the first cohort of environmental scientists from 7 research groups, working with the supervisor and lab members together. 
+
+So faculty can be most effective by supporting their teams, advocating for Carpentries workshops, and speaking up in faculty meetings about making it become official parts of the curriculum. 
+
+Lab managers can become leaders within the lab, helping everyone become onboarded to the lab's github organization when they join the lab
+
+And graduate students and postdocs who work with data every day can find common ground and vocabulary with data wrangling. 
+
+And we do all research groups together because it's important to build alliances not only within labs but across them. Not only do we all learn more and it's more fun, but one of the main goals of Openscapes is to amplify our efforts nad each other so that these practices become more visible and more valued in environmental communities more broadly. 
+
+///
+
 
 ---
 # RLadies. 
