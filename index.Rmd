@@ -1271,103 +1271,32 @@ going back to squid, open data science would have helped me immensely, not only 
 But still, here I am. And now I’m doing this presentation at an R conference, in R. What I was able to overcome and what I could do. 
 
 
+I know this is probably the case for a lot of people with their PhD code but it hits you hard when you learn that someone is scraping data from you published figures because they couldn't run your code on their computer. You feel a big responsibility to help others do better than you did.
+
+
 ---
-# Closing thoughts
+```{r closing-thoughts}
+```
+name: environ-comm-r4ds
+class: center, middle
+background-image: url(img/horst-eco-r4ds.png) 
+background-size: contain
+
+.footnote[
+.left[
+<br>
+art: [@allison_horst](https://twitter.com/allison_horst) <br>
+updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
+]
+]
+
+???
 
 These are all in the shorter term, but really, they do not address the bigger problem that this is not supported more fully at the institution and university levels. 
 
 I've mentioned that we lack time, but we also lack instutituional support and incentives. 
 
 I believe in this work so much but not something that is funded in the traditional structure of science. 
-
-?Squid reprieve?
-I got through this because of a few patient mentors who helped me learn how to code. I could not have done it without them. PcFB
-<!---
-My code was reproducible back when I wrote it, and when I got another squid tag back close to finishing, I could rerun. 
---->
-
-I know this is probably the case for a lot of people with their PhD code but it hits you hard when you learn that someone is scraping data from you published figures because they couldn't run your code on their computer. That's just not the way we want science to work.
-
-
-
-
----
-```{r openscapes-hex, out.width = '50%', fig.align='center'}
-knitr::include_graphics("img/openscapes-hex.png")
-```
-<!---
-What we realized is that both of these end points arentbeing addressed in reaserch labs and how they are connecteed wasn't discussed. So the dev and interconnectedness of both of these. And how it realtes to openscapes. Openscapes will be less painful and long for other groups.
- OPENSCAPES IS MAKING THIS WHEEL
---->
-
----
-# Openscapes operations
-
-
-- inaugural cohort was 7 research groups (22 scientists)
-- Faculty/lecturers/program managers and members from each research group participate 
-- online mentorship program, 5 months, using Zoom and Google Doc
-- 2x per month we get all participants from all labs together on the same call. 
-
-
-
-<!---
-*****They want to know the lessons learned. **** more imp than details. 
-CUT WORDS. a few high-impact sentences on each lessons learned.
---->
-
-
-
----
-# super vague but good words
-
-???
-
-This is not about hands-on training or coding, but indstead about creating a culture of teamwork and an expectation that there are better ways to work, and pathways to improvement. 
-
-The first half of the program we focus on teamwork and culture within the research group, and in the second half we transitioned to the open data science tools that enable better science in less time.
-
-
-So for teamwork, we focus on creating supportive leadership in a data science and digital context, helping research groups become teams, and helping them discover and engage with online communities and participate in and start local communnities. 
-
----
-# Open data science is a mindset 
-<!---
-```{r yoda, out.width = '75%', fig.align='center'}
-knitr::include_graphics("img/horst-starwars-yoda.png")
-```
---->
-???
-
-<!---
-How imporatnt env science is to other things. Ag and health. 
-Maybe fits into the mindset: willing to be need to become  comfortable with putting yourself out there and your work out there before it's perfect. It will prabbly get better. Put it out there before it's done. It's better together. No one has all the answers. 
---->
-
-
-<!---
-Steph::
-
-before you can become a team you have to feel safe. safe to fail. 
-There's the people part
-and there's the env part
-. you can share when things aren't perfect and trust that people won't make you feel like an iditio. inclusive
-people part: you hve to ave people that are willing to do that. willing to be vulnearable. It takes strength to be vlunerable. 
-And you have to have people that are not afraid of change, are willing to change. willing to learn. openminded to try new ideas. aren't afraid of failing. and if you fail, share what went wrong. 
-failure is such a part of openness. And a part of tearing down imposter
-communication is key: talking face to face, documenting pracitces. 
-
-one more piece: not just in yourself being vulnerable
-And encouraging others is important. encouraging others to be vulnerable. Not just creating your own safe space and creating a safe space for others. 
-Creating a space where others can be vulnerable too. 
-
-How to get rid of cruft: write a POP for my presentation. Make sure that everything leads back to my POP
-
---->
-
-
----
-# wrap up 
 
 so openscapes hasn't solved all of these issues yet 
 
@@ -1378,6 +1307,19 @@ It is hard to find funding to support thes initiaitves
 
 
 What’s been challenging and what we’re still working on as a more collaborative community.
+
+
+
+
+<!---
+*****They want to know the lessons learned. **** more imp than details. 
+CUT WORDS. a few high-impact sentences on each lessons learned.
+--->
+
+
+<!---
+How to get rid of cruft: write a POP for my presentation. Make sure that everything leads back to my POP
+--->
 
 
 
@@ -1461,6 +1403,7 @@ These teams that have given me such support and feedback
 I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
+
 ---
 ```{r fin}
 ```
@@ -1529,6 +1472,28 @@ As a final example, the OHI is part of President Obama's ocean policy for the No
 Here Shiny dashboards have been a way to communicate with partners on the decision making process throughout the analyses.
 
 Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
+
+---
+# Openscapes operations
+
+
+- inaugural cohort was 7 research groups (22 scientists)
+- Faculty/lecturers/program managers and members from each research group participate 
+- online mentorship program, 5 months, using Zoom and Google Doc
+- 2x per month we get all participants from all labs together on the same call. 
+
+
+---
+# super vague but good words
+
+???
+
+This is not about hands-on training or coding, but indstead about creating a culture of teamwork and an expectation that there are better ways to work, and pathways to improvement. 
+
+The first half of the program we focus on teamwork and culture within the research group, and in the second half we transitioned to the open data science tools that enable better science in less time.
+
+So for teamwork, we focus on creating supportive leadership in a data science and digital context, helping research groups become teams, and helping them discover and engage with online communities and participate in and start local communnities. 
+
 
 ---
 exclude: TRUE
