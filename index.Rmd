@@ -756,7 +756,7 @@ And we also prioritize social time, which is evident because all of our team pic
 transition: So this is all critical to operating like a team and being effective with how we work. And it was ignited by really supportive leadership.
 
 ---
-# Leadership — vertical
+# Leadership
 
 pic Ben Halpern
 
@@ -784,10 +784,10 @@ And Michelle Stuart!
 
 But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
 
-transition: so back to our OHI team
+transition: so back to our OHI team. Ben's leadership style has also fueled us to become leaders ourselves
 
 ---
-# Leadership — horizontal
+# Leadership 
 ```{r out.width = '80%', fig.align='center'}
 knitr::include_graphics("img/shiny-conf-2016-crop.jpeg")
 # knitr::include_graphics("img/tweet-juliesquid-shinydevcon2016.png")
@@ -799,11 +799,10 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/693324555704610816)
 
 ???
 
-And this kind of leadership really cultivated us becoming leaders ourselves. 
+We have all stepped up to become leaders within our lab group, and beyond. 
 
-This is Ben Best, Jamie Afflerbach and I preparing for the Shiny Developers' conference in 2016.
-
-We gained confidence teaching each other within our team, and started teaching others outside our team too. 
+This is Ben Best, Jamie Afflerbach and I, and we co-founded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
+ 
 
 ---
 # Leadership — eco-data-science
