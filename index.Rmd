@@ -1,7 +1,7 @@
 ---
 title: "R for better science in less time"
 subtitle: 
-author: 'Julia Stewart Lowndes, PhD'
+author: 'Julia Stewart Lowndes, PhD' 
 role: 'Marine Data Scientist & Mozilla Fellow'
 institute: 'National Center for Ecological Analysis & Synthesis<br>University of California at Santa Barbara, USA'
 date: "useR! 2019 Keynote<br>Toulouse, France"
@@ -85,7 +85,7 @@ They are guiding principles for me, and what I advise for environmental scientis
 
 ---
 class: inverse
-# Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+# Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:120px;"/>
 <br>
 
 ### Open data science is a mindset
@@ -111,10 +111,10 @@ These research groups are often around a theme or topic, like a species, place, 
 
 ---
 class: center, middle
-
+# Kraken
 .pull-left[
 ```{r sq-lab, out.width = '80%'}
-knitr::include_graphics("img/*IMG_9254_small_byGregAuger.jpg")  
+knitr::include_graphics("img/")  
 ```
 ]
 
@@ -123,13 +123,19 @@ knitr::include_graphics("img/*IMG_9254_small_byGregAuger.jpg")
 <br>
 <br>
 ```{r sq-lab2, out.width = '100%'}
-knitr::include_graphics("img/*IMG_9268.JPG") 
+knitr::include_graphics("img/") 
 ```
 ]
- 
+
+.footnote[
+TODO links
+]
+  
 ???
 
-We were a squid lab, broadly interested to understand how squid interact with ecosystems and drive economies through fisheries, and how climate change is affecting all this. 
+We were a squid lab. We studied how squid swim, how they grow, what they eat, and the impacts they have on ecosystems and economies. 
+
+These books share some of our work.
 
 transition: Although we had the same anchor, all of us in the lab focused on different pieces of this broader interest. 
 
@@ -137,76 +143,75 @@ transition: Although we had the same anchor, all of us in the lab focused on dif
 class: center, middle
 .pull-left[
 ```{r sq-tag, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/*JulieReleaseAugerIMG_9311.jpg")  
+knitr::include_graphics("img/*IMG_9254_small_byGregAuger.jpg")  
 ```
 ]
 
 .pull-right[
 ```{r sq-tag2, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/*JulieReleaseAugerIMG_9397.jpg") 
+knitr::include_graphics("img/*JulieReleaseAugerIMG_9311.jpg")
+# *JulieReleaseAugerIMG_9397.jpg # release to water
+# *IMG_9268.JPG # measure
 ```
+]
+
+.footnote[
+photos: Greg Auger
 ]
 
 ???
 
-I focused on adult behavior and migration, and how this is relevant to fisheries, conservation, and impacted by climate change
+My research was about the behavior and migration of adult Humboldt squid, which can be nearly as big as I am.
 
----
-# pic chromatophores
-
-???
- 
-others studied physiology, neuroscience, vision, and camouflage, which is really important since we have learned a lot about human neurons through studying squid neurons
-
----
-# pic baby squid
-
-??? 
-
-also about development of squid babies, that are only 1 mm long when they hatch but can grow to be nearly my size in less than a year, meaning they eat a lot. 
+That is me on the right, releasing a squid back into the ocean with an electronic tag that turns it into a little oceanographer as it swam. 
 
 ---
 
 <br>
 
 .pull-left[
-<br>
-<br>
-```{r fieldwork, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/DannaJulieAshleyNOAA.JPG")  
+```{r fieldwork, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/sq-ctd-fieldwork.JPG")  
 ```
-
 ]
+
 .pull-right[
-```{r fieldwork2, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/sq-ctd-fieldwork.JPG") 
+<br>
+<br>
+```{r fieldwork2, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/DannaJulieAshleyNOAA.JPG") 
 ```
+]
 
+.footnote[
+web: [Gilly Lab](https://gillylab.stanford.edu/)
 ]
 
 ???
 
-This meant we did a lot of work at sea and in the lab. We would go fishing and catch and release squid that we tagged with electronic tags so they would turn into little oceanographers as they swam. 
+Our research required a lot of teamwork, both at sea and in the laboratory. 
 
-And we helped each other with our scientific work, we did field work with each other, helped keep squid alive in aquaria.
+We would help each other develop hypotheses and collect data, and would work together to interpret results. 
+
+In short, we were a typical research group that collaborated around the science. 
+
+But in terms of analyzing data, we were each on our own.
 
 ---
-# Add slide? we worked together
-
-
-
----
-# funny pic?
+# Meme.
+Meme?
 
 ???
 
-But it's not so smooth going. Because in all my education I had learned about physiology and ecology and oceanography. But I had never learned how to work responsibly with my data. 
+This was a struggle for me. In all my education I had learned about biology and ecology and oceanography and squid camouflage and locomotion. But I had never learned how to work responsibly with data. 
 
-And even though our research group would collaborate with each other with designing hypotheses and collecting data, we were eeach on our own to actually analyze our data. 
+I learned how to code when all other options were exhausted. 
 
-I learned how to code when all other options were exhausted. And that's because Excel was the only tool I knew, and it wouldn't work because the file was too big. 
+Excel was the only tool I knew, and it wouldn't work because file was too big. 
 
-This was not big data in the way that many of of you consider big data, but it was big to me, and it was panic-inducing. I actually considered breaking the dataset into multiple excel files and analyzing each by hand. It was a really dark time. 
+This was not big data in the way that many of of you consider big data, but it was big to me, and it was panic-inducing. 
+
+I actually considered breaking the dataset into multiple excel files and analyzing each by hand. It was a really dark time. 
 
 But it gets better. 
 
@@ -232,7 +237,8 @@ He is demoralized because he cannot solve the problem before him with the skills
 transition: but what happens next is that he meets Yoda
 
 ---
-```{r yoda, out.width = '90%', fig.align='center'}
+class: top, center
+```{r yoda, out.width = '88%'}
 knitr::include_graphics("img/horst-starwars-yoda.png") 
 ```
 
@@ -291,9 +297,12 @@ And it is really critical that all environmental scientists feel this powerful a
 
 So ever since I felt this way I've been helping others engage too. 
 
-This started off as just being informal chats in our research group about data and workflows.
+transition: Some of the ways I've been doing this is through —
+
+
 
 ---
+exclude: TRUE
 # Seaside chats
 ```{r seaside, out.width = '70%', fig.align='center'}
 knitr::include_graphics("img/seaside-chat.jpg") 
@@ -311,17 +320,17 @@ Our chats are focused on setting up and maintaining standard operating procedure
 
 ---
 # Eco-data-science
-screenshot
+screenshot: jamie teaching? swc-ucsb?
 
 .footnote[
 EDS link
 ]
 
 ???
-And then we started teaching our friends one-on-one and in small groups, and that's led to EDS being a 250-member group at UCSB. 
 
-This has been really important for us to learn new things and learn how to teach,  
- And this was seen as a benefit to everyone, because the more collaborators with these skills the better for everyone. 
+Eco-data-science, which is a coding club or study group that we started at UCSB. 
+
+And then we started teaching our friends one-on-one and in small groups, and that's led to EDS being a 250-member group at UCSB. 
 
 ---
 # Carpentries workshops
@@ -359,36 +368,36 @@ This is a group that skill-shares....
 and I have now led 7 workshops. 
 
 ---
-# Nature E&E paper (authors only no abstract)
+# RLadies
 
+<br>
+
+.pull-left[
+<br>
+```{r rladies, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/rladies-rstudioconf19-jdlong.jpg")  
+```
+ 
 .footnote[
-source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
+web: [rladies.org](https://rladies.org/), 
+photo: [JD Long](https://twitter.com/CMastication/status/1101568109423542273)
 ]
 
-???
-
-We published our story about our path to better science in less time using open data science tools. 
-
-It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
-
----
-class: center, middle
-.pull-left[
-```{r rladies, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/rladiessb-streamlined.jpg")  
-```
 ]
 
 .pull-right[
 ```{r rladiessb, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/rladies-kickoff.jpg") 
+knitr::include_graphics("img/rladiessb-kickoff2019.jpg")
+# rladies-kickoff.jpg
 ```
-]
-
-
 .footnote[
-tweet: [@i_steves](https://twitter.com/i_steves/status/983909123073835010)
+tweet: [@RLadiesSB](https://twitter.com/RLadiesSB/status/1088825797085880320)
 ]
+
+]
+
+<!---[@i_steves](https://twitter.com/i_steves/status/983909123073835010)--->
+
 
 ???
 
@@ -401,19 +410,35 @@ https://twitter.com/jafflerbach/status/1106360972510289921
  rladiessb kickoff
 https://twitter.com/JennyBryan/status/1068755043061571585 reprex
 
+
 ---
+# Nature E&E paper (authors only no abstract)
+
+.footnote[
+source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+We published our story about our path to better science in less time using open data science tools. 
+
+It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
+
+
+---
+exclude: TRUE
 # Ocean Health Index
 .pull-left[
 <br>
 <br>
 ```{r ohiplus, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/DannaJulieAshleyNOAA.JPG")  
+knitr::include_graphics("img/")  
 ```
 
 ]
 .pull-right[
 ```{r fellows, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/sq-ctd-fieldwork.JPG") 
+knitr::include_graphics("img/") 
 ```
 
 ]
@@ -559,13 +584,12 @@ This whole data analysis experience can be super lonely and isolating.
 
 ---
 class: inverse
-# Lessons learned
+# Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:120px;"/>
 <br>
 
 ### Open data science is a mindset
-### Teamwork starts with openness / Open science starts with an open team
-### Harness the power of welcome / Change requires harnessing the power of welcome 
-
+### Teamwork starts with openness 
+### Harness the power of welcome 
 
 ---
 class: inverse, center, middle
