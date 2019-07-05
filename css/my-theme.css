@@ -120,7 +120,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 @page { margin: 0; }
 
 .title-slide {
-  background-color: rgba(18, 97, 128, 1);
+  background-color: white;
 }
 
 .inverse h2 {
@@ -135,7 +135,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 }
 
 .title-slide h1 {
-  color: #FFFFFF;
+  color: #333;
   padding-top: 250px;
   font-size: 45px;
   line-height: 0.05;
@@ -146,7 +146,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 }
 
 .title-slide h2 {
-  color: #FFFFFF;
+  color: #333;
   font-size: 40px;
   padding-top: 0px;
   margin-top: 0px;
@@ -156,7 +156,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 .title-slide h3 {
   font-family: 'Catamaran', sans-serif;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #333;
   text-shadow: none;
   padding: 0px;
   margin: 0px;
@@ -169,6 +169,10 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 
 .title-slide .remark-slide-number {
   display: none;
+}
+
+.footnote {
+	bottom: 0.2em;
 }
 
 
