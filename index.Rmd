@@ -257,16 +257,30 @@ We call these seaside chats. The name comes from Roosevelt's Fireside chats, whe
 Our chats are focused on setting up and maintaining standard operating procedures for our research group. We learn new skills and discuss folder architecture, filenaming, and code. 
 
 ---
-Eco-Data-Science
+# Eco-Data-Science
 
 ---
-Carpentries workshops
+# Carpentries workshops
+
+???
+
+I became an instructor with the Carpentries, which has been such a valuable thing for me, because previously I have never been taught how to teach or think about how people learn. . 
+
+
+This is a group that skill-shares....
+
+and I have now led 7 workshops. 
 
 ---
-Nature paper
+# Nature paper
 
 ---
 # RLadies with hex
+
+---
+# ohi
+
+and I've led 2 training programs for the OHI
 
 ---
 # zoom with openscapes hex
@@ -561,6 +575,8 @@ This is my core team, with the Ocean Health Index. I've worked with this team si
 
 It's with this team that I have gotten so into open data science, and have started those local communities in California. 
 
+I'm going to talk through how our team operates, because with Openscapes I'm mentoring resarch groups to help them replicate this for themselves.
+
 ---
 
 ```{r OHI hex, out.width = '55%', fig.align='center'}
@@ -569,7 +585,7 @@ knitr::include_graphics("img/OHI-hex.png")
 
 ???
 
-The OHI is a big project where we are trying on a to better understand and quantify the health of our oceans on a global scale, 
+So for a touch of context, The OHI is a big project where we are trying on a to better understand and quantify the health of our oceans on a global scale, 
 
 in a way that is useful and actionable for policy. 
 
@@ -644,14 +660,7 @@ And this shows time, and time saved is money saved.
 
 In 2012 it took us 3M, and now in 2019 it takes 250K.
 
-transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. 
-
----
-exclude: TRUE
-# a few things about teams
-
-they change, with people and focus/purpose
-
+transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. So when I work with Openscapes teams I try to talk about it like this. 
 
 ---
 class: inverse
@@ -661,8 +670,9 @@ class: inverse
 ### Leadership
 ### Community
 
+<!---TODO WHAT DID WE OVERCOME TEAMWISE? TELL STORIES--->
+
 ???
-TODO WHAT DID WE OVERCOME TEAMWISE? TELL STORIES
 
 Our team works well because we work openly, we have supportive leadership, and we joined and created external communities outside our team. 
 
@@ -726,7 +736,7 @@ transition: in terms of creating a team around open data science, seaside chats 
 I mentioned seaside chats before, which is really critical for establishing shared workflows. But is is also critical for teambuilding. They are fun. It's a time for us to discuss things we've learned etc.  . 
 
 ---
-#hackathons pic 
+#hackathons pic bhi
 
 ???
 
@@ -737,11 +747,11 @@ So this is where we will actually overhaul our filepath conventions or refactor 
 In both seaside chats and hackathons we've also developed written protocols for onboarding new teammembers so that they can get upskilled and in our workflow as soon as possible.
 
 ---
-# pic happy hour
+# pic happy hour / hike?
 
 ???
 
-And we also often have lunch and happy hours, which is evident because all of our team pictures are selfies at HH. So a shared practice of enjoying wineries and beer gardens might be part of team building for us. 
+And we also prioritize social time, which is evident because all of our team pictures are selfies at HH. So a shared practice of enjoying wineries and beer gardens might be part of team building for us. 
 
 transition: So this is all critical to operating like a team and being effective with how we work. And it was ignited by really supportive leadership.
 
@@ -756,14 +766,25 @@ pic Ben Halpern
 This is Ben Halpern, he's the lead of OHI and also the director of NCEAS, the ecology center where we are based. 
 
 He set this tone for our team, and also critically, modeled a healthy work-life balance and boundaries 
-He has played a huge role in our data science story because he supported us to pursue it. 
 
-And this is really critical. He is not a coder himself but saw that we were excited about it and gave us space and trusted us to learn data science and implement standard operating procedures for our team.
+He has played a huge role in our data science story... 
+because he  to pursue it, he has funded us to go to conferences, . 
 
-He actually doesn't participate in seaside chats because he does not need additional meetings in his life but he really encouraged us to do that on our own. 
+
+And this is really critical. He is not a coder himself but saw its value and gave us space and trusted us to learn data science and implement shared practices for our team.
+
+---
+# Summit woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+
+???
+
+So when I work with the research leads in Openscapes, I we discuss this specifically. How their role does not have to be to learn R, but they can still champion it. They can enable it in their labs, they can support their lab members to go to conferences, they can advocate for it to be taught. 
+
+And Michelle Stuart!
 
 But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
 
+transition: so back to our OHI team
 
 ---
 # Leadership — horizontal
@@ -909,19 +930,11 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/726521325821431808)
 transition: I had all this enthusiasm and I realized I wanted to start helping others/teach it
 
 ---
-# pic carpentries twitter TODO
+# pic eds/rladies
 
 ???
 
-Becoming a carpentries instructor has been such a valuable thing for me. This is a group that skill-shares....
-
-In all my education and teaching science, I have never been taught how to teach or think about how people learn. 
-
-I've now taught 7 Carpentries workshops and we teach the workflow that we use as an OHI team
-
-.footnote[
-TODO ds-training
-]
+I mentioned We invested a lot of time into creating a bigger community at UCSB. EDS, RLadies. Worth it. The more people who have these skills, the better for EDS. but more directly selfish, the more people who can help us when we have issues or teach us new things. The more people who we might potentially hire who already have these skills. In one glorious example, our OHI Fellows that we hire now come in w more training bc of Allision Horst 
 
 
 <!---
