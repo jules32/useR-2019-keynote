@@ -612,7 +612,7 @@ class: inverse
 
 These lessons come through my experiences studying squid, through six years with the Ocean Health Index team and this R community, and with my most recent year with Mozilla and Openscapes. 
 
-And as I walk through these lessons I'll weave examples from all these experiences, but focused on the OHI and Openscapes. 
+And as I walk through these lessons I'll weave examples from all these experiences, but focused on the OHI and Openscapes, and I"ll use these hexes to try to help keep the thread. 
 
 And I'll also finally define what I mean by these things because I'm aware it has been mysterious
 
@@ -1037,6 +1037,8 @@ But what these shared practices, seaside chats, etc, do is create shared customs
 
 And we also prioritize social time, which is evident because all of our team pictures are selfies at HH. So a shared practice of enjoying wineries and beer gardens might be part of team building for us. 
 
+Also, critically, we have a healthy work-life balance and boundaries. So we respect each other, and that is reflected in time, work, and social. 
+
 transition: So this is all critical to operating like a team and being able to engage effectively and collaboratlively with ODS
 
 And this team culture was ignited and nurtured by really supportive leadership.
@@ -1044,62 +1046,63 @@ And this team culture was ignited and nurtured by really supportive leadership.
 <!---https://twitter.com/juliesquid/status/793515652719882240 felted octocats --->
 
 ---
-# Leadership
+# Leadership <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+```{r halpern, out.width = '70%', fig.align='right'}
+knitr::include_graphics("img/Halpern-UCSB_UCOP-30.jpg")
+```
 
-pic Ben Halpern
-
+.footnote[
+web: [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/)
+]
 
 ???
 
 This is Ben Halpern, he's the lead of OHI and also the director of NCEAS, the ecology center where we are based. 
 
-He set this tone for our team, and also critically, modeled a healthy work-life balance and boundaries 
+He set this tone for our team, and has played a huge role in our data science even though he is not a coder himself. 
 
-He has played a huge role in supporting us through our data science journey by giving us the ... MEDS will start in Aug 2020
-because he  to pursue it, he has funded us to go to conferences, . 
+And this is really critical. 
 
+As a leader he listened to our excitement and he supported us to invest time and resources in open data science, and he trusted us to implement shared practices for our team.
 
-And this is really critical. He is not a coder himself but saw its value and gave us space and trusted us to learn data science and implement shared practices for our team.
+He's making environmental data science a priority at NCEAS, and has also spearheaded a new masters program in environmental science at the University of California 
 
----
-# Zoom woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
-
-???
-
-
-So when I work with the research leads in Openscapes, I we discuss this specifically. How their role does not have to be to learn R, but they can still champion it. They can enable it in their labs, they can support their lab members to go to conferences, they can advocate for it to be taught. 
-
-but how they can still be an oversized influence on its uptake. 
-
-
-But he is super engaged in what this enables us to do, and is a huge champion for open data science at NCEAS and Univ California where we work
-
-transition: this is vertical leadership. But leadership does not have to only come from the top. horizonta;/within 
-so back to our OHI team. Ben's leadership style has also fueled us to become leaders ourselves
-
-Example: Nishad couldn't come but his students. 
-
-////
-
-Also able to strengthen community across labs. 
-
-We were able to bring the faculty and lecturers together in person and I was surprised what an effect that had on the second half of the program. 
-
-Up to them they had understood that all of this was powerful and they knew I was really excited about it, but they left the summit actually feeling it for themselves. 
+transition: so with Openscapes, I also mentor the research group leads individually so that they can become champions for open data science and have an oversized influence like Ben has had. 
 
 ---
-exclude: TRUE
-# Malin quote
+# <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+```{r summit-web, out.width = '80%', fig.align='right'}
+knitr::include_graphics("img/openscapes-summit-web-champions.png")
+```
 
-### This isn’t just about coding and GitHub, this is about changing how we do science — Malin Pinsky (Pinsky Lab)
+.footnote[
+web: [openscapes.org/summit2019](https://openscapes.github.io/summit2019/)
+]
 
 
 ???
 
+Each month in addition to the Cohort calls with everyone, I would have one-on-one calls with each lead. Here they are: they are early career faculty and lecturers. 
+
+They are already influential in their fields, and doing really critical work. But when we started Openscapes, they were not yet thinking about open data science or teamwork like we've been talking about, and this gave them a chance to engage. 
+
+We covered a lot of ground in these calls; we'd talk about strategies for championing open data science in faculty meetings and we'd screenshare and practice using GitHub with RStudio. 
+
+But a main theme was how their role at this point in their careers might not include learning how to do pull requests, but they but they can still champion the broader picture.
+
+They can enable open data science in their labs, they can talk about it in their seminars and lectures.
+
+One example is Nishad Jayasundara. halfway through the program he could no longer join the full cohort calls because of a new teaching commitment. But he supported his lab members Molly and Remy to continue working with the group and bringing what they learned back to their lab. 
+
+So the idea for for the one-on-one mentoring is really about creating more visible ambassadors for open data science.  
+
+And this kind of vertical leadership is critical. But leadership comes not have to only come from the top. There is horizontal leadership too, and in fact anyone can be a leader. 
+
+transition: so back to our OHI team. Ben's leadership style has also fueled us to become leaders ourselves
 
 ---
-class: center, middle
-```{r shiny-laughing, out.width = '80%'}
+# Leadership <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+```{r shiny-laughing, out.width = '75%', fig.align='right'}
 knitr::include_graphics("img/shiny-conf-2016-crop.jpeg")
 # knitr::include_graphics("img/tweet-juliesquid-shinydevcon2016.png")
 ```
@@ -1110,40 +1113,61 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/693324555704610816)
 
 ???
 
-We have all stepped up to become leaders within our lab group, and beyond. 
+We all had agency and support to become leaders within our lab group, and beyond. 
 
-This is Ben Best, Jamie Afflerbach and me. They have been so leaders for me and partners in crime as well. 
+This is Ben Best, Jamie Afflerbach and me. They are my teammates but they have also been  leaders for me. Ben spent countless hours sitting with me and teaching me R and was patient when I deliberately made emails from github go to my spam folder because I thought GitHub was not going to be useful to me. 
 
-and we co-founded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
- 
+And Jamie is an amazing leader as well, I'll tell a story about her in a moment. 
+
+And together we are partners in crime. We cofounded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
+
+transition: Enabling this kind of leadership within teams is what I try to ignite with Openscapes. 
+
 ---
-# Michelle Stuart!
- 
- 
-So for Openscapes, blogs about how to start study groups on your own.
+```{r zoom-michelle, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/Cohort1_zoom-michelle.png") 
+```
 
-transiton: this brings us to community.  
+.footnote[
+twitter: [RLadies Highland Park New Jersey](https://twitter.com/RLadiesHPNJ)
+]
+
+???
+
+And Michelle Stuart is an excellent example. She is actually here at useR, where is she?
+ 
+She is in the Pinsky lab and spearheads their seaside chats. She made a GitHub account during one of our Openscapes calls and then helped others in the lab do so as well. 
+
+She's also started the first RLadies chapter in the US state of New Jersey and is planning to teach a course in open data science coming up. 
+
+So she has become not only become a leader within the Pinsky Lab, she has become a lead in the broader community. 
+
+transiton: So it is fine time that we talk about community.  
 
 ---
 # Community
 
 ???
-Community for me has really been redefined. 
-feet squarely in marine science, not bridging 
-env sci, R, and moz communities.
+
+Community for me has really been redefined by this R community. 
+
+Back in 2012 I had my feet squarely in marine science, but now I feel so energized to be bridging not only marine science but environemtnal science with the R community and the Mozilla community. 
+
 Impactful for me as a scientist because i've learned so much from each and try to help channel those lessons between groups.
  
-And engaging in R and this R community for me started on Twitter, believe it or not.   
+transition: And engaging in these broader communities for me started on Twitter.
  
 ---
-```{r jafflerbach, out.width = '55%', fig.align='center'}
+# hashtag rstats
+```{r jafflerbach, out.width = '45%', fig.align='center'}
 knitr::include_graphics("img/tweet-juliesquid-jafflerbachspatial.png") 
 ```
- 
+
+TODO: better pic of Jamie?
+
 .footer[
 tweet: [@juliesquid](https://twitter.com/juliesquid/status/728326585485402112)
 ]
-
 
 ???
 
@@ -1151,9 +1175,11 @@ My teammate Jamie encouraged to join twitter to learn R.
 
 I was definitely skeptical. I did not use Twitter because I thought it was a megaphone for angry people. 
 
-I didn't realize it was a place to have thoughtful conversations with lovely people, and most of all is is a way to listen and learn with others. 
+But she taught me how to use it to to listen and learn from other others. And then to gradually build up the courage to like and retweet things. 
 
-So I was amazed that you could have community on Twitter 
+And that this was not only a way to become part of the community yourself, but it was a way to welcome and amplify other people who might be unsure of what they were doing too.  
+
+So I was amazed that you could have community on Twitter
 
 ---
 ```{r ropensci, out.width = '70%', fig.align='center'}
@@ -1166,9 +1192,9 @@ tweet: [@jcheng](https://twitter.com/jcheng/status/611260382741577729)
 
 ???
 
-and I was also amazed that developers were real people. And not only that, they were super nice people that made me feel welcome and valued even as I was feeling insecure about my coding skills. 
+And I was also amazed that developers were real people. And not only that, they were super nice people that made me feel welcome and valued even as I was doing, there, or in life more generally
 
-Prior to these communities I had never stopped to think that there were real people behind software. 
+Prior to these conversations, I had never stopped to think that there were real people behind software. 
 
 transition: And I don't think that's entirely my fault, because before twitter, this is the closest I'd ever come:
 
@@ -1186,9 +1212,9 @@ transition: Seriously, I'm not kidding.
 
 But realizing that software developers went well beyond Clippy here was really a defining point in my life. 
 
-This is was that turning point when I really became the person I am today — that person who never stops talking about the wonders of R and data science and open science and community. 
+This is was that turning point when I really became the person I am today — that person who never stops talking about how awesome R is and how it will change your life
 
-Adn you can see things haven't changed. 
+So it's good that somethings haven't changed. 
 
 transition: but even back in 2016 my 4 year old niece knew that Hadley Wickham was wizard who lived on the internet
 
@@ -1208,7 +1234,7 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/726521325821431808)
 transition: 
 
 ---
-# ropensci
+# rOpenSci & RStudio
 
 .pull-left[
 ```{r out.width = '70%', fig.align='center'}
@@ -1219,14 +1245,6 @@ knitr::include_graphics("img/tweet-jafflerbach-runconf15.png")
 tweet: [@jafflerbach](https://twitter.com/jafflerbach/status/581578558977368064) 
 ]
 ]
-
-???
-never made me feel like a fish out of water
-
----
-# rstudio
-
-
 
 .pull-right[
 ```{r out.width = '82%', fig.align='center'}
@@ -1239,127 +1257,110 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/694237930991161344)
 
 ]
 
-https://twitter.com/stencila/status/933423954789785600 stencilla
-
 ???
 
-TWitter connected us to rOpenSci and RStudio communities and were able to meet and work with our heroes at a few conferences and unconfs. 
+So, rOpenSci and RStudio. I'm deliberately limiting myself by putting them on the same slide here because I could talk about both of them. 
 
-It was a big deal to not only connect online, but also in person. It really solidified that we were part of this. 
+They have been so supportive and welcoming fromt the get go. And it was so exctiging to be able to particitae in unconfs and dev conferences
+
+They have created communities where developers and new users who are strangers become collabortors and friends and where there is deliberate attention to setting the right space to make that happen. 
+
+It was a big deal to not only connect online, but also in person, with so many other people in these communiies. It really solidified that we were part of this. And I wanted Openscapes to have this same opportunity
 
 ---
-# Summit woot! <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
-
-name: summit
 background-image: url(img/openscapes-summit.jpg)  
 background-size: contain
 
+#<img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
+
 .footnote[
-link to blog
+blog: [openscapes summit](https://www.openscapes.org/blog/2019/04/08/summit-reflections1/)
 ]
 
 ???
 
-ADD THIS TODOand see notes below
+So midway through the Openscapes program, we were able to get the research leads together in person in California. 
 
+Not only this give them an opportunity to meet each other as scientists who are engaging in open data science, but we tried replicate what I have experienced at rOpenSci and RStudio conferences and we included Sean from the R community and Christie Bahlai from the Mozilla community. 
 
-I've just completed the first cohort of environmental scientists from 7 research groups, working with the supervisor and lab members together. 
+So I had high expections about how awesome this would be but they were exceeeded. 
 
-So faculty can be most effective by supporting their teams, advocating for Carpentries workshops, and speaking up in faculty meetings about making it become official parts of the curriculum. 
-
-Lab managers can become leaders within the lab, helping everyone become onboarded to the lab's github organization when they join the lab
-
-And graduate students and postdocs who work with data every day can find common ground and vocabulary with data wrangling. 
-
-And we do all research groups together because it's important to build alliances not only within labs but across them. Not only do we all learn more and it's more fun, but one of the main goals of Openscapes is to amplify our efforts nad each other so that these practices become more visible and more valued in environmental communities more broadly. 
-
-///
-
+Up to this point they understood that all of this was powerful and they knew I was really excited about it, but they left the summit actually feeling it for themselves. 
 
 ---
-# RLadies. 
+class: middle
+.whisper[This isn’t just about coding and GitHub, this is about changing how we do science <br>— Malin Pinsky (Pinsky Lab)]
+
+TODO: maybe add a pic
 
 ???
 
-In Openscapes calls, we talk about RLadies and how important their work is to increase gender diverstity in the R community. 
+transition: so moving forward I really want to be able to have these cohort meetups during the Openscapes program
 
-And we talk about this not only to encourage scientists to become a part of this, but to kicks-start this action in science too. 
-
-RLadies has given given me confidence and support has made me be a better advocate for women in science. And this is something that we discuss in Openscapes too. 
-
-
+There are many more communities that I love but I'm going to talk about one more right now, and that's RLadies
 
 ---
-New slide: We have several new RLadies as a result of Openscapes, 
-2 pics: HP and Sam
-
-Sam from Stier Lab
-
-
-
----
-# pics TODO
-
-<!---TODO maybe diff pics --->
-
-???
- 
-These communities really broadened my thinking of what collaboration and teamwork meant, and I really started feeling that open data science was more than code, it was a better way to work and a better way to do science. 
-
-
----
-# pic eds/rladies
+# RLadies. TODO pic
 
 ???
 
-A question I get in Openscapes is the time it takes to build local communities, and is it worth it. 
+RLadies is changing the world, starting off by increasing gender diverstity in the R community. 
 
-And our experiens, worth 1K times over. 
+And so when we talk about this in Openscapes, it's not only to encourage scientists to become a part of RLadies, but to kicks-start this kind of movement in science. 
 
-Not only are you creating a bigger pool scientist who have these skills, and could be potential collaborators or lab members in the future, EX halley gordon, tidytuesday
+RLadies as a global program and as so many individual has given given me confidence in myself, and made me be a better advocate for women in science. 
 
-It also creates a kind and positive culture, which is something we need to cultivate in environmental science. 
-
-
-
-//
-
-We invested a lot of time into creating a bigger community at UCSB. EDS, RLadies. Worth it. The more people who have these skills, the better for EDS. but more directly selfish, the more people who can help us when we have issues or teach us new things. The more people who we might potentially hire who already have these skills. In one glorious example, our OHI Fellows that we hire now come in w more training bc of Allision Horst 
-
-
-<!---
-
-runconf15
-https://twitter.com/jafflerbach/status/581159327500644352 - webappdemo by juliesquid
-https://twitter.com/sckottie/status/581596645298552833 - joe raster
-https://twitter.com/rOpenSci/status/582586182858465280
-https://twitter.com/juliesquid/status/581637460343406593
-
---->
+And along with Michelle you I already told you about we are seeing this now with the Openscapes scientists too:
 
 ---
-# pause
-we've jut talked about a lot. Something that comes up all the time is how to stay on top of everything and learn everything. And the secret is, you can't. And internalizing that is quite liberating. 
+```{r adrian-sam-tweet, out.width = '82%', fig.align='center'}
+knitr::include_graphics("img/tweet-adrianstier-rladies.png") 
+```
 
-For me, I tell folks use the internet as your external memory. write little breadcrumbs to yourself and then use the power of Google or GitHub search to help you find what you need. You see a cool new package on twitter but don't have time to play with it? Scrolling through and seeing screenshots posteed and conversations around it will be enough for you to remmber it's useful. 
+.footnote[
+tweet: [@juliesquid](https://twitter.com/juliesquid/status/694237930991161344)
+]
 
-But because we can't do it all, teamwork is more important.
+???
+
+There is a lot going on in this tweet because Sam and Ani taught their first tutorial ever at RLadiesSB. And Sam is Adrian's student, so he's amplifying her. But he is also amplifying Allison Horst, who is part of Openscapes and a colleague at at the Univeristy of California. 
+transition: And this is a good excuse to talk about Allison Horst's role in the community, because it is multi-faceted. 
+
+You probably recognize her name from all the beautiful artwork in this talk
+
+---
+# allison ggplot monster
+
+.footnote[
+art: [@allison_horst]<br>
+blog: [openscapes.org]
+]
+
+???
+
+And she is also known and loved for making little rstats monsters and posting them on Twitter
+
+---
+# Allisonhorst.github.io TODO
+
+???
+
+But she is also a lecturer of data science and statistics at the University of California, in an environmental science and management program. Around 100 students leave their masters program having learned from her each year, and through Openscapes she has upgraded her course materials to now include tidyverse and GitHub and created this website to post everything online. 
+
+Her position is one of the only ones I know of, but we need people like Allison is every environmental science department
 
 ---
 class: inverse
-# Teamwork
+#  Teamwork starts with openness 
 <br>
 ### Working openly
 ### Leadership
 ### Community
 ???
 
-So that's all to say that teamwork was critical to OHI's success. and the progress we've seen this year with Opesncapes labs. 
+So we've spent the bulk of time in this teamwork section, and is because it is so critical to learning. TODO
 
-These are these intangibles that scientists don't normally talk about. 
-
-I try to build this with openscapes by first of all modelnig this with the cohorts themselves. 
-Come back and fill this out. Fore xample, in Openscapes....opportunity for pix
+transition: The more I reflect on this the more I realized is that —
 
 ---
 name: ods-teamwork-loop
@@ -1367,13 +1368,7 @@ name: ods-teamwork-loop
 
 ???
 
-Our team can work so collab together bc of Google Drive and GH and because of our team culture for saftey
-
-the communities we're in here have grown out of the interest in the tools. but that's not the entryway for everyone. I've been focused on the reverse process, trying to create solid teams that are stronger because of ods.  OPENSCAPES IS DESIGNED FOR PARTICIPANTS OUTSIDE OF THIS LOOP.
-
-////
-
-The more I reflect on this the more I realized is that data science and teamwork exist together in a feedback loop that streamlined how we work and innovate. 
+data science and teamwork exist together in a feedback loop that streamlines how we work and innovate. 
 
 Learning and using similar software promotes and streamlines teammwork. And also working as a team better equips you to learn open practices data science.
 
@@ -1398,34 +1393,63 @@ So it took our Ocean Health Index team 4 years to learn how to work as a team an
 
 That's too long. That's too long for anyone but especially too long for our environment and climate change.
 
-So how do we accelerate this and make it so that it isn't such a painful and long process for other labs?
+OPENSCAPES IS DESIGNED FOR PARTICIPANTS OUTSIDE OF THIS LOOP. To accelerate how to engage. 
 
-When I started Openscapes, I expected to work with science teams and help them get to the open data science. But need to do the reverse.
+When I was planning Openscapes, I expected to start off in the loop over here with science teams and help them get to the open data science. 
+
+But I've realized that they are often not in this loop at all. 
+
+Entrypoints into this loop may be different for individuals, but I've found it to be a good approach to start with teamwork as an entrypoint. 
+
+transition: And to create those entrypoints, that's where we harness the power of welcome
 
 ---
 class:inverse, center, middle
-# Harness the power of welcome /// welcome is a powerful entryway
+# Harness the power of welcome /// welcome is a powerful entryway JENNY
 ### create safe spaces
 ### prioritize communication
+
 ???
 
-So what I'm trying to do with openscapes help create spaces where scientists feel safe talking about their data and workflow challenges, listen to them, and provide direction and paths forward for what to do.
+The Power of Welcome is something that I first talked about with Stef Butland from ROopensci. 
 
-Petri dish
+It's about deliberately creating safe spaces for everyone and prioritizing communication at all levels. 
 
-This means being a friendly face and encouragement for others, and thinking about where they are coming from.
+This means being a friendly face and encouragement for others, and thinking about where they are coming from and having empathy.
 
-I have realized that researchers who are doing amazing env science might be really intimidated by data science and they might need to be welcomed. 
+It is realizing that someone might be an expert in their field and doing amazing science but might be really intimidated by data science. 
+
+---
+# Stef blog screenshot TODO
+
+.pull-left[
+```{r karthik-welcome, out.width = '82%', fig.align='center'}
+knitr::include_graphics("img/tweet-_inundata-welcome.png") 
+```
+
+.footnote[
+tweet: [@_inundata](https://twitter.com/_inundata/status/814333386563194880)
+]
+]
+
+.pull-right[
+stef blog screenshot]
+
+.footnote[
+https://ropensci.org/blog/2017/07/18/value-of-welcome/
+]
+
+???
 
 I learned this early from the folks at rOpenSci, RStudio and RLadies with their commitment to creating diverse and inclusive spaces. 
 
 And it has been a big part of my experience and education with Mozilla, and a foundational part of Openscapes.
 
-
 ---
 # Create safe spaces
 
 ???
+
 And so much of what I've learned is from the Open Leaders program. 
 
 OL is... 
@@ -1437,27 +1461,23 @@ But I modeled the program architecture after Mozilla's Open Leaders program. Thi
 And doing so by blending teamwork and open tools.
 
 ---
-CoC
+# CoC
+
+???
+
+OL starts off with a COC, so that when we have the conversation about why it's important, they have already seen it in action on several calls. 
+
+That doesn't mean that we have conversations about why they are important, but it kickstarts them. 
+
+The Openscapes labs now have codes of condcut posted on their websites or github orgs
 
 ---
-# create a place to share cool things
-```{r karthik-welcome, out.width = '82%', fig.align='center'}
-knitr::include_graphics("img/tweet-_inundata-welcome.png") 
-```
-
-.footnote[
-tweet: [@_inundata](https://twitter.com/_inundata/status/814333386563194880)
-]
-
-
-https://ropensci.org/blog/2017/07/18/value-of-welcome/
-
-CoC
+# they are also just spaces to have fun
 
 efficiency tips
 
 ---
-# communication
+# prioritize communication
 
 redefined. 
 in terms of websites. For us in OHI, this is now blogdown, bookdown, simple rmd websites, jekyll websites. 
@@ -1478,9 +1498,6 @@ And it also enabled us to create a whole international online training program a
 This is a huge deal for environmental science, since there are so many different audiences involve and being able to communicate as data decisions are being made rather than only at the end is huge.
 
 ---
-# 3 the internet!
-
----
 class: inverse
 # Lessons learned <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:100px;"/>
 <br>
@@ -1496,48 +1513,13 @@ class: inverse
 
 ???
 
-These things fuel what it means to work responsibly and collaboratively 
+So we've gone through these lessons learned...
+
+These things fuel what it means to work responsibly and collaboratively with data but also as humans. 
 
 and should also fuel what it means to be a scientist. 
 
-
----
-class:middle, inverse, center
-# Open source science
-
-<!--- Others can more build off of our science because they can build directly off our code. --->
-
-???
- 
-What all of this does is create open source science. 
-
-It is easier for anyone to build off of our science because they can build directly off our code. 
-
-
-transition: working this way has made our initial intention and dream to become a reality, which is to have independent groups be able to lead their own OHI assessments. 
-
----
-# OHI+ map
-
-And we have had over 20 groups using our science and our code to do OHI assessments in the places they care about. 
-
----
-# Horst.github.io
-For Openscapes, it means that the amazing data science course materials that Allison Horst creates for environmental scientists in California can be used by Michelle Stuart in New Jersey to create and teach a new course. 
-
-It means that Chelsea Wood in Washington can create an intro to ecology course and share ppts. 
-
-And what this all means is that we do open source science. 
-
----
-# squid closure
-
-going back to squid, open data science would have helped me immensely, not only to have had more confidence and been effective sooner, but also for reproducibility. My code only easily runs on my laptop from 2012 with its filepaths. But I don't have licenses anymore. 
-
-But still, here I am. And now I’m doing this presentation at an R conference, in R. What I was able to overcome and what I could do. 
-
-
-I know this is probably the case for a lot of people with their PhD code but it hits you hard when you learn that someone is scraping data from you published figures because they couldn't run your code on their computer. You feel a big responsibility to help others do better than you did.
+With Openscapes I'm trying to create little petri dishes where scientists feel safe talking about their data and workflow challenges, and then they create the same thing in their labs, and in their departments, their campuses, and beyond. 
 
 
 ---
@@ -1558,39 +1540,15 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 
 ???
 
-So they see the benefit more, but no TIME ~or INCENTIVE~. 
+And I am confident that they see the benefit more, but the biggest obstacle is TIME especially since investing time in not part of what people are evaluated on as scientists. 
 
-And they are actionable in the short term. 
-These are all in the shorter term, but really, they do not address the bigger problem that this is not supported more fully at the institution and university levels. 
+But I hvae lofty goals that by increating the visibility of these practices with these Champions, we can increase the value in environmental science as well. 
 
-I've mentioned that we lack time, but we also lack instutituional support and incentives. 
+And that there will be more support from institutions and universities to teach this formally. because Openscapes is not the ultimate solution, it's a bandaid. 
 
-I believe in this work so much but not something that is funded in the traditional structure of science. 
-
-so openscapes hasn't solved all of these issues yet 
-
-→ could also frame positiviely: i haven’t solved all of open science, even in the first openscapes champions here are some struggles that I had trouble advising and I want to figure out to do better and help mentor better. If others are in this boat we could frame together. 
-Could say: I’m really interested in talking with people of how to move this forward. Diff from “you need to support me”
-If i’m talking about future challenges: how you find funding to support this kind of mentorship that is not part of how scientific resaerch tends to get funded. It’s a systemic weakness. It’s not me specifically unfunded. It’s systemcie
-It is hard to find funding to support thes initiaitves
-
+But..
 
 What’s been challenging and what we’re still working on as a more collaborative community.
-
-
-
-
-<!---
-*****They want to know the lessons learned. **** more imp than details. 
-CUT WORDS. a few high-impact sentences on each lessons learned.
---->
-
-
-<!---
-How to get rid of cruft: write a POP for my presentation. Make sure that everything leads back to my POP
---->
-
-
 
 ---
 ```{r welcome-rstats, out.width = '75%', fig.align='center'}
@@ -1604,16 +1562,14 @@ tweet:
 
 ???
 
-And the awesome thing is that we all have our part. 
+And the awesome thing is that we all have our part to play in helping this change. . 
 
 a critical thing is that anyone can step up and be a leader. 
 
-And the easiest/fastest way is to welcome and encourage others with open data science and teamwork.
+And the easiest/fastest way is to welcome.
 
 And if you yourself are unsure you have a team or feel like you're on the outside of the feedback loop or on the threshold, know that since you're here so you're already part of it. 
-
-
-ENDING: so we can all think about this in our own situations and also think of how we can support environmental scienists...
+BOMMER ENDING SENTENCE
 
 in a time when env sci is our most pressing probs are related to env it's critical that those scientits have the tools and team to answer those quiestions using data.
 
@@ -1751,6 +1707,45 @@ Something else that is cool is that the code is based from XXX's, who we saw pre
 - online mentorship program, 5 months, using Zoom and Google Doc
 - 2x per month we get all participants from all labs together on the same call. 
 
+---
+class:middle, inverse, center
+# Open source science
+
+<!--- Others can more build off of our science because they can build directly off our code. --->
+
+???
+ 
+What all of this does is create open source science. 
+
+It is easier for anyone to build off of our science because they can build directly off our code. 
+
+
+transition: working this way has made our initial intention and dream to become a reality, which is to have independent groups be able to lead their own OHI assessments. 
+
+---
+# OHI+ map
+
+And we have had over 20 groups using our science and our code to do OHI assessments in the places they care about. 
+
+---
+# Horst.github.io
+For Openscapes, it means that the amazing data science course materials that Allison Horst creates for environmental scientists in California can be used by Michelle Stuart in New Jersey to create and teach a new course. 
+
+It means that Chelsea Wood in Washington can create an intro to ecology course and share ppts. 
+
+And what this all means is that we do open source science. 
+
+---
+# squid closure
+
+going back to squid, open data science would have helped me immensely, not only to have had more confidence and been effective sooner, but also for reproducibility. My code only easily runs on my laptop from 2012 with its filepaths. But I don't have licenses anymore. 
+
+But still, here I am. And now I’m doing this presentation at an R conference, in R. What I was able to overcome and what I could do. 
+
+
+I know this is probably the case for a lot of people with their PhD code but it hits you hard when you learn that someone is scraping data from you published figures because they couldn't run your code on their computer. You feel a big responsibility to help others do better than you did.
+
+
 
 ---
 # super vague but good words
@@ -1762,6 +1757,46 @@ This is not about hands-on training or coding, but indstead about creating a cul
 The first half of the program we focus on teamwork and culture within the research group, and in the second half we transitioned to the open data science tools that enable better science in less time.
 
 So for teamwork, we focus on creating supportive leadership in a data science and digital context, helping research groups become teams, and helping them discover and engage with online communities and participate in and start local communnities. 
+
+---
+exclude:TRUE
+# Save for Q&A: the time it takes to build communities
+
+???
+
+A question I get in Openscapes is the time it takes to build local communities, and is it worth it. 
+
+And our experiens, worth 1K times over. 
+
+Not only are you creating a bigger pool scientist who have these skills, and could be potential collaborators or lab members in the future, EX halley gordon, tidytuesday
+
+It also creates a kind and positive culture, which is something we need to cultivate in environmental science. 
+
+//
+
+We invested a lot of time into creating a bigger community at UCSB. EDS, RLadies. Worth it. The more people who have these skills, the better for EDS. but more directly selfish, the more people who can help us when we have issues or teach us new things. The more people who we might potentially hire who already have these skills. In one glorious example, our OHI Fellows that we hire now come in w more training bc of Allision Horst 
+
+
+<!---
+
+runconf15
+https://twitter.com/jafflerbach/status/581159327500644352 - webappdemo by juliesquid
+https://twitter.com/sckottie/status/581596645298552833 - joe raster
+https://twitter.com/rOpenSci/status/582586182858465280
+https://twitter.com/juliesquid/status/581637460343406593
+
+--->
+
+---
+exclude:TRUE
+# Save for Q&A: how to keep on top
+
+???
+we've jut talked about a lot. Something that comes up all the time is how to stay on top of everything and learn everything. And the secret is, you can't. And internalizing that is quite liberating. 
+
+For me, I tell folks use the internet as your external memory. write little breadcrumbs to yourself and then use the power of Google or GitHub search to help you find what you need. You see a cool new package on twitter but don't have time to play with it? Scrolling through and seeing screenshots posteed and conversations around it will be enough for you to remmber it's useful. 
+
+But because we can't do it all, teamwork is more important.
 
 
 ---
