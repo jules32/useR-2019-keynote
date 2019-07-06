@@ -70,15 +70,11 @@ TODO LANG
 
 Well thank you so much, I am so excited to be here with all of you and I want to thank the organizers for this invitation. 
 
-I'm a marine scientist and like many scientists I encountered a challenge in graduate school and am spending my career trying to solve it.
+I am a marine ecologist and R as a language and as a community has been game0changing for my science, and my life. 
 
-But this challenge is not about ecology or oceanography that you might expect from a marine scientist.
+So much so that over the past six years I have been moving away from doing my own research so I can pay forward what I've learned and focus on enabling other scientists to better science in less time, together. 
 
-The challenge I'm dedicated to is helping environmental scientists do better science in less time. And by that I mean science that is more efficient, reproducible, and can help uncover solutions faster to our greatest environmental challenges. 
-
-Throughout my work, I have a few lessons learned JENNY and I'm going to share them upfront. 
-
-They are guiding principles for me, and what I advise environmental scientists. And they are relevant much more broadly so I expect they will be useful for everyone here as as well. 
+Throughout this I've learned several lessons, and I want to share them up front: 
 
 ---
 class: inverse
@@ -87,53 +83,14 @@ class: inverse
 
 ### Open data science is a mindset
 ### Teamwork starts with openness 
-### Harness the power of welcome JENNY
+### Harness the power of welcome
 
 ???
 
 The 3 lessons are Open data science is a mindset, Teamwork starts with openness, and Harness the power of welcome.  
 
 I'm going to spend the whole talk building out these lessons. 
-
-But before we get to this let me start off with a bit about me and and my origins as a marine scientist. 
-
-Before I became a scientist, I always thought science was a pretty streamlined and unified effort. 
-
-But really, science operates in pockets, with groups of scientists working within research groups, which we also call laboratories in the United States.
-
-These research groups are often around a theme or topic, like a species, place, or method. My PhD lab was like this.
-
----
-class: center, middle
-# Kraken
-.pull-left[
-```{r sq-lab, out.width = '80%'}
-knitr::include_graphics("img/")  
-```
-]
-
-.pull-right[
-<br>
-<br>
-<br>
-```{r sq-lab2, out.width = '100%'}
-knitr::include_graphics("img/") 
-```
-]
-
-.footnote[
-TODO links
-]
-  
-???
-
-TODO LANG
-
-We were a squid lab. We studied how squid swim, how they grow, what they eat, and the impacts they have on ecosystems and economies. 
-
-These books share some of our work.
-
-transition: Although we had the same anchor, all of us in the lab focused on different pieces of this broader interest. 
+But first I wanted to tell a bit about me adn what it is like to work in a marine or environemtal research group, which we also cll laboratories in the US. 
 
 ---
 class: center, middle
@@ -157,7 +114,7 @@ photos: Greg Auger
 
 ???
 
-My research was about the behavior and migration of adult Humboldt squid, which can be nearly as big as I am.
+So I am actually a squid ecologist, and my PhD research group focused on squid. These are photos from our field work at sea, studying a really incredible squid that can get nearly as big as I am. 
 
 That is me on the right, releasing a squid back into the ocean with an electronic tag that turns it into a little oceanographer as it swam. 
 
@@ -187,71 +144,36 @@ web: [Gilly Lab](https://gillylab.stanford.edu/)
 
 Our research required a lot of teamwork, both at sea and in the laboratory. 
 
-We would help each other develop hypotheses and collect data, and would work together to interpret results. 
-
 In short, we were a typical research group that collaborated around the science. 
 
 ---
-# But, the data. JENNY
+# everything is fine meme TOOD
 
 ???
 
-But in terms of analyzing data, we were each on our own.
+But we didn't act like a team when it came to data. 
 
-This was a struggle for me. In all my education I had learned about biology and ecology and oceanography and squid camouflage and locomotion. But I had never learned how to work responsibly with data. 
+Analyzing data was something that was left to each of us to figure out as individuals.  
 
----
-# But. 
-<br>
++
 
-.pull-left[
-## I was:
-### Not comfortable with computers
-### Intimidated by coding
-### No clear paths to learn JENNY
-]
+In all of my education I had never learned how to work responsibly with data. 
 
-???
-I was not comfortable with computers; they had never been a part of my education as a scientist. 
+I wasn't comfortable with computers, and I was intimidated by the thought of coding, and I saw no clear paths to learn. 
 
-I was intimidated by coding because every movie I'd ever seen had a computer with scrolling green text on black that intended to make you feel like you could never understand it
+I learned how to code when I accepted the reality that I could not process everything in Excel, which was the only tool I knew.
 
-And I saw no clear paths to learn. 
+But I was lucky to have some colleagues who mentored me and spent countless hours helping me learn to code. 
 
-I learned how to code when all other options were exhausted. 
+And I actually felt how powerful coding can be for science. 
 
----
-# But. 
+I like to talk about this in terms of Star Wars. 
 
-.pull-left[
-## I was:
-### Not comfortable with computers
-### Intimidated by coding
-### No clear paths to learn JENNY
-]
-
-.pull-right[
-## I learned to code: 
-### In a panic
-### Just to get the job done
-### With nested for loops that would take your breath away
-]
-
+<!---
 .footnote[
 book that got me through grad school: [Practical computing for biologists](http://practicalcomputing.org/)
 ]
-
-???
-
-And my data challenges were because of big data. Not big data in the way that many of you might think of it, but it was big to me, and it was panic-inducing. 
-
-To avoid coding I actually considered breaking the dataset into multiple excel files and analyzing each by hand. 
-
-The only reason I got through this was from patient mentorship from some amazing colleagues, who donated months of their own time to help.  
-
-Needless to say, this is not the way it should be for scientists. 
-
-transition: And I like to talk about it how it should be with analogies from Star Wars.
+--->
 
 ---
 ```{r luke}
@@ -306,7 +228,7 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 The rebel alliance is powerful because of the diversity of backgrounds and expertise, and although not everyone is a Jedi, everyone contributes in really critical ways. 
 
-transition: So just to recap this Star Wars analogy, 
+transition: So just to recap, 
 
 ---
 ```{r rey}
@@ -321,23 +243,17 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-TODO LANG 
-
 Open data science is the Force that enables us to do better science in less time. 
 
-And the rebel alliance is our community, everyone in this room. 
+And it fuels our community, which includes everyone here.
 
-Having this community has been absolutely game-changing for me as a scientist. 
+For me, it means that instead of feeling stranded, I have a much broader and more optimistic mindset of what is possible with data, and what is is possible with science and the environmental challenges we face.
 
-Instead of feeling stranded and deflated in a data swamp, I have a much broader and more optimistic mindset of what is possible with data, and that revolutionizes what I think is possible with science and how science can help tackle our biggest environmental challenges. 
+<And it is really critical that all environmental scientists get the opportunity to be this powerful and this supported, because for the most part they are not. >?
 
->>>>I actually did not find how powerful open data science was until I finished graduate school and became part of the team with the OHI. 
+I began my jedi training in graduate school as an individual but it really accelerateed when I joined my current team and learned by working together with them.
 
-And it is really critical that all environmental scientists feel this powerful and this supported, because for the most part they are not. 
-
-So ever since I felt this way I've been helping others engage too. 
-
-transition: Some of the ways I've been doing this is through joining global communities and creating local groups on the ground in California
+And since then, my journey has happened over years and through cumulative experiences. 
 
 ---
 # Carpentries workshops
@@ -367,93 +283,36 @@ TODO links
 
 ???
 
-I became an instructor with the Carpentries, which is a group that leads workshops for data science skillbuilding. 
-
-These are hands-on coding workshops, and I've now led 7 of them on 3 continents
+i learned how to teach ODS by becoming an instructor with the Carpentries. Not only did they teach me what to teach, they taught me how to teach and how people learn. 
 
 ---
 # Eco-data-science
-screenshot: jamie teaching? swc-ucsb?
-
-.footnote[
-EDS link
-]
-
-???
-
-Eco-data-science, which is a coding club or study group that we started at UCSB. 
-
-And then we started teaching our friends one-on-one and in small groups, and that's led to EDS being a 250-member group at UCSB. 
-
----
-# RLadies TODO ADD LOGOS
-
-<br>
-
+TODO
 .pull-left[
 <br>
-```{r rladies, out.width = '100%', fig.align='center'}
+```{r eds, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/rladies-rstudioconf19-jdlong.jpg")  
 ```
  
 .footnote[
-web: [rladies.org](https://rladies.org/), 
+web: [EDS],TODO 
 photo: [JD Long](https://twitter.com/CMastication/status/1101568109423542273)
 ]
 
 ]
 
 .pull-right[
-```{r rladiessb, out.width = '100%', fig.align='center'}
+```{r rladiessbb, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/rladiessb-kickoff2019.jpg")
 # rladies-kickoff.jpg
 ```
-.footnote[
+.footnote[TODO
 tweet: [@RLadiesSB](https://twitter.com/RLadiesSB/status/1088825797085880320)
 ]
-
-]
-
-<!---[@i_steves](https://twitter.com/i_steves/status/983909123073835010)--->
-
-
 ???
 
-R-Ladies is a global organization with local meetup chapters around the world, for gender minorities who do/want to do programming in R.
+And I helped create local communities in California so we could shate what we knew and learn from others
 
-It has also helped me reflect that I can be a stronger and more supportive ally for women in science and it's really influenced me to be bolder with how I operate in science. 
-
-
-https://twitter.com/jafflerbach/status/1106360972510289921
- rladiessb kickoff
-https://twitter.com/JennyBryan/status/1068755043061571585 reprex
-
----
-# TODO OHI
-
-<br>
-
-.pull-left[
-<br>
-```{r ohiplus, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/")  # samoa
-```
- 
-.footnote[
-here
-]
-
-]
-
-.pull-right[
-```{r ohifellows, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/fellows")
-```
-.footnote[
-web: [ohi-science fellows](http://ohi-science.org/ohi-global/fellows.html)
-]
-
-]
 
 ---
 # Nature E&E paper (authors only no abstract)
@@ -464,14 +323,7 @@ source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature
 
 ???
 
-We published our story about our path to better science in less time using open data science tools. 
-
-It is a retrospective of how we incrementally improved our workflow over four years, using R, RStudio & and GitHub
-
-And since we published this and from all of these expereiences I've been thinking about /pinch points JENNY/ are in environmental science to identify where I can be most effective.
-
-And this led me to spend the last year as a Fellow with Mozilla
-
+And I also led a scientific publication about it, sharing how powerful this has been for us and trying to encourage others to engage as well. 
 ---
 # MOZILLA FELLOWS TODO mozilla logo
 .pull-left[
@@ -490,29 +342,11 @@ knitr::include_graphics("img/")
 ]
 
 ???
+And it's been really in the last year that I've been able to operationalize this publication and create a program to help teams actually acheive it. TODO
 
-You probably know Mozilla from the Firefox browser, but that's just one part of what they do. Their mission is to keep the internet a place for good. So they focus on privacy and securotu, misinfo, and open science. Which is where I come in. 
+And this was because of the fellowship I've had over the past year with with Mozilla
 
-I spent my time as a Mozilla Fellows developing a program called Openscapes and leading a pilot cohort with 7 research groups.
-
-
----
-# Openscapes <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> 
-
-???
-
-Openscapes is an open data science mentorship program for research groups.
-
-//It complements existing efforts like the Carpentries and //
-
-It addresses one of the biggest chllenges I've seen which is how to establish and maintain shared practices as a team.
-
-The purpose is for research groups to see and value what is possible and for them to engage and champion it in ways that align with their existing roles and responsibilities. 
-welcoming entryways JENNY
-
-So I've been listening to the Openscapes participatns and trying to understand how they work and where are good places to ignite change. 
-
-transition: TODO So I'll walk us through this now with a general example. 
+So what I've seen through all of these experiences is that although research groups are all different, thre is a pattern to it all: 
 
 ---
 ```{r env-only}
@@ -530,13 +364,9 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-So let's think about agriculture. There might be an ecologist who is studying the role that pollinators play in crop production, and what the impacts of drought are. 
+We are really good at theory, developing hypotheses, and experimental design. 
 
-To do this she might collect data on the biology, behavior, and genomics of different bee populations, and combine that with data on water availability from snowmelt and groundwater.
-
-So she would have a lot of different data types to make sense of, from visual observations, genetic sequences, and from sensors on the ground and from satellites. 
-
-transition: Her results help inform policy and management decisions —
+We see data in the environmental and we collect it as a mix of from visual observations, genetic sequences, and from sensors on the ground and from satellites. TODO
 
 ---
 ```{r env-comm}
@@ -551,15 +381,13 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-around food systems, disease transmission, sustainability, and climate change. 
+And we are getting better and better at communication and helping our findings get to the right audiences, to inform dexisions around food systems, disease transmission, sustainability, and climate change. 
 
 This picture here is the way science works right now, and what our education looks like. 
 
-It's how our squid reasearch group worked. 
+It's how our squid reasearch group worked. And it's like most others I've seen
 
-We are really good at theory, developing hypotheses, and experimental design. And we are getting better and better at communication and helping our findings get to the right audiences.
-
-But there is this huge missing part here in the middle.
+But there is this huge missing part here in the middle where data is combined, wrangled, and analzed
 
 In the past, we have managed as individuals creating our own homegrown approaches and not talking about it like it was a critical part of science.
 
@@ -597,6 +425,35 @@ Because remember how luke felt when he was stranded: many of us feel like that. 
 
 But I am optimistic we can make this happen because I have made this transition myself, also because Openscapes participants are well on their way after only 5 months.
 
+
+---
+# Openscapes <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> 
+
+???
+
+Openscapes is a mentorshipt program for reaeearch groups.
+
+Openscapes is an open data science mentorship program for research groups.
+
+It helps research gropus establish and maintain shared practices and work as a team.
+
+And I'll tell you about the program as we go, but I did want to introduce the people who have 
+
+---
+# champions-web
+Should I dd this? ponder/
+---
+# zoom
+
+because where they started with openscapes is where most research broups start. iand that is they are studying env stystems that are incredibly important, like how climate change affects the food we eat
+
+and they are communicating their results to really imp audiences
+
+but they are largely on their own when it comes to data. 
+
+
+
+
 transition: So let me tell you about it through these lessons learned
 
 ---
@@ -620,7 +477,7 @@ And I'll also finally define what I mean by these things because I'm aware it ha
 class: inverse, center, middle
 # Open data science is a mindset
 
-### expect a better way • build confidence & willingness JENNY
+### expect a better way • build confidence & willingness • leverage the internet for science JENNY
 
 ???
 
@@ -790,44 +647,23 @@ Sharing a pdf of your presentation. Or using google slides. That is part of open
 
 OS spectrum. engage by sharing a talk online. 
 
----
-# GH Petri TODO
-
-???
-Build confidence together as a team. You can work openly with your reearch group even if it is private to the rest of the world. because this is a step along that spectrum.
-
-we make GH org for every lab. petri dish. within their team. 
-
-create a GH org for your lab. have private repos while you get comfortable using it and working with a team with yor own data — but plan to click that button for public. That will change the way you work.
-
-Using github, even in a private repository until you're ready to share, is part of open science because you're working with the intension of sharing.
 
 ---
-# efficiency tips TODO
+# Leverage the internet for science
 
-we pepper this with little wins that can have huge impact. I show keyboard shortcuts
-
+TODO
 
 ---
-.whisper[open data science is data science that enables open science]
 
-.footnote[
-source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
-]
-
-<!---
-“Open data science involves mindsets and skillsets emphasizing efficiency, reproducibility, transparency, collaboration, communication, and kindness”
---->
+```{r ods-software, out.width = '70%', fig.align='center'}
+knitr::include_graphics("img/screenshot-paur-talk-ods.png") 
+```
 
 ???
 
-And open data science, what is this?
+I can actually be pretty resistant to new software 
 
-This is the definition from our publication. But honestly to me at this point it is too narrow of a definition. 
-
-Because it doesn't say anything about teamwork. 
-
-So to transition into that let me tell you about our OHI Team. 
+TODO transition too
 
 
 ---
@@ -841,10 +677,6 @@ knitr::include_graphics("img/ohi-team-2018b-crop.jpeg")
 
 This is my core team, with the Ocean Health Index. I've worked with this team since I finished my PhD, so it's been over six years. 
 
-It's with this team that I have gotten so into open data science, and have started those local communities in California. 
-
-I'm going to talk through how our team operates, because afhdafjdlka replicate this for themselves.
-
 ---
 ```{r OHI hex, out.width = '55%', fig.align='center'}
 knitr::include_graphics("img/OHI-hex.png")
@@ -852,11 +684,10 @@ knitr::include_graphics("img/OHI-hex.png")
 
 ???
 
-So for a touch of context, The OHI is a big project where we are trying on a to better understand and quantify the health of our oceans on a global scale, 
+ohi is a scientific endeavor where we use lots of data and need to repeat our work and do it as a team. 
+Ocean health is like taken the vital signs of oceans. 
 
-in a way that is useful and actionable for policy. 
-
-The OHI focuses on the benefits that the ocean provides people, and we use the best available data to model ocean health scores around the world. 
+There is much more to say about it but what is relevant here is that we combine lots of data and repeat our work every year, and we do it as a team.
 
 <!---
 "OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
@@ -876,7 +707,8 @@ source: [ohi-science.org/ohi-global](http://ohi-science.org/ohi-global/)
 
 We create maps like these, with scores reflecting how healthy oceans are for every coastal country around the world. 
 
-We repeat this every year and it's being used by the United Nation to track progress towards environmental targets, which is really exciting. 
+It's a big deal TODO
+We repeat this every year and it's being used by the United Nation to track progress towards environmental targets. 
 
 ---
 ```{r fig 1, out.width = '80%', fig.align='center'}
@@ -897,8 +729,6 @@ The circlese show it took less time every year and also along the axes it was ea
 In 2012 it took 4 years, and 20 team members. Now in 2019 it takes eight months, and 2 or 3 graduate student interns that we mentor parttime.
 
 Reduced time is important for repeated environmental aassesmments that are are repeated each year to track change over time, and it also reduced our costs substantially.
-
-In 2012 it took us 3M, and now in 2019 it takes 250K.
 
 transition: but something that this figure does not reflect is how much being effective as a team was critical for this transition. 
 
@@ -928,6 +758,19 @@ Having evolving ideas about what a team is and what a community is has been one 
 ---
 # Working openly
 TODO: a picture?
+
+---
+# imperfection (centered)
+tension
+# don't let the perfect be the enemy of the good
+
+# ask for help and delegate
+
+# resilience
+
+# kindness
+
+# work-life balance, respecting each other's time.
 
 ???
 
@@ -1805,3 +1648,79 @@ exclude: TRUE
 
 
 https://twitter.com/nceas/status/1137388818989047814 ocean day rladies
+
+---
+# stash post jenny runthrough
+
+---
+exclude:TRUE
+# RLadies TODO ADD LOGOS
+
+<br>
+
+.pull-left[
+<br>
+```{r rladies, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/rladies-rstudioconf19-jdlong.jpg")  
+```
+ 
+.footnote[
+web: [rladies.org](https://rladies.org/), 
+photo: [JD Long](https://twitter.com/CMastication/status/1101568109423542273)
+]
+
+]
+
+.pull-right[
+```{r rladiessb, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/rladiessb-kickoff2019.jpg")
+# rladies-kickoff.jpg
+```
+.footnote[
+tweet: [@RLadiesSB](https://twitter.com/RLadiesSB/status/1088825797085880320)
+]
+
+]
+
+<!---[@i_steves](https://twitter.com/i_steves/status/983909123073835010)--->
+
+
+???
+
+R-Ladies is a global organization with local meetup chapters around the world, for gender minorities who do/want to do programming in R.
+
+It has also helped me reflect that I can be a stronger and more supportive ally for women in science and it's really influenced me to be bolder with how I operate in science. 
+
+
+https://twitter.com/jafflerbach/status/1106360972510289921
+ rladiessb kickoff
+https://twitter.com/JennyBryan/status/1068755043061571585 reprex
+
+
+
+---
+# TODO OHI
+
+<br>
+
+.pull-left[
+<br>
+```{r ohiplus, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/")  # samoa
+```
+ 
+.footnote[
+here
+]
+
+]
+
+.pull-right[
+```{r ohifellows, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/fellows")
+```
+.footnote[
+web: [ohi-science fellows](http://ohi-science.org/ohi-global/fellows.html)
+]
+
+]
