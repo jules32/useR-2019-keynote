@@ -47,13 +47,11 @@ background-position: bottom left
 
 [`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
 [`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
-[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
+[`r icon::fa("desktop")` jules32.github.io/useR-2019-keynote](http://jules32.github.io/useR-2019-keynote)  
 
 
 <img src="img/mozilla.png" alt="mozilla" style="float:right;width:154px;"/>
 <img src="img/nceas.png" alt="nceas" style="float:right;width:150px;"/>
-
-<!---TODO: change to Moz + NCEAS logos--->
 
 ???
 
@@ -140,7 +138,7 @@ Our research required a lot of teamwork, both at sea and in the laboratory.
 In short, we were a typical research group that collaborated around the science. 
 
 ---
-# everything is fine meme TOOD
+# everything is fine meme TODO
 
 ???
 
@@ -279,17 +277,16 @@ TODO links
 i learned how to teach ODS by becoming an instructor with the Carpentries. Not only did they teach me what to teach, they taught me how to teach and how people learn. 
 
 ---
-# Eco-data-science
-TODO
+# Eco-Data-Science & RLadies SB
+<br> 
+
 .pull-left[
-<br>
 ```{r eds, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/rladies-rstudioconf19-jdlong.jpg")  
+knitr::include_graphics("img/swc-ucsb-2016-crop.jpeg")  
 ```
  
 .footnote[
-web: [EDS],TODO 
-photo: [JD Long](https://twitter.com/CMastication/status/1101568109423542273)
+web:[eco-data-science.github.io](http://eco-data-science.github.io/)
 ]
 
 ]
@@ -299,39 +296,40 @@ photo: [JD Long](https://twitter.com/CMastication/status/1101568109423542273)
 knitr::include_graphics("img/rladiessb-kickoff2019.jpg")
 # rladies-kickoff.jpg
 ```
-.footnote[TODO
+
+.footnote[
 tweet: [@RLadiesSB](https://twitter.com/RLadiesSB/status/1088825797085880320)
 ]
+]
+
 ???
+<TODO add hexes?>
 
 And I helped create local communities in California so we could shate what we knew and learn from others
 
 
 ---
-# Nature E&E paper (authors only no abstract)
+class: middle, center
+```{r nature-bsilt, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/nature-screenshot-title.png")
+```
+
 
 .footnote[
-source: [Lowndes *et al.* 2017, *Nature Ecology & Evolution*](https://www.nature.com/articles/s41559-017-0160)
+source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160); web: [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime/)
 ]
 
 ???
 
 And I also led a scientific publication about it, sharing how powerful this has been for us and trying to encourage others to engage as well. 
 ---
-# MOZILLA FELLOWS TODO mozilla logo
-.pull-left[
-<br>
-<br>
-```{r moz, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/")  
+# <img src="img/mozilla-vertical.png" alt="mozilla" style="float:right;height:154px;"/>
+```{r moz, out.width = '90%', fig.align='center'}
+knitr::include_graphics("img/SpringMorrisPhoto_Mozilla_Fellow_32A9764.jpg")  
 ```
 
-]
-.pull-right[
-```{r moz2, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/") 
-```
-
+.footnote[
+blog: [mozilla](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/)
 ]
 
 ???
@@ -347,11 +345,8 @@ So what I've seen through all of these experiences is that although research gro
 class: center, middle
 background-image: url(img/horst-eco-r4ds-env-only.png) 
 background-size: contain
-# Make this big and center TODO, and next as well
 
 .footnote[
-<br>
-<br> 
 art: [@allison_horst](https://twitter.com/allison_horst)
 ]
 
@@ -391,15 +386,13 @@ transition: But as we saw from Star Wars, open data science and teamwork can rea
 ---
 ```{r env-r4ds}
 ```
-name: environ-comm-r4ds
 class: center, middle
 background-image: url(img/horst-eco-r4ds.png) 
 background-size: contain
 
 .footnote[
 .left[
-<br>
-art: [@allison_horst](https://twitter.com/allison_horst) <br>
+art: [@allison_horst](https://twitter.com/allison_horst); 
 updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 ]
 ]
@@ -418,9 +411,19 @@ Because remember how luke felt when he was stranded: many of us feel like that. 
 
 But I am optimistic we can make this happen because I have made this transition myself, also because Openscapes participants are well on their way after only 5 months.
 
-
 ---
-# Openscapes <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> 
+background-image: url(img/horst-openscapes-homepage-grassland.png) 
+background-size: contain
+# <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/> 
+
+.footnote[
+.left[
+art: [@allison_horst](https://twitter.com/allison_horst); 
+web: [openscapes.org](https://openscapes.org)
+]
+]
+
+
 
 ???
 
@@ -435,7 +438,14 @@ It helps research gropus establish and maintain shared practices and work as a t
 And I'll tell you more about the program as we go, but I did want to introduce the people who have been a part of it. 
 
 ---
-# champions-web
+```{r champions-web, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/openscapes-summit-web-champions.png")
+```
+
+.footnote[
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/03/27/champions-incorporate-open-science/)
+]
+???
 
 I've worked with 7 different research groups, that are led by these awesome scientists. 
 
@@ -922,6 +932,7 @@ And together we are partners in crime. We cofounded EDS with other friends and h
 transition: Enabling this kind of leadership within teams is what I try to ignite with Openscapes. 
 
 ---
+THIS IS NOW A REPEAT TODO BC IN INTRO
 # <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:100px;"/>
 ```{r summit-web, out.width = '80%', fig.align='right'}
 knitr::include_graphics("img/openscapes-summit-web-champions.png")
