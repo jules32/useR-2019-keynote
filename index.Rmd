@@ -286,7 +286,7 @@ knitr::include_graphics("img/swc-ucsb-2016-crop.jpeg")
 ```
  
 .footnote[
-web:[eco-data-science.github.io](http://eco-data-science.github.io/)
+web: [eco-data-science.github.io](http://eco-data-science.github.io/)
 ]
 
 ]
@@ -609,9 +609,8 @@ Build confidence – skills are transferable beyond your science
 Be empathic and inclusive – grow a network of allies
 
 ---
-.whisper[open science is the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers]
- 
-spectrum TODO
+class: middle
+.whisper[Open science is the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers]
 
 .footnote[
 source: [Hampton et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/ES14-00402.1)
@@ -653,8 +652,9 @@ knitr::include_graphics("img/screenshot-paur-talk-ods.png")
 ```
 
 .footnote[
-TODO: link to slides?
+source: [OHI slides](https://docs.google.com/presentation/d/12m8dUpIOz16x1RlZWLtj9u5E9wMxtYuP0T_HxoDnyKw/edit?usp=sharing)
 ]
+
 ???
 <talk through for a moment>
 
@@ -664,10 +664,11 @@ We have reimagined what's possible for science because we are able to  communica
 
 <next go quickly>
 
---
+---
+class: center, middle
 .pull-left[
 ```{r ohi-science-github, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/") 
+knitr::include_graphics("img/github-ohi-science.png") 
 ```
 
 .footnote[
@@ -690,9 +691,10 @@ web: [ohi-science.org](http://ohi-science.org)
 We do everything online, and mostly publicly. Not just all our code and data are online throughout the process 
 
 ---
+class: center, middle
 .pull-left[
 ```{r rmd-fellows-web, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/")
+knitr::include_graphics("img/web-rmd-global.png")
 ```
 
 .footnote[
@@ -701,12 +703,12 @@ web (simple RMarkdown): [ohi-science.org/globalfellows](http://ohi-science.org/g
 ]
 
 .pull-right[
-```{r blogdown-openscapes, out.width = '90%', fig.align='center'}
-knitr::include_graphics("img/") 
+```{r blogdown-openscapes, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/web-blogdown-openscapes.png") 
 ```
 
 .footnote[
-web (blogdown): [](
+web (blogdown): [openscapes.org](https://openscapes.org)
 ]
 ]
 
@@ -757,11 +759,12 @@ And dashboard creators
 
 ---
 # open source science
-OHI+ screenshot BHI
-
+```{r bhi, out.width = '50%', fig.align='center'}
+knitr::include_graphics("img/bhi_map_Index.png") 
+```
 
 .footnote[
-web: [ohi-science.org](TODO link to OHI+ page, maybe BHI archive?
+web: [ohi-science.org](http://ohi-science.org/projects/ohi-assessments/)
 ]
 
 ???
