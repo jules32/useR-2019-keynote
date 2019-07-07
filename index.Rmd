@@ -741,11 +741,14 @@ book: [openscapes.org/series](https://openscapes.github.io/series)
 and authors 
 
 ---
-# ohi-northeast dashboard
+<br>
+```{r shiny-ne, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/jafflerbach-shiny-ne.png") 
+```
 
 .footnote[
-draft work in progress. 
-inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) (who we met at RStudio::conf18)
+dashboard: [@jafflerbach](https://twitter.com/jafflerbach), work in progress. 
+inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) 
 ]
 
 ???
@@ -836,7 +839,7 @@ transition: but something that this figure does not reflect is how much being ef
 
 ---
 class: inverse, center, middle
-# Teamwork
+# Teamwork starts with openness
 ### working openly • vertical & horizontal leadership • community
 
 ???
@@ -861,8 +864,7 @@ What is it? it's about feeling the tension and finding the balance
 
 ---
 class: center, middle
-# trust
-# assume best intentions
+# trust <br> assume best intentions
 
 ???
 
@@ -872,8 +874,8 @@ and we are not afraid to fail, we actually share our failures and learn from the
 
 ---
 class: center, middle
-# imperfection good enough
-# don't let the perfect be the enemy of the good
+
+# don't let perfect <br> be the enemy of the good
 
 ???
 
@@ -881,8 +883,7 @@ it's about getting comfortable with imperfection and knowing when it has to be g
 
 ---
 class: center, middle
-# ask for help
-# accept help
+# ask for help <br> accept help
 
 ???
 
@@ -898,8 +899,7 @@ it's about resilience and avoiding burnout
 
 ---
 class: center, middle
-# respect
-# kindness
+# respect <br> kindness
 
 ???
 it's about respect and kindness. 
@@ -946,6 +946,9 @@ transition: in Openscapes, we do 3/4 things
 ---
 # Seaside Chats & Lab Hackathons
 and CoCs
+
+.footnote[
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/03/10/seaside-chats/)
 
 ???
 
@@ -1151,7 +1154,7 @@ knitr::include_graphics("img/Cohort1_zoom-michelle.png")
 ```
 
 .footnote[
-twitter: [RLadies Highland Park New Jersey](https://twitter.com/RLadiesHPNJ)
+twitter: [stuart620](https://twitter.com/stuart620); [RLadiesHPNJ](https://twitter.com/RLadiesHPNJ)
 ]
 
 ???
@@ -1181,12 +1184,10 @@ Impactful for me as a scientist because i've learned so much from each and try t
 transition: And engaging in these broader communities for me started on Twitter.
  
 ---
-# hashtag rstats
+# \#rstats
 ```{r jafflerbach, out.width = '45%', fig.align='center'}
 knitr::include_graphics("img/tweet-juliesquid-jafflerbachspatial.png") 
 ```
-
-TODO: better pic of Jamie?
 
 .footer[
 tweet: [@juliesquid](https://twitter.com/juliesquid/status/728326585485402112)
@@ -1321,7 +1322,8 @@ transition: so moving forward I really want to be able to have these cohort meet
 There are many more communities that I love but I'm going to talk about one more right now, and that's RLadies
 
 ---
-```{r rladies, out.width = '100%', fig.align='center'}
+class: center, middle
+```{r rladies, out.width = '100%'}
 knitr::include_graphics("img/rladies-rstudioconf19-jdlong.jpg")  
 ```
  
@@ -1347,7 +1349,7 @@ knitr::include_graphics("img/tweet-adrianstier-rladies.png")
 ```
 
 .footnote[
-tweet: [@juliesquid](https://twitter.com/juliesquid/status/694237930991161344)
+tweet: [@adrianstier](https://twitter.com/AdrianStier/status/1129097395176738816)
 ]
 
 ???
@@ -1372,12 +1374,14 @@ blog: [openscapes.org](https://www.openscapes.org/blog/2019/01/15/personify-code
 ???
 
 And she is also known and loved for making little rstats monsters and posting them on Twitter
-
+ 
 ---
-```{r allisonhorst-github-io, out.width = '75%', fig.align='center'}
+class: center, middle
+```{r allisonhorst-github-io, out.width = '60%'}
 knitr::include_graphics("img/allisonhorst-github-io.png")
+knitr::include_graphics("img/allisonhorst-github-io2.png")
 ```
-
+ 
 .footnote[
 web: [allisonhorst.github.io](https://allisonhorst.github.io/) 
 ]
@@ -1391,9 +1395,8 @@ But she is also a lecturer of data science and statistics at the University of C
 Her position is one of the only ones I know of, but we need people like Allison is every environmental science department
 
 ---
-class: inverse
+class: inverse, center, middle
 #  Teamwork starts with openness 
-<br>
 ### working openly • vertical & horizontal leadership • community
 ???
 
@@ -1402,7 +1405,14 @@ So we've spent the bulk of time in this teamwork section, and is because it is s
 transition: The more I reflect on this the more I realized is that —
 
 ---
-# open data science <-> teamwork doodle
+class: middle, center
+```{r loop, out.width = '100%'}
+knitr::include_graphics("img/horst-lowndes-loop.png")
+```
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)   
+]
 
 ???
 
@@ -1415,16 +1425,31 @@ You really need both. Trying to engage solely with open data science without tea
 transition: This is a loop that feeds back on itself. For me, and likely for a lot of us in this room, this becomes difficult to differentiate and tease apart. 
 
 ---
-# hex stickers
+
+```{r hex-wall-oz, out.width = '70%', fig.align='center'}
+knitr::include_graphics("img/useR-oz-hex-wall.jpg") 
+```
+
+.footnote[
+tweet: [@dataandme](https://twitter.com/dataandme/status/1017117835821244416)
+]
 
 ???
 
+https://twitter.com/sharlagelfand/status/1103792867145859073
  pic TODO
 I mean, just look at our hex stickers, which are a combination of tools and communities
 
 
 ---
-# ods-teamwork-loop doodle
+class: middle, center
+```{r loop2, out.width = '100%'}
+knitr::include_graphics("img/horst-lowndes-loop.png")
+```
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst)   
+]
 
 ???
 
@@ -1451,12 +1476,14 @@ Welcome is a powerful thing because it is so simple: it means being nice to peop
 It means being empathetic, realizing that even though  someone might be an expert in their field and doing amazing science, they but might be intimidated by open data science and you can welcome them. 
 
 ---
-```{r value-welcome, out.width = '75%', fig.align='center'}
+<br>
+<br>
+```{r value-welcome, out.width = '90%', fig.align='center'}
 knitr::include_graphics("img/ropensci-butland-welcome.png")
 ```
 
 .footnote[
-blog: [ropensci](TODO 
+blog: [ropensci](https://ropensci.org/blog/2017/07/18/value-of-welcome/)
 ]
 
 ???
@@ -1468,7 +1495,8 @@ And it has been a big part of my experience and education with Mozilla, and a fo
 transition: Welcome people with smiles, with emojis, and with body language
 
 ---
-```{r pacman, out.width = '82%', fig.align='center'}
+<br>
+```{r pacman, out.width = '50%', fig.align='center'}
 knitr::include_graphics("img/rstudioconf-tweet-er.png") 
 ```
 
@@ -1520,7 +1548,7 @@ background-size: contain
 .footnote[
 .left[
 <br>
-art: [@allison_horst](https://twitter.com/allison_horst) <br>
+art: [@allison_horst](https://twitter.com/allison_horst);
 updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 ]
 ]
@@ -1573,9 +1601,9 @@ One of final slides
 --->
 
 ---
-# Thank you
+# Thank you 
 
-Teamwork in action:
+
 OHI team  
 Mozilla team  
 Openscapes Champion Labs
@@ -1586,6 +1614,11 @@ RLadies team
 all artwork: [@allison_horst]  
 xaringan theme: [@apreshill]
 
+.pull-right[
+.whisper[Find me for stickers...]
+<br>
+<img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:120px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:120px;"/>
+]
 
 ???
 
