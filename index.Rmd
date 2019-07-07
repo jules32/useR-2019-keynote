@@ -321,7 +321,12 @@ source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
 
 ???
 
-And I also led a scientific publication about it, sharing how powerful this has been for us and trying to encourage others to engage as well. 
+And I also led a scientific publication about it, sharing how powerful this has been for us and trying to encourage others to engage as well.
+
+THis is our story about our path to bsilt using R, RStudio, Git and GitHub. We describe how we made this shift when we faced a reckoning that the way we were doing data analysis was not reproducible even by ourselves.
+
+We also describe the resources of what helped us learn, which include so many great resources but I wanted to specifcally mention how impactful the NSSD podcast was for me, because I never imagined you could talk about data in so many interesting ways. 
+
 ---
 # <img src="img/mozilla-vertical.png" alt="mozilla" style="float:right;height:154px;"/>
 ```{r moz, out.width = '90%', fig.align='center'}
@@ -531,6 +536,11 @@ source: [Wickham & Grolemund](https://r4ds.had.co.nz/)
   
 ???
 
+This definition resonates with me because I can see myself included in it. 
+
+transition: And to be able to acgtually see data analysis as a graphic that has as discrete steps —
+
+<!---
 We talk about data science with this definition: that data science is the discipline of turning raw data into understanding. 
 
 This is a definintion that resonates with environmental scientists, because we can see this as being useful in our own work. 
@@ -538,6 +548,8 @@ This is a definintion that resonates with environmental scientists, because we c
 And this is important, because if you just read about data science in the news, you can come away with a pretty narrow defintion that it means big data, AI, and machine learning. 
 
 And that immediately excludes many scientists who could benefit so much from what I feel data science is, a discipline concepts, theory, and tools to work with data. 
+
+--->
 
 ---
 .whisper[Data science is the discipline of turning raw data into understanding] 
@@ -555,7 +567,9 @@ source: [Wickham & Grolemund](https://r4ds.had.co.nz/)
 
 ???
 
-And the definition is one thing but this graphic shows clear steps of things that every scientist does but few have articulated. 
+that clearly describe what I have been fumbling around trying to do from scratch was so powerful. It took this burden off my shoulders and provided a framework to get to my science sooner.  
+
+clear steps of things that every scientist does but few have articulated. 
 
 This figure has been incredibly impactful on my life. One of my biggest challenges as a scientist was that I could not distinguish what were data challenges away from what were science challenges. PRACTICE BOTH WAYS
 
@@ -620,7 +634,7 @@ OS spectrum. engage by sharing a talk online.
 
 ---
 class: center, middle
-# reimagine science communication
+# Reimagine science communication
 
 ???
 
@@ -650,38 +664,49 @@ We have reimagined what's possible for science because we are able to  communica
 
 <next go quickly>
 
----
-<br>
-```{r , out.width = '100%', fig.align='center'}
+--
+.pull-left[
+```{r ohi-science-github, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/") 
+```
+
+.footnote[
+web: [github.com/ohi-science](https://github.com/ohi-science)
+]
+]
+
+.pull-right[
+```{r ohi-science-homepage, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/ohi-science-homepage.png") 
 ```
 
 .footnote[
 web: [ohi-science.org](http://ohi-science.org)
 ]
+]
 
 ???
 
-We can do everything online. Not just all our code and data are online throughout the process 
+We do everything online, and mostly publicly. Not just all our code and data are online throughout the process 
 
 ---
 .pull-left[
-```{r ds, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/data-science-training-book.png")
+```{r rmd-fellows-web, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/")
 ```
 
 .footnote[
-web: [ohi-science.org/globalfellows](http://ohi-science.org/globalfellows)
+web (simple RMarkdown): [ohi-science.org/globalfellows](http://ohi-science.org/globalfellows)
 ]
 ]
 
 .pull-right[
-```{r rmd-web-tutorial, out.width = '90%', fig.align='center'}
+```{r blogdown-openscapes, out.width = '90%', fig.align='center'}
 knitr::include_graphics("img/") 
 ```
 
 .footnote[
-book: [](
+web (blogdown): [](
 ]
 ]
 
@@ -716,6 +741,18 @@ book: [openscapes.org/series](https://openscapes.github.io/series)
 and authors 
 
 ---
+# ohi-northeast dashboard
+
+.footnote[
+draft work in progress. 
+inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) (who we met at RStudio::conf18)
+]
+
+???
+
+And dashboard creators 
+
+---
 # open source science
 OHI+ screenshot BHI
 
@@ -726,7 +763,7 @@ web: [ohi-science.org](TODO link to OHI+ page, maybe BHI archive?
 
 ???
 
-but this has also made 
+but most importantly we have been making science open source. 
 where folks can build directly off our science and off our code. 
 
 this is the dream, and we've been doing our best to nuture this going forward. The Baltic is one of nearly twenty independent groups building off of OHI science and code to leae
@@ -1462,15 +1499,15 @@ class: inverse
 
 ???
 
-So we've gone through these lessons learned...
+So these lessons I think fuel what it means to work responsibly and collaboratively with data but also as humans. 
 
-These things fuel what it means to work responsibly and collaboratively with data but also as humans. 
+and should also fuel what it means to do science. 
 
-and should also fuel what it means to be a scientist. 
+we've just through are definitionly a work in progress. 
 
-With Openscapes I'm trying to create >little petri dishes< where scientists feel safe talking about their data and workflow challenges, and then they create the same thing in their labs, and in their departments, their campuses, and beyond. 
+As is Openscapess. I am continuing to develop and grow the program, with plans to lead annual cohorts online and also do short-form workshops with teams on the ground. I want this to be a self-sustaining model, so please get in touch if you have any ideas. 
 
-And I will continue building openscapes and lead future cohorts...TODO 
+Because I do think that Openscapes helps us get closer to —
 
 ---
 ```{r closing-thoughts}
@@ -1489,6 +1526,10 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 ]
 
 ???
+
+This, since they ajfldkajfd, then create the same thing in their labs, and in their departments, their campuses, and beyond. 
+
+BUT TODO
 
 And I am confident that they see the benefit more, but the biggest obstacle is TIME especially since investing time in not part of what people are evaluated on as scientists. 
 
@@ -1606,22 +1647,6 @@ comm: static pdf --> RMarkdown-based websites
 And finally for communication, we thought about this in terms of how we shared our data and methods. 
 
 For scientists using traditional tools, communication is really limited to the end of a project when everything can be wrapped into a PDF and data put on a remote server somewhere.
-
----
-# ohi-northeast dashboard
-
-.footnote[
-dashboard: [link!]  
-original code: [Imagine Boston, who we met at RStudio::conf18]
-]
-
-???
-
-As a final example, the OHI is part of President Obama's ocean policy for the Northeastern US.
-
-Here Shiny dashboards have been a way to communicate with partners on the decision making process throughout the analyses.
-
-Something else that is cool is that the code is based from XXX's, who we saw present at RStudio::conf 2018. 
 
 ---
 # Openscapes operations
