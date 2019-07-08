@@ -58,11 +58,9 @@ background-position: bottom left
 
 NO UM START >> WELL
 
-TODO LANG
-
 Well thank you so much, I am so excited to be here with all of you and I want to thank the organizers for this invitation. 
 
-I am a marine ecologist and R as a language and as a community has been game0changing for my science, and my life. 
+I am a marine scientist and R as a language and as a community has been game-changing for my science, and my life. 
 
 So much so that over the past six years I have been moving away from doing my own research so I can pay forward what I've learned and focus on enabling other scientists to better science in less time, together. 
 
@@ -85,33 +83,31 @@ I'm going to spend the whole talk building out these lessons.
 
 But first I wanted to tell a bit about me and the main experiences that have driven these lessons. 
 
+I am often asked why a marine scientist would use R, and I aim to share why it's important that marine scientists do, as well as environmental scientist more broadly. 
+
 So let me start off when I was a graduate student in a marine research group, which we also call laboratories in the US. 
 
 ---
-class: center, middle
-.pull-left[
-```{r sq-tag, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/*IMG_9254_small_byGregAuger.jpg")  
-```
-]
-
-.pull-right[
-```{r sq-tag2, out.width = '80%', fig.align='center'}
-knitr::include_graphics("img/*JulieReleaseAugerIMG_9311.jpg")
+## @juliesquid
+```{r sq-tag2, out.width = '40%', fig.align='center'}
+knitr::include_graphics("img/*JulieReleaseAugerIMG_9311-crop.png")
 # *JulieReleaseAugerIMG_9397.jpg # release to water
 # *IMG_9268.JPG # measure
 ```
-]
 
 .footnote[
-photos: Greg Auger
+phots: Greg Auger 
 ]
 
 ???
 
-So I am actually a squid ecologist, and my PhD research group focused on squid. These are photos from our field work at sea, studying a really incredible squid that can get nearly as big as I am. 
+I am actually a squid ecologist, which is why my Twitter handle is juliesquid. 
 
-That is me on the right, releasing a squid back into the ocean with an electronic tag that turns it into a little oceanographer as it swam. 
+That is me on the right, holding a squid that can be nearly as big as I am. 
+
+I'm releasing it back into the ocean with an electronic tag on it, so as it swims around it will collect data for me like at little oceanographer. 
+
+My whole PhD research group focused on squid; squid have huge impact on ecosystems because they eat a lot and grow quickly and economies because globally there is such high consumption of calamari. 
 
 ---
 
@@ -139,11 +135,13 @@ web: [Gilly Lab](https://gillylab.stanford.edu/)
 
 Our research required a lot of teamwork, both at sea and in the laboratory. 
 
-In short, we were a typical research group that collaborated around the science. 
+We were a typical research group that worked like a team about our scientific questions. 
 
 But we didn't act like a team when it came to data. Analyzing data was something that was left to each of us to figure out as individuals.  
 
-In in all my education I had never learned computing or how to work responsibly with data. So for me —
+In in all my education I had never learned computing or how to work responsibly with data. So for me it was a super demoralizing experience to get the tag back and actually hold data in my hand but not be able to analyze it.
+
+transition: It felt like this. 
 
 ---
 ```{r luke}
@@ -157,8 +155,6 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 ]
 
 ???
-
-For me, it meant feeling like this. 
 
 This is Luke Skywalker after he crashed his plane in the swamp on Degobah. 
 
@@ -200,7 +196,7 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-The rebel alliance is powerful because of the diversity of backgrounds and expertise, and although not everyone is a Jedi, everyone contributes in really critical ways. 
+And this community is powerful because of the diversity of backgrounds and expertise, and although not everyone is a Jedi, everyone contributes in really critical ways. 
 
 transition: So just to recap, 
 
@@ -219,9 +215,11 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 R is the Force that enables us as scientists to do better science in less time. 
 
-It empowers us to get our own data out of the swamp and build off of our confidence and experiences and broaden the scope of challenges that we can tackle. 
+It empowers us to get our own data out of the swamp. 
 
-For me, I didn't fully feel this power until I finished graduate school and joined a research group where we learned to work with data as a team. 
+It empowers us and build off of our confidence and experiences and broaden the scope of scientific challenges that we can tackle, which for environmental scientists, includes food security, disease transmission, and climate change. 
+
+For me, I didn't fully feel the power of R until I finished graduate school and joined a research group where I am today, where we learned to work with data as a team. 
 
 ---
 ```{r OHI hex, out.width = '55%', fig.align='center'}
@@ -232,15 +230,15 @@ knitr::include_graphics("img/OHI-hex.png")
 
 The Ocean Health Index is a scientific endeavor to quantify impacts and benefits of oceans around the world using the best publically available data. 
 
-It is being used by the United Nations and by twenty groups around the world and there is a lot more to say about it. 
+It is being used by the United Nations and by 20 groups around the world. 
 
-But what is relevant here is that we combine lots of data and repeat our work every year, and we do it as a team.
+There is a lot to it but what is relevant here is that we combine lots of data, we repeat our analyses every year, and we do it as a team.
 
-But when we went to repeat our work, we felt like Luke 
+But we are marine scientists, and we were never trained to work responsibly with data. 
 
-<!---
-"OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
---->
+So we found out the hard way that our default approaches were not reproducible by even ourselves. 
+
+Getting through this involved quite a reckoning, but when we got through it, we knew we had a story to tell. 
 
 ---
 class: middle, center
@@ -254,11 +252,29 @@ source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
 
 ???
 
-Called our path to better science in less time using open data science tools. 
+We found our path to better science in less time with open data science tools. 
 
-And this has been well received. Because a lot of scientist feel this way. 
+And by this I mean R and GitHub and friends. 
 
-transition: And Moz has enabled me to create a program
+transition: We shared how these tools enabled us to more reproducible science faster each year, as we illustrated in this figure
+
+---
+class: middle, center
+```{r fig 1-whiteout, out.width = '80%'}
+knitr::include_graphics("img/bsilt-fig1-nature-whiteout.jpg")
+# lowndes-nature-figure1-slides2.png
+# https://docs.google.com/drawings/d/1d25T1fD9irluhQhPvNHZSt3uUBXebxqV9hFabOLZUz4/edit
+```
+
+.footnote[
+source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
+]
+
+???
+
+Shown here as the circles get smaller and moving up the y axis. It also go easier for us to collaborate each year, along the x axis. 
+
+This let us focus on making improvements either on the data science side or the science side
 
 ---
 class: middle, center
@@ -272,16 +288,16 @@ knitr::include_graphics("img/bsilt-fig1-nature.jpg")
 source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160)
 ]
 
+
 ???
 
-and that is represented in this figure here by the circles getting smaller. 
+We couldn't overhaul everything all at once, but focused on different pieces incrementally each year. 
 
-And the axes represent how it got easier to easier to reproduce each year as well, and also it easier to collaborte with others, including our future selves, new teammembers that joined, or one of those twenty groups I mentioned. 
+We started off focused on R and RStudio, and then on using Git and GitHub, then on tidy data and then documentation and Rmd. And ever since we've focused on leading a training program to teach students how to maintain it. 
 
-So you can see we made this incrementally improved how we worked over several years, and the initial impetus to do so was really tough. 
+Having all of this coding infrastructure in place is what enables those 20 independent groups I mentioned to study ocean health in the places they care about. 
 
-And in additional to making our science better every year, it has enabled 20 independent groups around the world to use our science and our code to study ocean health in the places they care about. 
-
+But just like Luke, we were able to do this because of community. 
 
 ---
 class: center, middle
@@ -290,9 +306,29 @@ knitr::include_graphics("img/ods-community-logos.png")
 ```
 
 ???
-so many communities, people in this room and listening and around the world. 
 
-focus on Mozilla
+These communities in particular have been so transformative for our work. 
+
+So many of you in this room and listening around the world have welcomed us and supported us and enabled us. 
+
+And like I said, I've been paying it forward by teaching with the Carpentries, leading local study groups and RLadies chapters, and generally telling everybody how awesome R is. 
+
+This is how I got a fellowship with Mozilla. 
+
+---
+class: center, middle
+
+```{r moz, out.width = '100%'}
+knitr::include_graphics("img/moz-fellow-announcement.png")
+```
+
+.footnote[
+blog: [blog.mozilla.org](https://blog.mozilla.org/blog/2018/08/21/mozilla-announces-25-new-fellows-in-openness-science-and-tech-policy/)
+]
+
+???
+
+Yes Moz is firefox, but also the internet for good. 
 
 Spent the last year developing a program with Mozilla and NCEAS, the ecology center where I am based. 
 
@@ -308,16 +344,16 @@ web: [openscapes.org](https://openscapes.org)
 
 ???
 
-Openscapes the program I developed with Mozilla and NCEAS. 
+The program is called Openscapes, and it is mentorship program for research groups. 
 
-Openscapes is a mentorship program for research groups to help them establish and maintain shared practices and work as a team.
+It helps them establish and maintain shared practices around data and work as a team.
 
 ---
+<br>
 ```{r openscapes grassland, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/horst_openscapes_grassland_1500px-text.png")
 ```
 
-<br>
 <br>
 
 .pull-left[
@@ -338,14 +374,13 @@ web: [openscapes.org](https://openscapes.org)
 
 welcome and empower scientists as research groups
 
-increase visibility and valuee by amplifying labs
+increase visibility and valuee by amplifying labs and creating more examples of how powerful open data science can be for environmental science
 
 ---
+<br>
 ```{r openscapes desert, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/horst_openscapes_desert_1500px.png")
 ```
-
-<br>
 
 .pull-left[
 ### Mentorship program for early career scientists & their labs
@@ -362,7 +397,7 @@ web: [openscapes.org/champions](https://openscapes.org/champions)
 
 ???
 
-Mentorship program for early career scientists & their labs
+Centered mentorship program for early career scientists & their labs
 
 Normalize open data science in the lab & seed change beyond
 
@@ -382,17 +417,15 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 
 ???
 
-This is the vision I see for environmental science: where the elements that environmental scientsts are great it are streeamlined together by ODS. 
+This is the vision I see for environmental science. 
 
-Looking at the left at environmental data:  We see data in the environment and systems we study. We are great at at theory, developing hypotheses, and experimental design.
+Where the elements that environmental scientsts are great, like theory, and experimental design are streeamlined together by ODS, and result in helping inform decisions to our most challenging environmental problems. 
 
-And on the right, we are getting better and better at communication and helping our findings get to the right audiences, to inform dexisions around food systems, disease transmission, sustainability, and climate change. 
+And this can be streamlined with ODS because because R streamlines how we work with data, and also streamlines how we work with each other because it gives us a common language and mindset. 
 
-And this can be streamlined with ods because tools like R because R streamlines how we work with data, and also streamlines how we work with each other. 
+I know this graphic looks familiar from R4DS, but notice that all of the data science components here are ringed by communities and support that our OHI team has found so critical to our success. 
 
-I know this graphic looks familiar from R4DS, but notice that all of the data science components here are ringed by communities and support. 
-
-So this is the vision for science, amnd I am optimistic we can make this happen because I have made this transition myself, also because Openscapes participants are well on their way after only 5 months.
+So this is the vision I'm working towards with Openscapes, amnd I am optimistic we can make this happen because Openscapes participants are well on their way after only 5 months.
 
 ---
 ```{r env-comm}
@@ -407,19 +440,19 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-But right now it looks like this. We rarely have formal training and so folks learn in pockets and are unsupported at broader instituti8onal levels, but also at the level of the rsearch team.
+But right now environmental science looks like this. We rarely have formal training with coding or computing or data and so folks learn in pockets and are unsupported at broader institutional levels. 
 
-Helping complete this picture drives my work now. 
+And often they are not supported even at level of the research group, which is already poised to work like a team. 
 
-I want to pay forward what I have learned. 
+Helping complete this picture drives my work now. I want to figure out how to best introduce open data science and teamwork to this picture.
 
-And it drives the lessons learned I shared in the beginning. 
+I've found that scientists are often not aware of what tools are availabe. But that is just the first sliver of the challenge. 
 
-I've found that scientists might now be aware of what tools are availabe. But that that is not really the problem. 
+The real challenge is about mindset around open data science, and helping scientists feel included so that it can be part not only of their future, but of their present. 
 
-The problem is about mindset and feeling that open data science is somethign not only in their scientific futures, but in their scientific presents. 
+So with Openscapes I work with scientists to welcome them to what open data science can look like for them, and I help them start paths to making it happen. 
 
-So with Openscapes I work with scientists to welcome them to what this scientific present can look like for them, and I help them start paths to making it happen. Because OHI is one of the most visible examples of what this can look like, I rely heavily on it as motivition and examples, and I'll do that for the rest of the talk as well. 
+Because OHI is one of the most visible examples of what this can look like, I rely heavily on it as motivition and examples, and I'll do that for the rest of the talk as well as we walk through the lessons learned. 
 
 ---
 class: inverse
@@ -432,9 +465,9 @@ class: inverse
 
 ???
 
-So as I mentor scientists through Openscapes, this is how I help them engage 
-
 <water>
+
+So the first is that open data science is a mindset. 
 
 ---
 class: inverse, center, middle
@@ -444,33 +477,43 @@ class: inverse, center, middle
 
 ???
 
-Open data science is a mindset involves data science and open science and is creative and collaborative and fueled by what is possible with the internet. 
-It's how the Force was not only a skillset but it broadened Luke's mind of what was possible and the scope of challenges he could tackle. 
+<br>
 
-And to help get into that mindset it's important to understand current mindsets and how to help reframe them. 
+This involves expecting there is a better way with data science, 
+
+Building confidence & willingness with open science, 
+
+and reimagining what is possible with the available tools. 
+
+ODS is an incredibly creative and collaborative thing, and it fueled by what is possible with the internet. 
 
 ---
 class: middle, center
 # Expect there is a better way
 
 ???
-TODO lang MAYBE DROP THE DATES AND FOCUS ON EXCLUDE
-Expecting there is a better way to work with your data can be at odds with the mindset you have in science. 
 
-Because as scientists, we are asking questions that no one knows the answer to. 
+It can be really hard to expect that there is a better way to do something when you do not know what is possible and you don't see any examples within your own context. 
 
-In my squid research, no one knew where these squid behaved in California, my data contained secrets on the forefront of discovery. So when I needed to reformat dates into ISO-15(?), this was a task completely interwoven with my squid. I did not expect that this was not something I had to do from scratch. 
+It's like how Luke would have never expected the Force to have been a thing if he hadn't run into ObiWan and Yoda. 
 
-Part of why I couldn't expect there was a better way is because I didn't have any idea of what was possible, and I also didn't have the vocabulary to articulate our struggles and ask for help. 
+When I struggled with my squid data, I couldn't expect there was a better way because I thought my challenges with column renaming was a part of my squid research, not something separate like data wrangling. 
 
-transition: so with this in mind, data science can CAN EXCLUDE SCIENTISTS
-narrow interps can exclude
+So this mindset drained weeks of my time, because I didn't have the mindset or the vocabulary to articulate my struggles and ask for help. 
 
+transition: so when I talk about data science with Openscapes — 
 ---
-```{r data-sciencc0}
+```{r data-science}
 ```
 .whisper[Data science] 
 
+???
+
+I make it clear that it is not just about big data, machine learning, and artifical intelligence, which is basically all you ever hear about in the news. 
+
+I think this narrow definition really excludes scientists, who then feel that data science tools are not meant for them. 
+
+transition: I like this definition: 
 
 ---
 ```{r data-science}
@@ -487,16 +530,6 @@ This definition resonates with me because I can see myself included in it.
 
 transition: And to be able to acgtually see data analysis as a graphic that has as discrete steps —
 
-<!---
-We talk about data science with this definition: that data science is the discipline of turning raw data into understanding. 
-
-This is a definintion that resonates with environmental scientists, because we can see this as being useful in our own work. 
-
-And this is important, because if you just read about data science in the news, you can come away with a pretty narrow defintion that it means big data, AI, and machine learning. 
-
-And that immediately excludes many scientists who could benefit so much from what I feel data science is, a discipline concepts, theory, and tools to work with data. 
-
---->
 
 ---
 .whisper[Data science is the discipline of turning raw data into understanding] 
