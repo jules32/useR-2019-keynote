@@ -8,6 +8,7 @@ date: "useR! 2019 Keynote<br>Toulouse, France"
 output:
   xaringan::moon_reader:
     seal: false
+    chakra: libs/remark-latest.js # with @bjungbogati tidyverse dev toulouse: need to save this file to knit offline!
     lib_dir: libs 
     nature:
      # slideNumberFormat: "" # if you want to disable
@@ -18,7 +19,7 @@ output:
       output:
     css: ["default", "css/my-fonts.css", "css/my-theme.css"] #https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7
     includes:
-      in_header: header.html      
+      in_header: header.html    
       
 # http://arm.rbind.io/slides/xaringan.html
 # https://github.com/rstudio-education/arm-workshop-rsc2019/blob/master/static/slides/xaringan.Rmd      
