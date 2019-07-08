@@ -520,20 +520,6 @@ transition: I like this definition:
 ```
 .whisper[Data science is the discipline of turning raw data into understanding] 
   
-.footnote[
-source: [Wickham & Grolemund](https://r4ds.had.co.nz/)
-]  
-  
-???
-
-This definition resonates with me because I can see myself included in it. 
-
-transition: And to be able to acgtually see data analysis as a graphic that has as discrete steps —
-
-
----
-.whisper[Data science is the discipline of turning raw data into understanding] 
-
 <br>
 
 ```{r data-science-r4ds, out.width = '90%', fig.align='center'}
@@ -543,21 +529,16 @@ knitr::include_graphics("img/r4ds_data-science.png")
 .footnote[
 source: [Wickham & Grolemund](https://r4ds.had.co.nz/)
 ]  
-  
 
 ???
 
-that clearly describe what I have been fumbling around trying to do from scratch was so powerful. It took this burden off my shoulders and provided a framework to get to my science sooner.  
+This definition resonates with me because I can see myself included in it — and then with the graphic I can actually walk through the steps. 
 
-clear steps of things that every scientist does but few have articulated. 
+This clearly describes what many scientist like me I have been fumbling around trying to every time from scratch. 
 
-This figure has been incredibly impactful on my life. One of my biggest challenges as a scientist was that I could not distinguish what were data challenges away from what were science challenges. PRACTICE BOTH WAYS
+The idea of tidying your data first and then being streamlined with the tools you can use for science is amazing. Rather than accommodating around weird data.
 
-<The idea of tidying your data first and then being streamlined with the tools you can use for science is amazing. Rather than accommodating around weird data.
-
-transition TODO So expecting there is a better way is a big part of this. And that is part of the mindset. 
-
-Seeing data science as something that can be a part of your scientific present, is a huge shift in mindset. and along with it comes
+transition So expecting there is a better way is a big part of a shifting mindset towards open data science. And along with it comes
 
 ---
 class: middle, center
@@ -565,28 +546,11 @@ class: middle, center
 
 ???
 
-The next is build confidence & willingness to engage in a different way to work. 
+Building confidence & willingness to engage in a completely different way to work. 
 
-And open science is a big part of this. 
+Open science is a big part of this confidence and willingness to engage. 
 
-Open science has many different definitions and even more interpretations. 
-
-For many environmental scientists, including me as a graduate student, open science is not a positive thing. 
-
-It means people stealing my data or misstruling my science. There are softer interpretations, where it means posting data and code publically at the end of a research study when the final manuscript is published. 
-
-In interpreations like these, there is no benefit to the individual practicing open science. There is only cost in terms of time and risk.
-
-So it's a lot easier to just avoid it. 
-
-///
-Open science as a way to be more efficient and streamlined
-Not an added ask at publication to share your data 
-External memory (personal and collective)
-Easier on/offboarding
-Find solutions faster – learn to talk about your data
-Build confidence – skills are transferable beyond your science
-Be empathic and inclusive – grow a network of allies
+transition: but Open science has many different definitions and even more interpretations. 
 
 ---
 ```{r open-science}
@@ -594,12 +558,23 @@ Be empathic and inclusive – grow a network of allies
 .whisper[Open science]
 
 ???
-negative thing. additional ask on overburdened scientists. 
+
+For many environmental scientists, open science can be a negative thing. It's seen as extra work and high risk on already overburdened scientists, particularly those who are early career. 
+
+And that is because it often also has a narrow definition of sharing your data and code at the end of your study, at the risk of people stealing your work and misconstuing your science. 
+
+In this narrow mindset it's not considered that open science could ever be a benefit to the scientist who pays such cost in terms of time and risk.
+
+transition: So in Openscapes, we talk about open science with this definition: 
 
 ---
 ```{r open-science}
 ```
 .whisper[Open science is the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers]
+
+```{r spectrum, out.width = '90%', fig.align='center'}
+knitr::include_graphics("img/spectrum-haha.png")
+```
 
 .footnote[
 source: [Hampton et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/ES14-00402.1)
@@ -609,16 +584,15 @@ source: [Hampton et al. 2015](https://esajournals.onlinelibrary.wiley.com/doi/fu
 
 I like this definition of open science
 
-I teach that open science is a spectrum, with many entryways and paths to iteratively 
+I teach that open science is a spectrum, with many entryways to engage
 
-I like this too because it helps dispell the idea that you're either doing open science or you're not, and the activiation energy required to make that switch impossible task. 
+I like this too because it helps dispell the idea that you're either doing open science or you're not, but that you can always engage more as you are able.
 
-Instead, what we talk about in Openscapes is how there are many entryways, and many ways to anticipate. 
+In Openscapes we talk about how entryways can include sharing slides from a talk online. 
 
-Sharing a pdf of your presentation. Or using google slides. That is part of open science. 
+We also practice working openly with their own teams, even if it is within a private repository, because it is practicing the tools and taking the first steps. 
 
-OS spectrum. engage by sharing a talk online. 
-
+transition: and these 2 pieces really trigger you to reimagine what data science and open science can do for communication
 
 ---
 class: center, middle
@@ -626,29 +600,25 @@ class: center, middle
 
 ???
 
-Scicomm is something we really value. 
-We are very similar to the open source community like R and Moz in that all of our work is for the public good. 
+In environmental science, communication is something we really value. 
 
-So comm is very imp
+We are very similar to the open source community like R and Moz in that all of our work is for the public good, and thus communication about it is critical
 
-For a lot of people, science communication still largely occurs at the end of a study, when everything is complete. 
-
-And I think this mindset is rooted in the fact that for a long time, sharing your work was hard to do. 
-
-But the internet provides amazing channels to share our work not only at the end, but throughout all of the process. This is critical to establish trust and buy-in for the results and calls to action we uncover about our environment. 
+transition: But For a lot of people, science communication still largely occurs at the end of a study, when everything is complete. 
 
 ---
-.whisper[Science communication tools]
+.whisper[Communication tools]
 
 ???
 
-And let me say up front that I can be a big curmudgen about introducing extra software into my life and having to create new user accounts. I remember in one NSSD episode, Roger Peng said that if he has to create a new user account, he's like 50% out. For me it's like 80. 
+And I think this mindset is rooted in the fact that for a long time, sharing your work was hard to do. 
 
-And why I mention that is that we can do so much of this reimagined science communication with the tools we are already using for analyses: 
+It involved a lot of bookkeeping and formatting and physically printing in many cases, and then distribution was also limited to mail, either phyical or electronic. 
 
-But we can reimagine what this means leveraging the internet
+But the internet provides amazing channels to share our work not only at the end, but throughout all of the process. This is critical to establish trust and action for environmental solutions. 
+
 ---
-.whisper[Science communication tools]
+.whisper[Communication tools]
 
 ```{r ods-software, out.width = '65%', fig.align='center'}
 knitr::include_graphics("img/screenshot-paur-talk-ods.png") 
@@ -659,11 +629,21 @@ source: [OHI slides](https://docs.google.com/presentation/d/12m8dUpIOz16x1RlZWLt
 ]
 
 ???
-<talk through for a moment>
 
-So really R and GitHub are the fanciest tools we use. So it streamlines how manageable it is to focus on science communication, so let me show you a bit of what we've done
+So these are the communication tools I use for open data science — it is a small suite, primarily based with R, RStudio, Git, and GitHub. 
+
+And keeping it so simple really streamlines how manageable it is to focus on science communication, because we use the exact same tools for analysis.
+
+I may as well also say that I can be a big curmudgen about introducing extra software into my life and having to create new user accounts. 
+
+I remember in one NSSD episode, Roger Peng said that if he has to create a new user account, he's like 50% out. For me it's like 80%. 
+
+But anyways, these tools have reimagined what communication means, and I'll show you a few examples from the OHI. 
+
+<next go quickly>
 
 ---
+exclude: TRUE
 class: center, middle
 ```{r global-map, out.width = '100%'}
 knitr::include_graphics("img/global_map_Index_2018_mol.png")
@@ -677,8 +657,6 @@ source: [ohi-science.org/ohi-global](http://ohi-science.org/ohi-global/)
 
 We create ocean health index maps like these, in R, with scores reflecting how healthy oceans are for every coastal country around the world. and making these every year by modeling almost 100 data sets forces documentation and decision making to be part of science communication. 
 
-<next go quickly>
-
 ---
 class: center, middle
 ```{r ohi-science-github, out.width = '100%'}
@@ -691,7 +669,7 @@ web: [github.com/ohi-science](https://github.com/ohi-science)
 
 ???
 
-We put all of our code online, pubically. This means that others can discover, access, and run our code, understanding what we've done and doing assessments of their own. 
+We put all of our code online, pubically, in a GitHub organization for the OHI. This means that others can discover, access, and run our code, understanding what we've done and doing assessments of their own. 
 
 But GitHub repositories are not a friendly landing page for everyone. So —
 
@@ -705,10 +683,9 @@ knitr::include_graphics("img/ohi-science-homepage.png")
 web (Jekyll): [ohi-science.org](http://ohi-science.org)
 ]
 
-
 ???
 
-So we built a website that we can maintain ourselves using the same workflow that we do for our analysis, which is GitHub and friends. 
+So we built a website that we can maintain ourselves. And here we can put addition information and tutorials and blogs. 
 
 ---
 class: center, middle
@@ -722,23 +699,21 @@ web (simple RMarkdown): [ohi-science.org/ohi-global](http://ohi-science.org/ohi-
 
 ???
 
-We also can generate lighter-weight websites that will render with the most recent information we have
+We also can spin up lighter-weight websites that will render with the most recent information we have 
 
-<and are also ways for our colleagues leading their own assessments>
+This is not only useful for us, but for our colleagues leading their own assessments on their coastlines. 
 
-
-<!---
-.pull-right[
-```{r blogdown-openscapes, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/web-blogdown-openscapes.png") 
+---
+```{r ohi-esw, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/ohi-esw-web.png") 
 ```
 
 .footnote[
-web (blogdown): [openscapes.org](https://openscapes.org)
+web (simple RMarkdown): [ohi-science.org/esw](http://ohi-science.org/esw)
 ]
-]
---->
 
+???
+Another way science communication has changed is that  
 ---
 class: center, middle
 ```{r toolbox-training, out.width = '80%'}
@@ -751,7 +726,7 @@ web: [ohi-science.org/toolbox-training](http://ohi-science.org/toolbox-training/
 
 ???
 
-Another way science communication has changed is that we can create really nicely formatted guides and documentation also using these same tools. 
+We can create really nicely formatted guides and documentation also using these same tools. 
 
 ---
 <br>
@@ -768,31 +743,35 @@ inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston)
 
 And when we are working closely with partners who are engaged with data analysis decisions, we have been able to create dashboards as well. 
 
-<!---
-
-# open source science
-```{r bhi, out.width = '50%', fig.align='center'}
-knitr::include_graphics("img/bhi_map_Index.png") 
+---
+<br>
+```{r openscapes-web, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/web-blogdown-openscapes.png") 
 ```
 
 .footnote[
-web: [ohi-science.org](http://ohi-science.org/projects/ohi-assessments/)
+web (blogdown): [openscapes.org](https://openscapes.org)
 ]
 
 ???
 
-but most importantly we have been making science open source. 
-where folks can build directly off our science and off our code. 
-
-this is the dream, and we've been doing our best to nuture this going forward. The Baltic is one of nearly twenty independent groups building off of OHI science and code to leae
-
---->
+Additionally, these tools have been amazing for blogging and sharing Openscapes stories
 
 ---
-class: inverse, center, middle
-# Open data science is a mindset
+<br>
+```{r user-xaringan, out.width = '80%', fig.align='center'}
+knitr::include_graphics("img/user-keynote-titleslide.png") 
+```
 
-### expect a better way • build confidence & willingness • reimagine science communication
+.footnote[
+slides (xaringan): [jules32.github.io/useR-2019-keynote](https://jules32.github.io/useR-2019-keynote)
+]
+
+???
+
+And for fun, for creating talks at useR
+
+transition: 
 
 ---
 ```{r r4ds-env-reprise}
@@ -1362,15 +1341,8 @@ But she is also a lecturer of data science and statistics at the University of C
 
 Her position is one of the only ones I know of, but we need people like Allison is every environmental science department
 
----
-class: inverse, center, middle
-#  Teamwork starts with openness 
-### working openly • vertical & horizontal leadership • community
-???
 
-So we've spent the bulk of time in this teamwork section, and is because it is so critical to learning. TODO
-
-transition: The more I reflect on this the more I realized is that —
+transition: TODO The more I reflect on this the more I realized is that —
 
 ---
 class: middle, center
