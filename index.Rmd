@@ -216,7 +216,7 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-Open data science is the Force that enables us as scientists to do better science in less time. 
+R is the Force that enables us as scientists to do better science in less time. 
 
 It empowers us to get our own data out of the swamp and build off of our confidence and experiences and broaden the scope of challenges that we can tackle. 
 
@@ -235,9 +235,29 @@ It is being used by the United Nations and by twenty groups around the world and
 
 But what is relevant here is that we combine lots of data and repeat our work every year, and we do it as a team.
 
+But when we went to repeat our work, we felt like Luke 
+
 <!---
 "OHI is used by UN to try to quantify impacts and benefits" << that shuld be their takehome
 --->
+
+---
+class: middle, center
+```{r nature-bsilt, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/nature-screenshot-title.png")
+```
+
+.footnote[
+source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160); web: [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime/)
+]
+
+???
+
+Called our path to better science in less time using open data science tools. 
+
+And this has been well received. Because a lot of scientist feel this way. 
+
+transition: And Moz has enabled me to create a program
 
 ---
 class: middle, center
@@ -259,27 +279,21 @@ And the axes represent how it got easier to easier to reproduce each year as wel
 
 So you can see we made this incrementally improved how we worked over several years, and the initial impetus to do so was really tough. 
 
-Because we realized we couldn't reproduce our own work otherwise, and the transition was pretty painful. 
+And in additional to making our science better every year, it has enabled 20 independent groups around the world to use our science and our code to study ocean health in the places they care about. 
 
-To prevent other scientists from this pain and accelerate others getting on the right track, we shared our story
 
 ---
-class: middle, center
-```{r nature-bsilt, out.width = '100%', fig.align='center'}
-knitr::include_graphics("img/nature-screenshot-title.png")
+class: center, middle
+```{r community-logos, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/ods-community-logos.png")
 ```
 
-.footnote[
-source: [Lowndes *et al.* 2017](https://www.nature.com/articles/s41559-017-0160); web: [ohi-science.org/betterscienceinlesstime](http://ohi-science.org/betterscienceinlesstime/)
-]
-
 ???
+so many communities, people in this room and listening and around the world. 
 
-Called our path to better science in less time using open data science tools. 
+focus on Mozilla
 
-And this has been well received. Because a lot of scientist feel this way. 
-
-transition: And Moz has enabled me to create a program
+Spent the last year developing a program with Mozilla and NCEAS, the ecology center where I am based. 
 
 ---
 ```{r openscapes hex, out.width = '55%', fig.align='center'}
@@ -330,7 +344,6 @@ increase visibility and valuee by amplifying labs
 knitr::include_graphics("img/horst_openscapes_desert_1500px.png")
 ```
 
-<br>
 <br>
 
 .pull-left[
@@ -397,6 +410,8 @@ But right now it looks like this. We rarely have formal training and so folks le
 
 Helping complete this picture drives my work now. 
 
+I want to pay forward what I have learned. 
+
 And it drives the lessons learned I shared in the beginning. 
 
 I've found that scientists might now be aware of what tools are availabe. But that that is not really the problem. 
@@ -449,6 +464,12 @@ Part of why I couldn't expect there was a better way is because I didn't have an
 
 transition: so with this in mind, data science can CAN EXCLUDE SCIENTISTS
 narrow interps can exclude
+
+---
+```{r data-sciencc0}
+```
+.whisper[Data science] 
+
 
 ---
 ```{r data-science}
@@ -534,7 +555,16 @@ Build confidence – skills are transferable beyond your science
 Be empathic and inclusive – grow a network of allies
 
 ---
-class: middle
+```{r open-science}
+```
+.whisper[Open science]
+
+???
+negative thing. additional ask on overburdened scientists. 
+
+---
+```{r open-science}
+```
 .whisper[Open science is the concept of transparency at all stages of the research process, coupled with free and open access to data, code, and papers]
 
 .footnote[
@@ -562,7 +592,10 @@ class: center, middle
 
 ???
 
-Reimagine sci comm
+Scicomm is something we really value. 
+We are very similar to the open source community like R and Moz in that all of our work is for the public good. 
+
+So comm is very imp
 
 For a lot of people, science communication still largely occurs at the end of a study, when everything is complete. 
 
@@ -570,13 +603,20 @@ And I think this mindset is rooted in the fact that for a long time, sharing you
 
 But the internet provides amazing channels to share our work not only at the end, but throughout all of the process. This is critical to establish trust and buy-in for the results and calls to action we uncover about our environment. 
 
+---
+.whisper[Science communication tools]
+
+???
+
 And let me say up front that I can be a big curmudgen about introducing extra software into my life and having to create new user accounts. I remember in one NSSD episode, Roger Peng said that if he has to create a new user account, he's like 50% out. For me it's like 80. 
 
 And why I mention that is that we can do so much of this reimagined science communication with the tools we are already using for analyses: 
 
+But we can reimagine what this means leveraging the internet
 ---
-<br>
-```{r ods-software, out.width = '70%', fig.align='center'}
+.whisper[Science communication tools]
+
+```{r ods-software, out.width = '65%', fig.align='center'}
 knitr::include_graphics("img/screenshot-paur-talk-ods.png") 
 ```
 
@@ -628,7 +668,7 @@ knitr::include_graphics("img/ohi-science-homepage.png")
 ```
 
 .footnote[
-web: [ohi-science.org](http://ohi-science.org)
+web (Jekyll): [ohi-science.org](http://ohi-science.org)
 ]
 
 
@@ -686,7 +726,7 @@ knitr::include_graphics("img/jafflerbach-shiny-ne.png")
 ```
 
 .footnote[
-dashboard: [@jafflerbach](https://twitter.com/jafflerbach), work in progress. 
+dashboard (Shiny): [@jafflerbach](https://twitter.com/jafflerbach), work in progress. 
 inspiration: [Imagine Boston](https://analytics.boston.gov/app/imagine-boston) 
 ]
 
@@ -720,6 +760,20 @@ class: inverse, center, middle
 
 ### expect a better way • build confidence & willingness • reimagine science communication
 
+---
+```{r r4ds-env-reprise}
+```
+class: center, middle
+background-image: url(img/horst-eco-r4ds.png) 
+background-size: contain
+
+.footnote[
+.left[
+<br>
+art: [@allison_horst](https://twitter.com/allison_horst);
+updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
+]
+]
 
 ---
 class: inverse, center, middle
@@ -1427,6 +1481,33 @@ we've just through are definitionly a work in progress.
 As is Openscapess. I am continuing to develop and grow the program, with plans to lead annual cohorts online and also do short-form workshops with teams on the ground. I want this to be a self-sustaining model, so please get in touch if you have any ideas. 
 
 Because I do think that Openscapes helps us get closer to —
+
+---
+```{r openscapes-arctic, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/horst_openscapes_arctic_1500px.png")
+```
+
+<br>
+<br>
+
+.pull-left[
+### Mindset shifts in individuals<br>Increase in skills & practice
+
+]
+
+.pull-right[
+### Culture shifts in labs<br>Leadership & championing
+
+]
+
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst); 
+web: [openscapes.org](https://openscapes.org)
+]
+
+
+???
 
 ---
 ```{r closing-thoughts}
