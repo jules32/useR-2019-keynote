@@ -816,9 +816,7 @@ class: inverse, center, middle
 
 --water
 
-Teams to me means rings of people you respect, innovate with, and can rely upon. It does not have to be limited to a certain deliverable, location, discipline or anything else really. 
-
-This definition works because shared workflows like tidyverse and GitHub mean that even when you aren't working on the same project or interest, you have the same skills and are equipped to help each other out. 
+Teams to me mean rings of people you respect, innovate with, and can rely upon. It does not have to be limited to a certain deliverable, location, discipline or anything else really. 
 
 Teamwork is critical in science because no one it can do it all. And for the sake for innovation as well as for emotional well-being we need to shed the expectation that we should be able to. Instead, we need to value teamwork. 
 
@@ -835,11 +833,11 @@ class: center, middle
 
 Open data science streamlines working with data but also working with each other. 
 
-We can physically work on the same document in Google Drive or in GitHub, and also think together at the same time. 
+Shared workflows like tidyverse and GitHub mean that even when you aren't working on the same project or interest, you have the same skills and are equipped to help each other out. 
 
 These tools let us co-develop things, share early drafts, and we can constantly giving feedback and iterating with each other. 
 
-transition: But it is something you have to feel safe doing. 
+transition: But working openly is something you have to feel safe doing. 
 
 ---
 # Ocean Health Index team
@@ -852,11 +850,10 @@ knitr::include_graphics("img/ohi-team-2018b-crop.jpeg")
 
 We as an OHI team have spent years building up trust with each other, and that makes us be able to do our best work. 
 
-This all really centers on kindness, where we respect each other and each other's time. 
+This trust really centers on respect for each other and also kindness.
 
-We have all personally had to get comfortable with sharing things before they are perfect and being vulnerable to critique, which gets easier when you can assume the best intentions from anyone's feedback. 
+But on an individual level, we all have had to get comfortable with sharing things before they are perfect and being vulnerable to critique, which gets easier when you can assume the best intentions from anyone's feedback. 
 
-And something we also have to do is get comfortable asking for and accepting help (which is something I struggle with)
 
 ---
 # Ocean Health Index team
@@ -867,11 +864,11 @@ knitr::include_graphics("img/ohi-team-2019-crop.jpg")
 
 ???
 
-But this has resulted in a really positive team culture, where we are comfortable with trying new things & learning from failure
+But this has resulted in a really positive team culture, where we are comfortable with trying new things & learning from failure, and we are comfortable asking for help. 
 
-And we prioritize social time, obviously, since all of our team pictures are at happy hour. 
+Another thing about our team is that we prioritize social time, obviously, since it is impossible to find a picture of our team that is not at happy hour. 
 
-But seriously, getting along well together builds resilience into our team and has helped avoid burnout.
+But seriously, getting along well together builds resilience into our team and has helped avoid burnout. And it helps us us manage as people come and go into our group, as is common in science.
 
 transition: one of the ways to start working on this as a team is to create safe spaces where you can deliberately talk about shared stuff.
 
@@ -913,7 +910,7 @@ web: [Mozilla Open Leaders](https://foundation.mozilla.org/en/opportunity/mozill
 
 But the whole program architecture is modeled after Mozilla Open Leaders. 
 
-This includes a deliberate focus on creating a safe and welcoming space where we are all engaged through group video calls, smaller breakout groups, and through a shared Google Doc. 
+This includes a deliberate focus on creating a safe and welcoming space. The program is led remotely, so we use the internet and software to connect with each other through video calls and through a shared Google Doc. 
 
 Participants get more comfortable talking about open data science topics, and then their homework is to bring these conversations back to their larger lab groups. 
 
@@ -934,9 +931,39 @@ Our Ocean Health Index team calls these weekly meeting "Seaside chats", and the 
 
 It's a place to their lab group to develop shared systems for the lab start weaving these practices into their every day work
 
-Some labs have also done hackathons, like we do in Ocean Health Index, where we will all drop our own projects and come together for a day or an afternoon to do something that will benefit the whole group. 
+Some labs have also done hackathons, like we do in Ocean Health Index, where we will all drop our own projects and come together for a day or an afternoon to do something that will benefit the whole group, like upgrading our filepath strategies with the "here" package. 
 
 In both seaside chats and hackathons we've also developed written protocols for onboarding new teammembers so that they can get upskilled and in our workflow as soon as possible.
+
+---
+# Openscapes lesson series
+.pull-left[
+<br>
+<br>
+```{r series, out.width = '100%', fig.align='center'}
+knitr::include_graphics("img/openscapes-series.png")
+```
+
+.footnote[
+lesson series: [openscapes.org/series](https://openscapes.github.io/series)
+]
+]
+
+.pull-right[
+```{r thread, out.width = '95%', fig.align='center'}
+knitr::include_graphics("img/tweet-openscapes-series-thread.png")
+```
+
+.footnote[
+tweet thread: [@openscapes](https://twitter.com/openscapes/status/1131243910200668160)
+]
+]
+
+???
+
+We covered a lot of other things in our cohort calls, and I'm working on capturing them all in the lesson series that anyone is able to use. 
+
+transition: and in addition to these cohort calls, we focused a lot on leadership, both vertical and horizontal. 
 
 ---
 class: center, middle
@@ -944,10 +971,10 @@ class: center, middle
 
 ???
 
-Leadesrhip is imp vert and horiz
+continue ->
 
 ---
-class: center, middle
+# Ocean Health Index team
 .pull-left[
 ```{r halpern, out.width = '100%', fig.align='center'}
 knitr::include_graphics("img/Halpern-UCSB_UCOP-30.jpg")
@@ -971,35 +998,23 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/693324555704610816)
 
 ???
 
-TODO Lang see below
-
-
-
-This is Ben Halpern, he's the lead of OHI and also the director of NCEAS, the ecology center where we are based. 
-
-He set this tone for our team, and has played a huge role in our data science even though he is not a coder himself. 
+On the left here is Ben Halpern, he's the lead of OHI and he has played a huge role in our data science even though he is not a coder himself. 
 
 And this is really critical. 
 
 As a leader he listened to our excitement and he supported us to invest time and resources in open data science, and he trusted us to implement shared practices for our team.
 
-He's making environmental data science a priority at NCEAS, and has also spearheaded a new masters program in environmental science at the University of California 
+And as the director of NCEAS, the ecology center where we are based, He's making environmental data science a priority at NCEAS, and has also spearheaded a new masters program in environmental science at the University of California.  
 
-transition: so with Openscapes, I also mentor the research group leads individually so that they can become champions for open data science and have an oversized influence like Ben has had. 
+Ben's leadership gave us agency and support to become leaders within our lab group, and beyond. 
 
-////
-
-
-
-We all had agency and support to become leaders within our lab group, and beyond. 
-
-This is Ben Best, Jamie Afflerbach and me. They are my teammates but they have also been  leaders for me. Ben spent countless hours sitting with me and teaching me R and was patient when I deliberately made emails from github go to my spam folder because I thought GitHub was not going to be useful to me. 
+On the right here are Jamie Afflerbach, Ben Best, and me. They are my teammates but they are also leaders for me. Ben spent countless hours sitting with me and teaching me R and was patient when I deliberately made emails from github go to my spam folder because I thought GitHub was not going to be useful to me. I told you I am really skeptical of new software. 
 
 And Jamie is an amazing leader as well, I'll tell a story about her in a moment. 
 
-And together we are partners in crime. We cofounded EDS with other friends and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
+And together we are partners in crime. We cofounded the eco-data-science study group together and have taught multiple carpentries workshops together. This is us preparing for the Shiny conference in 2016. 
 
-transition: Enabling this kind of leadership within teams is what I try to ignite with Openscapes. 
+transition: Enabling this kind of vertical and horizontal leadership around data is what I try to ignite with Openscapes. 
 
 ---
 # Openscapes Champions
@@ -1016,11 +1031,11 @@ blog: [openscapes.org](https://www.openscapes.org/blog/2019/03/27/champions-inco
 
 These are the 7 Champions, and I mentor them one-on-one each month in addition to the cohort calls. 
 
-The most important thing for them to learn is that they do not have to become experts in open data science in order to support their labs and champion it more broadly. 
+I want them to become champions for open data science because they are unbelievably awesome scientsts and can have have an oversized influence like Ben has had. 
 
-And this is important to release them of that expectation and this potential anxiety, because they are already overworked and doing really impactful work. 
+The critical thing for them to learn is that they do not have to become experts in open data science in order to support their labs and champion it more broadly. 
 
-They are presenting their research to the US Senate, they are getting tenure, they are winning international awards and grants, they are teaching, they are leading field work abroad, and they do not need to also feel like then need to learn what a pull request is in order to set their labs on a good track. 
+And this is important to release them of that expectation and this potential anxiety, because are super busy presenting their research to the US Senate, winning awards and grants, teaching, leading field work abroad, and they do not need to also feel like then need to master pull requests is in order to set their labs on a good track with data. 
 <!---broken up so notes don't scroll--->
 
 ---
@@ -1095,7 +1110,8 @@ transition: And engaging in these broader communities for me started on Twitter.
  
 ---
 # \#rstats
-```{r jafflerbach, out.width = '55%', fig.align='center'}
+
+```{r jafflerbach, out.width = '45%', fig.align='center'}
 knitr::include_graphics("img/tweet-juliesquid-jafflerbachspatial.png") 
 ```
 
@@ -1105,9 +1121,9 @@ tweet: [@juliesquid](https://twitter.com/juliesquid/status/728326585485402112)
 
 ???
 
-My teammate Jamie encouraged to join twitter to learn R. 
+I joined twitter to learn R because of my teammate Jamie.
 
-I was definitely skeptical. I did not use Twitter because I thought it was a megaphone for angry people. 
+And you know me, I was definitely skeptical. I  thought Twitter was a megaphone for angry people. 
 
 But she taught me how to use it to listen and learn from other others. And then to gradually build up the courage to like and retweet things. 
 
@@ -1271,9 +1287,8 @@ RLadies has given me confidence in myself, and made me be a better advocate for 
 transition: The Openscapes cohort has engaged with RLadies and existing coding clubs, and also created new opportunities to code. 
 
 ---
-class: center, middle
 # #tidytuesday hacky hours
-```{r allison-tidytuesday, out.width = '70%'}
+```{r allison-tidytuesday, out.width = '70%', fig.align='center'}
 knitr::include_graphics("img/tweet-allison_horst-tidytuesday.png") 
 ```
 
@@ -1286,6 +1301,20 @@ tweet: [@allison_horst](https://twitter.com/allison_horst/status/111024252083376
 Allison Horst and her student Gracie started in an in-person tidytuesday hacky hour. 
 
 You probably recognize her name from all the beautiful artwork in this talk. 
+
+---
+```{r welcome-rstats, out.width = '75%', fig.align='center'}
+knitr::include_graphics("img/horst-welcome_to_rstats_twitter.png")
+```
+
+.footnote[
+art: [@allison_horst](https://twitter.com/allison_horst);
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/01/15/personify-code/)
+]
+
+???
+
+and from her little #rstats monsters 
 
 transition: But she is also a lecturer of data science and statistics in an environmental science and management program, and she is an Openscapes Champion. 
 
@@ -1374,7 +1403,7 @@ class:inverse, center, middle
 
 Welcome is a powerful thing because it is so simple: it means being nice to people. 
 
-It means being empathetic, realizing that even though  someone might be an expert in their field and doing amazing science, they but might be intimidated by open data science and you can welcome them. 
+It means being empathetic and friendly, realizing that even though someone might be an expert in their field and doing amazing science, they but might be intimidated by open data science and you welcoming them could be exactly what they need. 
 
 ---
 <br>
@@ -1393,20 +1422,20 @@ I learned this early from the folks at rOpenSci, RStudio and RLadies with their 
 
 And it has been a big part of my experience and education with Mozilla, and a foundational part of Openscapes.
 
+transition: and I'm convinced it's the way to help scientists find ways to engage with this powerful feedback loop
+
 
 ---
-```{r welcome-rstats, out.width = '75%', fig.align='center'}
-knitr::include_graphics("img/horst-welcome_to_rstats_twitter.png")
+class: middle, center
+```{r loop3, out.width = '100%'}
+knitr::include_graphics("img/horst-lowndes-loop.png")
 ```
 
 .footnote[
-art: [@allison_horst](https://twitter.com/allison_horst);
-blog: [openscapes.org](https://www.openscapes.org/blog/2019/01/15/personify-code/)
+art: [@allison_horst](https://twitter.com/allison_horst)   
 ]
 
 ???
-
-transition: Welcome people with smiles, with emojis, and with body language, like the pacman rule, which is when you leave space for someonee else to join when you're chatting in a group.
 
 ---
 class: inverse
@@ -1425,11 +1454,7 @@ class: inverse
 
 So these lessons I think fuel what it means to work responsibly and collaboratively with data but should also fuel what it means to do science. 
 
-we've just through are definitionly a work in progress. 
-
-As is Openscapess. I am continuing to develop and grow the program, with plans to lead annual cohorts online and also do short-form workshops with teams on the ground. I want this to be a self-sustaining model, so please get in touch if you have any ideas. 
-
-Because I do think that Openscapes helps us get closer to —
+transition: and I'm so proud of what we've accomplished with Openscapes.
 
 ---
 ```{r openscapes-arctic, out.width = '100%', fig.align='center'}
@@ -1458,7 +1483,9 @@ web: [openscapes.org](https://openscapes.org)
 
 ???
 
-Everyone is starting from didfferent places, so progress differs, and outcomes differ. Someone might start using github for the first time. Or google drive. Some might start a #tidytuesday coding club or 
+There are so many more examples of their accomplishments and momentum. 
+
+I am so proud of them. They are shifting mindsets and practice when it comes to open data science and teamwork, and they are igniting change in their labs, and in their departments, their campuses, and beyond. 
 
 ---
 ```{r closing-thoughts}
@@ -1478,19 +1505,13 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 
 ???
 
-This, since they ajfldkajfd, then create the same thing in their labs, and in their departments, their campuses, and beyond. 
+But we have a long way to go before this is is truly the reality in science
 
-BUT TODO
+The Champions will be visible examples and ambassadors for change, and there will be more and more of them. 
 
-And I am confident that they see the benefit more, but the biggest obstacle is TIME especially since investing time in not part of what people are evaluated on as scientists. 
+I am working to continue to grow the program so that I can lead annual cohorts and also lead on-demand workshops.  
 
-But I hvae lofty goals that by increating the visibility of these practices with these Champions, we can increase the value in environmental science as well. 
-
-And that there will be more support from institutions and universities to teach this formally. because Openscapes is not the ultimate solution, it's a bandaid. 
-
-But..
-
-What’s been challenging and what we’re still working on as a more collaborative community.
+I'd love you all to be a part of this; I think that by welcoming and amplifying more environmental scientists, we can increase the visibility and value of open data science in environmental science as well, and really change towards better science in less time. 
 
 ---
 ```{r hands} 
@@ -1505,23 +1526,9 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 ???
 
-And the awesome thing is that we all have our part to play in helping this change. . 
+And the awesome thing is that we all have our part to play in helping this change.
 
-a critical thing is that anyone can step up and be a leader. 
-
-And the easiest/fastest way is to welcome.
-
-And if you yourself are unsure you have a team or feel like you're on the outside of the feedback loop or on the threshold, know that since you're here so you're already part of it. 
-BOMMER ENDING SENTENCE
-
-in a time when env sci is our most pressing probs are related to env it's critical that those scientits have the tools and team to answer those quiestions using data.
-
-<!--- Memorize this and tempo. And what I'm offering as part of the solution. 
-
-One of final slides
-"this is powerful for science" >>> it's part of this for science. but it's also powerful for people. mental health, leaky pipeline, burnout. and maybe include this too. This is really powerful for science and individuals and teams. 
-
---->
+We can continue to strengthen our community by welcoming and amplifying awesome environmental scientists, so that we can do better science in less time, together. 
 
 ---
 # Thank you all so much
@@ -1531,6 +1538,7 @@ One of final slides
 OHI team  
 Mozilla team  
 Openscapes labs  
+Allison Horst  
 RLadies team
 
 <br>
@@ -1540,18 +1548,13 @@ xaringan theme: [@apreshill](https://github.com/apreshill/talks/blob/master/uo-s
 ]
 
 .pull-right[
-```{r openscapessafd, out.width = '180%'}
-knitr::include_graphics("img/allison-poppies.jpg")
-```
+<br>
+<br>
 
 #### Find me for stickers... <img src="img/openscapes-hex.png" alt="rstudio" style="float:right;width:80px;"/> <img src="img/ohi-hex.png" alt="rstudio" style="float:right;width:80px;"/>
 ]
 
 ???
-
-These teams that have given me such support and feedback
-
-I want to end by saying thank you to this community for so many things, but particurly to its leadership in creating a diverse and inclusive space. I have learned so much about the importance of diverse and inclusive spaces, and this is an area that I in particular want to help extend these aspects of our culture to the environmental science community, and well beyond. 
 
 Thank you.
 
