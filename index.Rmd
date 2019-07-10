@@ -65,7 +65,6 @@ So much so that over the past six years I have been moving away from doing my ow
 Throughout this I've learned several lessons, and I want to share them up front: 
 
 ---
-class: inverse
 # Lessons learned 
 <br>
 
@@ -469,7 +468,6 @@ I've found that scientists are often not aware of what tools are availabe. But t
 The real challenge is about mindset around open data science, and helping scientists feel included so that it can be part not only of their future, but of their present. 
 
 ---
-class: inverse
 # Lessons learned
 <br>
 
@@ -484,7 +482,7 @@ class: inverse
 So the first is that open data science is a mindset. 
 
 ---
-class: inverse, center, middle
+class: center, middle
 # Open data science is a mindset
 
 ### expect a better way • build confidence & willingness • reimagine science communication
@@ -808,7 +806,7 @@ So open data science as a mindset is the framing that we start with in Openscape
 But the way we actually start acting on all of this is through teamwork, which starts with openness.
 
 ---
-class: inverse, center, middle
+class: center, middle
 # Teamwork starts with openness
 ### working openly • vertical & horizontal leadership • community
 
@@ -855,23 +853,6 @@ This trust really centers on respect for each other and also kindness.
 But on an individual level, we all have had to get comfortable with sharing things before they are perfect and being vulnerable to critique, which gets easier when you can assume the best intentions from anyone's feedback. 
 
 But this has resulted in a really positive team culture, where we are comfortable with trying new things & learning from failure, and we are comfortable asking for help. 
-
----
-# Ocean Health Index team
- 
-```{r team2, out.width = '90%', fig.align='center'}
-knitr::include_graphics("img/ohi-team-2019-crop.jpg") 
-```
-
-???
-
-Another thing about our team is that we prioritize social time, obviously, since it is impossible to find a picture of our team that is not at happy hour. 
-
-But seriously, getting along well together builds resilience into our team and has helped avoid burnout. And it helps us us manage as people come and go into our group, as is common in science.
-
-transition: one of the ways to start working on this as a team is to create safe spaces where you can deliberately talk about shared stuff.
-
-And in Openscapes, that's what we do in our cohort calls. 
 
 ---
 # Openscapes Cohorts
@@ -1177,7 +1158,7 @@ Prior to conversations like these, I had never stopped to think that there were 
 transition: And that might sound crazy, but before twitter, this is the closest I'd ever come to interacting with software:
 
 ---
-class:middle, inverse, center
+class:middle, center
 ```{r clippy}
 ```
 
@@ -1455,7 +1436,7 @@ So with Openscapes I'm trying to reduce the time it takes to discover this feedb
 transition: Because welcome is a powerful thing.
 
 ---
-class:inverse, center, middle
+class: center, middle
 # Harness the power of welcome
 
 ???
@@ -1484,7 +1465,6 @@ And it has been a big part of my experience and education with Mozilla, and a fo
 transition: and I'm convinced it's the way to help scientists do better science in less time
 
 ---
-class: inverse
 # Lessons learned 
 <br>
 
@@ -1527,23 +1507,6 @@ We do have a long way to go before this is is truly the reality in science.
 But I am optimistic that Openscapes can play a role. I think the more we talk about and see why open data science is important for environmental science, the more it will be valued and the quicker we can change the culture as a whole.
 
 ---
-```{r hands} 
-```
-class: center, middle
-background-image: url(img/horst-starwars-hands.png)  
-background-size: contain
-
-.footnote[
-art: [@allison_horst](https://twitter.com/allison_horst)
-]
-
-???
-
-And the awesome thing is that we all have our part to play in helping this change.
-
-We can all welcome and amplify these awesome environmental sicnetists as they in engage in R and join our community, so that we all can benefit from better science in less time. 
-
----
 # Thank you all so much
 
 .pull-left[
@@ -1562,34 +1525,8 @@ We can all welcome and amplify these awesome environmental sicnetists as they in
 
 ### Please get involved: [openscapes.org/contact](https://www.openscapes.org/contact/); [@openscapes](https://openscapes.org)
 
-
-#### Find me for stickers... <img src="img/openscapes-hex.png" alt="" style="float:right;width:80px;"/> <img src="img/ohi-hex.png" alt="" style="float:right;width:80px;"/>
 ]
 
 ???
 
 Thank you.
-
----
-```{r fin}
-```
-class: title-slide, right, bottom
-background-image: url(img/horst-starwars-rey.png)
-background-size: contain
-background-position: bottom left   
-
-
-# `r rmarkdown::metadata$title`
-
-### `r rmarkdown::metadata$author`
-### `r rmarkdown::metadata$role`
-### `r rmarkdown::metadata$institute`
-
-[`r icon::fa("twitter")` @juliesquid](https://twitter.com/juliesquid)  
-[`r icon::fa("paper-plane")` lowndes@nceas.ucsb.edu](mailto:lowndes@nceas.ucsb.edu)  
-[`r icon::fa("desktop")` jules32.github.io/user-2019-keynote](http://jules32.github.io/user-2019-keynote)  
-
-
-<img src="img/mozilla.png" alt="mozilla" style="float:right;width:154px;"/>
-<img src="img/nceas.png" alt="nceas" style="float:right;width:150px;"/>
-
