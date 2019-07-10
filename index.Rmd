@@ -81,7 +81,7 @@ I'm going to spend the whole talk building out these lessons.
 
 But first I wanted to tell a bit about me and the main experiences that have driven these lessons. 
 
-I am often asked why a marine scientist would use R, and I aim to share why it's important that marine scientists do, as well as environmental scientist more broadly. 
+I am often asked why a marine scientist would use R, so I want to make sure you leave here knowing that marine scientists, as well as environmental scientist more broadly, work with data every single day to do our science, and it is critical that we are supported to work with data responsibly. 
 
 So let me start off when I was a graduate student in a marine research group, which we also call laboratories in the US. 
 
@@ -1394,6 +1394,8 @@ There are so many more examples of the their awesome accomplishments and momentu
 
 They are shifting mindsets and practice when it comes to open data science and teamwork, and they are igniting change in their labs, and in their departments, their campuses, and beyond. 
 
+It's neat to see the interplay of open data science and teamwork. All labs have now created GitHub organizations for their labs, and this provides a digital place for collaboration, that complements the seaside chats, which is a physical space
+
 And the more I reflect on this the more I realized is that —
 
 ---
@@ -1446,7 +1448,7 @@ Tt took our Ocean Health Index team 4 years to learn how to work as a team and u
 
 That's too long. That's too long for anyone but especially too long when we are already living with impacts of climate change. 
 
-So with Openscapes I'm trying to reduce the time it takes to get into this feedback loop by listening to scientists and welcoming them at entry points that they can weave into their work.
+So with Openscapes I'm trying to reduce the time it takes to discover this feedback loop by listening to scientists and welcoming them to engage in a way that works for their lab.
 
 And notice that this is not about "getting" scientists to do this — it is about welcoming them. 
 
@@ -1520,11 +1522,13 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/);
 
 ???
 
-And I am working to continue to develop and grow the program so that I can lead annual cohorts  and also lead on-demand workshops with teams on the ground.  
+And I am working to continue to develop and grow the program so that I can lead cohorts every year and begin on-demand workshops with teams on the ground. If you're interested in getting involved I would love to hear from you.   
 
-We do have a long way to go before this is is truly the reality in science
+We do have a long way to go before this is is truly the reality in science.
 
-But I am optimistic that by welcoming and amplifying more environmental scientists into our community, we can increase the visibility and value of open data science in environmental science as well, and really change towards better science in less time. 
+Completing this picture this requires more support for environmental scientsts within science itself, so that they are not learning about open data science in pockets of opportunity and on their own time, but instead learn as part of their education, and are supported as scientists. 
+
+But I am optimistic that the more visible it is that environmental scientists are working with open data science practices, the more we will value it in science and we can increase its value and help change this cutlture as a whole. 
 
 ---
 ```{r hands} 
@@ -1541,30 +1545,27 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 And the awesome thing is that we all have our part to play in helping this change.
 
-We can continue to strengthen our community by welcoming and amplifying awesome environmental scientists, so that we can all do better science in less time, together. 
+We can all do our part to welcome and amplify these awesome environmental sicnetists as they in engage in R and join our community, so that we all can benefit from better science in less time. 
 
 ---
 # Thank you all so much
 
 .pull-left[
-#### and specifically: 
-OHI team  
-Mozilla team  
-Openscapes labs  
-Allison Horst  
-RLadies team
+#### especially for this talk:
+###OHI team <br>Mozilla team<br>Openscapes labs<br>Allison Horst<br>RLadies team
 
 <br>
 
-all artwork: [@allison_horst](https://twitter.com/allison_horst)  
-xaringan theme: [@apreshill](https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7)
+###all artwork: [@allison_horst](https://twitter.com/allison_horst)<br>xaringan theme: [@apreshill](https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7)
 
-**get involved: [openscapes.org/contact](https://www.openscapes.org/contact/); [@openscapes](https://openscapes.org)** 
 ]
 
 .pull-right[
 <br>
 <br>
+
+### Please get involved: [openscapes.org/contact](https://www.openscapes.org/contact/); [@openscapes](https://openscapes.org)
+
 
 #### Find me for stickers... <img src="img/openscapes-hex.png" alt="" style="float:right;width:80px;"/> <img src="img/ohi-hex.png" alt="" style="float:right;width:80px;"/>
 ]
