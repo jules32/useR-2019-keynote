@@ -855,6 +855,23 @@ But on an individual level, we all have had to get comfortable with sharing thin
 But this has resulted in a really positive team culture, where we are comfortable with trying new things & learning from failure, and we are comfortable asking for help. 
 
 ---
+# Ocean Health Index team
+ 
+```{r team2, out.width = '90%', fig.align='center'}
+knitr::include_graphics("img/ohi-team-2019-crop.jpg") 
+```
+
+???
+
+Another thing about our team is that we prioritize social time, obviously, since it is impossible to find a picture of our team that is not at happy hour. 
+
+But seriously, getting along well together builds resilience into our team and has helped avoid burnout. And it helps us us manage as people come and go into our group, as is common in science.
+
+transition: one of the ways to start working on this as a team is to create safe spaces where you can deliberately talk about shared stuff.
+
+And in Openscapes, that's what we do in our cohort calls. 
+
+---
 # Openscapes Cohorts
 ```{r zoom, out.width = '70%', fig.align='center'}
 knitr::include_graphics("img/Cohort1_zoom.png") 
