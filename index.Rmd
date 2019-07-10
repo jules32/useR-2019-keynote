@@ -1444,17 +1444,13 @@ knitr::include_graphics("img/horst-lowndes-loop.png")
 art: [@allison_horst](https://twitter.com/allison_horst)   
 ]
 
-???
-
-But many scientists might feel outside of this loop, even if they are part of a supportive scientific research team.
+??
 
 Tt took our Ocean Health Index team 4 years to learn how to work as a team and use open data science tools. 
 
 That's too long. That's too long for anyone but especially too long when we are already living with impacts of climate change. 
 
-So with Openscapes I'm trying to reduce the time it takes to discover this feedback loop by listening to scientists and welcoming them to engage in a way that works for their lab.
-
-And notice that this is not about "getting" scientists to do this — it is about welcoming them. 
+So with Openscapes I'm trying to reduce the time it takes to discover this feedback loop, and the key is to welcome them. 
 
 transition: Because welcome is a powerful thing.
 
@@ -1485,7 +1481,7 @@ I learned this early from the folks at rOpenSci, RStudio and RLadies with their 
 
 And it has been a big part of my experience and education with Mozilla, and a foundational part of Openscapes.
 
-transition: and I'm convinced it's the way to help scientists find ways to engage with that powerful feedback loop —
+transition: and I'm convinced it's the way to help scientists do better science in less time
 
 ---
 class: inverse
@@ -1502,9 +1498,7 @@ class: inverse
 
 ???
 
-and help develop open data science as a mindset and to build an open team culture. 
-
-So these lessons I think fuel what it means to work responsibly and collaboratively with data but should also fuel what it means to do science. 
+So these lessons for me fuel what it means to work responsibly and collaboratively with data but should also fuel what it means to do science. 
 
 transition: I'm so proud of what we've accomplished with Openscapes in this first round of Champions —
 
@@ -1526,13 +1520,11 @@ updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 
 ???
 
-And I am working to continue to develop and grow the program so that I can lead cohorts every year and begin on-demand workshops with teams on the ground. If you're interested in getting involved I would love to hear from you.   
+And I am working to continue to develop and grow the program so that I can lead cohorts every year and begin on-demand workshops with teams on the ground. 
 
 We do have a long way to go before this is is truly the reality in science.
 
-Completing this picture this requires more support for environmental scientsts within science itself, so that they are not learning about open data science in pockets of opportunity and on their own time, but instead learn as part of their education, and are supported as scientists. 
-
-But I am optimistic that the more visible it is that environmental scientists are working with open data science practices, the more we will value it in science and we can increase its value and help change this cutlture as a whole. 
+But I am optimistic that Openscapes can play a role. I think the more we talk about and see why open data science is important for environmental science, the more it will be valued and the quicker we can change the culture as a whole.
 
 ---
 ```{r hands} 
@@ -1549,7 +1541,7 @@ art: [@allison_horst](https://twitter.com/allison_horst)
 
 And the awesome thing is that we all have our part to play in helping this change.
 
-We can all do our part to welcome and amplify these awesome environmental sicnetists as they in engage in R and join our community, so that we all can benefit from better science in less time. 
+We can all welcome and amplify these awesome environmental sicnetists as they in engage in R and join our community, so that we all can benefit from better science in less time. 
 
 ---
 # Thank you all so much
