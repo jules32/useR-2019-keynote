@@ -94,7 +94,7 @@ knitr::include_graphics("img/*JulieReleaseAugerIMG_9311-crop.png")
 ```
 
 .footnote[
-phots: Greg Auger 
+photo: Greg Auger 
 ]
 
 ???
@@ -103,9 +103,9 @@ I am actually a squid ecologist, which is why many of you know me as juliesquid.
 
 That is me on the right, holding a squid that can be nearly as big as I am. 
 
-I'm releasing it back into the ocean with an electronic tag on it, so as it swims around it will collect data for me like at little oceanographer. 
+We caught it and I am releasing it alive back into the ocean with a little electronic tag on it. The tag turns this squid little oceanographer, because it will collect data about it environment as it swims through the ocean. i collected data every second, which means I could actually see the squid breathe, since its breathing and movement are coupled through jet propulsion. 
 
-My whole PhD research group focused on squid; squid have huge impact on ecosystems because they eat a lot and grow quickly and economies because globally there is such high consumption of calamari. 
+My whole PhD research group focused on squid. We were interested because squid have huge impact on ecosystems since they eat a lot and grow quickly and they also have huge impact on economies because globally there is such high consumption of calamari. In our lab some focused on ecology like me, others on locomotion, camouflage, or early life development. 
 
 ---
 
@@ -133,9 +133,9 @@ web: [Gilly Lab](https://gillylab.stanford.edu/)
 
 Our research required a lot of teamwork, both at sea and in the laboratory. 
 
-We were a typical research group that worked like a team about our scientific questions. 
+We were a typical research group because we worked like a team about our scientific questions. 
 
-But we didn't act like a team when it came to data. Analyzing data was something that was left to each of us to figure out as individuals.  
+We were also a typical research group because we didn't act like a team when it came to data. Analyzing data was something that was left to each of us to figure out as individuals.  
 
 In in all my education I had never learned computing or how to work responsibly with data. So for me it was a super demoralizing experience to get the tag back and actually hold data in my hand but not be able to analyze it.
 
@@ -223,6 +223,10 @@ For me, I didn't fully feel the power of R until I finished graduate school and 
 ```{r OHI hex, out.width = '55%', fig.align='center'}
 knitr::include_graphics("img/OHI-hex.png")
 ```
+
+.footnote[
+web: [ohi-science.org](http://ohi-science.org); [@OHIscience](https://twitter.com/OHIscience)
+]
 
 ???
 
@@ -978,7 +982,7 @@ knitr::include_graphics("img/Halpern-UCSB_UCOP-30.jpg")
 ```
 
 .footnote[
-web: [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/)
+web: [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/); 
 ]
 ]
 
@@ -1013,7 +1017,7 @@ knitr::include_graphics("img/Halpern-UCSB_UCOP-30.jpg")
 ```
 
 .footnote[
-web: [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/)
+web: [National Center for Ecological Analysis & Synthesis](https://www.nceas.ucsb.edu/); 
 ]
 ]
 
@@ -1089,7 +1093,7 @@ knitr::include_graphics("img/Cohort1_zoom-michelle.png")
 ```
 
 .footnote[
-twitter: [stuart620](https://twitter.com/stuart620)
+twitter: [@stuart620](https://twitter.com/stuart620)
 ]
 
 ???
@@ -1261,7 +1265,7 @@ background-image: url(img/openscapes-summit.jpg)
 background-size: contain
 
 .footnote[
-blog: [openscapes summit](https://www.openscapes.org/blog/2019/04/08/summit-reflections1/)
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/04/08/summit-reflections1/)
 ]
 
 ???
@@ -1279,7 +1283,7 @@ class: middle
 .whisper[This isn’t just about coding and GitHub, this is about changing how we do science <br>— Malin Pinsky]
 
 .footnote[
-blog: [openscapes summit](https://www.openscapes.org/blog/2019/04/08/summit-reflections1/)
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/04/08/summit-reflections1/)
 ]
 
 ???
@@ -1384,7 +1388,7 @@ knitr::include_graphics("img/horst_openscapes_arctic_1500px.png")
 .footnote[
 art: [@allison_horst](https://twitter.com/allison_horst); 
 web: [openscapes.org](https://openscapes.org); 
-blog: [openscapes.org: Wins from the inaugural Champions cohort](https://www.openscapes.org/blog/2019/06/12/wins-cohort1/)
+blog: [openscapes.org](https://www.openscapes.org/blog/2019/06/12/wins-cohort1/)
 ]
 
 
@@ -1516,7 +1520,7 @@ background-size: contain
 .left[
 <br>
 art: [@allison_horst](https://twitter.com/allison_horst);
-updated from [Wickham & Grolemund](https://r4ds.had.co.nz/);
+updated from [Wickham & Grolemund](https://r4ds.had.co.nz/)
 ]
 ]
 
@@ -1556,7 +1560,7 @@ We can all do our part to welcome and amplify these awesome environmental sicnet
 
 <br>
 
-###all artwork: [@allison_horst](https://twitter.com/allison_horst)<br>xaringan theme: [@apreshill](https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7)
+####all artwork: [@allison_horst](https://twitter.com/allison_horst)<br>xaringan theme: [@apreshill](https://github.com/apreshill/talks/blob/master/uo-sad-plot-better/index.Rmd#L7)
 
 ]
 
